@@ -13,9 +13,11 @@ import "swiper/css/autoplay";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
-import Image from "next/image";
 
-export function Banner() {
+import BannerTexts from "./BannerTexts";
+import BannerImage from "./BannerImage";
+
+export function Banner({bannerInfo}) {
   return (
     <>
       <Swiper
@@ -26,59 +28,30 @@ export function Banner() {
           disableOnInteraction: false,
         }}
         speed={1500}
+        spaceBetween={100}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="banner">
-          <div className="banner__texts">
-              <h2 className="banner__texts_title">Encontre pontos de reciclagem perto de você!</h2>
-              <h3 className="banner__texts_description">Para um futuro sustentável. Veja onde reciclar!</h3>
-            </div>
-            <div className="banner__image">
-              <Image
-                src="/BannerOne.png"
-                alt="Peneus para reciclar"
-                width={607}
-                height={811}
-                className="banner__image_object-contain"
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="banner">
-            <div className="banner__texts">
-              <h2 className="banner__texts_title">Encontre pontos de reciclagem perto de você!</h2>
-              <h3 className="banner__texts_description">Para um futuro sustentável. Veja onde reciclar!</h3>
-            </div>
-            <div className="banner__image">
-              <Image
-                src="/BannerOne.png"
-                alt="Peneus para reciclar"
-                width={607}
-                height={811}
-                className="banner__image_object-contain"
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="banner">
-            <div className="banner__texts">
-              <h2 className="banner__texts_title">Encontre pontos de reciclagem perto de você!</h2>
-              <h3 className="banner__texts_description">Para um futuro sustentável. Veja onde reciclar!</h3>
-            </div>
-            <div className="banner__image">
-              <Image
-                src="/BannerOne.png"
-                alt="Peneus para reciclar"
-                width={607}
-                height={811}
-                className="banner__image_object-contain"
-              />
-            </div>
-          </div>
-        </SwiperSlide>
+        {bannerInfo.map((banner) => {
+          return (
+            <SwiperSlide className="banner__slide" key={banner.id}>
+              <div className="banner">
+                <BannerTexts
+                  title={banner.texts.title}
+                  description={banner.texts.description}
+                />
+                <div className="banner__image">
+                  <BannerImage
+                    src={banner.image.src}
+                    alt={banner.image.alt}
+                    width={banner.image.width}
+                    height={banner.image.height}
+                    className={banner.image.className}
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );

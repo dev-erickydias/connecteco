@@ -1,3 +1,5 @@
+/*MOBILE AQUI*/
+
 @media (min-width: 640px) {
 }
 
@@ -7,7 +9,7 @@
 @media (min-width: 1024px) {
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px ){
   .header {
     display: flex;
     margin: 0 auto;
@@ -70,7 +72,4 @@
     color: #BBFFE7;
     margin: 10px 0 0;
   }
-}
-
-@media (min-width: 1440px) {
 }
