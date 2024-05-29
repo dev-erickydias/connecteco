@@ -19,8 +19,8 @@ const linksMenu = [
 
 export function Navbar() {
   return (
-    <nav className="hidden md:block">
-      <ul className="flex gap-8 items-center">
+    <nav className="nav">
+      <ul className="nav__menu">
         {linksMenu.map((link) => (
           <NavbarItem key={link.href} href={link.href}>
             {link.label}

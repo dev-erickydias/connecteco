@@ -1,1 +1,6 @@
-@import url(../blocks//button.css);
+.pages{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 90%;
+}
