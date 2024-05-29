@@ -1,0 +1,35 @@
+.materials {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.materials__title {
+  width: 288px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.materials__select {
+  max-width: 288px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #348B61;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.materials__select:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px #348B61; /* Add custom focus outline */
+}
+
+.materials__option {
+  color: #000; /* Ensure the text color is visible */
+}
