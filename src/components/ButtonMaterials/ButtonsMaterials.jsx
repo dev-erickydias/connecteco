@@ -1,4 +1,5 @@
-import "./ButtonsMaterials.css"
+"use client"
+import "./buttonsMaterials.css"
 import { useState, useEffect, useRef } from 'react';
 
 

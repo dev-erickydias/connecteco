@@ -2,7 +2,7 @@
   max-width: 328px;
   height: 48px;
   display: flex;
-
+  background-color: red;
 }
 
 .materials__title {
