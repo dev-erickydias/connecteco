@@ -1,12 +1,13 @@
+import "./header.css"
 import { Location } from "./Location";
 import { Logo } from "./Logo";
-import { Navbar } from "./Navbar";
+import { Navbar } from "./NavBar";
 
 export function Header() {
   return (
-    <header className="w-full py-4">
-      <div className="container px-4 mx-auto flex justify-between items-center">
-        <div className="flex gap-8 items-center">
+    <header className="header">
+      <div className="header__container">
+        <div className="header__container__content">
           <Logo />
           <Navbar />
         </div>
