@@ -1,10 +1,14 @@
+function gerarIdUnico() {
+  return 'id-' + Math.random().toString(36).substr(2, 9);
+}
+
 const bannerInfo = [
   {
     texts: {
-      title: "sdasdsdsad",
-      description: "Para um futuro sustentável. Veja onde reciclar!"
+      title: "dsfdfdsfdfs",
+      description: "sdfdfsdsfdsfdsfdfs!"
     },
-    id: 1,
+    id: gerarIdUnico(),
     image: {
       src: "/BannerOne.png",
       alt: "Peneus para reciclar",
@@ -18,7 +22,7 @@ const bannerInfo = [
       title: "Encontre psasa",
       description: "Para um futuro sustentável. Veja onde reciclar!"
     },
-    id: 2,
+    id: gerarIdUnico(),
     image: {
       src: "/BannerOne.png",
       alt: "Peneus para reciclar",
@@ -29,10 +33,10 @@ const bannerInfo = [
   },
   {
     texts: {
-      title: "Encontre pontos de reciclagem perto de você!",
+      title: "Esadsadsadsda",
       description: "Para um futuro sustentável. Veja onde reciclar!"
     },
-    id: 3,
+    id: gerarIdUnico(),
     image: {
       src: "/BannerOne.png",
       alt: "Peneus para reciclar",
