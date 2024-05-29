@@ -11,9 +11,13 @@ export function NavbarItem({ children, href, ...props }) {
       <Link
         href={href}
         {...props}
+        className={`nav__menu__link
+          ${isActive ? "nav__menu__link-active" : "nav__menu__link-inactive"}`
+      }
       >
         {children}
       </Link>
     </li>
   );
 }
+ 
