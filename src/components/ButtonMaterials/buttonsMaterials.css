@@ -1,0 +1,18 @@
+.materials__container {
+  max-width: 328px;
+  height: 48px;
+  display: flex;
+
+}
+
+.materials__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color:hsba(0, 0%, 37%, 1);
+  
+}
+
+.materials__dropdown {
+  width: 328px;
+}
