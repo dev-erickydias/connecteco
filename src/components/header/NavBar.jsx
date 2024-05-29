@@ -26,7 +26,7 @@ export function Navbar() {
             {link.label}
           </NavbarItem>
         ))}
-        <Button>Faça parte</Button>
+        <Button className={"nav__menu__btn"}>Faça parte</Button>
       </ul>
     </nav>
   );
