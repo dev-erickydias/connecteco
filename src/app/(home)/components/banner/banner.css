@@ -2,7 +2,7 @@
   display: flex;
   margin: 32px auto;
   justify-content: space-between;
-  width: 1216px;
+  max-width: 1440pxpx;
   height: 375px;
   gap: 30px;
   border-radius: 32px;
@@ -17,8 +17,9 @@
   margin: 0 auto;
 }
 .banner__texts_title {
-    margin: 0 auto;
-    width: 441px;
+  margin: 0 auto;
+  max-width: 441px;
+  width: 100%;
   font-weight: 400;
   line-height: 43.57px;
   letter-spacing: -0.01em;
@@ -31,7 +32,7 @@
   color: #094d2c;
 }
 .banner__texts_description {
-    width: 348px;
+width: 348px;
 height: 58px;
 font-family: Inter;
 font-size: 24px;
@@ -40,4 +41,8 @@ line-height: 29.05px;
 letter-spacing: -0.01em;
 text-align: left;
 margin: 19px 0 0;
+}
+
+.banner__image_object-contain {
+  width: 720px;
 }
