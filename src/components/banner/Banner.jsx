@@ -36,16 +36,16 @@ export function Banner({bannerInfo, className}) {
             <SwiperSlide className="banner__slide" key={banner.id}>
               <div className={className}>
                 <BannerTexts
-                  title={banner.texts.title}
-                  description={banner.texts.description}
-                />
+                  title={banner.title}
+                  description={banner.description}
+                /> 
                 <div className="banner__image">
                   <BannerImage
-                    src={banner.image.src}
-                    alt={banner.image.alt}
-                    width={banner.image.width}
-                    height={banner.image.height}
-                    className={banner.image.className}
+                    src={banner.src}
+                    alt={banner.alt}
+                    width={banner.width}
+                    height={banner.height}
+                    className={banner.className}
                   />
                 </div>
               </div>
