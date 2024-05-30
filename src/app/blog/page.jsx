@@ -1,9 +1,13 @@
+import { Banner } from "@/components/banner/Banner";
+import PostsBlog from "@/components/postBlog/PostsBlog";
 
+import bannerInfo from "@/constants/bannerInfo";
 
 export default function BlogPage() {
   return (
     <>
-        <h1>blog</h1>
+      <Banner bannerInfo={bannerInfo} className={"banner banner__home"} />
+      <PostsBlog />
     </>
   );
 }

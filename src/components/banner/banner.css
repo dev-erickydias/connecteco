@@ -1,19 +1,18 @@
-.banner__container {
-  padding: 0 10px;
-}
-
-.banner {
+.banner{
   display: flex;
   flex-direction: column;
   margin: 32px 0;
   justify-content: space-between;
-  max-width: 748px;
-  height: 410px;
   gap: 30px;
   border-radius: 32px;
   opacity: 0px;
   background: #ffffff;
   overflow: hidden;
+}
+
+.banner__home {
+  width: 1216px;
+  height: 375px;
 }
 .banner__texts {
   max-width: 748px;
