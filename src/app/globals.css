@@ -1,9 +1,8 @@
-
 @import url(../vendor/normalize.css);
-.pages{
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    width: 90%;
+.pages {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 90%;
+  background: #e4f1f0;
 }
-

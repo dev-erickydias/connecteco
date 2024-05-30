@@ -1,12 +1,14 @@
 import { ButtonsMaterials } from "@/components/buttonMaterials/ButtonsMaterials";
-import { Banner } from "./components/Banner";
-import { CardsList } from "./components/CardsList";
 
+import { CardsList } from "./components/CardsList";
+import { Banner } from "./components/banner/Banner";
+
+import bannerInfo from "@/constants/bannerInfo";
 export default function Home() {
   return (
     <>
-      <Banner />
-      <ButtonsMaterials />
+      <Banner bannerInfo={bannerInfo} />
+      <ButtonsMaterials  />
       <CardsList />
     </>
   );

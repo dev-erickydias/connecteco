@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "./Button";
+import  CustomButton  from "../CustomButton";
 import { NavbarItem } from "./NavBarItem";
 
 const linksMenu = [
@@ -26,7 +26,7 @@ export function Navbar() {
             {link.label}
           </NavbarItem>
         ))}
-        <Button className={"nav__menu__btn"}>Faça parte</Button>
+        <CustomButton className={"nav__menu__btn"}>Faça parte</CustomButton>
       </ul>
     </nav>
   );
