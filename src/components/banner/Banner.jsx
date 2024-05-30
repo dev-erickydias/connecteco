@@ -17,7 +17,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import BannerTexts from "./BannerTexts";
 import BannerImage from "./BannerImage";
 
-export function Banner({bannerInfo}) {
+export function Banner({bannerInfo, className}) {
   return (
     <>
       <Swiper
@@ -34,7 +34,7 @@ export function Banner({bannerInfo}) {
         {bannerInfo.map((banner) => {
           return (
             <SwiperSlide className="banner__slide" key={banner.id}>
-              <div className="banner">
+              <div className={className}>
                 <BannerTexts
                   title={banner.texts.title}
                   description={banner.texts.description}

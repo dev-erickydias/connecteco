@@ -1,14 +1,17 @@
-.banner {
+.banner{
   display: flex;
   margin: 32px auto;
   justify-content: space-between;
-  width: 1216px;
-  height: 375px;
   gap: 30px;
   border-radius: 32px;
   opacity: 0px;
   background: #ffffff;
   overflow: hidden;
+}
+
+.banner__home {
+  width: 1216px;
+  height: 375px;
 }
 .banner__texts {
   display: flex;
