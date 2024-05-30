@@ -17,6 +17,9 @@ export default function PostsBlog() {
           <PostBlog
             key={post.titulo}
             src={post.imagem}
+            alt={post.titulo}
+            width={100} 
+            height={100}
             title={post.titulo}
             content={post.descricao}
             large={post.large}
@@ -29,6 +32,10 @@ export default function PostsBlog() {
             <PostBlog
               key={post.titulo}
               title={post.titulo}
+              src={post.imagem}
+            alt={post.titulo}
+            width={100} 
+            height={100}
               content={post.descricao}
               large={post.large}
               link={post.link}
@@ -41,6 +48,10 @@ export default function PostsBlog() {
           <PostBlog
             key={post.titulo}
             title={post.titulo}
+            src={post.imagem}
+            alt={post.titulo}
+            width={100} 
+            height={100}
             content={post.descricao}
             large={post.large}
             link={post.link}

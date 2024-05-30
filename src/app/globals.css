@@ -1,8 +1,10 @@
 @import url(../vendor/normalize.css);
 .pages {
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   flex-direction: column;
-  width: 90%;
   background: #e4f1f0;
 }

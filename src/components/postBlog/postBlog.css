@@ -50,6 +50,7 @@
   width: 100%;
   height: 50px;
   background-color: #025;
+  object-fit: cover;
 }
 .post__title {
   font-family: Inter;
@@ -80,8 +81,12 @@
 .post--large .post__description {
   margin: 0 16px 16px;
 }
+.post__link{
+  text-decoration: none;
+  color: #fff;
+}
 .post__button {
-  background-color: #4caf50;
+  background-color: #348B61;
   color: white;
   border: none;
   padding: 10px 20px;
