@@ -1,50 +1,38 @@
 function gerarIdUnico() {
-  return 'id-' + Math.random().toString(36).substr(2, 9);
+  return "id-" + Math.random().toString(36).substr(2, 9);
 }
 
 const bannerInfo = [
   {
-    texts: {
-      title: "dsfdfdsfdfs",
-      description: "sdfdfsdsfdsfdsfdfs!"
-    },
+    title: "Encontre pontos de reciclagem perto de você!",
+    description: "Para um futuro sustentável. Veja onde reciclar!",
     id: gerarIdUnico(),
-    image: {
-      src: "/BannerOne.png",
-      alt: "Peneus para reciclar",
-      width: 607,
-      height: 811,
-      className: "banner__image_object-contain"
-    }
+    src: "/BannerOne.png",
+    alt: "Peneus para reciclar",
+    width: 607,
+    height: 811,
+    className: "banner__image_object-contain",
   },
   {
-    texts: {
-      title: "Encontre psasa",
-      description: "Para um futuro sustentável. Veja onde reciclar!"
-    },
+    title: "Nosso Blog",
+    description: "Fique por dentro de todas as novidades e informações sobre reciclagem e sustentabilidade.",
     id: gerarIdUnico(),
-    image: {
-      src: "/BannerOne.png",
-      alt: "Peneus para reciclar",
-      width: 607,
-      height: 811,
-      className: "banner__image_object-contain"
-    }
+    src: "/BannerOne.png",
+    alt: "Peneus para reciclar",
+    width: 607,
+    height: 811,
+    className: "banner__image_object-contain",
   },
   {
-    texts: {
-      title: "Esadsadsadsda",
-      description: "Para um futuro sustentável. Veja onde reciclar!"
-    },
+    title: "Faça parte",
+    description: "Preencha o formulário abaixo e tenha seu ponto de coleta em destaque.",
     id: gerarIdUnico(),
-    image: {
-      src: "/BannerOne.png",
-      alt: "Peneus para reciclar",
-      width: 607,
-      height: 811,
-      className: "banner__image_object-contain"
-    }
-  }
+    src: "/BannerOne.png",
+    alt: "Peneus para reciclar",
+    width: 607,
+    height: 811,
+    className: "banner__image_object-contain",
+  },
 ];
 
 export default bannerInfo;
