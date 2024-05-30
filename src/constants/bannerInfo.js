@@ -5,8 +5,8 @@ function gerarIdUnico() {
 const bannerInfo = [
   {
     texts: {
-      title: "dsfdfdsfdfs",
-      description: "sdfdfsdsfdsfdsfdfs!"
+      title: "Encontre pontos de reciclagem perto de você!",
+      description: "Para um futuro sustentável. Veja onde reciclar!!"
     },
     id: gerarIdUnico(),
     image: {
@@ -19,7 +19,7 @@ const bannerInfo = [
   },
   {
     texts: {
-      title: "Encontre psasa",
+      title: "Encontre pontos de reciclagem perto de você!",
       description: "Para um futuro sustentável. Veja onde reciclar!"
     },
     id: gerarIdUnico(),
@@ -33,7 +33,7 @@ const bannerInfo = [
   },
   {
     texts: {
-      title: "Esadsadsadsda",
+      title: "Encontre pontos de reciclagem perto de você!",
       description: "Para um futuro sustentável. Veja onde reciclar!"
     },
     id: gerarIdUnico(),

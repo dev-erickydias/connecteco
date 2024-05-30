@@ -19,7 +19,7 @@ import BannerImage from "./BannerImage";
 
 export function Banner({bannerInfo}) {
   return (
-    <>
+    <div className="banner__container">
       <Swiper
         pagination={true}
         modules={[Autoplay, Pagination]}
@@ -53,6 +53,6 @@ export function Banner({bannerInfo}) {
           );
         })}
       </Swiper>
-    </>
+    </div>
   );
 }

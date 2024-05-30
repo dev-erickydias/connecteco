@@ -1,35 +1,71 @@
 .materials {
-  max-width: 320px;
+  max-width: 768px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  margin: 18px 0;
+  padding: 0 10px 0 10px;
 }
 
 .materials__title {
-  width: 288px;
-  height: 48px;
+  max-width: 768px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .materials__select {
-  max-width: 288px;
+  max-width: 768px;
+  width: 100%;
+  height: 48px;
   padding: 12px;
   border-radius: 10px;
   background-color: #348B61;
   border: none;
   font-size: 18px;
   color: #FFFFFF;
+  margin: 0 0 16px;
 }
 
 .materials__select:focus {
-  outline: none; /* Remove default outline */
-  box-shadow: 0 0 5px #348B61; /* Add custom focus outline */
+  outline: none;
+  box-shadow: 0 0 5px #348B61;
 }
 
 .materials__option {
-  color: #000; /* Ensure the text color is visible */
+  font-size: 16px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .materials {
+    max-width: 1440px;
+  }
+
+  .materials__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
+    gap: 10px; 
+  }
+
+  .materials__button {
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    transition: background-color 0.3s;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0;
+  }
+  
+  .materials__button--selected,
+  .materials__button:hover {
+    background-color: #348B61;
+    color: #FFFFFF;
+  }
 }

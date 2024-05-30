@@ -1,9 +1,14 @@
+.banner__container {
+  padding: 0 10px;
+}
+
 .banner {
   display: flex;
-  margin: 32px auto;
+  flex-direction: column;
+  margin: 32px 0;
   justify-content: space-between;
-  width: 1216px;
-  height: 375px;
+  max-width: 748px;
+  height: 410px;
   gap: 30px;
   border-radius: 32px;
   opacity: 0px;
@@ -11,33 +16,128 @@
   overflow: hidden;
 }
 .banner__texts {
+  max-width: 748px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .banner__texts_title {
-    margin: 0 auto;
-    width: 441px;
-  font-weight: 400;
-  line-height: 43.57px;
-  letter-spacing: -0.01em;
+
+  max-width: 748px;
+  width: 100%;
+  line-height: 33px;
   font-family: Inter;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 43.57px;
-  letter-spacing: -0.01em;
   text-align: left;
   color: #094d2c;
+  margin: 0;
 }
 .banner__texts_description {
-    width: 348px;
+max-width: 748px;
 height: 58px;
 font-family: Inter;
-font-size: 24px;
+font-size: 16px;
 font-weight: 400;
 line-height: 29.05px;
-letter-spacing: -0.01em;
 text-align: left;
-margin: 19px 0 0;
+margin: 0;
 }
+
+.banner__image_object-contain {
+  max-width: 748px;
+  width: 100%;
+  height: 260px;
+
+}
+
+
+@media screen and ((min-width: 768px)) {
+  .banner {
+    flex-direction: row;
+    margin: 32px auto;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    height: 375px;
+  }
+
+  .banner__texts {
+  width: 380px;
+  height: 375px;
+  padding: 0 20px;
+  }
+
+  .banner__texts_title {
+    max-width: 320px;
+    width: 100%;
+    height: 120px;
+    font-size: 28px;
+    line-height: 36px;
+
+  }
+
+  .banner__texts_description {
+  max-width: 280px;
+  width: 100%;
+  height: 78px;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 10px;
+
+  }
+  
+  .banner__image_object-contain {
+
+    width: 420px;
+    height: 375px;
+    
+  
+}
+
+}
+
+@media screen and ((min-width: 1096px)) {
+
+  .banner__texts {
+    width: 480px;
+   margin: auto;
+    }
+  
+  .banner__texts_title {
+    max-width: 400px;
+    width: 100%;
+    height: 88px;
+    font-size: 36px;
+    line-height: 43.57px;
+
+  }
+
+  .banner__image_object-contain {
+    width: 480px;
+    height: 375px;
+  }
+}
+
+
+@media screen and ((min-width: 1166px)) {
+
+  .banner__image_object-contain {
+    width: 680px;
+    height: 375px;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
