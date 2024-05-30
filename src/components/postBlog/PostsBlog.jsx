@@ -43,7 +43,7 @@ export default function PostsBlog() {
           ))}
         </div>
       </div>
-      <div className="post__item">
+      <div className="post__item post__item_donw">
         {secondItens.map((post) => (
           <PostBlog
             key={post.titulo}

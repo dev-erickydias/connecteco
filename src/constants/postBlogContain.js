@@ -9,8 +9,8 @@ const postBlogContain = [
     titulo: "Aprendendo JavaScript",
     descricao: "Uma introdução ao JavaScript para iniciantes. Uma introdução ao JavaScript para iniciantes.Uma introdução ao JavaScript para iniciantes.Uma introdução ao JavaScript para iniciantes.Uma introdução ao JavaScript para iniciantes.Uma introdução ao JavaScript para iniciantes.Uma introdução ao JavaScript para iniciantes.Uma introdução ao JavaScript para iniciantes.",
     imagem: "/BannerOne.png",
-    link: "/public/BannerOne.png",
-    large: "https://exemplo.com/css-para-iniciantes",
+    link: "https://exemplo.com/css-para-iniciantes",
+    large: true
   },
   {
     id: gerarIdUnico(),
@@ -18,7 +18,6 @@ const postBlogContain = [
     descricao: "Guia básico para começar a usar CSS em seus projetos.",
     imagem: "/BannerOne.png",
     link: "https://exemplo.com/css-para-iniciantes",
-    
   },
   {
     id: gerarIdUnico(),

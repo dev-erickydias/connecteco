@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 30px;
   overflow: hidden;
+  max-width: 1215px;
 }
 .post {
   background-color: #fff;
@@ -124,7 +125,7 @@
   .port__item_second {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 16px;
   }
   .post__item {
     display: flex;
@@ -137,32 +138,44 @@
 }
 /*width: 360px;*/
 @media screen and (min-width: 1200px) {
+  .post{
+    margin: 0 auto;
+  }
   .post__item_fist {
     display: flex;
     flex-wrap: nowrap;
+    max-width: 1215px;
   }
   .post--large {
-    width: 80%;
+    width: 825px;
     height: 340px;
     gap: 0px;
     border-radius: 16px;
     opacity: 0px;
   }
-  .post--small{
-    width: 30%;
+  .post--small {
+    width: 382px;
   }
-  .port__item_second{
+  .port__item_second {
     display: flex;
     flex-direction: column;
   }
-  .post__item{
+  .port__item_second .post--small{
+    width: 382px;
+  }
+  .post__item {
     width: 100%;
     justify-content: space-between;
     column-gap: 30px;
     row-gap: 16px;
   }
-  .post__item .post--small{
-    
+  .post__item_donw {
+    display: grid;
+    column-gap: 35px;
     justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .post__item_donw .post--small {
+    width: 382px;
   }
 }
