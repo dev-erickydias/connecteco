@@ -30,6 +30,7 @@ export function Banner({bannerInfo, className}) {
         speed={1500}
         spaceBetween={100}
         className="mySwiper"
+        loop={true}
       >
         {bannerInfo.map((banner) => {
           return (
