@@ -12,17 +12,18 @@ export default function PostsBlog() {
 
   return (
     <div className="posts">
-      <div className="post__item">
+      <div className="post__item post__item_fist">
         {fistOneCollum.map((post) => (
           <PostBlog
             key={post.titulo}
+            src={post.imagem}
             title={post.titulo}
             content={post.descricao}
             large={post.large}
             link={post.link}
           />
         ))}
-
+ 
         <div className="port__item_second">
           {fistItensTwoCollum.map((post) => (
             <PostBlog
