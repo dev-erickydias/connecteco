@@ -1,6 +1,6 @@
 "use client"
 import "@/styles/404.css"
-import "../app/(home)/components/banner/banner.css";
+import "../components/banner/banner.css";
 import Image from "next/image";
 import CustomButton from "@/components/CustomButton"
 import Link from "next/link";
