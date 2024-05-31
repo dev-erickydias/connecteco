@@ -173,12 +173,12 @@ export function CardsList() {
           </li>
         ))}
       </ul>
-      <div className="pagination">
+      <div className="cards__pagination">
         {windowWidth >= 768 && (
           <>
             {currentPage > 1 && (
               <button
-                className="pagination__button"
+                className="cards__pagination_button"
                 onClick={() => handleClick(currentPage - 1)}
               >
                 &lt;
@@ -189,7 +189,7 @@ export function CardsList() {
               return (
                 <button
                   key={index}
-                  className={`pagination__button ${currentPage === pageNumber ? "pagination__button--active" : ""}`}
+                  className={`cards__pagination_button ${currentPage === pageNumber ? "cards__pagination_button--active" : ""}`}
                   onClick={() => handleClick(pageNumber)}
                 >
                   {pageNumber}
@@ -198,7 +198,7 @@ export function CardsList() {
             })}
             {currentPage < totalPages && (
               <button
-                className="pagination__button"
+                className="cards__pagination_button"
                 onClick={() => handleClick(currentPage + 1)}
               >
                 &gt;
@@ -207,9 +207,9 @@ export function CardsList() {
           </>
         )}
       </div>
-      <div className="load-more">
+      <div className="cards__load-more">
         {windowWidth < 768 && currentItems.length === itemsPerPage && currentPage < totalPages && (
-          <button className="load-more__button" onClick={() => handleClick(currentPage + 1)}>Carregar Mais</button>
+          <button className="cards__load-more_button" onClick={() => handleClick(currentPage + 1)}>Carregar Mais</button>
         )}
       </div>
     </div>

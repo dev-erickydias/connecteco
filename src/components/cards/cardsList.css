@@ -242,3 +242,23 @@ max-width: 90px;
     gap:8px
   }
 }
+
+.cards__pagination {
+display: flex;
+}
+
+.cards__pagination_button {
+
+}
+
+.cards__pagination_button--active {
+
+}
+
+.cards__load-more {
+
+}
+
+.cards__load-more_button {
+
+}
