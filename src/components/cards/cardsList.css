@@ -273,6 +273,21 @@ color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
+.cards__container_search {
+  max-width: 1440px;
+   height: 50px;
+   align-items: center;
+  flex-direction: row;
+}
+
+.cards__container_select {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cards__title_search {
+  margin: 0;
+}
 .cards__pagination {
     max-width: 1044px;
 }
