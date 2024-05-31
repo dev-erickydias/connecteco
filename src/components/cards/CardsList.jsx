@@ -25,10 +25,26 @@ const useWindowWidth = () => {
 };
 
 // Hook personalizado para lidar com a lógica de filtro
-const useFilteredEcoPontos = (selectedEstado, selectedCidade, selectedBairro) => {
+const useFilteredEcoPontos = (
+  selectedEstado,
+  selectedCidade,
+  selectedBairro
+) => {
   const estados = [...new Set(ecoPontos.map((ponto) => ponto.estado))].sort();
-  const cidades = [...new Set(ecoPontos.filter((ponto) => ponto.estado === selectedEstado).map((ponto) => ponto.cidade))].sort();
-  const bairros = [...new Set(ecoPontos.filter((ponto) => ponto.cidade === selectedCidade).map((ponto) => ponto.bairro))].sort();
+  const cidades = [
+    ...new Set(
+      ecoPontos
+        .filter((ponto) => ponto.estado === selectedEstado)
+        .map((ponto) => ponto.cidade)
+    ),
+  ].sort();
+  const bairros = [
+    ...new Set(
+      ecoPontos
+        .filter((ponto) => ponto.cidade === selectedCidade)
+        .map((ponto) => ponto.bairro)
+    ),
+  ].sort();
 
   const filteredEcoPontos = ecoPontos.filter(
     (ponto) =>
@@ -45,7 +61,10 @@ const useFilteredEcoPontos = (selectedEstado, selectedCidade, selectedBairro) =>
 const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = filteredEcoPontos.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = filteredEcoPontos.slice(
+    indexOfFirstItem,
+    indexOfLastItem
+  );
 
   const totalPages = Math.ceil(filteredEcoPontos.length / itemsPerPage);
 
@@ -69,8 +88,16 @@ export function CardsList() {
     }
   }, [windowWidth]);
 
-  const { estados, cidades, bairros, filteredEcoPontos } = useFilteredEcoPontos(selectedEstado, selectedCidade, selectedBairro);
-  const { currentItems, totalPages } = usePagination(filteredEcoPontos, currentPage, itemsPerPage);
+  const { estados, cidades, bairros, filteredEcoPontos } = useFilteredEcoPontos(
+    selectedEstado,
+    selectedCidade,
+    selectedBairro
+  );
+  const { currentItems, totalPages } = usePagination(
+    filteredEcoPontos,
+    currentPage,
+    itemsPerPage
+  );
 
   const handleClick = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -152,15 +179,11 @@ export function CardsList() {
                 <div className="card__icon_schedules" />
                 <div className="card__container_schedules">
                   <p className="card__office-date">Seg - Sex</p>
-                  <p className="card__office-hour">
-                    {ponto.horario_seg_sex}
-                  </p>
+                  <p className="card__office-hour">{ponto.horario_seg_sex}</p>
                 </div>
                 <div className="card__container_schedules">
                   <p className="card__office-date">Sábado</p>
-                  <p className="card__office-hour">
-                    {ponto.horario_sab}
-                  </p>
+                  <p className="card__office-hour">{ponto.horario_sab}</p>
                 </div>
               </div>
               <div className="card__link_map">
@@ -174,43 +197,37 @@ export function CardsList() {
         ))}
       </ul>
       <div className="cards__pagination">
-        {windowWidth >= 768 && (
-          <>
-            {currentPage > 1 && (
-              <button
-                className="cards__pagination_button"
-                onClick={() => handleClick(currentPage - 1)}
-              >
-                &lt;
-              </button>
-            )}
-            {Array.from({ length: Math.min(4, totalPages) }, (_, index) => {
-              const pageNumber = Math.max(1, currentPage - 1 + index);
-              return (
-                <button
-                  key={index}
-                  className={`cards__pagination_button ${currentPage === pageNumber ? "cards__pagination_button--active" : ""}`}
-                  onClick={() => handleClick(pageNumber)}
-                >
-                  {pageNumber}
-                </button>
-              );
-            })}
-            {currentPage < totalPages && (
-              <button
-                className="cards__pagination_button"
-                onClick={() => handleClick(currentPage + 1)}
-              >
-                &gt;
-              </button>
-            )}
-          </>
-        )}
-      </div>
-      <div className="cards__load-more">
-        {windowWidth < 768 && currentItems.length === itemsPerPage && currentPage < totalPages && (
-          <button className="cards__load-more_button" onClick={() => handleClick(currentPage + 1)}>Carregar Mais</button>
-        )}
+        <button
+          className="cards__pagination_button"
+          onClick={() => handleClick(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          &lt;
+        </button>
+        {Array.from({ length: Math.min(3, totalPages) }, (_, index) => {
+          const pageNumber = currentPage - 1 + index + 1;
+          if (pageNumber > totalPages) return null;
+          return (
+            <button
+              key={pageNumber}
+              className={`cards__pagination_button ${
+                currentPage === pageNumber
+                  ? "cards__pagination_button--active"
+                  : ""
+              }`}
+              onClick={() => handleClick(pageNumber)}
+            >
+              {pageNumber}
+            </button>
+          );
+        })}
+        <button
+          className="cards__pagination_button"
+          onClick={() => handleClick(currentPage + 1)}
+          disabled={currentPage === totalPages}
+        >
+          &gt;
+        </button>
       </div>
     </div>
   );

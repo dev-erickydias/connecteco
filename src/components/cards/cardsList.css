@@ -12,21 +12,22 @@
   height: 150px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
 }
 
-
 .cards__title_search {
-  width: 258px;
-  height: 24px;
-  color: #5F5F5F;
+  max-width: 768px;
+  width: 100%;
+  color: #5f5f5f;
   margin-bottom: 10px;
-
 }
 
 .cards__container_select {
-display: flex;
-flex-direction: column;
+  max-width: 768px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cards__icon_select {
@@ -38,27 +39,25 @@ flex-direction: column;
 }
 
 .cards__select {
-width: 288px;
-height: 40px;
-background-color: #348b61;
-border-radius: 10px;
-color: #ffffff;
-
+  max-width: 768px;
+  width: 100%;
+  height: 40px;
+  background-color: #348b61;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
 .cards__select_state {
-
 }
 
 .cards__select_city {
-  
 }
 .cards__select_neighborhoods {
-  width: 288px;
+  max-width: 768px;
+  width: 100%;
   height: 40px;
   border-radius: 10px;
 }
-
 
 .cards__container_list {
   max-width: 320px;
@@ -209,6 +208,35 @@ color: #ffffff;
   height: 12px;
 }
 
+.cards__pagination {
+  max-width: 768px;
+  width: 100%;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards__pagination_button {
+  color: #348b61;
+  border-radius: 50%;
+  border: none;
+  background-color: #00000000;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.cards__pagination_button--active {
+background-color: #348B61;
+color: #ffffff;
+}
+
+.cards__pagination_button:hover {
+  color: #084508;
+}
+
 @media screen and (min-width: 530px) {
   .cards {
     max-width: 1440px;
@@ -219,6 +247,7 @@ color: #ffffff;
 
   .cards__container_search {
     width: 100%;
+    justify-content: center;
   }
 
   .cards__container_list {
@@ -234,31 +263,22 @@ color: #ffffff;
   }
 
   .card__container_image {
-max-width: 90px;
+    max-width: 90px;
   }
 
   .card__schedules {
     min-width: 200px;
-    gap:8px
+    gap: 8px;
   }
 }
 
+@media screen and (min-width: 768px) {
 .cards__pagination {
-display: flex;
+    max-width: 1044px;
 }
 
 .cards__pagination_button {
-
+  width: 50px;
+  height: 50px;
 }
-
-.cards__pagination_button--active {
-
-}
-
-.cards__load-more {
-
-}
-
-.cards__load-more_button {
-
 }
