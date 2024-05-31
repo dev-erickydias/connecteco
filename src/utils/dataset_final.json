@@ -1,4 +1,4 @@
-const ecoPontos = [
+[
     {
         "id": 1,
         "estado": "SP",
