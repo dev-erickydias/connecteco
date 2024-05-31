@@ -37167,3 +37167,5 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     }
 ]
+
+export default ecoPontos;
