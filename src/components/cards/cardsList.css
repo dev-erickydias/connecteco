@@ -141,15 +141,16 @@
 
 .card__description_address {
   width: 160px;
-  height: 40px;
+  height: 45px;
   display: flex;
   font-size: 13px;
   line-height: 15px;
+  overflow: hidden;
 }
 
 .card__schedules {
   display: flex;
-  width: 190px;
+  width: 207px;
   height: 30px;
   margin-top: 6px;
   gap: 5px;
@@ -178,7 +179,7 @@
 }
 
 .card__office-hour {
-  width: 80px;
+  width: 85px;
   height: 24px;
   font-size: 12px;
 }
@@ -267,7 +268,7 @@ color: #ffffff;
   }
 
   .card__schedules {
-    min-width: 200px;
+    max-width: 207px;
     gap: 8px;
   }
 }
