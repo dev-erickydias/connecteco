@@ -14,7 +14,7 @@ const bannerInfo = [
     className: "banner__image_object-contain",
   },
   {
-    title: "Nosso Blog",
+    title: "Junte-se a Nós por um Planeta Sustentável.",
     description: "Fique por dentro de todas as novidades e informações sobre reciclagem e sustentabilidade.",
     id: gerarIdUnico(),
     src: "/BannerOne.png",
@@ -24,7 +24,7 @@ const bannerInfo = [
     className: "banner__image_object-contain",
   },
   {
-    title: "Faça parte",
+    title: "Faça parte de um futuro mais verde.",
     description: "Preencha o formulário abaixo e tenha seu ponto de coleta em destaque.",
     id: gerarIdUnico(),
     src: "/id 4.jpg",

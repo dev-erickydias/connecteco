@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 30px;
   overflow: hidden;
-  max-width: 1215px;
+  max-width: 1440px;
 }
 .post {
   background-color: #fff;
@@ -113,7 +113,7 @@
   .post--small {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 360px;
     height: 161px;
   }
   .post--large .post__image {
@@ -124,8 +124,9 @@
   }
   .port__item_second {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    gap: 16px;
+    gap: 30px;
   }
   .post__item {
     display: flex;
@@ -138,44 +139,46 @@
 }
 /*width: 360px;*/
 @media screen and (min-width: 1200px) {
-  .post{
-    margin: 0 auto;
+  .posts{
+    width: 100%;
+    gap: 16px;
+    margin: 40px 0 30px 0 ;
   }
   .post__item_fist {
     display: flex;
     flex-wrap: nowrap;
-    max-width: 1215px;
+    column-gap: 0;
   }
   .post--large {
-    width: 825px;
+    width: 970px;
     height: 340px;
-    gap: 0px;
     border-radius: 16px;
-    opacity: 0px;
   }
   .post--small {
-    width: 382px;
+    width: 470px;
   }
   .port__item_second {
     display: flex;
     flex-direction: column;
+    width: 470px;
+    gap: 16px;
   }
   .port__item_second .post--small{
-    width: 382px;
+    width: 470px;
   }
   .post__item {
     width: 100%;
     justify-content: space-between;
-    column-gap: 30px;
+    column-gap: 16px;
     row-gap: 16px;
   }
   .post__item_donw {
     display: grid;
-    column-gap: 35px;
+    column-gap: 16px;
     justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
   }
   .post__item_donw .post--small {
-    width: 382px;
+    width: 470px;
   }
 }
