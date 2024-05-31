@@ -2,312 +2,75 @@
 
 import "./cardsList.css";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import ecoPontos from "@/constants/ecopontos";
 
-function formatHour(hour) {
-  let h = parseInt(hour.replace("h", ""), 10);
-  return `${h}:00h`;
-}
+// Hook personalizado para lidar com o redimensionamento da janela
+const useWindowWidth = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-function transformHorario(horario) {
-  let [inicio, fim] = horario.split("-");
-  let inicioFormatado = formatHour(inicio);
-  let fimFormatado = formatHour(fim);
-  return `${inicioFormatado}-${fimFormatado}`;
-}
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
 
-export function CardsList() {
-  const ecoPontos = [
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Gopoúva",
-      endereço: "Rua Guarulhos, 34",
-      bairro: "Gopoúva",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jardim Leila (próximo ao CIESP)",
-      endereço: "Rua Apolônia Vieira de Jesus, 91",
-      bairro: "Paraventi",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Parque Continental II",
-      endereço: "Rua Valdimiro Laurentino Pêssoa, 655I",
-      bairro: "Continental",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Parque Santo Antonio",
-      endereço: "Rua Ouvidor 337",
-      bairro: "Torres Tibagy",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Vila Galvão",
-      endereço: "Avenida Faustino Ramalho, 977",
-      bairro: "Timóteo Penteado",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jd. Luciara",
-      endereço: "Rua Adélia Sadalla, 166",
-      bairro: "Iporanga",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jardim Divinolândia",
-      endereço: "Rua São Tomás de Aquino, 61",
-      bairro: "João do Pulo",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Santos Dumont",
-      endereço: "Estrada do Saboó, 795",
-      bairro: "Santos Dumont",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jd. Presidente Dutra",
-      endereço: "Avenida João Bassi, 707",
-      bairro: "Presidente Dutra",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jurema",
-      endereço: "Rua Jacutinga, 470",
-      bairro: "Jurema",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },{
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jardim Divinolândia",
-      endereço: "Rua São Tomás de Aquino, 61",
-      bairro: "João do Pulo",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Santos Dumont",
-      endereço: "Estrada do Saboó, 795",
-      bairro: "Santos Dumont",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jd. Presidente Dutra",
-      endereço: "Avenida João Bassi, 707",
-      bairro: "Presidente Dutra",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jurema",
-      endereço: "Rua Jacutinga, 470",
-      bairro: "Jurema",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },{
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jardim Divinolândia",
-      endereço: "Rua São Tomás de Aquino, 61",
-      bairro: "João do Pulo",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Santos Dumont",
-      endereço: "Estrada do Saboó, 795",
-      bairro: "Santos Dumont",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jd. Presidente Dutra",
-      endereço: "Avenida João Bassi, 707",
-      bairro: "Presidente Dutra",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jurema",
-      endereço: "Rua Jacutinga, 470",
-      bairro: "Jurema",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },{
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jardim Divinolândia",
-      endereço: "Rua São Tomás de Aquino, 61",
-      bairro: "João do Pulo",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Santos Dumont",
-      endereço: "Estrada do Saboó, 795",
-      bairro: "Santos Dumont",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jd. Presidente Dutra",
-      endereço: "Avenida João Bassi, 707",
-      bairro: "Presidente Dutra",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-    {
-      estado: "SP",
-      cidade: "GUARULHOS",
-      local: "Jurema",
-      endereço: "Rua Jacutinga, 470",
-      bairro: "Jurema",
-      tipo_de_material:
-        "Coleta seletiva, obras e materiais, líquidos, borracha",
-      "horário_seg-sex": "7h-19h",
-      "horário_sab-dom": "7h-19h",
-      tipo: "ecoponto",
-    },
-  ];
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-  const [selectedEstado, setSelectedEstado] = useState("");
-  const [selectedCidade, setSelectedCidade] = useState("");
-  const [selectedBairro, setSelectedBairro] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(12);
-  const [visibleCards, setVisibleCards] = useState(3);
+  return windowWidth;
+};
 
-  const estados = [...new Set(ecoPontos.map((ponto) => ponto.estado))];
-  const cidades = [...new Set(ecoPontos.filter((ponto) => ponto.estado === selectedEstado).map((ponto) => ponto.cidade))];
-  const bairros = [...new Set(ecoPontos.filter((ponto) => ponto.cidade === selectedCidade).map((ponto) => ponto.bairro))];
+// Hook personalizado para lidar com a lógica de filtro
+const useFilteredEcoPontos = (selectedEstado, selectedCidade, selectedBairro) => {
+  const estados = [...new Set(ecoPontos.map((ponto) => ponto.estado))].sort();
+  const cidades = [...new Set(ecoPontos.filter((ponto) => ponto.estado === selectedEstado).map((ponto) => ponto.cidade))].sort();
+  const bairros = [...new Set(ecoPontos.filter((ponto) => ponto.cidade === selectedCidade).map((ponto) => ponto.bairro))].sort();
 
   const filteredEcoPontos = ecoPontos.filter(
     (ponto) =>
       (!selectedEstado || ponto.estado === selectedEstado) &&
       (!selectedCidade || ponto.cidade === selectedCidade) &&
-      (!selectedBairro || ponto.bairro === selectedBairro)
+      (!selectedBairro || ponto.bairro === selectedBairro) &&
+      ponto.horario_seg_sex !== "Não disponível"
   );
 
+  return { estados, cidades, bairros, filteredEcoPontos };
+};
+
+// Hook personalizado para lidar com a lógica de paginação
+const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredEcoPontos.slice(indexOfFirstItem, indexOfLastItem);
 
-  const handleLoadMore = () => {
-    setVisibleCards((prevVisibleCards) => prevVisibleCards + 3);
-  };
-
   const totalPages = Math.ceil(filteredEcoPontos.length / itemsPerPage);
+
+  return { currentItems, totalPages };
+};
+
+export function CardsList() {
+  const [selectedEstado, setSelectedEstado] = useState("");
+  const [selectedCidade, setSelectedCidade] = useState("");
+  const [selectedBairro, setSelectedBairro] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(12);
+  const windowWidth = useWindowWidth();
+
+  // Ajusta a quantidade de itens por página com base na largura da janela
+  useEffect(() => {
+    if (windowWidth < 768) {
+      setItemsPerPage(3);
+    } else {
+      setItemsPerPage(12);
+    }
+  }, [windowWidth]);
+
+  const { estados, cidades, bairros, filteredEcoPontos } = useFilteredEcoPontos(selectedEstado, selectedCidade, selectedBairro);
+  const { currentItems, totalPages } = usePagination(filteredEcoPontos, currentPage, itemsPerPage);
 
   const handleClick = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -318,12 +81,14 @@ export function CardsList() {
       <div className="cards__container_search">
         <h3 className="cards__title_search">Principais pontos de coleta</h3>
         <div className="cards__container_select">
-          <select className="cards__select cards__select_state"
+          <select
+            className="cards__select cards__select_state"
             value={selectedEstado}
             onChange={(e) => {
               setSelectedEstado(e.target.value);
               setSelectedCidade("");
               setSelectedBairro("");
+              setCurrentPage(1); // Resetar a página ao alterar o estado
             }}
           >
             <option value="">Estado</option>
@@ -333,11 +98,13 @@ export function CardsList() {
               </option>
             ))}
           </select>
-          <select className="cards__select cards__select_city"
+          <select
+            className="cards__select cards__select_city"
             value={selectedCidade}
             onChange={(e) => {
               setSelectedCidade(e.target.value);
               setSelectedBairro("");
+              setCurrentPage(1); // Resetar a página ao alterar a cidade
             }}
             disabled={!selectedEstado}
           >
@@ -348,9 +115,13 @@ export function CardsList() {
               </option>
             ))}
           </select>
-          <select className="cards__select_neighborhoods"
+          <select
+            className="cards__select_neighborhoods"
             value={selectedBairro}
-            onChange={(e) => setSelectedBairro(e.target.value)}
+            onChange={(e) => {
+              setSelectedBairro(e.target.value);
+              setCurrentPage(1); // Resetar a página ao alterar o bairro
+            }}
             disabled={!selectedCidade}
           >
             <option value="">Selecione o Bairro</option>
@@ -363,7 +134,7 @@ export function CardsList() {
         </div>
       </div>
       <ul className="cards__container_list">
-        {currentItems.slice(0, visibleCards).map((ponto, index) => (
+        {currentItems.map((ponto, index) => (
           <li className="card__list" key={index}>
             <div className="card__container_image">
               <div className="card__image"></div>
@@ -382,13 +153,13 @@ export function CardsList() {
                 <div className="card__container_schedules">
                   <p className="card__office-date">Seg - Sex</p>
                   <p className="card__office-hour">
-                    {transformHorario(ponto["horário_seg-sex"])}
+                    {ponto.horario_seg_sex}
                   </p>
                 </div>
                 <div className="card__container_schedules">
-                  <p className="card__office-date">Sáb - Dom</p>
+                  <p className="card__office-date">Sábado</p>
                   <p className="card__office-hour">
-                    {transformHorario(ponto["horário_sab-dom"])}
+                    {ponto.horario_sab}
                   </p>
                 </div>
               </div>
@@ -403,18 +174,43 @@ export function CardsList() {
         ))}
       </ul>
       <div className="pagination">
-        {[...Array(totalPages)].map((_, index) => (
-          <button
-            key={index}
-            className={`pagination__button ${currentPage === index + 1 ? "pagination__button--active" : ""}`}
-            onClick={() => handleClick(index + 1)}
-          >
-            {index + 1}
-          </button>
-        ))}
+        {windowWidth >= 768 && (
+          <>
+            {currentPage > 1 && (
+              <button
+                className="pagination__button"
+                onClick={() => handleClick(currentPage - 1)}
+              >
+                &lt;
+              </button>
+            )}
+            {Array.from({ length: Math.min(4, totalPages) }, (_, index) => {
+              const pageNumber = Math.max(1, currentPage - 1 + index);
+              return (
+                <button
+                  key={index}
+                  className={`pagination__button ${currentPage === pageNumber ? "pagination__button--active" : ""}`}
+                  onClick={() => handleClick(pageNumber)}
+                >
+                  {pageNumber}
+                </button>
+              );
+            })}
+            {currentPage < totalPages && (
+              <button
+                className="pagination__button"
+                onClick={() => handleClick(currentPage + 1)}
+              >
+                &gt;
+              </button>
+            )}
+          </>
+        )}
       </div>
       <div className="load-more">
-        <button className="load-more__button" onClick={handleLoadMore}>Carregar Mais</button>
+        {windowWidth < 768 && currentItems.length === itemsPerPage && currentPage < totalPages && (
+          <button className="load-more__button" onClick={() => handleClick(currentPage + 1)}>Carregar Mais</button>
+        )}
       </div>
     </div>
   );
