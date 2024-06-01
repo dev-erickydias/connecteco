@@ -1,9 +1,16 @@
 import Card from "./Card";
-import postIntegrants from "@/constants/postIntegrantes";
+import postIntegrants from "../../constants/postIntegrantes";
+import SlideIntegrants from "./SlideIntegrants";
 export default function CardsAbout() {
   return (
-    <ul className="cards-about">
-      {postIntegrants.map((integrante) => {
+
+
+    <SlideIntegrants/>
+    
+  );
+}
+/*<ul className="cards-about">
+       {postIntegrants.map((integrante) => {
         return (
           <Card
             linkedin={integrante.linkLinkedin}
@@ -18,7 +25,5 @@ export default function CardsAbout() {
             cargo={integrante.cargo}
           />
         );
-      })}
-    </ul>
-  );
-}
+      })} 
+    </ul>*/

@@ -3,7 +3,7 @@
 import "./cardsList.css";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import ecoPontos from "@/constants/ecopontos";
+import ecoPontos from "../../constants/ecopontos";
 
 // Hook personalizado para lidar com o redimensionamento da janela
 const useWindowWidth = () => {
