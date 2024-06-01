@@ -17,8 +17,6 @@
   gap: 30px;
   border-radius: 16px;
 }
-.post__item_fist {
-}
 .port__item_second {
   display: flex;
   flex-direction: column;
