@@ -1,12 +1,14 @@
 const materials = [
     "Todos",
-    "Plásticos",
+    "Plástico",
     "Papel",
+    "Materias",
+    "Borracha", 
     "Vidro",
     "Eletrônicos",
-    "Metais",
     "Medicamentos",
-    "Textil",
+    "Têxtil",
+    "Cápsulas de café",
   ];
 
   export default materials;

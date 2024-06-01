@@ -1,11 +1,16 @@
 "use client";
 import "./buttonsMaterials.css";
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import CustomButton from "@/components/CustomButton.jsx";
 import materials from "@/constants/materials.js";
 
-export function ButtonsMaterials() {
-  const [selectedMaterial, setSelectedMaterial] = useState(materials[0]);
+export function ButtonsMaterials({ 
+  selectedMaterial, 
+  setSelectedMaterial,
+  setSelectedEstado,
+  setSelectedCidade,
+  setSelectedBairro
+}) {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
 
   useEffect(() => {
@@ -24,6 +29,9 @@ export function ButtonsMaterials() {
 
   const handleChange = (event) => {
     setSelectedMaterial(event.target.value);
+    setSelectedEstado("");
+    setSelectedCidade("");
+    setSelectedBairro("");
   };
 
   return (
@@ -35,7 +43,12 @@ export function ButtonsMaterials() {
             <CustomButton
               key={index}
               className={`materials__button ${selectedMaterial === material ? 'materials__button--selected' : ''}`}
-              onClick={() => setSelectedMaterial(material)}
+              onClick={() => {
+                setSelectedMaterial(material);
+                setSelectedEstado("");
+                setSelectedCidade("");
+                setSelectedBairro("");
+              }}
             >
               {material}
             </CustomButton>
@@ -53,4 +66,3 @@ export function ButtonsMaterials() {
     </div>
   );
 }
-

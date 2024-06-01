@@ -28,7 +28,8 @@ const useWindowWidth = () => {
 const useFilteredEcoPontos = (
   selectedEstado,
   selectedCidade,
-  selectedBairro
+  selectedBairro,
+  selectedMaterial
 ) => {
   const estados = [...new Set(ecoPontos.map((ponto) => ponto.estado))].sort();
   const cidades = [
@@ -51,6 +52,7 @@ const useFilteredEcoPontos = (
       (!selectedEstado || ponto.estado === selectedEstado) &&
       (!selectedCidade || ponto.cidade === selectedCidade) &&
       (!selectedBairro || ponto.bairro === selectedBairro) &&
+      (selectedMaterial === "Todos" || ponto.tipo_de_material.includes(selectedMaterial)) &&
       ponto.horario_seg_sex !== "Não disponível"
   );
 
@@ -71,10 +73,15 @@ const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   return { currentItems, totalPages };
 };
 
-export function CardsList() {
-  const [selectedEstado, setSelectedEstado] = useState("");
-  const [selectedCidade, setSelectedCidade] = useState("");
-  const [selectedBairro, setSelectedBairro] = useState("");
+export function CardsList({ 
+  selectedMaterial, 
+  selectedEstado, 
+  selectedCidade, 
+  selectedBairro,
+  setSelectedEstado,
+  setSelectedCidade,
+  setSelectedBairro 
+}) {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(12);
   const windowWidth = useWindowWidth();
@@ -91,7 +98,8 @@ export function CardsList() {
   const { estados, cidades, bairros, filteredEcoPontos } = useFilteredEcoPontos(
     selectedEstado,
     selectedCidade,
-    selectedBairro
+    selectedBairro,
+    selectedMaterial
   );
   const { currentItems, totalPages } = usePagination(
     filteredEcoPontos,
