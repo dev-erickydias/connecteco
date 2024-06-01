@@ -1,4 +1,3 @@
-Claro! Aqui está o `README.md` atualizado para incluir apenas as instruções usando `npm`:
 
 ```markdown
 # ConnectEco
