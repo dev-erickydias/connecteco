@@ -33,19 +33,21 @@ export function Header() {
   return (
     <header className="header">
       <div className="header__container_content">
-        <Logo />
-      
-        {isOpen && <Navbar />}        
-        {windowWidth > 530 && (
-          <div>
-            <Location />
-          </div>
-        )}
-          {windowWidth < 768 ? (
-          <HamburgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
-        ) : (
-          <Navbar />
-        )}
+      {isOpen && <Navbar />}
+        <div className="header__menu">
+          <Logo />
+          
+          {windowWidth > 530 && (
+            <div>
+              <Location />
+            </div>
+          )}
+            {windowWidth < 768 ? (
+            <HamburgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
+          ) : (
+            <Navbar />
+          )}
+        </div>
       </div>
     </header>
   );

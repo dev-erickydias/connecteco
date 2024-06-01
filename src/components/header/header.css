@@ -8,6 +8,11 @@
 }
 
 .header__container_content {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.header__menu {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -16,7 +21,7 @@
 }
 
 .hamburger-menu {
-  position: relative;
+  position: absolute;
 }
 
 .hamburger-menu__button {
@@ -58,7 +63,7 @@
   max-width: 768px;
   width: 100%;
   top: 0px;
-  z-index: 2;
+  z-index: 999;
   position: absolute;
 }
 .nav__menu {
@@ -85,12 +90,13 @@
 }
 
 .nav__menu__link:hover {
-  opacity: 0.5;
+color: #348b61;
 }
 
 .nav__menu__link-active {
   border-radius: 5px;
-  color: #094d2c;
+  color: #aaf1ae;
+
 }
 
 .nav__menu__btn {
@@ -104,7 +110,7 @@
 }
 
 .nav__menu__btn:hover {
-  opacity: 0.5;
+background-color: #45a049;
 }
 
 
