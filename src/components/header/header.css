@@ -32,7 +32,6 @@
   width: 24px;
   height: 24px;
   z-index: 999;
-  order: 3;
 }
 
 .hamburger-menu__button:hover {
@@ -90,13 +89,12 @@
 }
 
 .nav__menu__link:hover {
-color: #348b61;
+  color: #348b61;
 }
 
 .nav__menu__link-active {
   border-radius: 5px;
   color: #aaf1ae;
-
 }
 
 .nav__menu__btn {
@@ -110,13 +108,12 @@ color: #348b61;
 }
 
 .nav__menu__btn:hover {
-background-color: #45a049;
+  background-color: #45a049;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .header {
+    max-width: 1440px;
     width: 100%;
     height: 77px;
   }
@@ -124,34 +121,55 @@ background-color: #45a049;
   .header__container_content {
     max-width: 1440px;
     width: 100%;
-    height: 77px;
   }
   .header__container__content {
     justify-content: space-between;
   }
+
+  .header__menu {
+    position: relative;
+    display: flex;
+    padding: 0 10px;
+  }
+
+  .header__menu-logo {
+    max-width: 650px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
   .nav {
     max-width: 420px;
-    position: relative;
-    z-index: 1;
+    width: 100%;
+    height: 65px;
+    position: static;
+    display: flex;
   }
   .nav__menu {
     flex-direction: row;
     align-items: center;
-    max-width: 430px;
-    height: 50px;
-    position: relative;
+    height: 65px;
+    position: static;
     background: none;
     box-shadow: none;
+    padding: 0;
+  }
+
+  .button__location {
+    order: 3;
+  }
+
+  .mav__menu_direction {
   }
 
   .nav__menu__link {
-    text-decoration: none;
     font-family: Inter;
     text-align: left;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19.36px;
-    letter-spacing: -0.01em;
   }
   .nav__menu__link-active {
     border-bottom: 2px solid #348b61;
@@ -162,12 +180,11 @@ background-color: #45a049;
     color: #515151;
   }
   .nav__menu__btn {
-    margin: -10px;
     background-color: #348b61;
     color: #fff;
     border: none;
-    width: 150px;
-    padding: 12px;
+    width: 105px;
+    height: 43px;
     border-radius: 8px;
   }
   .location {
