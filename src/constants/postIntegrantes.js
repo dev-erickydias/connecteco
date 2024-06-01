@@ -93,8 +93,7 @@ const postIntegrants = [
     cargos: "QA",
     descricao:
       "Luso-brasileira, vivi toda a vida em Portugal, sou licenciada há 18 anos em Radiologia e há 14 anos a trabalhar no “Programa de Rastreio de Cancro da Mama” na Liga Portuguesa Contra o Cancro. Presentemente encontro-me a realizar meus estudos como QA Tester.O desafio desta transição de carreira, reaproximou de mim uma fluidez e identificação muito prazerosas com as tecnologias de Informação, nomeadamente com a área de Software.",
-    descricaoDois:
-      "Tenho na minha bagagem anos de experiência em ambientes exigentes e softskills muito especiais, trazidos pela delicadeza que um assunto como o câncer requer. Hoje, a minha motivação é mudar o percurso profissional num caminho mais entusiasmante e dinâmico. Participar ativamente, dar um propósito, ver o produto crescer, adicionar-lhe qualidade, é recompensador! Tenho, graças à organização do Hackthon 4 e dos meus estupendos colegas de grupo, esta oportunidade ímpar de participar no projeto Connect Eco, como minha primeira experiência inserida numa equipe de trabalho: um ambiente multicultural, inclusivo e dinâmico!",
+    descricaoDois:"Tenho na minha bagagem anos de experiência em ambientes exigentes e softskills muito especiais, trazidos pela delicadeza que um assunto como o câncer requer. Hoje, a minha motivação é mudar o percurso profissional num caminho mais entusiasmante e dinâmico. Participar ativamente, dar um propósito, ver o produto crescer, adicionar-lhe qualidade, é recompensador! Tenho, graças à organização do Hackthon 4 e dos meus estupendos colegas de grupo, esta oportunidade ímpar de participar no projeto Connect Eco, como minha primeira experiência inserida numa equipe de trabalho: um ambiente multicultural, inclusivo e dinâmico!",
     imagem: "/BannerOne.png",
     linkGithub: "https://github.com/angelaribeiro84",
     linkLinkedin: "https://www.linkedin.com/in/angelaribeiro84",
