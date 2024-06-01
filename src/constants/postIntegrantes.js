@@ -75,18 +75,6 @@ const postIntegrants = [
     linkGithub: "https://github.com/Luizg39",
     linkLinkedin: "https://www.linkedin.com/in/luiz-g-pereira/",
   },
-  /*{
-    id: gerarIdUnico(),
-    nome: "Patrícia",
-    cargos: "Analista De Dados",
-    descricao:
-      "",
-    descricaoDois:
-      "",
-    imagem: "/BannerOne.png",
-    linkGithub: "https://github.com/patriciamgcosta",
-    linkLinkedin: "https://www.linkedin.com/in/patriciamgc/",
-  },*/
   {
     id: gerarIdUnico(),
     nome: "Angela Ribeiro",
@@ -133,31 +121,43 @@ const postIntegrants = [
     imagem: "/BannerOne.png",
     linkGithub: "https://github.com/lwestania",
     linkLinkedin: "https://www.linkedin.com/in/ludmilla-lima-3b21b312a",
-  }/*,
-  {
-    id: gerarIdUnico(),
-    nome: "",
-    cargos: "",
-    descricao:
-      "",
-    descricaoDois:
-      "",
-    imagem: "/BannerOne.png",
-    linkGithub: "",
-    linkLinkedin: "",
   },
   {
     id: gerarIdUnico(),
-    nome: "",
-    cargos: "",
+    nome: "Patrícia",
+    cargos: "Analista De Dados",
     descricao:
       "",
     descricaoDois:
       "",
     imagem: "/BannerOne.png",
-    linkGithub: "",
-    linkLinkedin: "",
-  },*/
+    linkGithub: "https://github.com/patriciamgcosta",
+    linkLinkedin: "https://www.linkedin.com/in/patriciamgc/",
+  },
+  {
+    id: gerarIdUnico(),
+    nome: "Livia Borges",
+    cargos: "QA",
+    descricao:
+      "Meu nome é Livia e sou Mestre em Geologia e Geofísica onde tive a oportunidade ao longo da minha experiência acadêmica de desenvolver modelagens para estudos nas áreas de Petróleo e Mineração através das linguagens Matlab e R. Isso despertou meu interesse na área de TI e hoje com uma base em Análise de QA pretendo me aprofundar ainda mais nessa área e depois migrar para o desenvolvimento de software.",
+    descricaoDois:
+      "",
+    imagem: "/BannerOne.png",
+    linkGithub: "https://github.com/LiviaBorges",
+    linkLinkedin: "https://www.linkedin.com/in/liviaborgespessanha",
+  },
+  {
+    id: gerarIdUnico(),
+    nome: "Eduardo",
+    cargos: "QA",
+    descricao:
+      "",
+    descricaoDois:
+      "",
+    imagem: "/BannerOne.png",
+    linkGithub: "https://github.com/Eduardo-goveia",
+    linkLinkedin: "https://www.linkedin.com/in/eduardo-goveia-433b832bb/",
+  },
 ];
 
 export default postIntegrants;
