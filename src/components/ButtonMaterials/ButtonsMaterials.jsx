@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import CustomButton from "../CustomButton.jsx";
 import materials from "../../constants/materials.js";
 
-export function ButtonsMaterials() {
+export default function ButtonsMaterials() {
   const [selectedMaterial, setSelectedMaterial] = useState(materials[0]);
   const [isLargeScreen, setIsLargeScreen] = useState(false);
 

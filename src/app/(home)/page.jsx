@@ -1,4 +1,4 @@
-import { ButtonsMaterials } from "../../components/buttonMaterials/ButtonsMaterials";
+import  ButtonsMaterials  from "../../components/buttonMaterials/ButtonsMaterials";
 
 
 import { CardsList } from "../../components/cards/CardsList";
