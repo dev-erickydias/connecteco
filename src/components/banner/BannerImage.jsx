@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function BannerImage({ src, alt, width, height, className }) {
   return (
-    <Image
+    <img
       src={src}
       alt={alt}
       width={width}
