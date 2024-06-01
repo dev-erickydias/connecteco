@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Claro! Aqui está o `README.md` atualizado para incluir apenas as instruções usando `npm`:
 
-## Getting Started
+```markdown
+# ConnectEco
 
-First, run the development server:
+Este repositório contém o código do projeto ConnectEco. Siga as instruções abaixo para clonar, instalar as dependências e rodar o projeto. As alterações mais atualizadas estão na branch `developer`.
+
+## Requisitos
+
+- **Node.js**: Certifique-se de que o Node.js está instalado na sua máquina. Você pode baixá-lo e instalá-lo a partir do [site oficial](https://nodejs.org/).
+
+## Passo a Passo de Instalação e Execução
+
+### 1. Clonar o Repositório
+
+Primeiro, clone o repositório do GitHub:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Connect-Eco/connecteco.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Acessar o Diretório do Repositório
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Depois de clonar o repositório, entre no diretório recém-clonado:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+cd connecteco
+```
 
-## Learn More
+### 3. Mudar para a Branch `developer`
 
-To learn more about Next.js, take a look at the following resources:
+Para garantir que você está trabalhando com as alterações mais recentes, mude para a branch `developer`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git checkout developer
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 4. Instalar Dependências
 
-## Deploy on Vercel
+O próximo passo é instalar todas as dependências necessárias para rodar o projeto. Se o projeto usa Node.js, você deve ver um arquivo `package.json` no diretório raiz do projeto. Para instalar as dependências, use o seguinte comando:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 5. Rodar o Projeto
+
+Depois de instalar todas as dependências, você pode rodar o projeto. Se o projeto usa Node.js, você provavelmente encontrará um script `start` definido no arquivo `package.json`. Você pode iniciar o projeto com:
+
+```bash
+npm start
+```
+
+### 6. Verificar a Documentação do Projeto
+
+Finalmente, é sempre uma boa ideia verificar a documentação do projeto (por exemplo, arquivos `README.md` ou `docs/`) para instruções adicionais ou específicas para rodar o projeto.
+
+## Resumo
+
+1. Clonar o repositório:
+
+    ```bash
+    git clone https://github.com/Connect-Eco/connecteco.git
+    ```
+
+2. Acessar o diretório do repositório:
+
+    ```bash
+    cd connecteco
+    ```
+
+3. Mudar para a branch `developer`:
+
+    ```bash
+    git checkout developer
+    ```
+
+4. Instalar as dependências:
+
+    ```bash
+    npm install
+    ```
+
+5. Rodar o projeto:
+
+    ```bash
+    npm run dev
+    ```
+6. Porta local:
+
+    ```
+     http://localhost:3000
+    ```
+
+Seguindo esses passos, você deve ser capaz de clonar, instalar e rodar o projeto do repositório `connecteco` na branch `developer`.
+```
+
+Você pode copiar este texto e colá-lo no seu `README.md`. Isso dará aos usuários uma orientação clara sobre como configurar e executar o projeto usando `npm`.
