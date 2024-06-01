@@ -45,9 +45,6 @@ export function ButtonsMaterials({
               className={`materials__button ${selectedMaterial === material ? 'materials__button--selected' : ''}`}
               onClick={() => {
                 setSelectedMaterial(material);
-                setSelectedEstado("");
-                setSelectedCidade("");
-                setSelectedBairro("");
               }}
             >
               {material}
