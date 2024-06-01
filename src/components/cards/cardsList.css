@@ -47,11 +47,6 @@
   color: #ffffff;
 }
 
-.cards__select_state {
-}
-
-.cards__select_city {
-}
 .cards__select_neighborhoods {
   max-width: 768px;
   width: 100%;
@@ -67,9 +62,8 @@
   list-style: none;
   align-items: center;
   margin-bottom: 20px;
-  padding: 0 10px;
   row-gap: 30px;
-  column-gap: 10px;
+  column-gap: 8px;
 }
 
 .card__list {
@@ -153,12 +147,12 @@
   width: 207px;
   height: 30px;
   margin-top: 6px;
-  gap: 5px;
+  gap: 4px;
 }
 
 .card__container_schedules {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 
