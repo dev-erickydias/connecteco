@@ -9,6 +9,9 @@
   background: #ffffff;
   overflow: hidden;
 }
+.banner__container{
+  padding: 0 10px;
+}
 .banner__home {
   width: 100%;
   max-width: 1216px;
