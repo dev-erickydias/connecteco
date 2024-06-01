@@ -1,7 +1,6 @@
 import Card from "./Card";
 import postIntegrants from "@/constants/postIntegrantes";
 export default function CardsAbout() {
-  console.log(postIntegrants);
   return (
     <ul className="cards-about">
       {postIntegrants.map((integrante) => {
