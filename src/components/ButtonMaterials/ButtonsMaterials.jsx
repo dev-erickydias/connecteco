@@ -13,14 +13,14 @@ export function ButtonsMaterials() {
       setIsLargeScreen(window.innerWidth > 768);
     };
 
-    handleResize(); // Chamando imediatamente para configurar o estado inicial
+    handleResize(); 
 
     window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []); // Dependência vazia para garantir que isso só seja executado uma vez após a montagem do componente
+  }, []);
 
   const handleChange = (event) => {
     setSelectedMaterial(event.target.value);
