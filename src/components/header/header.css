@@ -172,9 +172,11 @@
     font-weight: 500;
   }
   .nav__menu__link-active {
-    border-bottom: 2px solid #348b61;
-    border-radius: 5px;
+    border-bottom: 5px solid #348b61;
     color: #094d2c;
+    display: flex;
+    height: 70px;
+    align-items: center;
   }
   .nav__menu__link-inactive {
     color: #515151;
