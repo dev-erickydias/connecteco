@@ -34,16 +34,17 @@ export function Header() {
     <header className="header">
       <div className="header__container_content">
         <Logo />
-        {windowWidth < 768 ? (
-          <HamburgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
-        ) : (
-          <Navbar />
-        )}
+      
         {isOpen && <Navbar />}        
         {windowWidth > 530 && (
           <div>
             <Location />
           </div>
+        )}
+          {windowWidth < 768 ? (
+          <HamburgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
+        ) : (
+          <Navbar />
         )}
       </div>
     </header>
