@@ -93,5 +93,3 @@ Finalmente, é sempre uma boa ideia verificar a documentação do projeto (por e
 
 Seguindo esses passos, você deve ser capaz de clonar, instalar e rodar o projeto do repositório `connecteco` na branch `developer`.
 ```
-
-Você pode copiar este texto e colá-lo no seu `README.md`. Isso dará aos usuários uma orientação clara sobre como configurar e executar o projeto usando `npm`.
