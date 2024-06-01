@@ -1,7 +1,7 @@
 "use client";
 import "./buttonsMaterials.css";
 import { useState, useEffect } from 'react';
-import CustomButton from "../../components/CustomButton.jsx";
+import CustomButton from "../CustomButton.jsx";
 import materials from "../../constants/materials.js";
 
 export function ButtonsMaterials() {
