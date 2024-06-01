@@ -6,16 +6,6 @@ import { Location } from "./Location";
 import { Logo } from "./Logo";
 import { Navbar } from "./NavBar";
 
-function HamburgerMenu({ toggleMenu, isOpen }) {
-  return (
-    <button
-      className={`hamburger-menu__button ${isOpen ? 'hamburger-menu__button--white' : ''}`}
-      onClick={toggleMenu}
-    >
-    </button>
-  );
-}
-
 export function Header() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isOpen, setIsOpen] = useState(false);
@@ -29,23 +19,24 @@ export function Header() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
- 
+
   return (
     <header className="header">
       <div className="header__container_content">
-      {isOpen && <Navbar />}
+        {isOpen && <Navbar />}
         <div className="header__menu">
-          <Logo />
-          
-          {windowWidth > 530 && (
-            <div>
-              <Location />
-            </div>
-          )}
-            {windowWidth < 768 ? (
-            <HamburgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
-          ) : (
-            <Navbar />
+          <div className="header__menu-logo">
+            <Logo />
+            {windowWidth > 768 && <Navbar />}
+          </div>
+          {windowWidth > 530 && <Location />}
+          {windowWidth < 768 && (
+            <button
+              className={`hamburger-menu__button ${
+                isOpen ? "hamburger-menu__button--white" : ""
+              }`}
+              onClick={toggleMenu}
+            ></button>
           )}
         </div>
       </div>
