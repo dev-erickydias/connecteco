@@ -1,20 +1,15 @@
 "use client";
 
 import "./header.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Location } from "./Location";
 import { Logo } from "./Logo";
 import { Navbar } from "./NavBar";
+import UseWindowWidth from "../UseWindowWidth";
 
 export function Header() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const windowWidth = UseWindowWidth();
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

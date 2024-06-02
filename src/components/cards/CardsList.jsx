@@ -4,24 +4,7 @@ import "./cardsList.css";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import ecoPontos from "../../constants/ecopontos";
-
-const useWindowWidth = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  return windowWidth;
-};
+import UseWindowWidth from "../UseWindowWidth";
 
 const isMaterialMatch = (selectedMaterial, tipoDeMaterial) => {
   const materialArray = tipoDeMaterial.split(',').map(material => material.trim());
@@ -97,7 +80,7 @@ export function CardsList({
 }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(12);
-  const windowWidth = useWindowWidth();
+  const windowWidth = UseWindowWidth();
 
   useEffect(() => {
     if (windowWidth < 768) {
