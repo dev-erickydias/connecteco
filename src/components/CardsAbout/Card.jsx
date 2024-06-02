@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Card({ nome, descricao, descricaoDois, cargo, src, alt, width, height, linkedin, gitHub }) {
     if (descricao) {
         return (
-            <li className="card">
+            <div className="card">
                 <CustomImage className="card__image" width={width} height={height} src={src} alt={alt} />
                 {cargo ? <h2 className='card__cargo'>{cargo}</h2> : null}
 
@@ -21,7 +21,7 @@ export default function Card({ nome, descricao, descricaoDois, cargo, src, alt, 
                     {linkedin ? <CustomButton className={"card-about__btn"}><Link href={linkedin} target='_blank'>Linkedin</Link></CustomButton> : null}
                     {gitHub ? <CustomButton className={"card-about__btn"}><Link href={gitHub} target='_blank'>GitHub</Link></CustomButton> : null}
                 </div>
-            </li>
+            </div>
         );
     } else {
         return null;
