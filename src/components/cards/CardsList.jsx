@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import ecoPontos from "../../constants/ecopontos";
 
-// Hook personalizado para lidar com o redimensionamento da janela
 const useWindowWidth = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -24,11 +23,21 @@ const useWindowWidth = () => {
   return windowWidth;
 };
 
-// Hook personalizado para lidar com a lógica de filtro
+const isMaterialMatch = (selectedMaterial, tipoDeMaterial) => {
+  const materialArray = tipoDeMaterial.split(',').map(material => material.trim());
+
+  if (selectedMaterial === "Todos") return true;
+  if (selectedMaterial === "Plástico" || selectedMaterial === "Papel") {
+    return materialArray.includes("Coleta seletiva");
+  }
+  return materialArray.includes(selectedMaterial);
+};
+
 const useFilteredEcoPontos = (
   selectedEstado,
   selectedCidade,
-  selectedBairro
+  selectedBairro,
+  selectedMaterial
 ) => {
   const estados = [...new Set(ecoPontos.map((ponto) => ponto.estado))].sort();
   const cidades = [
@@ -46,18 +55,18 @@ const useFilteredEcoPontos = (
     ),
   ].sort();
 
-  const filteredEcoPontos = ecoPontos.filter(
-    (ponto) =>
-      (!selectedEstado || ponto.estado === selectedEstado) &&
-      (!selectedCidade || ponto.cidade === selectedCidade) &&
-      (!selectedBairro || ponto.bairro === selectedBairro) &&
-      ponto.horario_seg_sex !== "Não disponível"
-  );
+  const filteredEcoPontos = ecoPontos.filter((ponto) => {
+    const matchEstado = !selectedEstado || ponto.estado === selectedEstado;
+    const matchCidade = !selectedCidade || ponto.cidade === selectedCidade;
+    const matchBairro = !selectedBairro || ponto.bairro === selectedBairro;
+    const matchMaterial = isMaterialMatch(selectedMaterial, ponto.tipo_de_material);
+
+    return matchEstado && matchCidade && matchBairro && matchMaterial;
+  });
 
   return { estados, cidades, bairros, filteredEcoPontos };
 };
 
-// Hook personalizado para lidar com a lógica de paginação
 const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -71,15 +80,25 @@ const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   return { currentItems, totalPages };
 };
 
-export function CardsList() {
-  const [selectedEstado, setSelectedEstado] = useState("");
-  const [selectedCidade, setSelectedCidade] = useState("");
-  const [selectedBairro, setSelectedBairro] = useState("");
+const generateGoogleMapsLink = (ponto) => {
+  const enderecoCompleto = `${ponto.endereço}, ${ponto.bairro}, ${ponto.cidade}, ${ponto.estado}`;
+  const enderecoCodificado = encodeURIComponent(enderecoCompleto);
+  return `https://www.google.com/maps/search/?api=1&query=${enderecoCodificado}`;
+};
+
+export function CardsList({ 
+  selectedMaterial, 
+  selectedEstado, 
+  selectedCidade, 
+  selectedBairro,
+  setSelectedEstado,
+  setSelectedCidade,
+  setSelectedBairro 
+}) {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(12);
   const windowWidth = useWindowWidth();
 
-  // Ajusta a quantidade de itens por página com base na largura da janela
   useEffect(() => {
     if (windowWidth < 768) {
       setItemsPerPage(3);
@@ -91,7 +110,8 @@ export function CardsList() {
   const { estados, cidades, bairros, filteredEcoPontos } = useFilteredEcoPontos(
     selectedEstado,
     selectedCidade,
-    selectedBairro
+    selectedBairro,
+    selectedMaterial
   );
   const { currentItems, totalPages } = usePagination(
     filteredEcoPontos,
@@ -115,7 +135,7 @@ export function CardsList() {
               setSelectedEstado(e.target.value);
               setSelectedCidade("");
               setSelectedBairro("");
-              setCurrentPage(1); // Resetar a página ao alterar o estado
+              setCurrentPage(1);
             }}
           >
             <option value="">Estado</option>
@@ -131,7 +151,7 @@ export function CardsList() {
             onChange={(e) => {
               setSelectedCidade(e.target.value);
               setSelectedBairro("");
-              setCurrentPage(1); // Resetar a página ao alterar a cidade
+              setCurrentPage(1);
             }}
             disabled={!selectedEstado}
           >
@@ -147,7 +167,7 @@ export function CardsList() {
             value={selectedBairro}
             onChange={(e) => {
               setSelectedBairro(e.target.value);
-              setCurrentPage(1); // Resetar a página ao alterar o bairro
+              setCurrentPage(1);
             }}
             disabled={!selectedCidade}
           >
@@ -187,7 +207,7 @@ export function CardsList() {
                 </div>
               </div>
               <div className="card__link_map">
-                <Link className="card__Link" href="/#">
+                <Link className="card__Link" href={generateGoogleMapsLink(ponto)} target="_blank">
                   Como chegar
                 </Link>
                 <div className="card__icon_arrow" />

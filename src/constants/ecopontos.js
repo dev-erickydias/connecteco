@@ -1,4 +1,4 @@
-const ecoPontos = [
+const ecoPontos =[
     {
         "id": 1,
         "estado": "SP",
@@ -4461,942 +4461,6 @@ const ecoPontos = [
     {
         "id": 344,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "RUA AURÉLIA, 1973",
-        "bairro": "Vila Romana",
-        "tipo_de_material": "Cápsulas de café",
-        "horario_seg_sex": "Não disponível",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 345,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua James Holland, 668",
-        "bairro": "Guaianases",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 346,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Raimundo Pereira de Magalhães - de 11000, 11001",
-        "bairro": "Vila Paranagua",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 347,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida das Nações Unidas - de 12997 a 17279 - lado ímpar, 15187",
-        "bairro": "Freguesia do Ó",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 348,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Senador Teotônio Vilela, 1324",
-        "bairro": "Guaianases",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 349,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Cupecê, 3036",
-        "bairro": "Jardim Três Marias",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 350,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida São Miguel, 4525",
-        "bairro": "Vila Nina",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 351,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Sapopemba, 3681",
-        "bairro": "Jardim Aimore",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 352,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Estrada de Itapecerica, 3880",
-        "bairro": "Jardim Sonia Regina",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 353,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Frei Aníbal de Gênova, 1413",
-        "bairro": "Jardim das Oliveiras",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 354,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Paranaguá, 1477",
-        "bairro": "Jardim São Luís",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 355,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Santa Marina, 2687",
-        "bairro": "Limão",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 356,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Professor João de Lima Paiva, 65",
-        "bairro": "Paraisópolis",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 357,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Ragueb Chohfi, 3248",
-        "bairro": "Jardim São Gonçalo",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 358,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Parapuã, 1407",
-        "bairro": "Vila Perus",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 359,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Marechal Tito, 4399",
-        "bairro": "Vila Pirituba",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 360,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Luís Baldinato, s/n",
-        "bairro": "Centro Histórico de São Paulo",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 361,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Doutor Almiro Leal da Costa, 370",
-        "bairro": "Rio Pequeno",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 362,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Maria Coelho Aguiar, 960",
-        "bairro": "Santana",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 363,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Professor Celestino Bourroul, 847",
-        "bairro": "Cidade São Mateus",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 364,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Ernest Renan, 1032",
-        "bairro": "Vila Doutor Eiras",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 365,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Estrada da Colônia, 245",
-        "bairro": "Vila da Saúde",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 366,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Doutor Sylvio de Campos, 25",
-        "bairro": "Parada Inglesa",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 367,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Benedito Andrade, 176",
-        "bairro": "Jardim Vergueiro (Sacoma)",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 368,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Praça Ramos De Azevedo, 131",
-        "bairro": "Vila Prudente",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 369,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida do Rio Pequeno, 1158",
-        "bairro": "Vila Ré",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 370,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Voluntários da Pátria, 1943",
-        "bairro": "Vila Medeiros",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 371,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Mateo Bei, 3083",
-        "bairro": "Vila Pirajussara",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 372,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Marechal Tito, 844",
-        "bairro": "Vila Pirajussara",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 373,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Jabaquara, 452",
-        "bairro": "Ipiranga",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 374,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Domingos Calheiros, 38",
-        "bairro": "Itaim Paulista",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 375,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Padre Arlindo Vieira, 1273",
-        "bairro": "Lapa",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 376,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Praça Padre Damião, 93",
-        "bairro": "Penha de França",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 377,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Itinguçú, 1879",
-        "bairro": "São Miguel Paulista",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 378,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Goianésia, 11",
-        "bairro": "Vila Formosa",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 379,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Estrada do Campo Limpo, 3935",
-        "bairro": "Vila Maria",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 380,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Estrada do Campo Limpo, 4162",
-        "bairro": "Vila Matilde",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 381,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Silva Bueno, 2153",
-        "bairro": "Vila dos Andrades",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 382,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Marechal Tito, 3154",
-        "bairro": "Itaim Bibi",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 383,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Doze de Outubro, 215",
-        "bairro": "Mooca",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 384,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Praça Oito de Setembro, 58",
-        "bairro": "Carandiru",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 385,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Arlíndo Colaço, 404",
-        "bairro": "Luz",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 386,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Praça Doutor Sampaio Vidal, 49",
-        "bairro": "Bela Vista",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 387,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Guilherme Cotching, 1442",
-        "bairro": "Vila Clementino",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 388,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Waldemar Carlos Pereira, 1151",
-        "bairro": "Jardim Umuarama",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 389,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Itaberaba - de 1931, 5080",
-        "bairro": "Jardim Maria Luiza",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 390,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua João Cachoeira - de 851 a 1139 - lado ímpar, 899",
-        "bairro": "Vila Regente Feijó",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 391,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Javari, 403",
-        "bairro": "Vila Guilherme",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 392,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Zaki Narchi - de 1001, 1650",
-        "bairro": "Vila Santa Eulália",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 393,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Tiradentes, 615",
-        "bairro": "Parque Residencial da Lapa",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 394,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Doutor Plínio Barreto, 285",
-        "bairro": "Jardim das Acacias",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 395,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Pedro de Toledo - de 322 a 602 - lado par, 572",
-        "bairro": "Butantã",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 396,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Interlagos, 2255",
-        "bairro": "Aclimação",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 397,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rodovia Raposo Tavares, s / n",
-        "bairro": "Higienópolis",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 398,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Regente Feijó, 1425",
-        "bairro": "Vila Andrade",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 399,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Otto Baumgart, 500",
-        "bairro": "Jardim Aeroporto",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 400,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Doutor Ricardo Jafet, 1501",
-        "bairro": "Ipiranga",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 401,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Presidente Castelo Branco, 6061",
-        "bairro": "Itaquera",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 402,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Roque Petroni Júnior, 1089",
-        "bairro": "Pinheiros",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 403,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Carlos Lisdegno Carlucci, 519",
-        "bairro": "Vila Mariana",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 404,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Muniz de Sousa - de 695, 1119",
-        "bairro": "Vila Guarani",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 405,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Angélica - até 955 - lado ímpar, 1500",
-        "bairro": "Tatuapé",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 406,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Dona Helena Pereira de Moraes, 200",
-        "bairro": "Cerqueira César",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 407,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Alsácia, 507",
-        "bairro": "Vila Maria",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 408,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Nazaré - de 1353 ao fim - lado ímpar, s/n",
-        "bairro": "Água Branca",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 409,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Afonso de Sampaio e Sousa - até 698, 951",
-        "bairro": "Paraíso",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 410,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Henrique Chamma, 420",
-        "bairro": "Santo Amaro",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 411,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Pedro Álvares Cabral, 0",
-        "bairro": "Itaquera",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 412,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Volkswagen, s/n",
-        "bairro": "Parque Colonial",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 413,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Tuiuti - de 32, 515",
-        "bairro": "Pinheiros",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 414,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Rua Peixoto Gomide - até 1249 - lado ímpar, 949",
-        "bairro": "Itaquera",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 415,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Não informado",
-        "endereço": "Avenida Nadir Dias de Figueiredo, s/n",
-        "bairro": "Parque São Lourenço",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "07:00h-18:00h",
-        "horario_sab": "07:00h-14:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 416,
-        "estado": "SP",
         "cidade": "Hortolândia",
         "local": "Ponto Faber Castell",
         "endereço": "Hortolândia, Av.Thereza Ana Cecon Breda, 1896 Vila São Pedro",
@@ -5408,7 +4472,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 417,
+        "id": 345,
         "estado": "SP",
         "cidade": "Tietê",
         "local": "Ponto Faber Castell",
@@ -5421,7 +4485,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 418,
+        "id": 346,
         "estado": "SP",
         "cidade": "Limeira",
         "local": "Ponto Faber Castell",
@@ -5434,7 +4498,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 419,
+        "id": 347,
         "estado": "SP",
         "cidade": "Limeira",
         "local": "Ponto Faber Castell",
@@ -5447,7 +4511,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 420,
+        "id": 348,
         "estado": "SP",
         "cidade": "Juquiá",
         "local": "Ponto Faber Castell",
@@ -5460,7 +4524,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 421,
+        "id": 349,
         "estado": "SP",
         "cidade": "Itapetininga",
         "local": "Ponto Faber Castell",
@@ -5473,7 +4537,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 422,
+        "id": 350,
         "estado": "SP",
         "cidade": "Registro",
         "local": "Ponto Faber Castell",
@@ -5486,7 +4550,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 423,
+        "id": 351,
         "estado": "SP",
         "cidade": "Barra Velha",
         "local": "Ponto Faber Castell",
@@ -5499,7 +4563,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 424,
+        "id": 352,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5512,7 +4576,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 425,
+        "id": 353,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Exército da Salvação",
@@ -5525,7 +4589,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 426,
+        "id": 354,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Exército da Salvação",
@@ -5538,7 +4602,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 427,
+        "id": 355,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Exército da Salvação",
@@ -5551,7 +4615,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 428,
+        "id": 356,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Exército da Salvação",
@@ -5564,7 +4628,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 429,
+        "id": 357,
         "estado": "SP",
         "cidade": "Itaquaquecetuba",
         "local": "Exército da Salvação",
@@ -5577,7 +4641,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 430,
+        "id": 358,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Exército da Salvação",
@@ -5590,7 +4654,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 431,
+        "id": 359,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Exército da Salvação",
@@ -5603,7 +4667,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 432,
+        "id": 360,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Exército da Salvação",
@@ -5616,7 +4680,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 433,
+        "id": 361,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Exército da Salvação",
@@ -5629,7 +4693,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 434,
+        "id": 362,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Exército da Salvação",
@@ -5642,7 +4706,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 435,
+        "id": 363,
         "estado": "SP",
         "cidade": "Suzano",
         "local": "Exército da Salvação",
@@ -5655,7 +4719,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 436,
+        "id": 364,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Exército da Salvação",
@@ -5668,7 +4732,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 437,
+        "id": 365,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Exército da Salvação",
@@ -5681,7 +4745,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 438,
+        "id": 366,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Exército da Salvação",
@@ -5694,7 +4758,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 439,
+        "id": 367,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "Exército da Salvação",
@@ -5707,7 +4771,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 440,
+        "id": 368,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5720,7 +4784,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 441,
+        "id": 369,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5733,7 +4797,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 442,
+        "id": 370,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5746,7 +4810,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 443,
+        "id": 371,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5759,7 +4823,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 444,
+        "id": 372,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5772,7 +4836,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 445,
+        "id": 373,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5785,7 +4849,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 446,
+        "id": 374,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5798,7 +4862,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 447,
+        "id": 375,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5811,7 +4875,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 448,
+        "id": 376,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5824,7 +4888,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 449,
+        "id": 377,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5837,7 +4901,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 450,
+        "id": 378,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5850,7 +4914,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 451,
+        "id": 379,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5863,7 +4927,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 452,
+        "id": 380,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5876,7 +4940,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 453,
+        "id": 381,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5889,7 +4953,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 454,
+        "id": 382,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5902,7 +4966,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 455,
+        "id": 383,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5915,7 +4979,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 456,
+        "id": 384,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5928,7 +4992,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 457,
+        "id": 385,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5941,7 +5005,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 458,
+        "id": 386,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5954,7 +5018,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 459,
+        "id": 387,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5967,7 +5031,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 460,
+        "id": 388,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5980,7 +5044,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 461,
+        "id": 389,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -5993,7 +5057,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 462,
+        "id": 390,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6006,7 +5070,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 463,
+        "id": 391,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6019,7 +5083,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 464,
+        "id": 392,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6032,7 +5096,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 465,
+        "id": 393,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6045,7 +5109,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 466,
+        "id": 394,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6058,7 +5122,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 467,
+        "id": 395,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6071,7 +5135,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 468,
+        "id": 396,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6084,7 +5148,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 469,
+        "id": 397,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6097,7 +5161,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 470,
+        "id": 398,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6110,7 +5174,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 471,
+        "id": 399,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6123,7 +5187,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 472,
+        "id": 400,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6136,7 +5200,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 473,
+        "id": 401,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6149,7 +5213,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 474,
+        "id": 402,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6162,7 +5226,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 475,
+        "id": 403,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6175,7 +5239,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 476,
+        "id": 404,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6188,7 +5252,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 477,
+        "id": 405,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6201,7 +5265,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 478,
+        "id": 406,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6214,7 +5278,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 479,
+        "id": 407,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6227,7 +5291,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 480,
+        "id": 408,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Exército da Salvação",
@@ -6240,7 +5304,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 481,
+        "id": 409,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6253,7 +5317,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 482,
+        "id": 410,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6266,7 +5330,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 483,
+        "id": 411,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6279,7 +5343,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 484,
+        "id": 412,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6292,7 +5356,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 485,
+        "id": 413,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6305,7 +5369,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 486,
+        "id": 414,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6318,7 +5382,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 487,
+        "id": 415,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6331,7 +5395,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 488,
+        "id": 416,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6344,7 +5408,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 489,
+        "id": 417,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6357,7 +5421,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 490,
+        "id": 418,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6370,7 +5434,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 491,
+        "id": 419,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6383,7 +5447,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 492,
+        "id": 420,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6396,7 +5460,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 493,
+        "id": 421,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6409,7 +5473,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 494,
+        "id": 422,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6422,7 +5486,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 495,
+        "id": 423,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6435,7 +5499,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 496,
+        "id": 424,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6448,7 +5512,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 497,
+        "id": 425,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6461,7 +5525,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 498,
+        "id": 426,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6474,7 +5538,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 499,
+        "id": 427,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6487,7 +5551,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 500,
+        "id": 428,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6500,7 +5564,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 501,
+        "id": 429,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6513,7 +5577,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 502,
+        "id": 430,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6526,7 +5590,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 503,
+        "id": 431,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6539,7 +5603,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 504,
+        "id": 432,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6552,7 +5616,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 505,
+        "id": 433,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6565,7 +5629,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 506,
+        "id": 434,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6578,7 +5642,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 507,
+        "id": 435,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6591,7 +5655,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 508,
+        "id": 436,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6604,7 +5668,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 509,
+        "id": 437,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6617,7 +5681,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 510,
+        "id": 438,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6630,7 +5694,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 511,
+        "id": 439,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6643,7 +5707,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 512,
+        "id": 440,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6656,7 +5720,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 513,
+        "id": 441,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6669,7 +5733,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 514,
+        "id": 442,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6682,7 +5746,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 515,
+        "id": 443,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6695,7 +5759,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 516,
+        "id": 444,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6708,7 +5772,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 517,
+        "id": 445,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6721,7 +5785,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 518,
+        "id": 446,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6734,7 +5798,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 519,
+        "id": 447,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6747,7 +5811,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 520,
+        "id": 448,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6760,7 +5824,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 521,
+        "id": 449,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6773,7 +5837,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 522,
+        "id": 450,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6786,7 +5850,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 523,
+        "id": 451,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6799,7 +5863,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 524,
+        "id": 452,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6812,7 +5876,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 525,
+        "id": 453,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6825,7 +5889,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 526,
+        "id": 454,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6838,7 +5902,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 527,
+        "id": 455,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6851,7 +5915,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 528,
+        "id": 456,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6864,7 +5928,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 529,
+        "id": 457,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6877,7 +5941,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 530,
+        "id": 458,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6890,7 +5954,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 531,
+        "id": 459,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6903,7 +5967,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 532,
+        "id": 460,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6916,7 +5980,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 533,
+        "id": 461,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -6929,7 +5993,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 534,
+        "id": 462,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6942,7 +6006,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 535,
+        "id": 463,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6955,7 +6019,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 536,
+        "id": 464,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6968,7 +6032,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 537,
+        "id": 465,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6981,7 +6045,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 538,
+        "id": 466,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -6994,7 +6058,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 539,
+        "id": 467,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -7007,7 +6071,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 540,
+        "id": 468,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -7020,7 +6084,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 541,
+        "id": 469,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7033,7 +6097,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 542,
+        "id": 470,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7046,7 +6110,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 543,
+        "id": 471,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Boticário",
@@ -7059,7 +6123,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 544,
+        "id": 472,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7072,7 +6136,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 545,
+        "id": 473,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7085,7 +6149,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 546,
+        "id": 474,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7098,7 +6162,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 547,
+        "id": 475,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7111,7 +6175,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 548,
+        "id": 476,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7124,7 +6188,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 549,
+        "id": 477,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7137,7 +6201,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 550,
+        "id": 478,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7150,7 +6214,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 551,
+        "id": 479,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7163,7 +6227,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 552,
+        "id": 480,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7176,7 +6240,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 553,
+        "id": 481,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7189,7 +6253,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 554,
+        "id": 482,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7202,7 +6266,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 555,
+        "id": 483,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7215,7 +6279,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 556,
+        "id": 484,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7228,7 +6292,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 557,
+        "id": 485,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7241,7 +6305,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 558,
+        "id": 486,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Boticário",
@@ -7254,7 +6318,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 559,
+        "id": 487,
         "estado": "GO",
         "cidade": "Aparecida de Goiânia",
         "local": "Heineken",
@@ -7267,7 +6331,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 560,
+        "id": 488,
         "estado": "GO",
         "cidade": "Aparecida de Goiânia",
         "local": "Heineken",
@@ -7280,7 +6344,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 561,
+        "id": 489,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7293,7 +6357,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 562,
+        "id": 490,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7306,7 +6370,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 563,
+        "id": 491,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7319,7 +6383,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 564,
+        "id": 492,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7332,7 +6396,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 565,
+        "id": 493,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7345,7 +6409,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 566,
+        "id": 494,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7358,7 +6422,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 567,
+        "id": 495,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7371,7 +6435,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 568,
+        "id": 496,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7384,7 +6448,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 569,
+        "id": 497,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7397,7 +6461,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 570,
+        "id": 498,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7410,7 +6474,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 571,
+        "id": 499,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7423,7 +6487,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 572,
+        "id": 500,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7436,7 +6500,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 573,
+        "id": 501,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7449,7 +6513,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 574,
+        "id": 502,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7462,7 +6526,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 575,
+        "id": 503,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7475,7 +6539,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 576,
+        "id": 504,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7488,7 +6552,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 577,
+        "id": 505,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7501,7 +6565,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 578,
+        "id": 506,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7514,7 +6578,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 579,
+        "id": 507,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7527,7 +6591,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 580,
+        "id": 508,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7540,7 +6604,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 581,
+        "id": 509,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7553,7 +6617,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 582,
+        "id": 510,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7566,7 +6630,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 583,
+        "id": 511,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7579,7 +6643,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 584,
+        "id": 512,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7592,7 +6656,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 585,
+        "id": 513,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7605,7 +6669,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 586,
+        "id": 514,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7618,7 +6682,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 587,
+        "id": 515,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7631,7 +6695,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 588,
+        "id": 516,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7644,7 +6708,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 589,
+        "id": 517,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7657,7 +6721,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 590,
+        "id": 518,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7670,7 +6734,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 591,
+        "id": 519,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Heineken",
@@ -7683,7 +6747,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 592,
+        "id": 520,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Heineken",
@@ -7696,7 +6760,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 593,
+        "id": 521,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Heineken",
@@ -7709,7 +6773,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 594,
+        "id": 522,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Heineken",
@@ -7722,7 +6786,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 595,
+        "id": 523,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Heineken",
@@ -7735,7 +6799,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 596,
+        "id": 524,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Heineken",
@@ -7748,7 +6812,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 597,
+        "id": 525,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Heineken",
@@ -7761,7 +6825,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 598,
+        "id": 526,
         "estado": "BA",
         "cidade": "Camaçari",
         "local": "Heineken",
@@ -7774,7 +6838,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 599,
+        "id": 527,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Heineken",
@@ -7787,7 +6851,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 600,
+        "id": 528,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Heineken",
@@ -7800,7 +6864,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 601,
+        "id": 529,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Heineken",
@@ -7813,7 +6877,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 602,
+        "id": 530,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7826,7 +6890,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 603,
+        "id": 531,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7839,7 +6903,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 604,
+        "id": 532,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7852,7 +6916,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 605,
+        "id": 533,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7865,7 +6929,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 606,
+        "id": 534,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7878,7 +6942,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 607,
+        "id": 535,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7891,7 +6955,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 608,
+        "id": 536,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7904,7 +6968,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 609,
+        "id": 537,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7917,7 +6981,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 610,
+        "id": 538,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7930,7 +6994,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 611,
+        "id": 539,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7943,7 +7007,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 612,
+        "id": 540,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7956,7 +7020,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 613,
+        "id": 541,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7969,7 +7033,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 614,
+        "id": 542,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7982,7 +7046,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 615,
+        "id": 543,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -7995,7 +7059,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 616,
+        "id": 544,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8008,7 +7072,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 617,
+        "id": 545,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8021,7 +7085,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 618,
+        "id": 546,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8034,7 +7098,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 619,
+        "id": 547,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8047,7 +7111,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 620,
+        "id": 548,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8060,7 +7124,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 621,
+        "id": 549,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8073,7 +7137,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 622,
+        "id": 550,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8086,7 +7150,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 623,
+        "id": 551,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8099,7 +7163,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 624,
+        "id": 552,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8112,7 +7176,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 625,
+        "id": 553,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8125,7 +7189,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 626,
+        "id": 554,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8138,7 +7202,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 627,
+        "id": 555,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8151,7 +7215,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 628,
+        "id": 556,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8164,7 +7228,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 629,
+        "id": 557,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8177,7 +7241,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 630,
+        "id": 558,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8190,7 +7254,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 631,
+        "id": 559,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heineken",
@@ -8203,7 +7267,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 632,
+        "id": 560,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8216,7 +7280,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 633,
+        "id": 561,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8229,7 +7293,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 634,
+        "id": 562,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8242,7 +7306,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 635,
+        "id": 563,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8255,7 +7319,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 636,
+        "id": 564,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8268,7 +7332,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 637,
+        "id": 565,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8281,7 +7345,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 638,
+        "id": 566,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8294,7 +7358,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 639,
+        "id": 567,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8307,7 +7371,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 640,
+        "id": 568,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8320,7 +7384,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 641,
+        "id": 569,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8333,7 +7397,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 642,
+        "id": 570,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8346,7 +7410,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 643,
+        "id": 571,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8359,7 +7423,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 644,
+        "id": 572,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8372,7 +7436,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 645,
+        "id": 573,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8385,7 +7449,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 646,
+        "id": 574,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8398,7 +7462,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 647,
+        "id": 575,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8411,7 +7475,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 648,
+        "id": 576,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8424,7 +7488,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 649,
+        "id": 577,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8437,7 +7501,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 650,
+        "id": 578,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8450,7 +7514,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 651,
+        "id": 579,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8463,7 +7527,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 652,
+        "id": 580,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8476,7 +7540,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 653,
+        "id": 581,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8489,7 +7553,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 654,
+        "id": 582,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8502,7 +7566,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 655,
+        "id": 583,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8515,7 +7579,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 656,
+        "id": 584,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8528,7 +7592,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 657,
+        "id": 585,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8541,7 +7605,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 658,
+        "id": 586,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8554,7 +7618,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 659,
+        "id": 587,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8567,7 +7631,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 660,
+        "id": 588,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8580,7 +7644,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 661,
+        "id": 589,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8593,7 +7657,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 662,
+        "id": 590,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8606,7 +7670,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 663,
+        "id": 591,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8619,7 +7683,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 664,
+        "id": 592,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8632,7 +7696,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 665,
+        "id": 593,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8645,7 +7709,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 666,
+        "id": 594,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8658,7 +7722,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 667,
+        "id": 595,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8671,7 +7735,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 668,
+        "id": 596,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8684,7 +7748,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 669,
+        "id": 597,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8697,7 +7761,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 670,
+        "id": 598,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8710,7 +7774,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 671,
+        "id": 599,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8723,7 +7787,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 672,
+        "id": 600,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8736,7 +7800,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 673,
+        "id": 601,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8749,7 +7813,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 674,
+        "id": 602,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8762,7 +7826,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 675,
+        "id": 603,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8775,7 +7839,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 676,
+        "id": 604,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8788,7 +7852,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 677,
+        "id": 605,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8801,7 +7865,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 678,
+        "id": 606,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8814,7 +7878,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 679,
+        "id": 607,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8827,7 +7891,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 680,
+        "id": 608,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8840,7 +7904,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 681,
+        "id": 609,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8853,7 +7917,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 682,
+        "id": 610,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8866,7 +7930,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 683,
+        "id": 611,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8879,7 +7943,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 684,
+        "id": 612,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8892,7 +7956,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 685,
+        "id": 613,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8905,7 +7969,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 686,
+        "id": 614,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8918,7 +7982,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 687,
+        "id": 615,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8931,7 +7995,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 688,
+        "id": 616,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8944,7 +8008,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 689,
+        "id": 617,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pontos verdes",
@@ -8957,7 +8021,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 690,
+        "id": 618,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Assai Atacadista S/a",
@@ -8970,7 +8034,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 691,
+        "id": 619,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Associação Comercial De São Vicente",
@@ -8983,7 +8047,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 692,
+        "id": 620,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Atacadão S.a",
@@ -8996,7 +8060,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 693,
+        "id": 621,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Baratão Das Tintas",
@@ -9009,20 +8073,20 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 694,
+        "id": 622,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "C & C - Loja São Vicente",
         "endereço": "Antonio Emerick, 1424",
         "bairro": "centro",
-        "tipo_de_material": "Coleta seletiva, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Eletrônicos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 695,
+        "id": 623,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Carrefour",
@@ -9035,7 +8099,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 696,
+        "id": 624,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Casas Bahia São Vicente",
@@ -9048,7 +8112,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 697,
+        "id": 625,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Coopersam/Atecubesp",
@@ -9061,137 +8125,137 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 698,
+        "id": 626,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Droga Raia - Loja A",
         "endereço": "Frei Gaspar, 666",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 699,
+        "id": 627,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Droga Raia - Loja B",
         "endereço": "Frei Gaspar, 256",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 700,
+        "id": 628,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Droga Raia - Loja C",
         "endereço": "Frei Gaspar, 186",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 701,
+        "id": 629,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria Carrefour",
         "endereço": "Pref. José Monteiro, 1045",
         "bairro": "jd. independência",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 702,
+        "id": 630,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria São Paulo - Itararé",
         "endereço": "Rua Antonio D Nobrega, 104",
         "bairro": "itararé",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 703,
+        "id": 631,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria São Paulo - Pres.Wilson",
         "endereço": "Antonio Rodrigues, 186",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 704,
+        "id": 632,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria São Paulo - São Vicente 1",
         "endereço": "Frei Gaspar, 226",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 705,
+        "id": 633,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria São Paulo - São Vicente 2",
         "endereço": "Pça.Cornel Lopes, 172",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 706,
+        "id": 634,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria São Paulo - São Vicente 3",
         "endereço": "Frei Gaspar, 468",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 707,
+        "id": 635,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Drogaria São Paulo - São Vicente 4",
         "endereço": "Frei Gaspar, 594",
         "bairro": "centro",
-        "tipo_de_material": "Eletrônicos, medicamentos",
+        "tipo_de_material": "Eletrônicos, Medicamentos",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 708,
+        "id": 636,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Extra Supermercado - Humaitá",
@@ -9204,7 +8268,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 709,
+        "id": 637,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "F.j.Rodrigues Me (Ao Fei Barateiro)",
@@ -9217,7 +8281,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 710,
+        "id": 638,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Mercado Ativo",
@@ -9230,7 +8294,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 711,
+        "id": 639,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Mercado Extra",
@@ -9243,7 +8307,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 712,
+        "id": 640,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Multicoisas - Brisamar",
@@ -9256,7 +8320,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 713,
+        "id": 641,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Pague Menos",
@@ -9269,7 +8333,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 714,
+        "id": 642,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Pão De Açucar",
@@ -9282,7 +8346,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 715,
+        "id": 643,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Shopping Brisamar",
@@ -9295,7 +8359,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 716,
+        "id": 644,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Sodimac",
@@ -9308,7 +8372,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 717,
+        "id": 645,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Suzana Sá Vicente",
@@ -9321,7 +8385,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 718,
+        "id": 646,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Supermercado Pompeia",
@@ -9334,7 +8398,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 719,
+        "id": 647,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Sv Comercio De Baterias",
@@ -9347,7 +8411,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 720,
+        "id": 648,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Tintas Mc",
@@ -9360,7 +8424,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 721,
+        "id": 649,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Tintas São Miguel",
@@ -9373,13 +8437,949 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 722,
+        "id": 650,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Ecoponto Viaduto Engenheiro Alberto Badra",
         "endereço": "Avenida Aricanduva, nº 200",
         "bairro": "Aricanduva",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 651,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Astarte",
+        "endereço": "Rua Astarte, nº 500",
+        "bairro": "Vila Carrão",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 652,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Nova York",
+        "endereço": "Rua Amélia Vanso Magnoli, nº 480",
+        "bairro": "Conjunto Habitacional Barreira Grande",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 653,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Aricanduva I",
+        "endereço": "Rua Professor Alzira de Oliveira Gilioli, nº 400",
+        "bairro": "Jardim Nice",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 654,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Jardim Maria do Carmo",
+        "endereço": "Rua Caminho do Engenho, nº 800",
+        "bairro": "Ferreira",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 655,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Jardim Jaqueline",
+        "endereço": "Parque Raposo Tavares - Rua Walter Brito Belletti, s/nº",
+        "bairro": "Vila Albano",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 656,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Politécnica",
+        "endereço": "Rua Paulino Baptista Conti, nº 2",
+        "bairro": "Jardim Sarah",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 657,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Giovani Gronchi",
+        "endereço": "Avenida Giovani Gronchi, nº 3413",
+        "bairro": "Morumbi",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 658,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Santo Dias",
+        "endereço": "Travessa Rosifloras, nº 301",
+        "bairro": "Conjunto Habitacional Instituto Adventista",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 659,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Parque Fernanda",
+        "endereço": "Avenida Doutor Salvador Rocco, nº 261, defronte Rua Antônio Cânon",
+        "bairro": "Parque Fernanda",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 660,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Olinda",
+        "endereço": "Rua Nelson Brissac, nº 1235, esquina com Avenida Padre Adolfo Kolping",
+        "bairro": "Parque Regina",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 661,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Vila das Belezas",
+        "endereço": "Rua Campo Novo do Sul, nº 500",
+        "bairro": "Vila Andrade",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 662,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Paraisópolis",
+        "endereço": "Rua Irapará, nº 73",
+        "bairro": "Paraíso do Morumbi",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 663,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Cidade Saudável",
+        "endereço": "Rua Ptolomeu, nº 869",
+        "bairro": "Vila Socorro",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 664,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Parque Peruche",
+        "endereço": "Avenida Engenheiro Caetano Álvares, nº 3142",
+        "bairro": "Parque Peruche",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 665,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Vila Nova Cachoeirinha",
+        "endereço": "Rua Felix Alves Pereira, nº 113",
+        "bairro": "Jardim Centenário",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 666,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Vila Santa Maria",
+        "endereço": "Rua André Bolsena com a Travessa Luiz Sá",
+        "bairro": "Vila Santista",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 667,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Jardim Antártica",
+        "endereço": "Rua Dom Aquino, nº 103",
+        "bairro": "Jardim Antártica",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 668,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto São Leandro",
+        "endereço": "Rua São Leandro, nº 13",
+        "bairro": "Vila Palmeiras",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 669,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Ecoponto Alvarenga",
+        "endereço": "Estrada do Alvarenga, nº 2475",
+        "bairro": "Balneário Mar Paulista",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 670,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Cupecê",
+        "endereço": "Rua Anália Maria de Jesus, nº 130  Trav. Av. Cupecê",
+        "bairro": "Jardim Itacolomi",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 671,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Nascer do Sol",
+        "endereço": "Rua Nascer do Sol, nº 356",
+        "bairro": "Conjunto Habitacional Santa Etelvina II",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 672,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Setor G",
+        "endereço": "Rua Alfonso Asturaro, altura do nº 600",
+        "bairro": "Conjunto Habitacional Barro Branco II",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 673,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Inácio Monteiro",
+        "endereço": "Rua Regresso Feliz, nº 1190",
+        "bairro": "Conjunto Habitacional Inácio Monteiro",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 674,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Jardim São Nicolau",
+        "endereço": "Rua Agreste de Itabaiana, nº 590, esquina com Rua Eduardo Kyioshi Shimuta",
+        "bairro": "Vila União (Zona Leste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 675,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Boturussu",
+        "endereço": "Rua Nélio Batista Guimarães, nº 183",
+        "bairro": "Parque Boturussu",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 676,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Bandeirantes",
+        "endereço": "Rua Itaiquara, nº 237",
+        "bairro": "Itaberaba",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 677,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Freguesia do Ó",
+        "endereço": "Rua Sousa Filho, nº 690",
+        "bairro": "Vila União (Zona Norte)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 678,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila Rica",
+        "endereço": "Rua Jorge Mamede da Silva, nº 200",
+        "bairro": "Vila Souza",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 679,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Jardim São Paulo",
+        "endereço": "Rua Utaro Kanai, nº 374",
+        "bairro": "Conjunto Habitacional Juscelino Kubitschek",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 680,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Guaiaponto",
+        "endereço": "Rua da Passagem Funda, nº 250",
+        "bairro": "Vila Santa Cruz (Zona Leste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 681,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Lajeado",
+        "endereço": "Rua Isabela, nº405",
+        "bairro": "Jardim Lajeado",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 682,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Padre Nildo do Amaral",
+        "endereço": "Rua Padre Nildo do Amaral Júnior, nº 900",
+        "bairro": "Vila Nova Curuçá",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 683,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Tereza Cristina",
+        "endereço": "Rua Tereza Cristina, nº 10, esquina com Avenida do Estado",
+        "bairro": "Vila Monumento",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 684,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Santa Cruz",
+        "endereço": "Rua Santa Cruz, nº 1452 (Baixo do Viaduto Santa Cruz)",
+        "bairro": "Vila Mariana",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 685,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila das Mercês",
+        "endereço": "Rua Italva, nº 86",
+        "bairro": "Saúde",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 686,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Comandante Taylor",
+        "endereço": "Rua Comandante Taylor, nº 690 (Baixo do Viaduto Comandante Taylor)",
+        "bairro": "Ipiranga",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 687,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Moreira",
+        "endereço": "Rua João Batista de Godói, nº 1164",
+        "bairro": "Jardim das Oliveiras",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 688,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Mãe Preta",
+        "endereço": "Avenida Dama Entre Verdes, nº 21",
+        "bairro": "Vila Curuçá",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 689,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Pesqueiro",
+        "endereço": "Rua Caiuás, nº 18, esquina com Avenida Itamerendiba",
+        "bairro": "Jardim Ida Guedes",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 690,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Flamingo",
+        "endereço": "Rua Alexandre Dias Nogueira, nº353",
+        "bairro": "Vila Nova Curuçá",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 691,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Itaim Paulista",
+        "endereço": "Rua Barão de Almeida Galeão, altura do nº61",
+        "bairro": "Itaim Paulista",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 692,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Jardim Indaiá",
+        "endereço": "Rua Rossini Pinto, altura do nº 214",
+        "bairro": "Jardim Indaiá",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 693,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Parque Guarani",
+        "endereço": "Rua Manuel Alves da Rocha, nº 584",
+        "bairro": "Parque Guarani",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 694,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Oswaldo Valle Cordeiro",
+        "endereço": "Av. Osvaldo Valle Cordeiro, nº 405",
+        "bairro": "Jardim Brasília (Zona Leste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 695,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Cidade Lider",
+        "endereço": "Rua Charles Manguin, nº 20",
+        "bairro": "Jardim Marília",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 696,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Parque do Carmo",
+        "endereço": "Rua Machado Nunes, nº 95",
+        "bairro": "Jardim Nossa Senhora do Carmo",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 697,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Corinthians",
+        "endereço": "Rua Ana Perena, nº 155",
+        "bairro": "Conjunto Residencial José Bonifácio",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 698,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Caldeirão",
+        "endereço": "Rua Major Vitorino de Souza Rocha, altura do nº148",
+        "bairro": "Vila Santa Teresinha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 699,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Imigrantes",
+        "endereço": "Rua Opixe",
+        "bairro": "Vila Guarani (Zona Sul)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 700,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Jabaquara",
+        "endereço": "Rua Jupatis, nº140",
+        "bairro": "Vila Mira",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 701,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Anselmo Machado",
+        "endereço": "Avenida Paulo Lincoln do Valle Pontin, altura do nº 550",
+        "bairro": "Jaçanã",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 702,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Silvio Bittencourt",
+        "endereço": "Rua Maria Amália Lopes Azevedo, nº 4008",
+        "bairro": "Vila Albertina",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 703,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Viaduto Antártica",
+        "endereço": "Rua Robert Bosch (Baixos Viaduto Antártica)",
+        "bairro": "Parque Industrial Tomas Edson",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 704,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila Jaguara",
+        "endereço": "Rua Agrestina, nº 189",
+        "bairro": "Vila Jaguara",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 705,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Piraporinha",
+        "endereço": "Rua João de Abreu, nº326",
+        "bairro": "Jardim Tupã",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 706,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "São Luis",
+        "endereço": "Rua Pedro Armani, nº 252",
+        "bairro": "Jardim Letícia",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 707,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Bresser",
+        "endereço": "Pça. Giuseppe Cesari, nº 54 (Baixo do Viaduto Bresser)",
+        "bairro": "Brás",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 708,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Tatuapé",
+        "endereço": "Avenida Salim Farah Maluf, nº 179, Praça Tito Lívio Ferreira",
+        "bairro": "Tatuapé",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 709,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Brás",
+        "endereço": "Avenida Presidente Wilson, nº 1 (Baixo Viaduto Professor Alberto Mesquita de Carvalho)",
+        "bairro": "Mooca",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 710,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Mooca",
+        "endereço": "Avenida Pires do Rio, nº 600 (Baixo Viaduto Bresser)",
+        "bairro": "Belenzinho",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 711,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Pari",
+        "endereço": "Avenida Carlos de Campos, nº 996 (defronte), esquina com Avenida Presidente Castelo Branco",
+        "bairro": "Pari",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 712,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Belém",
+        "endereço": "Rua Belarmino Matos, nº 26 (baixos do Viaduto Guadalajara)",
+        "bairro": "Belenzinho",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 713,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila Luisa",
+        "endereço": "Praça Dante Maron, nº 92 (Baixos Viaduto Engenheiro Alberto Badra)",
+        "bairro": "Guaiúna",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 714,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Água Rasa",
+        "endereço": "Av. Salim Farah Maluf, nº 1500",
+        "bairro": "Quarta Parada",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 715,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Mendes Caldeira",
+        "endereço": "Rua Monsenhor Andrade, nº 865",
+        "bairro": "Brás",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 716,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Mooca ll",
+        "endereço": "Rua Pantojo, nº 1.147",
+        "bairro": "Vila Regente Feijó",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 717,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Condessa",
+        "endereço": "Avenida Condessa Elizabeth de Robiano, altura do nº 930",
+        "bairro": "Parque São Jorge",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 718,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Penha I",
+        "endereço": "Rua Doutor. Heládio, nº 104",
+        "bairro": "Vila Esperança",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 719,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Tiquatira",
+        "endereço": "Rua Amorim Diniz, nº 415",
+        "bairro": "Jardim Jaú (Zona Leste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 720,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Gamelinha",
+        "endereço": "Rua Morfeu, nº 25, esquina com Avenida Edgar dos Santos",
+        "bairro": "Jardim Santo Antônio",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 721,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila Matilde",
+        "endereço": "Rua Mateus de Siqueira, nº 375, com Praça Leonildes Ramos Saigo",
+        "bairro": "Jardim Triana",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "06:00h-22:00h",
+        "horario_sab": "06:00h-18:00h",
+        "tipo": "Ecoponto",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 722,
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Cangaíba",
+        "endereço": "Rua Luciano Nogueira, altura do nº 241",
+        "bairro": "Cangaíba",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9389,10 +9389,10 @@ const ecoPontos = [
         "id": 723,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Astarte",
-        "endereço": "Rua Astarte, nº 500",
-        "bairro": "Vila Carrão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Franquinho",
+        "endereço": "Rua Praia de Mucuripe, nº 685",
+        "bairro": "Jardim Artur Alvim",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9402,10 +9402,10 @@ const ecoPontos = [
         "id": 724,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Nova York",
-        "endereço": "Rua Amélia Vanso Magnoli, nº 480",
-        "bairro": "Conjunto Habitacional Barreira Grande",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Dalila",
+        "endereço": "Rua Inacio da Costa nº 740, esquina com a Avenida Aricanduva",
+        "bairro": "Vila Dalila",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9415,10 +9415,10 @@ const ecoPontos = [
         "id": 725,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Aricanduva I",
-        "endereço": "Rua Professor Alzira de Oliveira Gilioli, nº 400",
-        "bairro": "Jardim Nice",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "COHAB Artur Alvim",
+        "endereço": "Avenida. Padre Estanislau de Campos nº 56",
+        "bairro": "Conjunto Habitacional Padre Manoel da Nóbrega",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9428,10 +9428,10 @@ const ecoPontos = [
         "id": 726,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Jardim Maria do Carmo",
-        "endereço": "Rua Caminho do Engenho, nº 800",
-        "bairro": "Ferreira",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Talarico",
+        "endereço": "Avenida Bernardino Brito Fonseca de Carvalho, nº 1.050",
+        "bairro": "Vila Talarico",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9441,10 +9441,10 @@ const ecoPontos = [
         "id": 727,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Jardim Jaqueline",
-        "endereço": "Parque Raposo Tavares - Rua Walter Brito Belletti, s/nº",
-        "bairro": "Vila Albano",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Recanto dos Humildes",
+        "endereço": "Rua Sales Gomes, nº 415",
+        "bairro": "Vila Perus",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9454,10 +9454,10 @@ const ecoPontos = [
         "id": 728,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Politécnica",
-        "endereço": "Rua Paulino Baptista Conti, nº 2",
-        "bairro": "Jardim Sarah",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Jardim Santa Fé",
+        "endereço": "Rua Salvador Albano nº156",
+        "bairro": "Jardim Santa Fé (Zona Oeste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9467,10 +9467,10 @@ const ecoPontos = [
         "id": 729,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Giovani Gronchi",
-        "endereço": "Avenida Giovani Gronchi, nº 3413",
-        "bairro": "Morumbi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Pinheiros",
+        "endereço": "Praça do Cancioneiro, nº 15 (Baixos da Ponte Engenheiro Ary Torres)",
+        "bairro": "Cidade Monções",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9480,10 +9480,10 @@ const ecoPontos = [
         "id": 730,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Santo Dias",
-        "endereço": "Travessa Rosifloras, nº 301",
-        "bairro": "Conjunto Habitacional Instituto Adventista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Madalena",
+        "endereço": "Rua Girassol, nº 15, esquina Rua Luís Murat",
+        "bairro": "Vila Madalena",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9493,10 +9493,10 @@ const ecoPontos = [
         "id": 731,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Parque Fernanda",
-        "endereço": "Avenida Doutor Salvador Rocco, nº 261, defronte Rua Antônio Cânon",
-        "bairro": "Parque Fernanda",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Alto de Pinheiros",
+        "endereço": "Praça Arcipreste Anselmo de Oliveira",
+        "bairro": "Alto de Pinheiros",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9506,10 +9506,10 @@ const ecoPontos = [
         "id": 732,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Olinda",
-        "endereço": "Rua Nelson Brissac, nº 1235, esquina com Avenida Padre Adolfo Kolping",
-        "bairro": "Parque Regina",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Cônego José Salomon",
+        "endereço": "Avenida. Cônego José Salomon, nº 861",
+        "bairro": "Vila Portugal",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9519,10 +9519,10 @@ const ecoPontos = [
         "id": 733,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Vila das Belezas",
-        "endereço": "Rua Campo Novo do Sul, nº 500",
-        "bairro": "Vila Andrade",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vigário Godói",
+        "endereço": "Rua Vigário Godói, nº 480",
+        "bairro": "Vila Zat",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9532,10 +9532,10 @@ const ecoPontos = [
         "id": 734,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Paraisópolis",
-        "endereço": "Rua Irapará, nº 73",
-        "bairro": "Paraíso do Morumbi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Voith",
+        "endereço": "Avenida Atílio Brugnoli, nº 489",
+        "bairro": "Parque Nações Unidas",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9545,10 +9545,10 @@ const ecoPontos = [
         "id": 735,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Cidade Saudável",
-        "endereço": "Rua Ptolomeu, nº 869",
-        "bairro": "Vila Socorro",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Alexios Jafet",
+        "endereço": "Rua Alexios Jafet, nº 233",
+        "bairro": "Jardim Ipanema (Zona Oeste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9558,10 +9558,10 @@ const ecoPontos = [
         "id": 736,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Parque Peruche",
-        "endereço": "Avenida Engenheiro Caetano Álvares, nº 3142",
-        "bairro": "Parque Peruche",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Tucuruvi",
+        "endereço": "Rua Eduardo Vicente Nasser, nº 519",
+        "bairro": "Barro Branco (Zona Norte)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9571,10 +9571,10 @@ const ecoPontos = [
         "id": 737,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Vila Nova Cachoeirinha",
-        "endereço": "Rua Felix Alves Pereira, nº 113",
-        "bairro": "Jardim Centenário",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Santana",
+        "endereço": "Avenida Zaki Narchi, nº375",
+        "bairro": "Carandiru",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9584,10 +9584,10 @@ const ecoPontos = [
         "id": 738,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Vila Santa Maria",
-        "endereço": "Rua André Bolsena com a Travessa Luiz Sá",
-        "bairro": "Vila Santista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Alceu Maynard de Araújo",
+        "endereço": "Avenida Professor Alceu Maynard de Araújo, nº 330 - ao lado da Central de Triagem",
+        "bairro": "Vila Cruzeiro",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9597,10 +9597,10 @@ const ecoPontos = [
         "id": 739,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Jardim Antártica",
-        "endereço": "Rua Dom Aquino, nº 103",
-        "bairro": "Jardim Antártica",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vicente Rao",
+        "endereço": "Avenida Vicente Rao, nº 308 sentido Diadema (Baixo do Viaduto José Diniz)",
+        "bairro": "Jardim Petrópolis",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9610,10 +9610,10 @@ const ecoPontos = [
         "id": 740,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto São Leandro",
-        "endereço": "Rua São Leandro, nº 13",
-        "bairro": "Vila Palmeiras",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Pedro Bueno",
+        "endereço": "Rua João de Lery, altura do nº 503",
+        "bairro": "Parque Jabaquara",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9623,10 +9623,10 @@ const ecoPontos = [
         "id": 741,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Ecoponto Alvarenga",
-        "endereço": "Estrada do Alvarenga, nº 2475",
-        "bairro": "Balneário Mar Paulista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vitor Manzini",
+        "endereço": "Praça Dom Francisco de Sousa, nº 635",
+        "bairro": "Santo Amaro",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9636,10 +9636,10 @@ const ecoPontos = [
         "id": 742,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Cupecê",
-        "endereço": "Rua Anália Maria de Jesus, nº 130  Trav. Av. Cupecê",
-        "bairro": "Jardim Itacolomi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Cipoaba",
+        "endereço": "Rua Padre Luis de Siqueira, nº 947, com Avenida Rodolfo Pirani",
+        "bairro": "Jardim Rodolfo Pirani",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9649,10 +9649,10 @@ const ecoPontos = [
         "id": 743,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Nascer do Sol",
-        "endereço": "Rua Nascer do Sol, nº 356",
-        "bairro": "Conjunto Habitacional Santa Etelvina II",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Iguatemi",
+        "endereço": "Rua Francisco de Melo Palheta, nº1548",
+        "bairro": "Parque Boa Esperança",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9662,10 +9662,10 @@ const ecoPontos = [
         "id": 744,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Setor G",
-        "endereço": "Rua Alfonso Asturaro, altura do nº 600",
-        "bairro": "Conjunto Habitacional Barro Branco II",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Montalvania",
+        "endereço": "Rua Montalvania nº 195",
+        "bairro": "Jardim São Cristóvão",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9675,10 +9675,10 @@ const ecoPontos = [
         "id": 745,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Inácio Monteiro",
-        "endereço": "Rua Regresso Feliz, nº 1190",
-        "bairro": "Conjunto Habitacional Inácio Monteiro",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Lima Bonfante",
+        "endereço": "Rua Capitão-mor Lázaro da Costa, nº 251",
+        "bairro": "Jardim São Francisco",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9688,10 +9688,10 @@ const ecoPontos = [
         "id": 746,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Jardim São Nicolau",
-        "endereço": "Rua Agreste de Itabaiana, nº 590, esquina com Rua Eduardo Kyioshi Shimuta",
-        "bairro": "Vila União (Zona Leste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Imperador",
+        "endereço": "Avenida. Ribeirão Jacu, nº 201 (Baixo do Viaduto Jacu Pêssego)",
+        "bairro": "Jardim das Camélias",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9701,10 +9701,10 @@ const ecoPontos = [
         "id": 747,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Boturussu",
-        "endereço": "Rua Nélio Batista Guimarães, nº 183",
-        "bairro": "Parque Boturussu",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Carlito Maia",
+        "endereço": "Rua Domingos Fernandes Nobre, nº 109",
+        "bairro": "Vila Itaim",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9714,10 +9714,10 @@ const ecoPontos = [
         "id": 748,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Bandeirantes",
-        "endereço": "Rua Itaiquara, nº 237",
-        "bairro": "Itaberaba",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Pedro Nunes",
+        "endereço": "Rua da Polka, nº 100",
+        "bairro": "Jardim Pedro José Nunes",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9727,10 +9727,10 @@ const ecoPontos = [
         "id": 749,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Freguesia do Ó",
-        "endereço": "Rua Sousa Filho, nº 690",
-        "bairro": "Vila União (Zona Norte)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Itaqueruna",
+        "endereço": "Rua Domitila d'Abril, nº 88",
+        "bairro": "Cidade Nova São Miguel",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9740,10 +9740,10 @@ const ecoPontos = [
         "id": 750,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Vila Rica",
-        "endereço": "Rua Jorge Mamede da Silva, nº 200",
-        "bairro": "Vila Souza",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Varre Vila",
+        "endereço": "Rua Primeiro de Maio, defronte nº 106",
+        "bairro": "União de Vila Nova",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9753,10 +9753,10 @@ const ecoPontos = [
         "id": 751,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Jardim São Paulo",
-        "endereço": "Rua Utaro Kanai, nº 374",
-        "bairro": "Conjunto Habitacional Juscelino Kubitschek",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vitória Popular",
+        "endereço": "Rua El Rey nº 508",
+        "bairro": "Jardim São Carlos (Zona Leste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9766,10 +9766,10 @@ const ecoPontos = [
         "id": 752,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Guaiaponto",
-        "endereço": "Rua da Passagem Funda, nº 250",
-        "bairro": "Vila Santa Cruz (Zona Leste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Jardim Helena",
+        "endereço": "Rua Cosme dos Santos, nº 110",
+        "bairro": "Jardim Helena",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9779,10 +9779,10 @@ const ecoPontos = [
         "id": 753,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Lajeado",
-        "endereço": "Rua Isabela, nº405",
-        "bairro": "Jardim Lajeado",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Jardim Romano",
+        "endereço": "Rua Duarte Martins Mourão, nº 400",
+        "bairro": "Jardim Santa Margarida",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9792,10 +9792,10 @@ const ecoPontos = [
         "id": 754,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Padre Nildo do Amaral",
-        "endereço": "Rua Padre Nildo do Amaral Júnior, nº 900",
-        "bairro": "Vila Nova Curuçá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Jardim Lapena",
+        "endereço": "Rua Rafael Zimbard, altura do nº78",
+        "bairro": "Jardim Nair",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9805,10 +9805,10 @@ const ecoPontos = [
         "id": 755,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Tereza Cristina",
-        "endereço": "Rua Tereza Cristina, nº 10, esquina com Avenida do Estado",
-        "bairro": "Vila Monumento",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Sapopemba",
+        "endereço": "Rua Francesco Usper, nº 550",
+        "bairro": "Conjunto Habitacional Teotonio Vilela",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9818,10 +9818,10 @@ const ecoPontos = [
         "id": 756,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Santa Cruz",
-        "endereço": "Rua Santa Cruz, nº 1452 (Baixo do Viaduto Santa Cruz)",
-        "bairro": "Vila Mariana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Cardoso Franco",
+        "endereço": "Rua dos Vorás, nº 25",
+        "bairro": "Conjunto Residencial Sitio Oratório",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9831,10 +9831,10 @@ const ecoPontos = [
         "id": 757,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Vila das Mercês",
-        "endereço": "Rua Italva, nº 86",
-        "bairro": "Saúde",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Reynaldo José",
+        "endereço": "Rua Silvestro Silvestre, nº 400",
+        "bairro": "Jardim Ângela (Zona Leste)",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9844,10 +9844,10 @@ const ecoPontos = [
         "id": 758,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Comandante Taylor",
-        "endereço": "Rua Comandante Taylor, nº 690 (Baixo do Viaduto Comandante Taylor)",
-        "bairro": "Ipiranga",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Joaquim Catuna",
+        "endereço": "Rua Luca Conforti, nº210",
+        "bairro": "Fazenda da Juta",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9857,10 +9857,10 @@ const ecoPontos = [
         "id": 759,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Moreira",
-        "endereço": "Rua João Batista de Godói, nº 1164",
-        "bairro": "Jardim das Oliveiras",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Glicério",
+        "endereço": "Praça Ministro Francisco Sá Carneiro, nº 6 (Baixos do Viaduto Glicério)",
+        "bairro": "Liberdade",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9870,10 +9870,10 @@ const ecoPontos = [
         "id": 760,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Mãe Preta",
-        "endereço": "Avenida Dama Entre Verdes, nº 21",
-        "bairro": "Vila Curuçá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Liberdade",
+        "endereço": "Rua Jaceguai, nº 67, esquina com a Avenida Liberdade",
+        "bairro": "Bela Vista",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9883,10 +9883,10 @@ const ecoPontos = [
         "id": 761,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Pesqueiro",
-        "endereço": "Rua Caiuás, nº 18, esquina com Avenida Itamerendiba",
-        "bairro": "Jardim Ida Guedes",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Armênia",
+        "endereço": "Rua General Carmona, nº 156",
+        "bairro": "Luz",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9896,10 +9896,10 @@ const ecoPontos = [
         "id": 762,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Flamingo",
-        "endereço": "Rua Alexandre Dias Nogueira, nº353",
-        "bairro": "Vila Nova Curuçá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Barra Funda",
+        "endereço": "Rua Cônego Vicente Miguel Marino, nº 76",
+        "bairro": "Baixos Viaduto Engenheiro Orlando Murgel",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9909,10 +9909,10 @@ const ecoPontos = [
         "id": 763,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Itaim Paulista",
-        "endereço": "Rua Barão de Almeida Galeão, altura do nº61",
-        "bairro": "Itaim Paulista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Cambuci",
+        "endereço": "Avenida Dom Pedro I, nº 38",
+        "bairro": "Vila Monumento",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9922,10 +9922,10 @@ const ecoPontos = [
         "id": 764,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Jardim Indaiá",
-        "endereço": "Rua Rossini Pinto, altura do nº 214",
-        "bairro": "Jardim Indaiá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "General Flores",
+        "endereço": "Rua General Flores, nº 10",
+        "bairro": "Bom Retiro",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9935,10 +9935,10 @@ const ecoPontos = [
         "id": 765,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Parque Guarani",
-        "endereço": "Rua Manuel Alves da Rocha, nº 584",
-        "bairro": "Parque Guarani",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Bela Vista",
+        "endereço": "Rua Quatorze de Julho, nº 59",
+        "bairro": "Bela Vista",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9948,10 +9948,10 @@ const ecoPontos = [
         "id": 766,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Oswaldo Valle Cordeiro",
-        "endereço": "Av. Osvaldo Valle Cordeiro, nº 405",
-        "bairro": "Jardim Brasília (Zona Leste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Guilherme",
+        "endereço": "Rua José Bernardo Pinto, nº 1480",
+        "bairro": "Vila Guilherme",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9961,10 +9961,10 @@ const ecoPontos = [
         "id": 767,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Cidade Lider",
-        "endereço": "Rua Charles Manguin, nº 20",
-        "bairro": "Jardim Marília",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Sabrina",
+        "endereço": "Avenida do Poeta, nº 931",
+        "bairro": "Jardim Julieta",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9974,10 +9974,10 @@ const ecoPontos = [
         "id": 768,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Parque do Carmo",
-        "endereço": "Rua Machado Nunes, nº 95",
-        "bairro": "Jardim Nossa Senhora do Carmo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Maria",
+        "endereço": "Rua Curuçá, nº 1.700",
+        "bairro": "Jardim Andaraí",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -9987,10 +9987,10 @@ const ecoPontos = [
         "id": 769,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Corinthians",
-        "endereço": "Rua Ana Perena, nº 155",
-        "bairro": "Conjunto Residencial José Bonifácio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Mirandópolis",
+        "endereço": "Avenida Senador Casemiro da Rocha, nº 1220, esquina com Avenida José Maria Whitaker",
+        "bairro": "Mirandópolis",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10000,10 +10000,10 @@ const ecoPontos = [
         "id": 770,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Caldeirão",
-        "endereço": "Rua Major Vitorino de Souza Rocha, altura do nº148",
-        "bairro": "Vila Santa Teresinha",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Mariana",
+        "endereço": "Rua Mauricio Francisco Klabin, nº37",
+        "bairro": "Vila Mariana",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10013,10 +10013,10 @@ const ecoPontos = [
         "id": 771,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Imigrantes",
-        "endereço": "Rua Opixe",
-        "bairro": "Vila Guarani (Zona Sul)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Saioa",
+        "endereço": "Rua Mary Baida Salem, nº01",
+        "bairro": "Vila Firmiano Pinto",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10026,10 +10026,10 @@ const ecoPontos = [
         "id": 772,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Jabaquara",
-        "endereço": "Rua Jupatis, nº140",
-        "bairro": "Vila Mira",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Rubem Berta",
+        "endereço": "Avenida Rubem Berta, 1100 (baixo do Viaduto Onze de Junho)",
+        "bairro": "Indianópolis",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10039,10 +10039,10 @@ const ecoPontos = [
         "id": 773,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Anselmo Machado",
-        "endereço": "Avenida Paulo Lincoln do Valle Pontin, altura do nº 550",
-        "bairro": "Jaçanã",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Anhaia Mello",
+        "endereço": "Rua da Prece, nº 296",
+        "bairro": "Vila Prudente",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10052,10 +10052,10 @@ const ecoPontos = [
         "id": 774,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Silvio Bittencourt",
-        "endereço": "Rua Maria Amália Lopes Azevedo, nº 4008",
-        "bairro": "Vila Albertina",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "São Lucas",
+        "endereço": "Rua Florêncio Sanches, nº 307",
+        "bairro": "Parque Residencial Oratorio",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10065,10 +10065,10 @@ const ecoPontos = [
         "id": 775,
         "estado": "SP",
         "cidade": "São Paulo",
-        "local": "Viaduto Antártica",
-        "endereço": "Rua Robert Bosch (Baixos Viaduto Antártica)",
-        "bairro": "Parque Industrial Tomas Edson",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "local": "Vila Industrial",
+        "endereço": "Rua Lisa Ansorge, altura do nº 645",
+        "bairro": "Jardim Guairacá",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-18:00h",
         "tipo": "Ecoponto",
@@ -10077,1539 +10077,603 @@ const ecoPontos = [
     {
         "id": 776,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Jaguara",
-        "endereço": "Rua Agrestina, nº 189",
-        "bairro": "Vila Jaguara",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "São Vicente",
+        "local": "Ecoponto Vila Voturuá",
+        "endereço": "Avenida Juiz de Fora, 48",
+        "bairro": "Vila Voturuá",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 777,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Piraporinha",
-        "endereço": "Rua João de Abreu, nº326",
-        "bairro": "Jardim Tupã",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "São Vicente",
+        "local": "Cidade Náutica",
+        "endereço": "Avenida Paulo Hourneaux de Moura, 101",
+        "bairro": "Esplanada dos Barreiros",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 778,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "São Luis",
-        "endereço": "Rua Pedro Armani, nº 252",
-        "bairro": "Jardim Letícia",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "São Vicente",
+        "local": "Ecoponto Jardim Rio Branco",
+        "endereço": "Avenida Ulisses Guimarães, 211",
+        "bairro": "Jardim Rio Branco",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 779,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Bresser",
-        "endereço": "Pça. Giuseppe Cesari, nº 54 (Baixo do Viaduto Bresser)",
-        "bairro": "Brás",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "Itaquaquecetuba",
+        "local": "Ecoponto Jardim Odete",
+        "endereço": "Rua Jacamin, 350",
+        "bairro": "Jardim Odete",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 780,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Tatuapé",
-        "endereço": "Avenida Salim Farah Maluf, nº 179, Praça Tito Lívio Ferreira",
-        "bairro": "Tatuapé",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "Itaquaquecetuba",
+        "local": "Ecoponto Vila Bartira",
+        "endereço": "Rua Itararé, 343",
+        "bairro": "Vila Bartira",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
+        "horario_seg_sex": "Não disponível",
+        "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 781,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Brás",
-        "endereço": "Avenida Presidente Wilson, nº 1 (Baixo Viaduto Professor Alberto Mesquita de Carvalho)",
-        "bairro": "Mooca",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "Itaquaquecetuba",
+        "local": "Ecoponto Arizona",
+        "endereço": "Rua Vitórino, 254",
+        "bairro": "Jardim Luciana",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 782,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Mooca",
-        "endereço": "Avenida Pires do Rio, nº 600 (Baixo Viaduto Bresser)",
-        "bairro": "Belenzinho",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "Itaquaquecetuba",
+        "local": "Ecoponto Piratininga",
+        "endereço": "Rua Joaquim Caetano, S/N",
+        "bairro": "Parque Piratininga",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 783,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Pari",
-        "endereço": "Avenida Carlos de Campos, nº 996 (defronte), esquina com Avenida Presidente Castelo Branco",
-        "bairro": "Pari",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "Itaquaquecetuba",
+        "local": "Ecoponto Nova Itaquá",
+        "endereço": "Em Mandi, Itaquaquecetuba",
+        "bairro": "Nova Itaquá",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
+        "horario_seg_sex": "Não disponível",
+        "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 784,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Belém",
-        "endereço": "Rua Belarmino Matos, nº 26 (baixos do Viaduto Guadalajara)",
-        "bairro": "Belenzinho",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
+        "cidade": "Bauru",
+        "local": "Ecoponto Parque Viaduto",
+        "endereço": "R. Bernardino de Campos, 28",
+        "bairro": "Vila Jardim Celina",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
+        "horario_seg_sex": "07:00h-19:00h",
+        "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
         "id": 785,
         "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Luisa",
-        "endereço": "Praça Dante Maron, nº 92 (Baixos Viaduto Engenheiro Alberto Badra)",
-        "bairro": "Guaiúna",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 786,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Água Rasa",
-        "endereço": "Av. Salim Farah Maluf, nº 1500",
-        "bairro": "Quarta Parada",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 787,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Mendes Caldeira",
-        "endereço": "Rua Monsenhor Andrade, nº 865",
-        "bairro": "Brás",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 788,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Mooca ll",
-        "endereço": "Rua Pantojo, nº 1.147",
-        "bairro": "Vila Regente Feijó",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 789,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Condessa",
-        "endereço": "Avenida Condessa Elizabeth de Robiano, altura do nº 930",
-        "bairro": "Parque São Jorge",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 790,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Penha I",
-        "endereço": "Rua Doutor. Heládio, nº 104",
-        "bairro": "Vila Esperança",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 791,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Tiquatira",
-        "endereço": "Rua Amorim Diniz, nº 415",
-        "bairro": "Jardim Jaú (Zona Leste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 792,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Gamelinha",
-        "endereço": "Rua Morfeu, nº 25, esquina com Avenida Edgar dos Santos",
-        "bairro": "Jardim Santo Antônio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 793,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Matilde",
-        "endereço": "Rua Mateus de Siqueira, nº 375, com Praça Leonildes Ramos Saigo",
-        "bairro": "Jardim Triana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 794,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Cangaíba",
-        "endereço": "Rua Luciano Nogueira, altura do nº 241",
-        "bairro": "Cangaíba",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 795,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Franquinho",
-        "endereço": "Rua Praia de Mucuripe, nº 685",
-        "bairro": "Jardim Artur Alvim",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 796,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Dalila",
-        "endereço": "Rua Inacio da Costa nº 740, esquina com a Avenida Aricanduva",
-        "bairro": "Vila Dalila",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 797,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "COHAB Artur Alvim",
-        "endereço": "Avenida. Padre Estanislau de Campos nº 56",
-        "bairro": "Conjunto Habitacional Padre Manoel da Nóbrega",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 798,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Talarico",
-        "endereço": "Avenida Bernardino Brito Fonseca de Carvalho, nº 1.050",
-        "bairro": "Vila Talarico",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 799,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Recanto dos Humildes",
-        "endereço": "Rua Sales Gomes, nº 415",
-        "bairro": "Vila Perus",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 800,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jardim Santa Fé",
-        "endereço": "Rua Salvador Albano nº156",
-        "bairro": "Jardim Santa Fé (Zona Oeste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 801,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Pinheiros",
-        "endereço": "Praça do Cancioneiro, nº 15 (Baixos da Ponte Engenheiro Ary Torres)",
-        "bairro": "Cidade Monções",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 802,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Madalena",
-        "endereço": "Rua Girassol, nº 15, esquina Rua Luís Murat",
-        "bairro": "Vila Madalena",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 803,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Alto de Pinheiros",
-        "endereço": "Praça Arcipreste Anselmo de Oliveira",
-        "bairro": "Alto de Pinheiros",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 804,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Cônego José Salomon",
-        "endereço": "Avenida. Cônego José Salomon, nº 861",
-        "bairro": "Vila Portugal",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 805,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vigário Godói",
-        "endereço": "Rua Vigário Godói, nº 480",
-        "bairro": "Vila Zat",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 806,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Voith",
-        "endereço": "Avenida Atílio Brugnoli, nº 489",
-        "bairro": "Parque Nações Unidas",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 807,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Alexios Jafet",
-        "endereço": "Rua Alexios Jafet, nº 233",
-        "bairro": "Jardim Ipanema (Zona Oeste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 808,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Tucuruvi",
-        "endereço": "Rua Eduardo Vicente Nasser, nº 519",
-        "bairro": "Barro Branco (Zona Norte)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 809,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Santana",
-        "endereço": "Avenida Zaki Narchi, nº375",
-        "bairro": "Carandiru",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 810,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Alceu Maynard de Araújo",
-        "endereço": "Avenida Professor Alceu Maynard de Araújo, nº 330 - ao lado da Central de Triagem",
-        "bairro": "Vila Cruzeiro",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 811,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vicente Rao",
-        "endereço": "Avenida Vicente Rao, nº 308 sentido Diadema (Baixo do Viaduto José Diniz)",
-        "bairro": "Jardim Petrópolis",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 812,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Pedro Bueno",
-        "endereço": "Rua João de Lery, altura do nº 503",
-        "bairro": "Parque Jabaquara",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 813,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vitor Manzini",
-        "endereço": "Praça Dom Francisco de Sousa, nº 635",
-        "bairro": "Santo Amaro",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 814,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Cipoaba",
-        "endereço": "Rua Padre Luis de Siqueira, nº 947, com Avenida Rodolfo Pirani",
-        "bairro": "Jardim Rodolfo Pirani",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 815,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Iguatemi",
-        "endereço": "Rua Francisco de Melo Palheta, nº1548",
-        "bairro": "Parque Boa Esperança",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 816,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Montalvania",
-        "endereço": "Rua Montalvania nº 195",
-        "bairro": "Jardim São Cristóvão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 817,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Lima Bonfante",
-        "endereço": "Rua Capitão-mor Lázaro da Costa, nº 251",
-        "bairro": "Jardim São Francisco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 818,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Imperador",
-        "endereço": "Avenida. Ribeirão Jacu, nº 201 (Baixo do Viaduto Jacu Pêssego)",
-        "bairro": "Jardim das Camélias",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 819,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Carlito Maia",
-        "endereço": "Rua Domingos Fernandes Nobre, nº 109",
-        "bairro": "Vila Itaim",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 820,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Pedro Nunes",
-        "endereço": "Rua da Polka, nº 100",
-        "bairro": "Jardim Pedro José Nunes",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 821,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Itaqueruna",
-        "endereço": "Rua Domitila d'Abril, nº 88",
-        "bairro": "Cidade Nova São Miguel",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 822,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Varre Vila",
-        "endereço": "Rua Primeiro de Maio, defronte nº 106",
-        "bairro": "União de Vila Nova",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 823,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vitória Popular",
-        "endereço": "Rua El Rey nº 508",
-        "bairro": "Jardim São Carlos (Zona Leste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 824,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jardim Helena",
-        "endereço": "Rua Cosme dos Santos, nº 110",
-        "bairro": "Jardim Helena",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 825,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jardim Romano",
-        "endereço": "Rua Duarte Martins Mourão, nº 400",
-        "bairro": "Jardim Santa Margarida",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 826,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jardim Lapena",
-        "endereço": "Rua Rafael Zimbard, altura do nº78",
-        "bairro": "Jardim Nair",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 827,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Sapopemba",
-        "endereço": "Rua Francesco Usper, nº 550",
-        "bairro": "Conjunto Habitacional Teotonio Vilela",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 828,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Cardoso Franco",
-        "endereço": "Rua dos Vorás, nº 25",
-        "bairro": "Conjunto Residencial Sitio Oratório",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 829,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Reynaldo José",
-        "endereço": "Rua Silvestro Silvestre, nº 400",
-        "bairro": "Jardim Ângela (Zona Leste)",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 830,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Joaquim Catuna",
-        "endereço": "Rua Luca Conforti, nº210",
-        "bairro": "Fazenda da Juta",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 831,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Glicério",
-        "endereço": "Praça Ministro Francisco Sá Carneiro, nº 6 (Baixos do Viaduto Glicério)",
-        "bairro": "Liberdade",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 832,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Liberdade",
-        "endereço": "Rua Jaceguai, nº 67, esquina com a Avenida Liberdade",
-        "bairro": "Bela Vista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 833,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Armênia",
-        "endereço": "Rua General Carmona, nº 156",
-        "bairro": "Luz",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 834,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Barra Funda",
-        "endereço": "Rua Cônego Vicente Miguel Marino, nº 76",
-        "bairro": "Baixos Viaduto Engenheiro Orlando Murgel",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 835,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Cambuci",
-        "endereço": "Avenida Dom Pedro I, nº 38",
-        "bairro": "Vila Monumento",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 836,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "General Flores",
-        "endereço": "Rua General Flores, nº 10",
-        "bairro": "Bom Retiro",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 837,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Bela Vista",
-        "endereço": "Rua Quatorze de Julho, nº 59",
-        "bairro": "Bela Vista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 838,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Guilherme",
-        "endereço": "Rua José Bernardo Pinto, nº 1480",
-        "bairro": "Vila Guilherme",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 839,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Sabrina",
-        "endereço": "Avenida do Poeta, nº 931",
-        "bairro": "Jardim Julieta",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 840,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Maria",
-        "endereço": "Rua Curuçá, nº 1.700",
-        "bairro": "Jardim Andaraí",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 841,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Mirandópolis",
-        "endereço": "Avenida Senador Casemiro da Rocha, nº 1220, esquina com Avenida José Maria Whitaker",
-        "bairro": "Mirandópolis",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 842,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Mariana",
-        "endereço": "Rua Mauricio Francisco Klabin, nº37",
-        "bairro": "Vila Mariana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 843,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Saioa",
-        "endereço": "Rua Mary Baida Salem, nº01",
-        "bairro": "Vila Firmiano Pinto",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 844,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Rubem Berta",
-        "endereço": "Avenida Rubem Berta, 1100 (baixo do Viaduto Onze de Junho)",
-        "bairro": "Indianópolis",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 845,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Anhaia Mello",
-        "endereço": "Rua da Prece, nº 296",
-        "bairro": "Vila Prudente",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 846,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "São Lucas",
-        "endereço": "Rua Florêncio Sanches, nº 307",
-        "bairro": "Parque Residencial Oratorio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 847,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Industrial",
-        "endereço": "Rua Lisa Ansorge, altura do nº 645",
-        "bairro": "Jardim Guairacá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "06:00h-22:00h",
-        "horario_sab": "06:00h-18:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 848,
-        "estado": "SP",
-        "cidade": "São Vicente",
-        "local": "Ecoponto Vila Voturuá",
-        "endereço": "Avenida Juiz de Fora, 48",
-        "bairro": "Vila Voturuá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 849,
-        "estado": "SP",
-        "cidade": "São Vicente",
-        "local": "Cidade Náutica",
-        "endereço": "Avenida Paulo Hourneaux de Moura, 101",
-        "bairro": "Esplanada dos Barreiros",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 850,
-        "estado": "SP",
-        "cidade": "São Vicente",
-        "local": "Ecoponto Jardim Rio Branco",
-        "endereço": "Avenida Ulisses Guimarães, 211",
-        "bairro": "Jardim Rio Branco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 851,
-        "estado": "SP",
-        "cidade": "Itaquaquecetuba",
-        "local": "Ecoponto Jardim Odete",
-        "endereço": "Rua Jacamin, 350",
-        "bairro": "Jardim Odete",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 852,
-        "estado": "SP",
-        "cidade": "Itaquaquecetuba",
-        "local": "Ecoponto Vila Bartira",
-        "endereço": "Rua Itararé, 343",
-        "bairro": "Vila Bartira",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
-        "horario_seg_sex": "Não disponível",
-        "horario_sab": "Fechado",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 853,
-        "estado": "SP",
-        "cidade": "Itaquaquecetuba",
-        "local": "Ecoponto Arizona",
-        "endereço": "Rua Vitórino, 254",
-        "bairro": "Jardim Luciana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 854,
-        "estado": "SP",
-        "cidade": "Itaquaquecetuba",
-        "local": "Ecoponto Piratininga",
-        "endereço": "Rua Joaquim Caetano, S/N",
-        "bairro": "Parque Piratininga",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 855,
-        "estado": "SP",
-        "cidade": "Itaquaquecetuba",
-        "local": "Ecoponto Nova Itaquá",
-        "endereço": "Em Mandi, Itaquaquecetuba",
-        "bairro": "Nova Itaquá",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
-        "horario_seg_sex": "Não disponível",
-        "horario_sab": "Fechado",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 856,
-        "estado": "SP",
-        "cidade": "Bauru",
-        "local": "Ecoponto Parque Viaduto",
-        "endereço": "R. Bernardino de Campos, 28",
-        "bairro": "Vila Jardim Celina",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
-        "horario_seg_sex": "07:00h-19:00h",
-        "horario_sab": "07:00h-12:00h",
-        "tipo": "Ecoponto",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 857,
-        "estado": "SP",
         "cidade": "Bauru",
         "local": "Ecoponto Mary Dota",
         "endereço": "R. Américo Finazzi, 4",
         "bairro": "Nucleo Hab. Nobuji Nagasawa",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 858,
+        "id": 786,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Ecoponto Sorocabana",
         "endereço": "120 - R. Sorocabana, 2",
         "bairro": "Vila Souto",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 859,
+        "id": 787,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Ecoponto Santa Edwirges",
         "endereço": "R. Francisco do Rêgo Carranca, 1",
         "bairro": "Jardim Vania Maria",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 860,
+        "id": 788,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Ecoponto Jardim Redentor",
         "endereço": "213 - R. Noé Onófre Teixeira, 109",
         "bairro": "Jardim Dona Lili",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 861,
+        "id": 789,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Ecoponto e Regional Cohab",
         "endereço": "Av. Brasil, 292",
         "bairro": "Conj. Hab. Pres. Castelo Branco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 862,
+        "id": 790,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Ecoponto Ariston",
         "endereço": "Av. Comendador Dante Carraro, 333",
         "bairro": "Cidade Ariston Estela Azevedo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:30h-17:00h",
         "horario_sab": "08:30h-11:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 863,
+        "id": 791,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Ecoponto Aldeia",
         "endereço": "R. José Ailton de Camargo",
         "bairro": "Jardim Mesquita",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:30h-16:30h",
         "horario_sab": "08:30h-11:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 864,
+        "id": 792,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Ecoponto Santa Brígida",
         "endereço": "R. Peruíbe, 4",
         "bairro": "Santa Brígida",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "Não disponível",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 865,
+        "id": 793,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Santo Antônio",
         "endereço": "R. João Laurelli",
         "bairro": "Vila Remedi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-18:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 866,
+        "id": 794,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "ECOPONTO JD Oriente",
         "endereço": "R. Profa. Maria Isabel Teixeira Mendes",
         "bairro": "Jardim Oriente",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:30h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 867,
+        "id": 795,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Monte Rey",
         "endereço": "Rua Giovani Ferrazzo",
         "bairro": "Monte Rey",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 868,
+        "id": 796,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Cecap/Eldorado",
         "endereço": "Av. Raul Machado Filho",
         "bairro": "Cecap/Eldorado",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 869,
+        "id": 797,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Artemis",
         "endereço": "Rua Fioravante Cenedese",
         "bairro": "Artemis",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 870,
+        "id": 798,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Mário Dedini I",
         "endereço": "Rua Antônio Franco de Lima",
         "bairro": "Mario Dedini I",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 871,
+        "id": 799,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Mário Dedini II",
         "endereço": "Rua dos Topázios",
         "bairro": "Mario Dedini II",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 872,
+        "id": 800,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Bosques do Lenheiro I",
         "endereço": "Rua Sapucaia",
         "bairro": "Bosques do Lenheiro I",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 873,
+        "id": 801,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Ecoponto Vila Remedi",
         "endereço": "Rua João Laurelli",
         "bairro": "Vila Remedi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-18:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 874,
+        "id": 802,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto GERESOL",
-        "endereço": "Av. Yamashita Yukio, 1268  Distrito Industrial",
+        "endereço": "Av. Yamashita Yukio, 1268  Distrito Industrial",
         "bairro": "Distrito Industrial",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-16:40h",
         "horario_sab": "07:30h-11:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 875,
+        "id": 803,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto Cidade Nova",
-        "endereço": "R. Doraci Camargo Alegre, s/n°  Cidade Nova",
+        "endereço": "R. Doraci Camargo Alegre, s/n°  Cidade Nova",
         "bairro": "Cidade Nova",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 876,
+        "id": 804,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto Jardim do Lago",
-        "endereço": "R. Geraldo Santos, 195  Jardim do Lago",
+        "endereço": "R. Geraldo Santos, 195  Jardim do Lago",
         "bairro": "Jardim do Lago",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "07:30h-16:00h",
         "horario_sab": "07:00h-15:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 877,
+        "id": 805,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto Jardim Tarumã",
-        "endereço": "Rua Rio de Janeiro, s/n  Jardim Tarumã",
+        "endereço": "Rua Rio de Janeiro, s/n  Jardim Tarumã",
         "bairro": "Jardim Tarumã",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 878,
+        "id": 806,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto Morada das Vinhas",
-        "endereço": "(Parque Ecológico Morada das Vinhas  José Roberto Mota Barroca) R. Uva Niágara, 376  Parque Cecap",
+        "endereço": "(Parque Ecológico Morada das Vinhas  José Roberto Mota Barroca) R. Uva Niágara, 376  Parque Cecap",
         "bairro": "Parque Cecap",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 879,
+        "id": 807,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto Residencial Jundiaí",
-        "endereço": "Av. Eunice Cavalcante de Souza Queiroz, s/nº  Parque Residencial Jundiaí",
+        "endereço": "Av. Eunice Cavalcante de Souza Queiroz, s/nº  Parque Residencial Jundiaí",
         "bairro": "Parque Residencial Jundiaí",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 880,
+        "id": 808,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Ecoponto Vila Nambi",
-        "endereço": "R. Marquês de Maricá, s/nº  Vila Nambi",
+        "endereço": "R. Marquês de Maricá, s/nº  Vila Nambi",
         "bairro": "Vila Nambi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 881,
+        "id": 809,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Arco-Íris",
-        "endereço": "Rua Mozart, s/nº  Jardim Arco-Íris",
+        "endereço": "Rua Mozart, s/nº  Jardim Arco-Íris",
         "bairro": "Jardim Arco-Íris",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 882,
+        "id": 810,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Arraia",
-        "endereço": "Rua Arraia, 50  Eldorado",
+        "endereço": "Rua Arraia, 50  Eldorado",
         "bairro": "Eldorado",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 883,
+        "id": 811,
         "estado": "SP",
         "cidade": "Diadema",
-        "local": "Ecoponto Marginal Z",
-        "endereço": "Avenida Daniel José de Carvalho, 330  Parque Real",
+        "local": "Ecoponto Marginal Z",
+        "endereço": "Avenida Daniel José de Carvalho, 330  Parque Real",
         "bairro": "Parque Real",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 884,
+        "id": 812,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Nações",
-        "endereço": "Rua Espanha c/ Avenida Dom João VI  Taboão",
+        "endereço": "Rua Espanha c/ Avenida Dom João VI  Taboão",
         "bairro": "Taboão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 885,
+        "id": 813,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Naval",
-        "endereço": "Rua Idealópolis c/ Avenida Corredor ABD, s/nº  Vila São José",
+        "endereço": "Rua Idealópolis c/ Avenida Corredor ABD, s/nº  Vila São José",
         "bairro": "Vila São José",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 886,
+        "id": 814,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Rufino",
-        "endereço": "Estrada do Rufino, 1.059  Serraria",
+        "endereço": "Estrada do Rufino, 1.059  Serraria",
         "bairro": "Serraria",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 887,
+        "id": 815,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Yamagata",
-        "endereço": "Rua Yamagata c/ Rua Osaka, s/nº  Jardim Canhema",
+        "endereço": "Rua Yamagata c/ Rua Osaka, s/nº  Jardim Canhema",
         "bairro": "Jardim Canhema",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "08:00h-13:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 888,
+        "id": 816,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto João Batista (Vila Nogueira)",
-        "endereço": "Rua João Batista Alves do Nascimento, 546  Vila Nogueira",
+        "endereço": "Rua João Batista Alves do Nascimento, 546  Vila Nogueira",
         "bairro": "Vila Nogueira",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 889,
+        "id": 817,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto DLU",
-        "endereço": "Avenida Pirâmide, 844  Jardim Inamar",
+        "endereço": "Avenida Pirâmide, 844  Jardim Inamar",
         "bairro": "Jardim Inamar",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-16:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 890,
+        "id": 818,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Caracas",
-        "endereço": "Rua Caracas, 120  Vila Mulford (atrás do Corpo de Bombeiros)",
+        "endereço": "Rua Caracas, 120  Vila Mulford (atrás do Corpo de Bombeiros)",
         "bairro": "Vila Mulford",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 891,
+        "id": 819,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Ecoponto Nova Conquista",
-        "endereço": "Travessa ETCD, 210  Vila Nova Conquista  Piraporinha",
+        "endereço": "Travessa ETCD, 210  Vila Nova Conquista  Piraporinha",
         "bairro": "Vila Nova Conquista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "08:00h-16:30h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 892,
+        "id": 820,
         "estado": "SP",
         "cidade": "Diadema",
-        "local": "Ecoponto Okavango  Casa Grande",
-        "endereço": "Avenida Casa Grande, 1810  Jardim Casa Grande",
+        "local": "Ecoponto Okavango  Casa Grande",
+        "endereço": "Avenida Casa Grande, 1810  Jardim Casa Grande",
         "bairro": "Jardim Casa Grande",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 893,
+        "id": 821,
         "estado": "SP",
         "cidade": "Diadema",
-        "local": "Ecoponto Maria Leonor  Parque Reid / Campanário",
+        "local": "Ecoponto Maria Leonor  Parque Reid / Campanário",
         "endereço": "Avenida Maria Leonor (sob ponte da Imigrantes)",
         "bairro": "Parque Reid / Campanário",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 894,
+        "id": 822,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Taboão",
@@ -11622,7 +10686,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 895,
+        "id": 823,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Nova Conquista",
@@ -11635,7 +10699,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 896,
+        "id": 824,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Chico Mendes",
@@ -11648,7 +10712,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 897,
+        "id": 825,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Cooperlimpa",
@@ -11661,7 +10725,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 898,
+        "id": 826,
         "estado": "SP",
         "cidade": "Santos",
         "local": "MAKRO SANTOS",
@@ -11674,7 +10738,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 899,
+        "id": 827,
         "estado": "SP",
         "cidade": "Santos",
         "local": "ANDRA",
@@ -11687,7 +10751,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 900,
+        "id": 828,
         "estado": "SP",
         "cidade": "Santos",
         "local": "ROLDÃO",
@@ -11700,7 +10764,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 901,
+        "id": 829,
         "estado": "SP",
         "cidade": "Santos",
         "local": "CARREFOUR Praiamar",
@@ -11713,7 +10777,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 902,
+        "id": 830,
         "estado": "SP",
         "cidade": "Santos",
         "local": "CARREFOUR",
@@ -11726,7 +10790,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 903,
+        "id": 831,
         "estado": "SP",
         "cidade": "Santos",
         "local": "VOLTLUZ",
@@ -11739,7 +10803,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 904,
+        "id": 832,
         "estado": "SP",
         "cidade": "Santos",
         "local": "CONSTRUDECOR",
@@ -11752,7 +10816,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 905,
+        "id": 833,
         "estado": "SP",
         "cidade": "Santos",
         "local": "ASSAÍ",
@@ -11765,7 +10829,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 906,
+        "id": 834,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Pneus Portuária",
@@ -11778,7 +10842,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 907,
+        "id": 835,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Atacadão",
@@ -11791,7 +10855,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 908,
+        "id": 836,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour Conselheiro",
@@ -11804,7 +10868,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 909,
+        "id": 837,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour Praiamar",
@@ -11817,11 +10881,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 910,
+        "id": 838,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Empório Nova Era",
-        "endereço": "Rua Dr. Cunha Moreira, 210  Encruzilhada",
+        "endereço": "Rua Dr. Cunha Moreira, 210  Encruzilhada",
         "bairro": "Encruzilhada",
         "tipo_de_material": "Eletrônicos",
         "horario_seg_sex": "08:00h-18:00h",
@@ -11830,11 +10894,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 911,
+        "id": 839,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Fundação Settaport - Centro de Reciclagem de Lixo Eletrônico",
-        "endereço": "Avenida Conselheiro Nébias, 85  Paquetá",
+        "endereço": "Avenida Conselheiro Nébias, 85  Paquetá",
         "bairro": "Paquetá",
         "tipo_de_material": "Eletrônicos",
         "horario_seg_sex": "08:30h-18:00h",
@@ -11843,7 +10907,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 912,
+        "id": 840,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Hipermercado Extra",
@@ -11856,7 +10920,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 913,
+        "id": 841,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Lojas Cem",
@@ -11869,7 +10933,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 914,
+        "id": 842,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Makro 82",
@@ -11882,7 +10946,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 915,
+        "id": 843,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Mini Extra 0124",
@@ -11895,11 +10959,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 916,
+        "id": 844,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Multicoisas - Utilidades Domésticas",
-        "endereço": "Avenida Ana Costa, 383  Gonzaga",
+        "endereço": "Avenida Ana Costa, 383  Gonzaga",
         "bairro": "Gonzaga",
         "tipo_de_material": "Eletrônicos",
         "horario_seg_sex": "09:00h-20:00h",
@@ -11908,7 +10972,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 917,
+        "id": 845,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Senac Santos",
@@ -11921,7 +10985,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 918,
+        "id": 846,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sindicato do Comércio Varejista da Baixada Santista (SINCOMÉRCIO/BS)",
@@ -11934,7 +10998,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 919,
+        "id": 847,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Bolshoi",
@@ -11947,11 +11011,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 920,
+        "id": 848,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Extra",
-        "endereço": "Avenida Afonso Pena, 270  Boqueirão",
+        "endereço": "Avenida Afonso Pena, 270  Boqueirão",
         "bairro": "Boqueirão",
         "tipo_de_material": "Eletrônicos",
         "horario_seg_sex": "08:00h-22:00h",
@@ -11960,7 +11024,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 921,
+        "id": 849,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Extra",
@@ -11973,7 +11037,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 922,
+        "id": 850,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Extra)",
@@ -11986,7 +11050,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 923,
+        "id": 851,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Extra)",
@@ -11999,7 +11063,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 924,
+        "id": 852,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Extra) 1747",
@@ -12012,7 +11076,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 925,
+        "id": 853,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Extra) 1947",
@@ -12025,7 +11089,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 926,
+        "id": 854,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Extra)",
@@ -12038,7 +11102,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 927,
+        "id": 855,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Mini Extra) 5109",
@@ -12051,7 +11115,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 928,
+        "id": 856,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Pão de Açúcar (Mini Extra) 5094",
@@ -12064,7 +11128,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 929,
+        "id": 857,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Supermercado Varandas",
@@ -12077,11 +11141,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 930,
+        "id": 858,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Unimed Santos",
-        "endereço": "Avenida Ana Costa, 211/430  Gonzaga",
+        "endereço": "Avenida Ana Costa, 211/430  Gonzaga",
         "bairro": "Gonzaga",
         "tipo_de_material": "Eletrônicos",
         "horario_seg_sex": "07:00h-19:00h",
@@ -12090,7 +11154,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 931,
+        "id": 859,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Casas Bahia",
@@ -12103,7 +11167,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 932,
+        "id": 860,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Casas Bahia",
@@ -12116,7 +11180,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 933,
+        "id": 861,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Extra Hyper",
@@ -12129,7 +11193,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 934,
+        "id": 862,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Kalunga",
@@ -12142,7 +11206,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 935,
+        "id": 863,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Makro",
@@ -12155,7 +11219,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 936,
+        "id": 864,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Shopping Praiamar",
@@ -12168,7 +11232,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 937,
+        "id": 865,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Fundação Settaport - Centro de Reciclagem de Lixo Eletrônico",
@@ -12181,7 +11245,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 938,
+        "id": 866,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Casas Bahia Santos - Gonzaga",
@@ -12194,7 +11258,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 939,
+        "id": 867,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Makro Santos - Areia Branca",
@@ -12207,10 +11271,10 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 940,
+        "id": 868,
         "estado": "SP",
         "cidade": "Santos",
-        "local": "Kalunga  Vila Mathias",
+        "local": "Kalunga  Vila Mathias",
         "endereço": "Avenida Ana Costa, 64",
         "bairro": "Vila Mathias",
         "tipo_de_material": "Eletrônicos",
@@ -12220,7 +11284,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 941,
+        "id": 869,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Shopping Parque Balneário - Gonzaga",
@@ -12233,10 +11297,10 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 942,
+        "id": 870,
         "estado": "SP",
         "cidade": "Santos",
-        "local": "Shopping Praiamar  Aparecida",
+        "local": "Shopping Praiamar  Aparecida",
         "endereço": "Rua Alexandre Martins, 80.",
         "bairro": "Aparecida",
         "tipo_de_material": "Eletrônicos",
@@ -12246,7 +11310,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 943,
+        "id": 871,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Extra Hiper Santos - Gonzaga",
@@ -12259,7 +11323,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 944,
+        "id": 872,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Casas Bahia Santos - Centro",
@@ -12272,7 +11336,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 945,
+        "id": 873,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour Santos - Boqueirão",
@@ -12285,7 +11349,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 946,
+        "id": 874,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ginásio Rebouças",
@@ -12298,7 +11362,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 947,
+        "id": 875,
         "estado": "SP",
         "cidade": "Santos",
         "local": "RC Seguros",
@@ -12311,7 +11375,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 948,
+        "id": 876,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Escola Estadual Aristóteles Ferreira",
@@ -12324,7 +11388,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 949,
+        "id": 877,
         "estado": "SP",
         "cidade": "Santos",
         "local": "IBAMA",
@@ -12337,7 +11401,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 950,
+        "id": 878,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sociedade de Melhoramento do Bairro Piratininga",
@@ -12350,7 +11414,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 951,
+        "id": 879,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sociedade de Melhoramento do São Manoel",
@@ -12363,10 +11427,10 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 952,
+        "id": 880,
         "estado": "SP",
         "cidade": "Santos",
-        "local": "Associação de Portadores Paralisia Cerebral  A.P.P.C.",
+        "local": "Associação de Portadores Paralisia Cerebral  A.P.P.C.",
         "endereço": "Av. Senador Pinheiro Machado, 945 ou Av. Afonso Pena, 447",
         "bairro": "Vila Mathias",
         "tipo_de_material": "Líquidos",
@@ -12376,7 +11440,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 953,
+        "id": 881,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Avelino da Paz Vieira",
@@ -12389,7 +11453,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 954,
+        "id": 882,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Auxiliadora da Instrução",
@@ -12402,7 +11466,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 955,
+        "id": 883,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Colégio Santista",
@@ -12415,7 +11479,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 956,
+        "id": 884,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Pedro II",
@@ -12428,7 +11492,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 957,
+        "id": 885,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Dr. Porchat de Assis",
@@ -12441,7 +11505,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 958,
+        "id": 886,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Avelino da Paz Vieira",
@@ -12454,7 +11518,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 959,
+        "id": 887,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Auxiliadora da Instrução",
@@ -12467,7 +11531,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 960,
+        "id": 888,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Colégio Santista",
@@ -12480,7 +11544,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 961,
+        "id": 889,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Dr. Porchat de Assis",
@@ -12493,7 +11557,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 962,
+        "id": 890,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Gota de Leite",
@@ -12506,7 +11570,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 963,
+        "id": 891,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume João Papa Sobrinho",
@@ -12519,7 +11583,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 964,
+        "id": 892,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Mario de Almeida Alcântara",
@@ -12532,11 +11596,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 965,
+        "id": 893,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Dr. Alcides Lobo Viana",
-        "endereço": "Av. Sen. Pinheiro Machado, 606  Marapé",
+        "endereço": "Av. Sen. Pinheiro Machado, 606  Marapé",
         "bairro": "Marapé",
         "tipo_de_material": "Líquidos",
         "horario_seg_sex": "09:00h-19:00h",
@@ -12545,7 +11609,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 966,
+        "id": 894,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Padre Waldemar Valle Martins",
@@ -12558,7 +11622,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 967,
+        "id": 895,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Ayrton Senna da Silva",
@@ -12571,7 +11635,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 968,
+        "id": 896,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Maria Luiza Alonso Silva",
@@ -12584,7 +11648,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 969,
+        "id": 897,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Leonor Mendes de Barros",
@@ -12597,7 +11661,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 970,
+        "id": 898,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Cidade de Santos",
@@ -12610,7 +11674,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 971,
+        "id": 899,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Doutor Dino Bueno",
@@ -12623,7 +11687,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 972,
+        "id": 900,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ume Professor Florestan Fernandes",
@@ -12636,7 +11700,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 973,
+        "id": 901,
         "estado": "SP",
         "cidade": "Santos",
         "local": "ONG Sem Fronteiras",
@@ -12649,7 +11713,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 974,
+        "id": 902,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sociedade Melhoramentos do bairro da Ponta da Praia",
@@ -12662,7 +11726,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 975,
+        "id": 903,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sociedade de Melhoramentos da Vila Mathias",
@@ -12675,7 +11739,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 976,
+        "id": 904,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sub-prefeitura da Zona Noroeste",
@@ -12688,7 +11752,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 977,
+        "id": 905,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Sub-prefeitura dos Morros",
@@ -12701,7 +11765,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 978,
+        "id": 906,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Emissário de Santos",
@@ -12714,7 +11778,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 979,
+        "id": 907,
         "estado": "SP",
         "cidade": "Santos",
         "local": "PRAÇA DA REPÚBLICA",
@@ -12727,7 +11791,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 980,
+        "id": 908,
         "estado": "SP",
         "cidade": "Santos",
         "local": "PRAÇA RUI BARBOSA",
@@ -12740,7 +11804,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 981,
+        "id": 909,
         "estado": "SP",
         "cidade": "Santos",
         "local": "IGREJA - VALONGO",
@@ -12753,11 +11817,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 982,
+        "id": 910,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "JARDIM BOTÂNICO  RUA JOÃO FRACAROLI S/Nº  JARDIM SANTA MARIA",
+        "endereço": "JARDIM BOTÂNICO  RUA JOÃO FRACAROLI S/Nº  JARDIM SANTA MARIA",
         "bairro": "JARDIM SANTA MARIA",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -12766,7 +11830,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 983,
+        "id": 911,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12779,7 +11843,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 984,
+        "id": 912,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12792,7 +11856,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 985,
+        "id": 913,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12805,11 +11869,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 986,
+        "id": 914,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "PRAÇA NICOLAU GIGAIGIRE  POLICLINICA ",
+        "endereço": "PRAÇA NICOLAU GIGAIGIRE  POLICLINICA ",
         "bairro": "JARDIM SÃO MANOEL",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -12818,7 +11882,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 987,
+        "id": 915,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12831,11 +11895,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 988,
+        "id": 916,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "PRAÇA DO 14  (RUA LAURINDO CHAVES/RUA MANOEL FERRAMENTA JUNIOR)",
+        "endereço": "PRAÇA DO 14  (RUA LAURINDO CHAVES/RUA MANOEL FERRAMENTA JUNIOR)",
         "bairro": "JARDIM CASTELO",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -12844,7 +11908,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 989,
+        "id": 917,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12857,7 +11921,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 990,
+        "id": 918,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12870,7 +11934,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 991,
+        "id": 919,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12883,7 +11947,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 992,
+        "id": 920,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12896,7 +11960,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 993,
+        "id": 921,
         "estado": "SP",
         "cidade": "Santos",
         "local": "UME BARÃO DO RIO BRANCO",
@@ -12909,11 +11973,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 994,
+        "id": 922,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "LATERAL DO POSTO 1 PRAIA  Emissário de Santos",
+        "endereço": "LATERAL DO POSTO 1 PRAIA  Emissário de Santos",
         "bairro": "JOSÉ MENINO, EMISSÁRIO DE SANTOS",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -12922,7 +11986,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 995,
+        "id": 923,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12935,7 +11999,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 996,
+        "id": 924,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12948,7 +12012,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 997,
+        "id": 925,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12961,7 +12025,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 998,
+        "id": 926,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -12974,11 +12038,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 999,
+        "id": 927,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "LARGO MARQUES DE MONTE ALEGRE  IGREJA - VALONGO",
+        "endereço": "LARGO MARQUES DE MONTE ALEGRE  IGREJA - VALONGO",
         "bairro": "VALONGO, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -12987,11 +12051,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1000,
+        "id": 928,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "JARDIM BOTÂNICO  RUA JOÃO FRACAROLI S/Nº  JARDIM SANTA MARIA",
+        "endereço": "JARDIM BOTÂNICO  RUA JOÃO FRACAROLI S/Nº  JARDIM SANTA MARIA",
         "bairro": "JARDIM SANTA MARIA, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13000,11 +12064,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1001,
+        "id": 929,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "AV. ALVARO GUIMARÃES Nº 62  RÁDIO CLUBE",
+        "endereço": "AV. ALVARO GUIMARÃES Nº 62  RÁDIO CLUBE",
         "bairro": "JARDIM RÁDIO CLUBE, 62",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13013,11 +12077,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1002,
+        "id": 930,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "PRAÇA FRANCISCO PRESTES MAIA  VILA SÃO JORGE",
+        "endereço": "PRAÇA FRANCISCO PRESTES MAIA  VILA SÃO JORGE",
         "bairro": "VILA SÃO JORGE, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13026,11 +12090,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1003,
+        "id": 931,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "AV. AFONSO SCMIDITH Nº 456  CDHU  JARDIM CASATELO",
+        "endereço": "AV. AFONSO SCMIDITH Nº 456  CDHU  JARDIM CASATELO",
         "bairro": "JARDIM CASATELO, 456",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13039,11 +12103,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1004,
+        "id": 932,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "RUA FRANCISCO DOMENICO (INSTALADO PRAÇA DOS EX COMBATENTES)  JD RÁDIO CLUBE",
+        "endereço": "RUA FRANCISCO DOMENICO (INSTALADO PRAÇA DOS EX COMBATENTES)  JD RÁDIO CLUBE",
         "bairro": "JARDIM RÁDIO CLUBE, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13052,11 +12116,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1005,
+        "id": 933,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "PRAÇA NICOLAU GIGAIGIRE  POLICLINICA  JD. SÃO MANOEL",
+        "endereço": "PRAÇA NICOLAU GIGAIGIRE  POLICLINICA  JD. SÃO MANOEL",
         "bairro": "JARDIM SÃO MANOEL, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13065,11 +12129,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1006,
+        "id": 934,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "RUA ANGELO MARTINS MELEIRO Nº 251 ESQ. COM RUA MIGUEL ROCHA CORREIA  JD CANELEIRA",
+        "endereço": "RUA ANGELO MARTINS MELEIRO Nº 251 ESQ. COM RUA MIGUEL ROCHA CORREIA  JD CANELEIRA",
         "bairro": "JARDIM CANELEIRA, 251",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13078,11 +12142,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1007,
+        "id": 935,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "PRAÇA DO 14  (RUA LAURINDO CHAVES/RUA MANOEL FERRAMENTA JUNIOR)  JARDIM CASTELO",
+        "endereço": "PRAÇA DO 14  (RUA LAURINDO CHAVES/RUA MANOEL FERRAMENTA JUNIOR)  JARDIM CASTELO",
         "bairro": "JARDIM CASTELO, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13091,11 +12155,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1008,
+        "id": 936,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "VILA CRIATIVA - AV. HUGO MAIA  JD. RÁDIO CLUBE",
+        "endereço": "VILA CRIATIVA - AV. HUGO MAIA  JD. RÁDIO CLUBE",
         "bairro": "JARDIM RÁDIO CLUBE, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13104,11 +12168,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1009,
+        "id": 937,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "PRAÇA GUADALAJARA (IGREJA)  NOVA CINTRA",
+        "endereço": "PRAÇA GUADALAJARA (IGREJA)  NOVA CINTRA",
         "bairro": "NOVA CINTRA, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13117,11 +12181,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1010,
+        "id": 938,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "RUA 28 DE SETEMBRO Nº 202  MACUCO (PRÓXIMO À UME PASSOS SOBRINHO)",
+        "endereço": "RUA 28 DE SETEMBRO Nº 202  MACUCO (PRÓXIMO À UME PASSOS SOBRINHO)",
         "bairro": "MACUCO, 202",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13130,11 +12194,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1011,
+        "id": 939,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "RUA BARÃO DE RAMALHO COM RUA JOÃO LUSO Nº 23 MACUCO",
+        "endereço": "RUA BARÃO DE RAMALHO COM RUA JOÃO LUSO Nº 23 MACUCO",
         "bairro": "MACUCO, 23",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13143,11 +12207,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1012,
+        "id": 940,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "RUA VISCONDE DE CAIRU Nº 217  UME BARÃO DO RIO BRANCO",
+        "endereço": "RUA VISCONDE DE CAIRU Nº 217  UME BARÃO DO RIO BRANCO",
         "bairro": "CAMPO GRANDE, 217",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13156,7 +12220,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1013,
+        "id": 941,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -13169,7 +12233,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1014,
+        "id": 942,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -13182,7 +12246,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1015,
+        "id": 943,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
@@ -13195,11 +12259,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1016,
+        "id": 944,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "AV. SEN. PINHEIRO MACHADO Nº 240  ESTÁDIO PORTUGUESA SANTISTA",
+        "endereço": "AV. SEN. PINHEIRO MACHADO Nº 240  ESTÁDIO PORTUGUESA SANTISTA",
         "bairro": "MARAPÉ, 240",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13208,11 +12272,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1017,
+        "id": 945,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Ponto de coleta de Vidro",
-        "endereço": "AV. NILO PEÇANHA ESQUINA COM RUA NAPOLEÃO LAUREANO  SOCIEDADE MELHORAMENTOS DO MARAPÉ",
+        "endereço": "AV. NILO PEÇANHA ESQUINA COM RUA NAPOLEÃO LAUREANO  SOCIEDADE MELHORAMENTOS DO MARAPÉ",
         "bairro": "MARAPÉ, S/N",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "Não disponível",
@@ -13221,59 +12285,59 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1018,
+        "id": 946,
         "estado": "SP",
         "cidade": "Mogi das Cinzas",
         "local": "Ecoponto Jardim Armênia",
         "endereço": "Rua Júlio Perotti, 353",
         "bairro": "Jardim Armênia",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-18:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1019,
+        "id": 947,
         "estado": "SP",
         "cidade": "Mogi das Cinzas",
         "local": "Ecoponto Jundiapeba",
         "endereço": "R. Manoel Fernandes, 44",
         "bairro": "Jundiapeba",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-18:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1020,
+        "id": 948,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Ecoponto Unimed Rio Preto",
         "endereço": "R. Penita, 2566 - Centro",
         "bairro": "Centro",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "24h",
         "horario_sab": "24h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1021,
+        "id": 949,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Ponto de Apoio - São Francisco",
         "endereço": "São José do Rio Preto - SP, 15086",
         "bairro": "São Francisco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, eletrônicos, borracha",
+        "tipo_de_material": "Coleta Seletiva, Construção civil, Óleo de cozinha, Eletrônicos, Borracha",
         "horario_seg_sex": "08:30h-18:00h",
         "horario_sab": "08:30h-18:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1022,
+        "id": 950,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Campo Limpo",
@@ -13286,7 +12350,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1023,
+        "id": 951,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Barão de Itapetininga",
@@ -13299,7 +12363,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1024,
+        "id": 952,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jardim Bonfiglioli",
@@ -13312,7 +12376,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1025,
+        "id": 953,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Doze de Outubro",
@@ -13325,7 +12389,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1026,
+        "id": 954,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Angélica",
@@ -13338,7 +12402,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1027,
+        "id": 955,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "José Paulino",
@@ -13351,7 +12415,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1028,
+        "id": 956,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Lapa 2",
@@ -13364,7 +12428,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1029,
+        "id": 957,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Brigadeiro",
@@ -13377,7 +12441,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1030,
+        "id": 958,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Moóca",
@@ -13390,7 +12454,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1031,
+        "id": 959,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Moema Maracatins",
@@ -13403,7 +12467,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1032,
+        "id": 960,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Augusta",
@@ -13416,7 +12480,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1033,
+        "id": 961,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Santo Amaro",
@@ -13429,7 +12493,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1034,
+        "id": 962,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Saúde",
@@ -13442,7 +12506,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1035,
+        "id": 963,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Extra Raposo Tavares",
@@ -13455,7 +12519,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1036,
+        "id": 964,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tatuapé",
@@ -13468,7 +12532,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1037,
+        "id": 965,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Penha",
@@ -13481,7 +12545,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1038,
+        "id": 966,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tucuruvi",
@@ -13494,7 +12558,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1039,
+        "id": 967,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Maria",
@@ -13507,7 +12571,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1040,
+        "id": 968,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Mariana",
@@ -13520,7 +12584,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1041,
+        "id": 969,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Lapa",
@@ -13533,7 +12597,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1042,
+        "id": 970,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Teodoro Sampaio",
@@ -13546,7 +12610,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1043,
+        "id": 971,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Continental",
@@ -13559,7 +12623,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1044,
+        "id": 972,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Ipiranga",
@@ -13572,7 +12636,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1045,
+        "id": 973,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Direita",
@@ -13585,7 +12649,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1046,
+        "id": 974,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Brooklin",
@@ -13598,7 +12662,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1047,
+        "id": 975,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Eldorado 1º Piso",
@@ -13611,7 +12675,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1048,
+        "id": 976,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pamplona",
@@ -13624,7 +12688,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1049,
+        "id": 977,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "São Mateus",
@@ -13637,7 +12701,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1050,
+        "id": 978,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Corifeu",
@@ -13650,7 +12714,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1051,
+        "id": 979,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Caetano Álvares",
@@ -13663,7 +12727,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1052,
+        "id": 980,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Morumbi",
@@ -13676,7 +12740,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1053,
+        "id": 981,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Faria Lima",
@@ -13689,7 +12753,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1054,
+        "id": 982,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pompéia Alfonso Bovero",
@@ -13702,7 +12766,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1055,
+        "id": 983,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cambuci",
@@ -13715,7 +12779,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1056,
+        "id": 984,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "CR Aricanduva",
@@ -13728,7 +12792,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1057,
+        "id": 985,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Jardim Sul",
@@ -13741,7 +12805,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1058,
+        "id": 986,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tremembé",
@@ -13754,7 +12818,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1059,
+        "id": 987,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Avenida Sumaré",
@@ -13767,7 +12831,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1060,
+        "id": 988,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Real Parque",
@@ -13780,7 +12844,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1061,
+        "id": 989,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Largo de Pinheiros",
@@ -13793,7 +12857,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1062,
+        "id": 990,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "CR Anchieta",
@@ -13806,7 +12870,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1063,
+        "id": 991,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Extra Morumbi",
@@ -13819,7 +12883,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1064,
+        "id": 992,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Sete de Abril",
@@ -13832,7 +12896,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1065,
+        "id": 993,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Monções",
@@ -13845,7 +12909,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1066,
+        "id": 994,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Extra Cidade Dutra",
@@ -13858,7 +12922,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1067,
+        "id": 995,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "CR Raposo",
@@ -13871,7 +12935,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1068,
+        "id": 996,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pirituba",
@@ -13884,7 +12948,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1069,
+        "id": 997,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Industrial",
@@ -13897,7 +12961,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1070,
+        "id": 998,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Portal do Morumbi",
@@ -13910,7 +12974,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1071,
+        "id": 999,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Henrique Schaumann",
@@ -13923,7 +12987,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1072,
+        "id": 1000,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Esperança",
@@ -13936,7 +13000,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1073,
+        "id": 1001,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Joaquim Floriano",
@@ -13949,7 +13013,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1074,
+        "id": 1002,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Nova Conceição",
@@ -13962,7 +13026,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1075,
+        "id": 1003,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Jd. Anália Franco",
@@ -13975,7 +13039,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1076,
+        "id": 1004,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Robert Kennedy",
@@ -13988,7 +13052,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1077,
+        "id": 1005,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Blockbuster Moóca",
@@ -14001,7 +13065,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1078,
+        "id": 1006,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campinas Francisco Glicério",
@@ -14014,7 +13078,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1079,
+        "id": 1007,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "P. Prudente Calçadão",
@@ -14027,7 +13091,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1080,
+        "id": 1008,
         "estado": "SP",
         "cidade": "Bebedouro",
         "local": "Bebedouro",
@@ -14040,7 +13104,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1081,
+        "id": 1009,
         "estado": "SP",
         "cidade": "Botucatu",
         "local": "Botucatu",
@@ -14053,7 +13117,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1082,
+        "id": 1010,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Barão de Jaguara",
@@ -14066,7 +13130,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1083,
+        "id": 1011,
         "estado": "SP",
         "cidade": "Jaú",
         "local": "Jaú",
@@ -14079,7 +13143,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1084,
+        "id": 1012,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí",
@@ -14092,7 +13156,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1085,
+        "id": 1013,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes",
@@ -14105,7 +13169,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1086,
+        "id": 1014,
         "estado": "SP",
         "cidade": "Ourinhos",
         "local": "Ourinhos",
@@ -14118,7 +13182,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1087,
+        "id": 1015,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Presidente Prudente",
@@ -14131,7 +13195,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1088,
+        "id": 1016,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Praça Mauá",
@@ -14144,7 +13208,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1089,
+        "id": 1017,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Gonzaga",
@@ -14157,7 +13221,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1090,
+        "id": 1018,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "São Bernardo",
@@ -14170,7 +13234,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1091,
+        "id": 1019,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano",
@@ -14183,7 +13247,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1092,
+        "id": 1020,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba",
@@ -14196,7 +13260,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1093,
+        "id": 1021,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté Pça. Dom Epaminondas",
@@ -14209,7 +13273,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1094,
+        "id": 1022,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco",
@@ -14222,7 +13286,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1095,
+        "id": 1023,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Freguesia do Ó",
@@ -14235,7 +13299,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1096,
+        "id": 1024,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Boqueirão",
@@ -14248,7 +13312,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1097,
+        "id": 1025,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cerro Corá",
@@ -14261,7 +13325,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1098,
+        "id": 1026,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cidade Jardim",
@@ -14274,7 +13338,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1099,
+        "id": 1027,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Giovanni Gronchi",
@@ -14287,7 +13351,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1100,
+        "id": 1028,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Berrini",
@@ -14300,7 +13364,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1101,
+        "id": 1029,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Taquaral",
@@ -14313,7 +13377,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1102,
+        "id": 1030,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André Figueiras",
@@ -14326,7 +13390,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1103,
+        "id": 1031,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "João Cachoeira",
@@ -14339,7 +13403,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1104,
+        "id": 1032,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Sh. Pq. Dom Pedro",
@@ -14352,7 +13416,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1105,
+        "id": 1033,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté Duque de Caxias",
@@ -14365,7 +13429,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1106,
+        "id": 1034,
         "estado": "SP",
         "cidade": "Cotia",
         "local": "Cotia",
@@ -14378,7 +13442,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1107,
+        "id": 1035,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "WM Osasco",
@@ -14391,7 +13455,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1108,
+        "id": 1036,
         "estado": "SP",
         "cidade": "São Bernardo",
         "local": "São Bernardo 2",
@@ -14404,7 +13468,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1109,
+        "id": 1037,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos",
@@ -14417,7 +13481,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1110,
+        "id": 1038,
         "estado": "SP",
         "cidade": "São Caetano",
         "local": "CR São Caetano",
@@ -14430,7 +13494,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1111,
+        "id": 1039,
         "estado": "SP",
         "cidade": "Ribeirão Pires",
         "local": "Ribeirão Pires",
@@ -14443,7 +13507,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1112,
+        "id": 1040,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "CR Guarulhos",
@@ -14456,7 +13520,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1113,
+        "id": 1041,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "CR Santo André",
@@ -14469,7 +13533,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1114,
+        "id": 1042,
         "estado": "SP",
         "cidade": "Itapevi",
         "local": "Itapevi",
@@ -14482,7 +13546,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1115,
+        "id": 1043,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vieira de Moraes",
@@ -14495,7 +13559,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1116,
+        "id": 1044,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Barão Geraldo",
@@ -14508,7 +13572,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1117,
+        "id": 1045,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Cambuí",
@@ -14521,7 +13585,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1118,
+        "id": 1046,
         "estado": "SP",
         "cidade": "Jaguare",
         "local": "Jaguare",
@@ -14534,7 +13598,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1119,
+        "id": 1047,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Panamby",
@@ -14547,7 +13611,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1120,
+        "id": 1048,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Moema Lavandisca",
@@ -14560,7 +13624,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1121,
+        "id": 1049,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Ana Costa",
@@ -14573,7 +13637,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1122,
+        "id": 1050,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Perdizes",
@@ -14586,7 +13650,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1123,
+        "id": 1051,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Paulista",
@@ -14599,7 +13663,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1124,
+        "id": 1052,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Pátio Boa Vista",
@@ -14612,7 +13676,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1125,
+        "id": 1053,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Center 3",
@@ -14625,7 +13689,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1126,
+        "id": 1054,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Santana",
@@ -14638,7 +13702,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1127,
+        "id": 1055,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "São Vicente",
@@ -14651,7 +13715,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1128,
+        "id": 1056,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Eldorado P. Térreo",
@@ -14664,7 +13728,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1129,
+        "id": 1057,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Madalena",
@@ -14677,7 +13741,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1130,
+        "id": 1058,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Nossa Senhora Assunção",
@@ -14690,7 +13754,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1131,
+        "id": 1059,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "São Bento",
@@ -14703,7 +13767,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1132,
+        "id": 1060,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru Getúlio Vargas",
@@ -14716,7 +13780,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1133,
+        "id": 1061,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru Calçadão",
@@ -14729,7 +13793,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1134,
+        "id": 1062,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Sh. Coml. do Prado",
@@ -14742,7 +13806,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1135,
+        "id": 1063,
         "estado": "SP",
         "cidade": "Guaratinguetá",
         "local": "Guaratinguetá",
@@ -14755,7 +13819,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1136,
+        "id": 1064,
         "estado": "SP",
         "cidade": "Itapetininga",
         "local": "Itapetininga",
@@ -14768,7 +13832,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1137,
+        "id": 1065,
         "estado": "SP",
         "cidade": "Avaré",
         "local": "Avaré",
@@ -14781,7 +13845,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1138,
+        "id": 1066,
         "estado": "SP",
         "cidade": "Tatuí",
         "local": "Tatuí",
@@ -14794,7 +13858,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1139,
+        "id": 1067,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Ponta da Praia",
@@ -14807,7 +13871,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1140,
+        "id": 1068,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Butantã",
@@ -14820,7 +13884,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1141,
+        "id": 1069,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba General Carneiro",
@@ -14833,7 +13897,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1142,
+        "id": 1070,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba Moreira César",
@@ -14846,7 +13910,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1143,
+        "id": 1071,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco Supershopping",
@@ -14859,7 +13923,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1144,
+        "id": 1072,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tabapuã",
@@ -14872,7 +13936,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1145,
+        "id": 1073,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Castelo",
@@ -14885,7 +13949,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1146,
+        "id": 1074,
         "estado": "SP",
         "cidade": "Suzano",
         "local": "Suzano",
@@ -14898,7 +13962,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1147,
+        "id": 1075,
         "estado": "SP",
         "cidade": "Itapecerica da Serra",
         "local": "Itapecerica da Serra",
@@ -14911,7 +13975,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1148,
+        "id": 1076,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Sousas",
@@ -14924,7 +13988,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1149,
+        "id": 1077,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Cidade Jardim",
@@ -14937,7 +14001,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1150,
+        "id": 1078,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tajurás",
@@ -14950,7 +14014,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1151,
+        "id": 1079,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão Pirajussara",
@@ -14963,7 +14027,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1152,
+        "id": 1080,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campo Limpo",
@@ -14976,7 +14040,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1153,
+        "id": 1081,
         "estado": "SP",
         "cidade": "Indaiatuba",
         "local": "Indaiatuba Prudente de Moraes",
@@ -14989,7 +14053,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1154,
+        "id": 1082,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "São Miguel Paulista",
@@ -15002,7 +14066,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1155,
+        "id": 1083,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté Pça. Santa Terezinha",
@@ -15015,7 +14079,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1156,
+        "id": 1084,
         "estado": "SP",
         "cidade": "Ferraz de Vasconcelos",
         "local": "Ferraz de Vasconcelos",
@@ -15028,7 +14092,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1157,
+        "id": 1085,
         "estado": "SP",
         "cidade": "Jaú",
         "local": "Jaú Tenente Navarro",
@@ -15041,7 +14105,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1158,
+        "id": 1086,
         "estado": "SP",
         "cidade": "Valinhos",
         "local": "Valinhos Shopping",
@@ -15054,7 +14118,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1159,
+        "id": 1087,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Canal 2",
@@ -15067,7 +14131,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1160,
+        "id": 1088,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí Anhangabaú",
@@ -15080,7 +14144,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1161,
+        "id": 1089,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru Duque de Caxias",
@@ -15093,7 +14157,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1162,
+        "id": 1090,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "P. Prudente Coronel Marcondes",
@@ -15106,7 +14170,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1163,
+        "id": 1091,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping SP Market",
@@ -15119,7 +14183,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1164,
+        "id": 1092,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Gabriel Monteiro",
@@ -15132,7 +14196,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1165,
+        "id": 1093,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pompéia Stop Center",
@@ -15145,7 +14209,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1166,
+        "id": 1094,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba Além Ponte",
@@ -15158,7 +14222,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1167,
+        "id": 1095,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Vila Teixeira",
@@ -15171,7 +14235,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1168,
+        "id": 1096,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Bourbon",
@@ -15184,7 +14248,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1169,
+        "id": 1097,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Romana",
@@ -15197,7 +14261,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1170,
+        "id": 1098,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão Largo",
@@ -15210,7 +14274,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1171,
+        "id": 1099,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Leopoldina",
@@ -15223,7 +14287,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1172,
+        "id": 1100,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Saudade",
@@ -15236,7 +14300,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1173,
+        "id": 1101,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jorge João Saad",
@@ -15249,7 +14313,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1174,
+        "id": 1102,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Paraíso",
@@ -15262,7 +14326,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1175,
+        "id": 1103,
         "estado": "SP",
         "cidade": "Itatiba",
         "local": "Itatiba",
@@ -15275,7 +14339,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1176,
+        "id": 1104,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema Sh. Praça da Moça",
@@ -15288,7 +14352,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1177,
+        "id": 1105,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Alto de Pinheiros",
@@ -15301,7 +14365,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1178,
+        "id": 1106,
         "estado": "SP",
         "cidade": "Nova Odessa",
         "local": "Nova Odessa",
@@ -15314,7 +14378,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1179,
+        "id": 1107,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas-Centro de Convivência",
@@ -15327,7 +14391,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1180,
+        "id": 1108,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vital Brasil",
@@ -15340,7 +14404,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1181,
+        "id": 1109,
         "estado": "SP",
         "cidade": "Paulínia",
         "local": "Paulínia",
@@ -15353,7 +14417,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1182,
+        "id": 1110,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Pres. Prudente - Manoel Goulart",
@@ -15366,7 +14430,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1183,
+        "id": 1111,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Limão",
@@ -15379,7 +14443,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1184,
+        "id": 1112,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Chácara Klabin",
@@ -15392,7 +14456,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1185,
+        "id": 1113,
         "estado": "SP",
         "cidade": "Cotia",
         "local": "Granja Viana",
@@ -15405,7 +14469,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1186,
+        "id": 1114,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Luis Dumont Villares",
@@ -15418,7 +14482,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1187,
+        "id": 1115,
         "estado": "SP",
         "cidade": "Itapetininga",
         "local": "Itapetininga II",
@@ -15431,7 +14495,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1188,
+        "id": 1116,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos - Canal 5",
@@ -15444,7 +14508,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1189,
+        "id": 1117,
         "estado": "SP",
         "cidade": "Jaú",
         "local": "Jaú - Quintino Bocaiúva",
@@ -15457,7 +14521,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1190,
+        "id": 1118,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Shopping Raposo",
@@ -15470,7 +14534,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1191,
+        "id": 1119,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Aclimação",
@@ -15483,7 +14547,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1192,
+        "id": 1120,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba - Campolim",
@@ -15496,7 +14560,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1193,
+        "id": 1121,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Sezefredo Fagundes",
@@ -15509,7 +14573,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1194,
+        "id": 1122,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano do Sul - Av. Goiás",
@@ -15522,7 +14586,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1195,
+        "id": 1123,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano do Sul - Parkshop",
@@ -15535,7 +14599,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1196,
+        "id": 1124,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Canal 6",
@@ -15548,7 +14612,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1197,
+        "id": 1125,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí Shopping",
@@ -15561,7 +14625,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1198,
+        "id": 1126,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Eliseu de Almeida",
@@ -15574,7 +14638,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1199,
+        "id": 1127,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Alphaville Rio Negro",
@@ -15587,7 +14651,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1200,
+        "id": 1128,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba - Av. S. Paulo",
@@ -15600,7 +14664,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1201,
+        "id": 1129,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Natingui",
@@ -15613,7 +14677,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1202,
+        "id": 1130,
         "estado": "SP",
         "cidade": "Assis",
         "local": "Assis II",
@@ -15626,7 +14690,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1203,
+        "id": 1131,
         "estado": "SP",
         "cidade": "Ourinhos",
         "local": "Ourinhos II",
@@ -15639,7 +14703,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1204,
+        "id": 1132,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté - Mal. Deodoro",
@@ -15652,7 +14716,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1205,
+        "id": 1133,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Canal 4",
@@ -15665,7 +14729,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1206,
+        "id": 1134,
         "estado": "SP",
         "cidade": "Botucatu",
         "local": "Botucatu II",
@@ -15678,7 +14742,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1207,
+        "id": 1135,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Heitor Penteado",
@@ -15691,7 +14755,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1208,
+        "id": 1136,
         "estado": "SP",
         "cidade": "Santa Cruz do Rio Pardo",
         "local": "Santa Cruz do Rio Pardo",
@@ -15704,7 +14768,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1209,
+        "id": 1137,
         "estado": "SP",
         "cidade": "Itupeva",
         "local": "Itupeva",
@@ -15717,7 +14781,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1210,
+        "id": 1138,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco Autonomistas",
@@ -15730,7 +14794,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1211,
+        "id": 1139,
         "estado": "SP",
         "cidade": "Jaguariúna",
         "local": "Jaguariúna Prado Mall",
@@ -15743,7 +14807,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1212,
+        "id": 1140,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Santa Terezinha - SP",
@@ -15756,7 +14820,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1213,
+        "id": 1141,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Leandro Dupre",
@@ -15769,7 +14833,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1214,
+        "id": 1142,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Alto de Pinheiros",
@@ -15782,7 +14846,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1215,
+        "id": 1143,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Conselheiro Carrão",
@@ -15795,7 +14859,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1216,
+        "id": 1144,
         "estado": "SP",
         "cidade": "Jundiai",
         "local": "Jardim Messina",
@@ -15808,7 +14872,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1217,
+        "id": 1145,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Guapira",
@@ -15821,7 +14885,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1218,
+        "id": 1146,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Av. Santo Amaro",
@@ -15834,7 +14898,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1219,
+        "id": 1147,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Shopping São Bernardo Plaza",
@@ -15847,7 +14911,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1220,
+        "id": 1148,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jabaquara",
@@ -15860,7 +14924,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1221,
+        "id": 1149,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Shop Pq das Bandeiras",
@@ -15873,7 +14937,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1222,
+        "id": 1150,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Belenzinho",
@@ -15886,7 +14950,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1223,
+        "id": 1151,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jardim Paulista",
@@ -15899,7 +14963,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1224,
+        "id": 1152,
         "estado": "SP",
         "cidade": "Bebedouro",
         "local": "Bebedouro Raul Furquim",
@@ -15912,7 +14976,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1225,
+        "id": 1153,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tutoia",
@@ -15925,7 +14989,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1226,
+        "id": 1154,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Nazaré",
@@ -15938,7 +15002,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1227,
+        "id": 1155,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes Alto Ipiranga",
@@ -15951,7 +15015,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1228,
+        "id": 1156,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba General Osorio",
@@ -15964,7 +15028,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1229,
+        "id": 1157,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Santa Cecilia",
@@ -15977,7 +15041,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1230,
+        "id": 1158,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tatuapé Monte Serrat",
@@ -15990,7 +15054,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1231,
+        "id": 1159,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru Vila Brunhari",
@@ -16003,7 +15067,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1232,
+        "id": 1160,
         "estado": "SP",
         "cidade": "Vinhedo",
         "local": "Vinhedo Praca Santana",
@@ -16016,7 +15080,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1233,
+        "id": 1161,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Presidente Prudente Pq do Povo",
@@ -16029,7 +15093,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1234,
+        "id": 1162,
         "estado": "SP",
         "cidade": "Votorantim",
         "local": "Sorocaba Shopping Iguatemi",
@@ -16042,7 +15106,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1235,
+        "id": 1163,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Francisco Morato 2",
@@ -16055,7 +15119,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1236,
+        "id": 1164,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Canal 7",
@@ -16068,7 +15132,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1237,
+        "id": 1165,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Alto da Boa Vista",
@@ -16081,7 +15145,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1238,
+        "id": 1166,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Frei Caneca Shopping",
@@ -16094,7 +15158,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1239,
+        "id": 1167,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Perdizes Homem de Melo",
@@ -16107,7 +15171,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1240,
+        "id": 1168,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André Av Portugal",
@@ -16120,7 +15184,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1241,
+        "id": 1169,
         "estado": "SP",
         "cidade": "Santana de Parnaíba",
         "local": "Santana de Parnaíba",
@@ -16133,7 +15197,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1242,
+        "id": 1170,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Mariana 2",
@@ -16146,7 +15210,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1243,
+        "id": 1171,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Canal 3",
@@ -16159,7 +15223,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1244,
+        "id": 1172,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tietê Plaza Shopping",
@@ -16172,7 +15236,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1245,
+        "id": 1173,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Saúde Carneiro da Cunha",
@@ -16185,7 +15249,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1246,
+        "id": 1174,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Francisco Ranieri",
@@ -16198,7 +15262,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1247,
+        "id": 1175,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Av da Abolição",
@@ -16211,7 +15275,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1248,
+        "id": 1176,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano do Sul 6",
@@ -16224,7 +15288,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1249,
+        "id": 1177,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tucuruvi Ataliba Leonel",
@@ -16237,7 +15301,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1250,
+        "id": 1178,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cidade Dutra Teotônio Vilela",
@@ -16250,7 +15314,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1251,
+        "id": 1179,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Moema Tuim",
@@ -16263,7 +15327,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1252,
+        "id": 1180,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Aclimação 2",
@@ -16276,7 +15340,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1253,
+        "id": 1181,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Anália Franco Emília Marengo",
@@ -16289,7 +15353,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1254,
+        "id": 1182,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano do Sul Praça Mauá",
@@ -16302,7 +15366,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1255,
+        "id": 1183,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Romana 3",
@@ -16315,7 +15379,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1256,
+        "id": 1184,
         "estado": "SP",
         "cidade": "Itu",
         "local": "Itu 1",
@@ -16328,7 +15392,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1257,
+        "id": 1185,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 7",
@@ -16341,7 +15405,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1258,
+        "id": 1186,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Mariana 3",
@@ -16354,7 +15418,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1259,
+        "id": 1187,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Moema 4",
@@ -16367,7 +15431,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1260,
+        "id": 1188,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Itaquera 2",
@@ -16380,7 +15444,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1261,
+        "id": 1189,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Tatuapé 3",
@@ -16393,7 +15457,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1262,
+        "id": 1190,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Zelina 1",
@@ -16406,7 +15470,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1263,
+        "id": 1191,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Viracopos 1",
@@ -16419,7 +15483,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1264,
+        "id": 1192,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Jardim do Lago 1",
@@ -16432,7 +15496,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1265,
+        "id": 1193,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Sapopemba 1",
@@ -16445,7 +15509,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1266,
+        "id": 1194,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Bela Vista 3",
@@ -16458,7 +15522,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1267,
+        "id": 1195,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Freguesia do Ó 2",
@@ -16471,7 +15535,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1268,
+        "id": 1196,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Olímpia 1",
@@ -16484,7 +15548,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1269,
+        "id": 1197,
         "estado": "SP",
         "cidade": "Boituva",
         "local": "Boituva 1",
@@ -16497,7 +15561,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1270,
+        "id": 1198,
         "estado": "SP",
         "cidade": "Barra Bonita",
         "local": "Barra Bonita 1",
@@ -16510,7 +15574,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1271,
+        "id": 1199,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Maria Alta 1",
@@ -16523,7 +15587,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1272,
+        "id": 1200,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão da Serra 3",
@@ -16536,7 +15600,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1273,
+        "id": 1201,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Marajoara 1",
@@ -16549,7 +15613,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1274,
+        "id": 1202,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 5",
@@ -16562,7 +15626,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1275,
+        "id": 1203,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Buarque 1",
@@ -16575,7 +15639,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1276,
+        "id": 1204,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Campos Elíseos 1",
@@ -16588,7 +15652,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1277,
+        "id": 1205,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Paulista 2",
@@ -16601,7 +15665,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1278,
+        "id": 1206,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Bela Vista 4",
@@ -16614,7 +15678,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1279,
+        "id": 1207,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 5",
@@ -16627,7 +15691,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1280,
+        "id": 1208,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 6",
@@ -16640,7 +15704,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1281,
+        "id": 1209,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 3",
@@ -16653,7 +15717,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1282,
+        "id": 1210,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Ermelino Matarazzo 1",
@@ -16666,7 +15730,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1283,
+        "id": 1211,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Limão 2",
@@ -16679,7 +15743,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1284,
+        "id": 1212,
         "estado": "SP",
         "cidade": "Louveira",
         "local": "Louveira 1",
@@ -16692,7 +15756,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1285,
+        "id": 1213,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 5",
@@ -16705,7 +15769,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1286,
+        "id": 1214,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Mooca 3",
@@ -16718,7 +15782,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1287,
+        "id": 1215,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl das Mercês 2",
@@ -16731,7 +15795,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1288,
+        "id": 1216,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Campo Belo 1",
@@ -16744,7 +15808,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1289,
+        "id": 1217,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Alto Santana 1",
@@ -16757,7 +15821,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1290,
+        "id": 1218,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Barueri 1",
@@ -16770,7 +15834,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1291,
+        "id": 1219,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Ch St Antonio 3",
@@ -16783,7 +15847,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1292,
+        "id": 1220,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 8",
@@ -16796,7 +15860,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1293,
+        "id": 1221,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Esperança 2",
@@ -16809,7 +15873,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1294,
+        "id": 1222,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Medeiros 1",
@@ -16822,7 +15886,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1295,
+        "id": 1223,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 6",
@@ -16835,7 +15899,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1296,
+        "id": 1224,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos 3",
@@ -16848,7 +15912,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1297,
+        "id": 1225,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Aclimação 3",
@@ -16861,7 +15925,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1298,
+        "id": 1226,
         "estado": "SP",
         "cidade": "Botucatu",
         "local": "Botucatu 3",
@@ -16874,7 +15938,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1299,
+        "id": 1227,
         "estado": "SP",
         "cidade": "Tatuí",
         "local": "Tatuí 2",
@@ -16887,7 +15951,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1300,
+        "id": 1228,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Nov Cantareira 1",
@@ -16900,7 +15964,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1301,
+        "id": 1229,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 7",
@@ -16913,7 +15977,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1302,
+        "id": 1230,
         "estado": "SP",
         "cidade": "São Roque",
         "local": "São Roque 1",
@@ -16926,7 +15990,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1303,
+        "id": 1231,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "São Vicente 2",
@@ -16939,7 +16003,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1304,
+        "id": 1232,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Ester 1",
@@ -16952,7 +16016,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1305,
+        "id": 1233,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Carrão 2",
@@ -16965,7 +16029,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1306,
+        "id": 1234,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP República 3",
@@ -16978,7 +16042,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1307,
+        "id": 1235,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Santa Cruz 1",
@@ -16991,7 +16055,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1308,
+        "id": 1236,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Vl Estanislau 1",
@@ -17004,7 +16068,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1309,
+        "id": 1237,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Jd Flamboyant 1",
@@ -17017,7 +16081,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1310,
+        "id": 1238,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Alt Ipiranga 1",
@@ -17030,7 +16094,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1311,
+        "id": 1239,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Olímpia 2",
@@ -17043,7 +16107,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1312,
+        "id": 1240,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Cursino 1",
@@ -17056,7 +16120,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1313,
+        "id": 1241,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Planalto Pta 1",
@@ -17069,7 +16133,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1314,
+        "id": 1242,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos 4",
@@ -17082,7 +16146,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1315,
+        "id": 1243,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos 5",
@@ -17095,7 +16159,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1316,
+        "id": 1244,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Gumercindo 1",
@@ -17108,7 +16172,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1317,
+        "id": 1245,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Água Rasa 2",
@@ -17121,7 +16185,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1318,
+        "id": 1246,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Matilde 1",
@@ -17134,7 +16198,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1319,
+        "id": 1247,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "São Bernardo Campo 7",
@@ -17147,7 +16211,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1320,
+        "id": 1248,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Tatuapé 4",
@@ -17160,7 +16224,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1321,
+        "id": 1249,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Prudência 1",
@@ -17173,7 +16237,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1322,
+        "id": 1250,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Erm Matarazzo 2",
@@ -17186,7 +16250,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1323,
+        "id": 1251,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Mooca 4",
@@ -17199,7 +16263,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1324,
+        "id": 1252,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Santana 2",
@@ -17212,7 +16276,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1325,
+        "id": 1253,
         "estado": "SP",
         "cidade": "Franco da Rocha",
         "local": "Franco da Rocha 1",
@@ -17225,7 +16289,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1326,
+        "id": 1254,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 6",
@@ -17238,7 +16302,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1327,
+        "id": 1255,
         "estado": "SP",
         "cidade": "Jaú",
         "local": "Jaú 4",
@@ -17251,7 +16315,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1328,
+        "id": 1256,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 6",
@@ -17264,7 +16328,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1329,
+        "id": 1257,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 7",
@@ -17277,7 +16341,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1330,
+        "id": 1258,
         "estado": "SP",
         "cidade": "Poá",
         "local": "Poá 1",
@@ -17290,7 +16354,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1331,
+        "id": 1259,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP São Domingos 1",
@@ -17303,7 +16367,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1332,
+        "id": 1260,
         "estado": "SP",
         "cidade": "Vargem Grande Paulista",
         "local": "Vargem Grande Pta 1",
@@ -17316,7 +16380,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1333,
+        "id": 1261,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Carapicuíba 1",
@@ -17329,7 +16393,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1334,
+        "id": 1262,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 8",
@@ -17342,7 +16406,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1335,
+        "id": 1263,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Matilde 2",
@@ -17355,7 +16419,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1336,
+        "id": 1264,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Bela Vista 5",
@@ -17368,7 +16432,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1337,
+        "id": 1265,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Mauá 1",
@@ -17381,7 +16445,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1338,
+        "id": 1266,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão da Serra 4",
@@ -17394,7 +16458,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1339,
+        "id": 1267,
         "estado": "SP",
         "cidade": "Embu das Artes",
         "local": "Embu das Artes 1",
@@ -17407,7 +16471,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1340,
+        "id": 1268,
         "estado": "SP",
         "cidade": "Itaquaquecetuba",
         "local": "Itaquaquecetuba 1",
@@ -17420,7 +16484,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1341,
+        "id": 1269,
         "estado": "SP",
         "cidade": "Indaiatuba",
         "local": "Indaiatuba 4",
@@ -17433,7 +16497,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1342,
+        "id": 1270,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano do Sul 7",
@@ -17446,7 +16510,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1343,
+        "id": 1271,
         "estado": "SP",
         "cidade": "Moema",
         "local": "Moema 5",
@@ -17459,7 +16523,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1344,
+        "id": 1272,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Cidade Líder 1",
@@ -17472,7 +16536,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1345,
+        "id": 1273,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Higienópolis 2",
@@ -17485,7 +16549,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1346,
+        "id": 1274,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Tatuapé 5",
@@ -17498,7 +16562,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1347,
+        "id": 1275,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Jardim Garcia 1",
@@ -17511,7 +16575,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1348,
+        "id": 1276,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Panamby 5",
@@ -17524,7 +16588,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1349,
+        "id": 1277,
         "estado": "SP",
         "cidade": "Salto",
         "local": "Salto 1",
@@ -17537,7 +16601,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1350,
+        "id": 1278,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 5",
@@ -17550,7 +16614,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1351,
+        "id": 1279,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 6",
@@ -17563,7 +16627,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1352,
+        "id": 1280,
         "estado": "SP",
         "cidade": "Santos",
         "local": "St Encruzilhada 1",
@@ -17576,7 +16640,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1353,
+        "id": 1281,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Tatuapé 6",
@@ -17589,7 +16653,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1354,
+        "id": 1282,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Liberdade 1",
@@ -17602,7 +16666,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1355,
+        "id": 1283,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Carapicuíba 2",
@@ -17615,7 +16679,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1356,
+        "id": 1284,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jd São Luís 2",
@@ -17628,7 +16692,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1357,
+        "id": 1285,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Alto da Lapa 1",
@@ -17641,7 +16705,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1358,
+        "id": 1286,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Cidade Líder 2",
@@ -17654,7 +16718,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1359,
+        "id": 1287,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Paulista 3",
@@ -17667,7 +16731,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1360,
+        "id": 1288,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd São Luís 3",
@@ -17680,7 +16744,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1361,
+        "id": 1289,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Sacoma 1",
@@ -17693,7 +16757,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1362,
+        "id": 1290,
         "estado": "SP",
         "cidade": "Ourinhos",
         "local": "Ourinhos 3",
@@ -17706,7 +16770,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1363,
+        "id": 1291,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Ponte Rasa 2",
@@ -17719,7 +16783,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1364,
+        "id": 1292,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 10",
@@ -17732,7 +16796,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1365,
+        "id": 1293,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Cambuí 3",
@@ -17745,7 +16809,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1366,
+        "id": 1294,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Capão Redondo 1",
@@ -17758,7 +16822,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1367,
+        "id": 1295,
         "estado": "SP",
         "cidade": "Pres. Prudente",
         "local": "Presid Prudente 7",
@@ -17771,7 +16835,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1368,
+        "id": 1296,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jd Guanabara 1",
@@ -17784,7 +16848,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1369,
+        "id": 1297,
         "estado": "SP",
         "cidade": "Suzano",
         "local": "Suzano 2",
@@ -17797,7 +16861,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1370,
+        "id": 1298,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Perdizes 4",
@@ -17810,7 +16874,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1371,
+        "id": 1299,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Artur Alvim 1",
@@ -17823,7 +16887,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1372,
+        "id": 1300,
         "estado": "SP",
         "cidade": "Sumaré",
         "local": "Sumaré 2",
@@ -17836,7 +16900,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1373,
+        "id": 1301,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Ch Primavera 2",
@@ -17849,7 +16913,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1374,
+        "id": 1302,
         "estado": "SP",
         "cidade": "Sumaré",
         "local": "Sumaré 3",
@@ -17862,7 +16926,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1375,
+        "id": 1303,
         "estado": "SP",
         "cidade": "Pres. Prudente",
         "local": "Presid Prudente 8",
@@ -17875,7 +16939,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1376,
+        "id": 1304,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "São Domingos",
@@ -17888,7 +16952,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1377,
+        "id": 1305,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 9",
@@ -17901,7 +16965,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1378,
+        "id": 1306,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cidade Ademar 1",
@@ -17914,7 +16978,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1379,
+        "id": 1307,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Brooklin 3",
@@ -17927,7 +16991,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1380,
+        "id": 1308,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim Proença 1",
@@ -17940,7 +17004,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1381,
+        "id": 1309,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 5",
@@ -17953,7 +17017,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1382,
+        "id": 1310,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Ponte Rasa 1",
@@ -17966,7 +17030,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1383,
+        "id": 1311,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Sapopemba 2",
@@ -17979,7 +17043,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1384,
+        "id": 1312,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 9",
@@ -17992,7 +17056,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1385,
+        "id": 1313,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 10",
@@ -18005,7 +17069,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1386,
+        "id": 1314,
         "estado": "SP",
         "cidade": "Hortolândia",
         "local": "Hortolândia 2",
@@ -18018,7 +17082,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1387,
+        "id": 1315,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Mooca 5",
@@ -18031,7 +17095,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1388,
+        "id": 1316,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Bela Vista 6",
@@ -18044,7 +17108,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1389,
+        "id": 1317,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Olímpia 3",
@@ -18057,7 +17121,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1390,
+        "id": 1318,
         "estado": "SP",
         "cidade": "Pres. Prudente",
         "local": "Presid Prudente 9",
@@ -18070,7 +17134,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1391,
+        "id": 1319,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 11",
@@ -18083,7 +17147,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1392,
+        "id": 1320,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano do Sul 8",
@@ -18096,7 +17160,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1393,
+        "id": 1321,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Andrade 2",
@@ -18109,7 +17173,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1394,
+        "id": 1322,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 7",
@@ -18122,7 +17186,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1395,
+        "id": 1323,
         "estado": "SP",
         "cidade": "Guaratinguetá",
         "local": "Guaratinguetá 2",
@@ -18135,7 +17199,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1396,
+        "id": 1324,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Bela Vista 7",
@@ -18148,7 +17212,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1397,
+        "id": 1325,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Marajoara 2",
@@ -18161,7 +17225,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1398,
+        "id": 1326,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Alphaville 2",
@@ -18174,7 +17238,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1399,
+        "id": 1327,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Brasilândia 1",
@@ -18187,7 +17251,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1400,
+        "id": 1328,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vl N Conceição 2",
@@ -18200,7 +17264,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1401,
+        "id": 1329,
         "estado": "SP",
         "cidade": "Ourinhos",
         "local": "Ourinhos 4",
@@ -18213,7 +17277,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1402,
+        "id": 1330,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 11",
@@ -18226,7 +17290,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1403,
+        "id": 1331,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Cachoeirinha 1",
@@ -18239,7 +17303,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1404,
+        "id": 1332,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Maria Alta 2",
@@ -18252,7 +17316,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1405,
+        "id": 1333,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Alto Pinheiros 2",
@@ -18265,7 +17329,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1406,
+        "id": 1334,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Itaquera 3",
@@ -18278,7 +17342,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1407,
+        "id": 1335,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "São Lucas 1",
@@ -18291,7 +17355,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1408,
+        "id": 1336,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Clementino 3",
@@ -18304,7 +17368,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1409,
+        "id": 1337,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Cidade Universitária",
@@ -18317,7 +17381,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1410,
+        "id": 1338,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Lajeado 1",
@@ -18330,7 +17394,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1411,
+        "id": 1339,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tatuapé 7",
@@ -18343,7 +17407,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1412,
+        "id": 1340,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Chácara Primavera 3",
@@ -18356,7 +17420,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1413,
+        "id": 1341,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 10",
@@ -18369,7 +17433,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1414,
+        "id": 1342,
         "estado": "SP",
         "cidade": "Várzea Paulista",
         "local": "Várzea Paulista 1",
@@ -18382,7 +17446,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1415,
+        "id": 1343,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campo Limpo 3",
@@ -18395,7 +17459,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1416,
+        "id": 1344,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Pq Valença 1",
@@ -18408,7 +17472,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1417,
+        "id": 1345,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 11",
@@ -18421,7 +17485,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1418,
+        "id": 1346,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jardim São Luis 4",
@@ -18434,7 +17498,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1419,
+        "id": 1347,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Medeiros 2",
@@ -18447,7 +17511,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1420,
+        "id": 1348,
         "estado": "SP",
         "cidade": "Caçapava",
         "local": "Caçapava 1",
@@ -18460,7 +17524,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1421,
+        "id": 1349,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campo Limpo 4",
@@ -18473,7 +17537,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1422,
+        "id": 1350,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Capão Redondo 2",
@@ -18486,7 +17550,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1423,
+        "id": 1351,
         "estado": "SP",
         "cidade": "Pres. Prudente",
         "local": "Presid Prudente 10",
@@ -18499,7 +17563,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1424,
+        "id": 1352,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jardim Aeroporto 1",
@@ -18512,7 +17576,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1425,
+        "id": 1353,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pacaembu 1",
@@ -18525,7 +17589,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1426,
+        "id": 1354,
         "estado": "SP",
         "cidade": "Sumaré",
         "local": "Sumaré 4",
@@ -18538,7 +17602,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1427,
+        "id": 1355,
         "estado": "SP",
         "cidade": "Assis",
         "local": "Assis 3",
@@ -18551,7 +17615,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1428,
+        "id": 1356,
         "estado": "SP",
         "cidade": "Avaré",
         "local": "Avaré 2",
@@ -18564,7 +17628,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1429,
+        "id": 1357,
         "estado": "SP",
         "cidade": "Botucatu",
         "local": "Botucatu 4",
@@ -18577,7 +17641,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1430,
+        "id": 1358,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "República 4",
@@ -18590,7 +17654,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1431,
+        "id": 1359,
         "estado": "SP",
         "cidade": "Valinhos",
         "local": "Valinhos 2",
@@ -18603,7 +17667,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1432,
+        "id": 1360,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 7",
@@ -18616,7 +17680,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1433,
+        "id": 1361,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema 2",
@@ -18629,7 +17693,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1434,
+        "id": 1362,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "SBC 12",
@@ -18642,7 +17706,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1435,
+        "id": 1363,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pinheiros 4",
@@ -18655,7 +17719,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1436,
+        "id": 1364,
         "estado": "SP",
         "cidade": "Guaratinguetá",
         "local": "Guaratinguetá 3",
@@ -18668,7 +17732,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1437,
+        "id": 1365,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Sumarezinho 1",
@@ -18681,7 +17745,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1438,
+        "id": 1366,
         "estado": "SP",
         "cidade": "Cajamar",
         "local": "Cajamar 1",
@@ -18694,7 +17758,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1439,
+        "id": 1367,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jaguara 1",
@@ -18707,7 +17771,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1440,
+        "id": 1368,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pirituba 2",
@@ -18720,7 +17784,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1441,
+        "id": 1369,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Freguesia do Ó 3",
@@ -18733,7 +17797,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1442,
+        "id": 1370,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Sapopemba 3",
@@ -18746,7 +17810,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1443,
+        "id": 1371,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 9",
@@ -18759,7 +17823,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1444,
+        "id": 1372,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Brooklin Novo 3",
@@ -18772,7 +17836,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1445,
+        "id": 1373,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 8",
@@ -18785,7 +17849,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1446,
+        "id": 1374,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campo Limpo 5",
@@ -18798,7 +17862,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1447,
+        "id": 1375,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Rio Pequeno 1",
@@ -18811,7 +17875,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1448,
+        "id": 1376,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "SBC 13",
@@ -18824,7 +17888,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1449,
+        "id": 1377,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim Madalena 1",
@@ -18837,7 +17901,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1450,
+        "id": 1378,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 12",
@@ -18850,7 +17914,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1451,
+        "id": 1379,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Vila Brandina 1",
@@ -18863,7 +17927,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1452,
+        "id": 1380,
         "estado": "SP",
         "cidade": "Tremembé",
         "local": "Tremembé 1",
@@ -18876,7 +17940,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1453,
+        "id": 1381,
         "estado": "SP",
         "cidade": "Caieiras",
         "local": "Caieiras 1",
@@ -18889,7 +17953,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1454,
+        "id": 1382,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Itaim Paulista 1",
@@ -18902,7 +17966,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1455,
+        "id": 1383,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Formosa 1",
@@ -18915,7 +17979,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1456,
+        "id": 1384,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campo Limpo 6",
@@ -18928,7 +17992,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1457,
+        "id": 1385,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jabaquara 2",
@@ -18941,7 +18005,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1458,
+        "id": 1386,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 12",
@@ -18954,7 +18018,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1459,
+        "id": 1387,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Aricanduva 3",
@@ -18967,7 +18031,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1460,
+        "id": 1388,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 13",
@@ -18980,7 +18044,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1461,
+        "id": 1389,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jabaquara 3",
@@ -18993,7 +18057,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1462,
+        "id": 1390,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão da Serra 6",
@@ -19006,7 +18070,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1463,
+        "id": 1391,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "Santo André 9",
@@ -19019,7 +18083,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1464,
+        "id": 1392,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Campo Grande 1",
@@ -19032,7 +18096,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1465,
+        "id": 1393,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cidade Dutra 3",
@@ -19045,7 +18109,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1466,
+        "id": 1394,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Raposo Tavares 3",
@@ -19058,7 +18122,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1467,
+        "id": 1395,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 8",
@@ -19071,7 +18135,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1468,
+        "id": 1396,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 13",
@@ -19084,7 +18148,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1469,
+        "id": 1397,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Artur Alvim 2",
@@ -19097,7 +18161,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1470,
+        "id": 1398,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Bras 2",
@@ -19110,7 +18174,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1471,
+        "id": 1399,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jardim Angela 1",
@@ -19123,7 +18187,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1472,
+        "id": 1400,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Posto RD 1",
@@ -19136,7 +18200,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1473,
+        "id": 1401,
         "estado": "SP",
         "cidade": "Mairiporã",
         "local": "Mairiporã 1",
@@ -19149,7 +18213,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1474,
+        "id": 1402,
         "estado": "SP",
         "cidade": "Itapevi",
         "local": "Itapevi 2",
@@ -19162,7 +18226,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1475,
+        "id": 1403,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 14",
@@ -19175,7 +18239,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1476,
+        "id": 1404,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Mauá 3",
@@ -19188,7 +18252,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1477,
+        "id": 1405,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 10",
@@ -19201,7 +18265,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1478,
+        "id": 1406,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Swiss Park 1",
@@ -19214,7 +18278,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1479,
+        "id": 1407,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano do Sul 10",
@@ -19227,7 +18291,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1480,
+        "id": 1408,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Perus 1",
@@ -19240,7 +18304,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1481,
+        "id": 1409,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Guaianases 1",
@@ -19253,7 +18317,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1482,
+        "id": 1410,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Paulista 4",
@@ -19266,7 +18330,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1483,
+        "id": 1411,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cerqueira César 3",
@@ -19279,7 +18343,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1484,
+        "id": 1412,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pinheiros 5",
@@ -19292,7 +18356,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1485,
+        "id": 1413,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Moema 6",
@@ -19305,7 +18369,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1486,
+        "id": 1414,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Clementino 4",
@@ -19318,7 +18382,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1487,
+        "id": 1415,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tatuapé 8",
@@ -19331,7 +18395,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1488,
+        "id": 1416,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Alto Santana 2",
@@ -19344,7 +18408,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1489,
+        "id": 1417,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Perdizes 5",
@@ -19357,7 +18421,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1490,
+        "id": 1418,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Sé 6",
@@ -19370,7 +18434,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1491,
+        "id": 1419,
         "estado": "SP",
         "cidade": "Indaiatuba",
         "local": "Indaiatuba 5",
@@ -19383,7 +18447,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1492,
+        "id": 1420,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 9",
@@ -19396,7 +18460,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1493,
+        "id": 1421,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Moema 7",
@@ -19409,7 +18473,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1494,
+        "id": 1422,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema 3",
@@ -19422,7 +18486,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1495,
+        "id": 1423,
         "estado": "SP",
         "cidade": "Santos",
         "local": "St Gonzaga 3",
@@ -19435,7 +18499,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1496,
+        "id": 1424,
         "estado": "SP",
         "cidade": "Hortolândia",
         "local": "Hortolândia 3",
@@ -19448,7 +18512,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1497,
+        "id": 1425,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Brasilândia 2",
@@ -19461,7 +18525,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1498,
+        "id": 1426,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Vila Teixeira 2",
@@ -19474,7 +18538,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1499,
+        "id": 1427,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Presid Prudente 11",
@@ -19487,7 +18551,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1500,
+        "id": 1428,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Vila Curuça 1",
@@ -19500,7 +18564,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1501,
+        "id": 1429,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jd Nova Europa 1",
@@ -19513,7 +18577,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1502,
+        "id": 1430,
         "estado": "SP",
         "cidade": "Itaquaquecetuba",
         "local": "Itaquaquecetuba 2",
@@ -19526,7 +18590,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1503,
+        "id": 1431,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 11",
@@ -19539,7 +18603,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1504,
+        "id": 1432,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Posto Bradesco 1",
@@ -19552,7 +18616,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1505,
+        "id": 1433,
         "estado": "SP",
         "cidade": "Itapecerica da Serra",
         "local": "Itapec da Serra 2",
@@ -19565,7 +18629,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1506,
+        "id": 1434,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Jardim do Lago 2",
@@ -19578,7 +18642,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1507,
+        "id": 1435,
         "estado": "SP",
         "cidade": "Piedade",
         "local": "Piedade 1",
@@ -19591,7 +18655,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1508,
+        "id": 1436,
         "estado": "SP",
         "cidade": "Ribeirão Pires",
         "local": "Ribeirao Pires 2",
@@ -19604,7 +18668,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1509,
+        "id": 1437,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP St Terezinha 3",
@@ -19617,7 +18681,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1510,
+        "id": 1438,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 12",
@@ -19630,7 +18694,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1511,
+        "id": 1439,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubate 9",
@@ -19643,7 +18707,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1512,
+        "id": 1440,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Jd Palmeiras 1",
@@ -19656,7 +18720,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1513,
+        "id": 1441,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 10",
@@ -19669,7 +18733,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1514,
+        "id": 1442,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubate 10",
@@ -19682,7 +18746,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1515,
+        "id": 1443,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Iguatemi 1",
@@ -19695,7 +18759,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1516,
+        "id": 1444,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 13",
@@ -19708,7 +18772,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1517,
+        "id": 1445,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubate 11",
@@ -19721,7 +18785,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1518,
+        "id": 1446,
         "estado": "SP",
         "cidade": "Aparecida",
         "local": "Aparecida 1",
@@ -19734,7 +18798,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1519,
+        "id": 1447,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 8",
@@ -19747,7 +18811,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1520,
+        "id": 1448,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiai 14",
@@ -19760,7 +18824,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1521,
+        "id": 1449,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiai 15",
@@ -19773,7 +18837,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1522,
+        "id": 1450,
         "estado": "SP",
         "cidade": "Itatiba",
         "local": "Itatiba 2",
@@ -19786,7 +18850,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1523,
+        "id": 1451,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl Leopoldina 3",
@@ -19799,7 +18863,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1524,
+        "id": 1452,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 14",
@@ -19812,7 +18876,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1525,
+        "id": 1453,
         "estado": "SP",
         "cidade": "Itapetininga",
         "local": "Itapetininga 3",
@@ -19825,7 +18889,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1526,
+        "id": 1454,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Sacoma 2",
@@ -19838,7 +18902,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1527,
+        "id": 1455,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Sapopemba 4",
@@ -19851,7 +18915,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1528,
+        "id": 1456,
         "estado": "SP",
         "cidade": "Assis",
         "local": "Assis 4",
@@ -19864,7 +18928,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1529,
+        "id": 1457,
         "estado": "SP",
         "cidade": "Sumaré",
         "local": "Sumare 5",
@@ -19877,7 +18941,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1530,
+        "id": 1458,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Presid Prudente 13",
@@ -19890,7 +18954,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1531,
+        "id": 1459,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 15",
@@ -19903,7 +18967,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1532,
+        "id": 1460,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jaragua 1",
@@ -19916,7 +18980,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1533,
+        "id": 1461,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos 7",
@@ -19929,7 +18993,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1534,
+        "id": 1462,
         "estado": "SP",
         "cidade": "Hortolândia",
         "local": "Hortolandia 4",
@@ -19942,7 +19006,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1535,
+        "id": 1463,
         "estado": "SP",
         "cidade": "Campo Limpo Paulista",
         "local": "Campo Limpo Pta 1",
@@ -19955,7 +19019,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1536,
+        "id": 1464,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Rec do Sol 1",
@@ -19968,7 +19032,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1537,
+        "id": 1465,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 6",
@@ -19981,7 +19045,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1538,
+        "id": 1466,
         "estado": "SP",
         "cidade": "Itapetininga",
         "local": "Itapetininga 4",
@@ -19994,7 +19058,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1539,
+        "id": 1467,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos 8",
@@ -20007,7 +19071,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1540,
+        "id": 1468,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Pedreira 1",
@@ -20020,7 +19084,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1541,
+        "id": 1469,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Mascote 3",
@@ -20033,7 +19097,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1542,
+        "id": 1470,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 14",
@@ -20046,7 +19110,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1543,
+        "id": 1471,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Jd N C Eliseos 1",
@@ -20059,7 +19123,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1544,
+        "id": 1472,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 9",
@@ -20072,7 +19136,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1545,
+        "id": 1473,
         "estado": "SP",
         "cidade": "Votorantim",
         "local": "Votorantim 3",
@@ -20085,7 +19149,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1546,
+        "id": 1474,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Aclimação 4",
@@ -20098,7 +19162,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1547,
+        "id": 1475,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Pq Nv Mundo 1",
@@ -20111,7 +19175,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1548,
+        "id": 1476,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 16",
@@ -20124,7 +19188,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1549,
+        "id": 1477,
         "estado": "SP",
         "cidade": "Valinhos",
         "local": "Valinhos 3",
@@ -20137,7 +19201,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1550,
+        "id": 1478,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Mandaqui 1",
@@ -20150,7 +19214,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1551,
+        "id": 1479,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP São Miguel Pta 3",
@@ -20163,7 +19227,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1552,
+        "id": 1480,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Vl Aeroporto 1",
@@ -20176,7 +19240,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1553,
+        "id": 1481,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Medeiros 3",
@@ -20189,7 +19253,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1554,
+        "id": 1482,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 15",
@@ -20202,7 +19266,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1555,
+        "id": 1483,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 16",
@@ -20215,7 +19279,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1556,
+        "id": 1484,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl das Merces 3",
@@ -20228,7 +19292,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1557,
+        "id": 1485,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Barra Funda 2",
@@ -20241,7 +19305,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1558,
+        "id": 1486,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 16",
@@ -20254,7 +19318,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1559,
+        "id": 1487,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 17",
@@ -20267,7 +19331,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1560,
+        "id": 1488,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Zelina 2",
@@ -20280,7 +19344,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1561,
+        "id": 1489,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Aricanduva 4",
@@ -20293,7 +19357,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1562,
+        "id": 1490,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 7",
@@ -20306,7 +19370,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1563,
+        "id": 1491,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jd Helena 1",
@@ -20319,7 +19383,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1564,
+        "id": 1492,
         "estado": "SP",
         "cidade": "Monte Mor",
         "local": "Monte Mor 1",
@@ -20332,7 +19396,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1565,
+        "id": 1493,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 11",
@@ -20345,7 +19409,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1566,
+        "id": 1494,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 12",
@@ -20358,7 +19422,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1567,
+        "id": 1495,
         "estado": "SP",
         "cidade": "Pederneiras",
         "local": "Pederneiras 1",
@@ -20371,7 +19435,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1568,
+        "id": 1496,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Cangaíba 1",
@@ -20384,7 +19448,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1569,
+        "id": 1497,
         "estado": "SP",
         "cidade": "Salto de Pirapora",
         "local": "Salto de Pirapora 1",
@@ -20397,7 +19461,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1570,
+        "id": 1498,
         "estado": "SP",
         "cidade": "São Manuel",
         "local": "São Manuel 1",
@@ -20410,7 +19474,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1571,
+        "id": 1499,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 10",
@@ -20423,7 +19487,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1572,
+        "id": 1500,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 11",
@@ -20436,7 +19500,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1573,
+        "id": 1501,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 12",
@@ -20449,7 +19513,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1574,
+        "id": 1502,
         "estado": "SP",
         "cidade": "Sumaré",
         "local": "Sumaré 7",
@@ -20462,7 +19526,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1575,
+        "id": 1503,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 12",
@@ -20475,7 +19539,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1576,
+        "id": 1504,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 13",
@@ -20488,7 +19552,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1577,
+        "id": 1505,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 14",
@@ -20501,7 +19565,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1578,
+        "id": 1506,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Cidade Líder 3",
@@ -20514,7 +19578,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1579,
+        "id": 1507,
         "estado": "SP",
         "cidade": "Cândido Mota",
         "local": "Cândido Mota 1",
@@ -20527,7 +19591,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1580,
+        "id": 1508,
         "estado": "SP",
         "cidade": "Embu das Artes",
         "local": "Embu das Artes 2",
@@ -20540,7 +19604,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1581,
+        "id": 1509,
         "estado": "SP",
         "cidade": "Indaiatuba",
         "local": "Indaiatuba 6",
@@ -20553,7 +19617,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1582,
+        "id": 1510,
         "estado": "SP",
         "cidade": "Mairinque",
         "local": "Mairinque 1",
@@ -20566,7 +19630,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1583,
+        "id": 1511,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 15",
@@ -20579,7 +19643,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1584,
+        "id": 1512,
         "estado": "SP",
         "cidade": "Nova Odessa",
         "local": "Nova Odessa 2",
@@ -20592,7 +19656,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1585,
+        "id": 1513,
         "estado": "SP",
         "cidade": "Vinhedo",
         "local": "Vinhedo 2",
@@ -20605,7 +19669,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1586,
+        "id": 1514,
         "estado": "SP",
         "cidade": "Itapeva",
         "local": "Itapeva 1",
@@ -20618,7 +19682,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1587,
+        "id": 1515,
         "estado": "SP",
         "cidade": "Valinhos",
         "local": "Valinhos 4",
@@ -20631,7 +19695,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1588,
+        "id": 1516,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 13",
@@ -20644,7 +19708,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1589,
+        "id": 1517,
         "estado": "SP",
         "cidade": "Araçoiaba da Serra",
         "local": "Araçoiaba Serra 1",
@@ -20657,7 +19721,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1590,
+        "id": 1518,
         "estado": "SP",
         "cidade": "Assis",
         "local": "Assis 5",
@@ -20670,7 +19734,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1591,
+        "id": 1519,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 13",
@@ -20683,7 +19747,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1592,
+        "id": 1520,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Guilherme 2",
@@ -20696,7 +19760,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1593,
+        "id": 1521,
         "estado": "SP",
         "cidade": "Franco da Rocha",
         "local": "Franco da Rocha 2",
@@ -20709,7 +19773,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1594,
+        "id": 1522,
         "estado": "SP",
         "cidade": "Votorantim",
         "local": "Votorantim 4",
@@ -20722,7 +19786,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1595,
+        "id": 1523,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Carapicuíba 3",
@@ -20735,7 +19799,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1596,
+        "id": 1524,
         "estado": "SP",
         "cidade": "Paulínia",
         "local": "Paulínia 2",
@@ -20748,7 +19812,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1597,
+        "id": 1525,
         "estado": "SP",
         "cidade": "Embu Guaçu",
         "local": "Embu Guaçu 1",
@@ -20761,7 +19825,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1598,
+        "id": 1526,
         "estado": "PE",
         "cidade": "Recife",
         "local": "RC Jardim S Paulo 1",
@@ -20774,7 +19838,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 1599,
+        "id": 1527,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 16",
@@ -20787,7 +19851,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1600,
+        "id": 1528,
         "estado": "SP",
         "cidade": "Presidente Epitácio",
         "local": "Presid Epitácio 1",
@@ -20800,7 +19864,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1601,
+        "id": 1529,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Tremembé 2",
@@ -20813,7 +19877,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1602,
+        "id": 1530,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Mauá",
@@ -20826,7 +19890,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1603,
+        "id": 1531,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema 4",
@@ -20839,7 +19903,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1604,
+        "id": 1532,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 8",
@@ -20852,7 +19916,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1605,
+        "id": 1533,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 9",
@@ -20865,7 +19929,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1606,
+        "id": 1534,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 15",
@@ -20878,7 +19942,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1607,
+        "id": 1535,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 16",
@@ -20891,7 +19955,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1608,
+        "id": 1536,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 17",
@@ -20904,7 +19968,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1609,
+        "id": 1537,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Posto SBT 1",
@@ -20917,7 +19981,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1610,
+        "id": 1538,
         "estado": "SP",
         "cidade": "Ribeirão Pires",
         "local": "Ribeirão Pires 3",
@@ -20930,7 +19994,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1611,
+        "id": 1539,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo 17",
@@ -20943,7 +20007,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1612,
+        "id": 1540,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo 18",
@@ -20956,7 +20020,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1613,
+        "id": 1541,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo 19",
@@ -20969,7 +20033,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1614,
+        "id": 1542,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo 20",
@@ -20982,7 +20046,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1615,
+        "id": 1543,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo 21",
@@ -20995,7 +20059,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1616,
+        "id": 1544,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano 11",
@@ -21008,7 +20072,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1617,
+        "id": 1545,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano 12",
@@ -21021,7 +20085,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1618,
+        "id": 1546,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano 13",
@@ -21034,7 +20098,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1619,
+        "id": 1547,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano 14",
@@ -21047,7 +20111,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1620,
+        "id": 1548,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 14",
@@ -21060,7 +20124,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1621,
+        "id": 1549,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 15",
@@ -21073,7 +20137,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1622,
+        "id": 1550,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 16",
@@ -21086,7 +20150,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1623,
+        "id": 1551,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 17",
@@ -21099,7 +20163,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1624,
+        "id": 1552,
         "estado": "SP",
         "cidade": "Suzano",
         "local": "Suzano 3",
@@ -21112,7 +20176,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1625,
+        "id": 1553,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão da Serra 7",
@@ -21125,7 +20189,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1626,
+        "id": 1554,
         "estado": "SP",
         "cidade": "Presidente Venceslau",
         "local": "Presid Venceslau 2",
@@ -21138,7 +20202,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1627,
+        "id": 1555,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Alphaville 1",
@@ -21151,7 +20215,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1628,
+        "id": 1556,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 18",
@@ -21164,7 +20228,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1629,
+        "id": 1557,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Bauru 14",
@@ -21177,7 +20241,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1630,
+        "id": 1558,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 10",
@@ -21190,7 +20254,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1631,
+        "id": 1559,
         "estado": "SP",
         "cidade": "Cotia",
         "local": "Cotia 2",
@@ -21203,7 +20267,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1632,
+        "id": 1560,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 18",
@@ -21216,7 +20280,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1633,
+        "id": 1561,
         "estado": "SP",
         "cidade": "Jandira",
         "local": "Jandira 1",
@@ -21229,7 +20293,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1634,
+        "id": 1562,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Tucuruvi 6",
@@ -21242,7 +20306,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1635,
+        "id": 1563,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 19",
@@ -21255,7 +20319,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1636,
+        "id": 1564,
         "estado": "SP",
         "cidade": "Francisco Morato",
         "local": "Francisco Morato 1",
@@ -21268,7 +20332,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1637,
+        "id": 1565,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 19",
@@ -21281,7 +20345,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1638,
+        "id": 1566,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 20",
@@ -21294,7 +20358,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1639,
+        "id": 1567,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Capão Redondo 3",
@@ -21307,7 +20371,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1640,
+        "id": 1568,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Raposo Tavares 4",
@@ -21320,7 +20384,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1641,
+        "id": 1569,
         "estado": "SP",
         "cidade": "Santana de Parnaíba",
         "local": "Alphaville 3",
@@ -21333,7 +20397,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1642,
+        "id": 1570,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema 5",
@@ -21346,7 +20410,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1643,
+        "id": 1571,
         "estado": "SP",
         "cidade": "Bebedouro",
         "local": "Bebedouro 3",
@@ -21359,7 +20423,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1644,
+        "id": 1572,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 18",
@@ -21372,7 +20436,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1645,
+        "id": 1573,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema 6",
@@ -21385,7 +20449,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1646,
+        "id": 1574,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 21",
@@ -21398,7 +20462,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1647,
+        "id": 1575,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 22",
@@ -21411,7 +20475,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1648,
+        "id": 1576,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André 23",
@@ -21424,7 +20488,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1649,
+        "id": 1577,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Taquaral 3",
@@ -21437,7 +20501,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1650,
+        "id": 1578,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Swiss Park 2",
@@ -21450,7 +20514,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1651,
+        "id": 1579,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jaraguá 2",
@@ -21463,7 +20527,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1652,
+        "id": 1580,
         "estado": "SP",
         "cidade": "Boituva",
         "local": "Boituva 2",
@@ -21476,7 +20540,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1653,
+        "id": 1581,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 22",
@@ -21489,7 +20553,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1654,
+        "id": 1582,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Lapa 4",
@@ -21502,7 +20566,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1655,
+        "id": 1583,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 23",
@@ -21515,7 +20579,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1656,
+        "id": 1584,
         "estado": "SP",
         "cidade": "Jaú",
         "local": "Jaú 6",
@@ -21528,7 +20592,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1657,
+        "id": 1585,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP São Bernardo 1",
@@ -21541,7 +20605,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1658,
+        "id": 1586,
         "estado": "SP",
         "cidade": "Itupeva",
         "local": "Itupeva 2",
@@ -21554,7 +20618,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1659,
+        "id": 1587,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté 17",
@@ -21567,7 +20631,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1660,
+        "id": 1588,
         "estado": "SP",
         "cidade": "Vinhedo",
         "local": "Vinhedo 3",
@@ -21580,7 +20644,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1661,
+        "id": 1589,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Mogi das Cruzes 11",
@@ -21593,7 +20657,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1662,
+        "id": 1590,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí 17",
@@ -21606,7 +20670,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1663,
+        "id": 1591,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Penha",
@@ -21619,7 +20683,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1664,
+        "id": 1592,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Jose Bonifácio 1",
@@ -21632,7 +20696,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1665,
+        "id": 1593,
         "estado": "SP",
         "cidade": "Vinhedo",
         "local": "Vinhedo 4",
@@ -21645,7 +20709,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1666,
+        "id": 1594,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "CP Sousas 2",
@@ -21658,7 +20722,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1667,
+        "id": 1595,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Barueri 2",
@@ -21671,7 +20735,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1668,
+        "id": 1596,
         "estado": "SP",
         "cidade": "Santana de Parnaíba",
         "local": "Jandira 2",
@@ -21684,7 +20748,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1669,
+        "id": 1597,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 19",
@@ -21697,7 +20761,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1670,
+        "id": 1598,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Itaim Paulista 2",
@@ -21710,7 +20774,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1671,
+        "id": 1599,
         "estado": "SP",
         "cidade": "Suzano",
         "local": "Suzano 5",
@@ -21723,7 +20787,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1672,
+        "id": 1600,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos 9",
@@ -21736,7 +20800,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1673,
+        "id": 1601,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Presid Prudente 14",
@@ -21749,7 +20813,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1674,
+        "id": 1602,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP São Miguel Pta 4",
@@ -21762,7 +20826,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1675,
+        "id": 1603,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Artur Alvim 3",
@@ -21775,7 +20839,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1676,
+        "id": 1604,
         "estado": "SP",
         "cidade": "Poá",
         "local": "Poá 2",
@@ -21788,7 +20852,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1677,
+        "id": 1605,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Limão 3",
@@ -21801,7 +20865,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1678,
+        "id": 1606,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Buarque 2",
@@ -21814,7 +20878,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1679,
+        "id": 1607,
         "estado": "SP",
         "cidade": "Santa Cruz do Rio Pardo",
         "local": "Santa Cruz R Pardo",
@@ -21827,7 +20891,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1680,
+        "id": 1608,
         "estado": "SP",
         "cidade": "Bariri",
         "local": "Bariri 2",
@@ -21840,7 +20904,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1681,
+        "id": 1609,
         "estado": "SP",
         "cidade": "Embu das Artes",
         "local": "Embu das Artes 3",
@@ -21853,7 +20917,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1682,
+        "id": 1610,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba 20",
@@ -21866,7 +20930,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1683,
+        "id": 1611,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Carapicuíba 4",
@@ -21879,7 +20943,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1684,
+        "id": 1612,
         "estado": "SP",
         "cidade": "Paraguaçu Paulista",
         "local": "Paraguaçu Pta",
@@ -21892,7 +20956,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1685,
+        "id": 1613,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Limão 4",
@@ -21905,7 +20969,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1686,
+        "id": 1614,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vila Romana 4",
@@ -21918,7 +20982,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1687,
+        "id": 1615,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Barueri 3",
@@ -21931,7 +20995,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1688,
+        "id": 1616,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "S Bernardo Campo 24",
@@ -21944,7 +21008,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1689,
+        "id": 1617,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "S Caetano do Sul 15",
@@ -21957,7 +21021,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1690,
+        "id": 1618,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco 21",
@@ -21970,7 +21034,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1691,
+        "id": 1619,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão da Serra 8",
@@ -21983,7 +21047,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1692,
+        "id": 1620,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "SP Vl St Catarina 1",
@@ -21996,7 +21060,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1693,
+        "id": 1621,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Mauá 5",
@@ -22009,7 +21073,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1694,
+        "id": 1622,
         "estado": "SP",
         "cidade": "Valinhos",
         "local": "Valinhos 5",
@@ -22022,7 +21086,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1695,
+        "id": 1623,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Alphaville 5",
@@ -22035,7 +21099,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1696,
+        "id": 1624,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Alphaville 4",
@@ -22048,28 +21112,964 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1697,
+        "id": 1625,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Cooperviva",
         "endereço": "Rua Luís Smânio, 80",
         "bairro": "Jardim São Gabriel",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1698,
+        "id": 1626,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Cooperativa de Reciclagem Jardim Eulina",
         "endereço": "Rua Sebastião Jardim, 180",
         "bairro": "Jardim Eulina",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1627,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa de Reciclagem da Vila União",
+        "endereço": "Rua Enzo Ferrari, 120",
+        "bairro": "Vila União",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-17:00h",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1628,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Barão Geraldo",
+        "endereço": "Rua Raul Ferrari, s/n",
+        "bairro": "Jardim América",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "07:00h-17:00h",
+        "horario_sab": "07:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1629,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Campo Grande",
+        "endereço": "Avenida Suaçuna, s/n",
+        "bairro": "Jardim Campos Elíseos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "07:00h-17:00h",
+        "horario_sab": "07:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1630,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Sousas",
+        "endereço": "Rua Antônio de Castro Figueiredo, s/n",
+        "bairro": "Sousas",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "07:00h-17:00h",
+        "horario_sab": "07:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1631,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Ecoponto - Reciclagem e Sucatas",
+        "endereço": "Rua Padre Francisco de Abreu Sampaio, 83",
+        "bairro": "Jardim Chapadão",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1632,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem Campinas",
+        "endereço": "Rua Dr. Carlos França, 233",
+        "bairro": "Jardim Chapadão",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1633,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Trufer Reciclagem",
+        "endereço": "Avenida John Boyd Dunlop, 2310",
+        "bairro": "Jardim Ipaussurama",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1634,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Extra Hipermercados",
+        "endereço": "Diversas unidades",
+        "bairro": "Diversos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-22:00h",
+        "horario_sab": "08:00h-22:00h",
+        "tipo": "Supermercado",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1635,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Carrefour",
+        "endereço": "Diversas unidades",
+        "bairro": "Diversos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-22:00h",
+        "horario_sab": "08:00h-22:00h",
+        "tipo": "Supermercado",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1636,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Unicamp",
+        "endereço": "Campus Universitário",
+        "bairro": "Cidade Universitária",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "Fechado",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1637,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoReversa",
+        "endereço": "Rua Piracicaba, 1260",
+        "bairro": "Jardim São Vicente",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1638,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclázaro",
+        "endereço": "Rua José Paulino, 3003",
+        "bairro": "Centro",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1639,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Recilimp",
+        "endereço": "Rua Sacramento, 1280",
+        "bairro": "Botafogo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1640,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Eco Reciclagem",
+        "endereço": "Avenida Andrade Neves, 1589",
+        "bairro": "Vila Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1641,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Estação Recicla",
+        "endereço": "Rua Onze de Agosto, 400",
+        "bairro": "Cambuí",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1642,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Betel",
+        "endereço": "Rua Betel, s/n",
+        "bairro": "Betel",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1643,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Satélite Íris",
+        "endereço": "Rua Dr. Marcelo Mesquita, s/n",
+        "bairro": "Jardim Satélite Íris",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1644,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Parque Itália",
+        "endereço": "Rua Padre Camargo Lacerda, s/n",
+        "bairro": "Parque Itália",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1645,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Dic VI",
+        "endereço": "Rua Manoel Gomes Ferreira, s/n",
+        "bairro": "Dic VI",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1646,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Pacaembu",
+        "endereço": "Rua Prof. Oscar Rodrigues Cajado, s/n",
+        "bairro": "Jardim Pacaembu",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1647,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Vila Orozimbo Maia",
+        "endereço": "Rua Dr. Aldemar Pereira, 200",
+        "bairro": "Vila Orozimbo Maia",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1648,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem Rio Claro",
+        "endereço": "Avenida da Saudade, 2700",
+        "bairro": "Jardim Chapadão",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1649,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Coopecicla",
+        "endereço": "Rua Carolina Florence, 50",
+        "bairro": "Vila Industrial",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1650,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclar Campinas",
+        "endereço": "Rua Delfino Cintra, 890",
+        "bairro": "Botafogo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1651,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Eco Reciclagem Nova Campinas",
+        "endereço": "Rua Monte Alegre, 250",
+        "bairro": "Nova Campinas",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1652,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa Mãos Dadas",
+        "endereço": "Rua Cecília Bueno Bruno, 555",
+        "bairro": "Jardim Itatinga",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1653,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Swift",
+        "endereço": "Rua Abolição, s/n",
+        "bairro": "Swift",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1654,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV São Bernardo",
+        "endereço": "Rua Sebastião Gonçalves da Silva, s/n",
+        "bairro": "São Bernardo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1655,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Vida Nova",
+        "endereço": "Rua João Tomazelli, 145",
+        "bairro": "Vida Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1656,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoRecicla São Quirino",
+        "endereço": "Rua Dante Suriani, 132",
+        "bairro": "São Quirino",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1657,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoCoop Jardim das Paineiras",
+        "endereço": "Avenida Dr. Heitor Penteado, 1640",
+        "bairro": "Jardim das Paineiras",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1658,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa de Reciclagem Vida Nova",
+        "endereço": "Rua Pedro Zaccarias, 145",
+        "bairro": "Vida Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1659,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Dic II",
+        "endereço": "Rua Carlos Maia, s/n",
+        "bairro": "Dic II",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1660,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim do Lago",
+        "endereço": "Rua José Rosolém, s/n",
+        "bairro": "Jardim do Lago",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1661,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Parque das Universidades",
+        "endereço": "Rua Mirtes Fonseca Santos, 200",
+        "bairro": "Parque das Universidades",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1662,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoCoop Jardim Proença",
+        "endereço": "Rua Eduardo Lane, 220",
+        "bairro": "Jardim Proença",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1663,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclar Vila Marieta",
+        "endereço": "Rua Edson Luis Rigonatto, 780",
+        "bairro": "Vila Marieta",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1664,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Santa Genebra",
+        "endereço": "Rua Profa. Therezinha Marcondes Machado, s/n",
+        "bairro": "Santa Genebra",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1665,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Jardim Flamboyant",
+        "endereço": "Rua José Teixeira de Camargo, 400",
+        "bairro": "Jardim Flamboyant",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1666,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclar Novo Mundo",
+        "endereço": "Rua Otávio Mendes Alves, 300",
+        "bairro": "Novo Mundo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1667,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoColeta Campinas",
+        "endereço": "Rua Barão de Parnaíba, 2340",
+        "bairro": "Guanabara",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1668,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem A. L.",
+        "endereço": "Avenida Prestes Maia, 601",
+        "bairro": "Jardim do Trevo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1669,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Cidade Singer",
+        "endereço": "Rua da Abolição, s/n",
+        "bairro": "Cidade Singer",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1670,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Florence",
+        "endereço": "Rua Pedro Vieira dos Santos, s/n",
+        "bairro": "Jardim Florence",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1671,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem Elite",
+        "endereço": "Rua Barão de Itapura, 1842",
+        "bairro": "Botafogo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1672,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Jardim Nova Europa",
+        "endereço": "Rua Piracicaba, 350",
+        "bairro": "Jardim Nova Europa",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1673,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoReciclagem Taquaral",
+        "endereço": "Rua Paschoal Marmo, 2700",
+        "bairro": "Jardim Nossa Senhora Auxiliadora",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1674,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Parque Valença",
+        "endereço": "Rua Joaquim Gonçalves Pacheco, s/n",
+        "bairro": "Parque Valença",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1675,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem Rápida",
+        "endereço": "Rua Marechal Deodoro, 211",
+        "bairro": "Centro",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1676,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoRecicla Bonfim",
+        "endereço": "Rua Álvaro Ribeiro, 70",
+        "bairro": "Bonfim",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1677,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa Ambiental",
+        "endereço": "Rua Francisco de Paula Oliveira, 321",
+        "bairro": "Parque Prado",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1678,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV São José",
+        "endereço": "Rua Luis Otávio, s/n",
+        "bairro": "São José",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1679,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Aurélia",
+        "endereço": "Rua José Aparecido Barros Sobrinho, s/n",
+        "bairro": "Jardim Aurélia",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1680,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoReciclagem Bandeiras",
+        "endereço": "Rua Dr. Álvaro Ribeiro, 10",
+        "bairro": "Jardim das Bandeiras",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1681,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Novo Campos Elíseos",
+        "endereço": "Rua Antônio de Souza Noschese, s/n",
+        "bairro": "Jardim Novo Campos Elíseos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1682,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa Caminho Verde",
+        "endereço": "Rua Orlando Signorelli, 81",
+        "bairro": "Vila Boa Vista",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1683,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoRecicla Jardim Guanabara",
+        "endereço": "Avenida Barão de Itapura, 2420",
+        "bairro": "Jardim Guanabara",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1684,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem e Sucata Campinas",
+        "endereço": "Rua Dona Maria Umbelina Couto, 315",
+        "bairro": "Jardim do Lago II",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1685,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Conceição",
+        "endereço": "Rua Benedito Franco do Amaral, s/n",
+        "bairro": "Jardim Conceição",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1686,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Jardim Boa Esperança",
+        "endereço": "Rua Ademar de Barros, 515",
+        "bairro": "Jardim Boa Esperança",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1687,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoReciclagem São Martinho",
+        "endereço": "Rua Maria Emília Alves, 700",
+        "bairro": "São Martinho",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1688,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa Reciclador Solidário",
+        "endereço": "Rua José Paulino, 5300",
+        "bairro": "Jardim Paulicéia",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1689,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Santa Mônica",
+        "endereço": "Rua José Monteiro, s/n",
+        "bairro": "Jardim Santa Mônica",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1690,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoReciclagem Vila União",
+        "endereço": "Rua Comendador Antônio Alves Aranha, 80",
+        "bairro": "Vila União",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1691,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Reciclagem Parque Prado",
+        "endereço": "Rua Francisco de Paula Oliveira, 321",
+        "bairro": "Parque Prado",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1692,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Capivari",
+        "endereço": "Rua Nelson Fadigati, s/n",
+        "bairro": "Jardim Capivari",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1693,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Vila Teixeira",
+        "endereço": "Rua Abolição, s/n",
+        "bairro": "Vila Teixeira",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1694,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim São Gabriel",
+        "endereço": "Rua Papa Paulo VI, s/n",
+        "bairro": "Jardim São Gabriel",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1695,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Vila Marieta",
+        "endereço": "Rua Cel. Quirino, s/n",
+        "bairro": "Vila Marieta",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1696,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "PEV Jardim Aurélia II",
+        "endereço": "Rua Edivaldo Antônio Correia, s/n",
+        "bairro": "Jardim Aurélia II",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1697,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "EcoPonto Vila Nova",
+        "endereço": "Rua Maria Emília Alves, s/n",
+        "bairro": "Vila Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
+        "estado_nome": "São Paulo"
+    },
+    {
+        "id": 1698,
+        "estado": "SP",
+        "cidade": "Campinas",
+        "local": "Cooperativa São Francisco de Assis",
+        "endereço": "Rua Manoel Afonso Ferreira, 54",
+        "bairro": "Jardim Ouro Branco",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22077,62 +22077,62 @@ const ecoPontos = [
         "id": 1699,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Cooperativa de Reciclagem da Vila União",
-        "endereço": "Rua Enzo Ferrari, 120",
-        "bairro": "Vila União",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-17:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "local": "PEV Jardim Novo Campos Elíseos II",
+        "endereço": "Rua Vitor Meirelles, s/n",
+        "bairro": "Jardim Novo Campos Elíseos II",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "PEV",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1700,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Barão Geraldo",
-        "endereço": "Rua Raul Ferrari, s/n",
-        "bairro": "Jardim América",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "07:00h-17:00h",
-        "horario_sab": "07:00h-12:00h",
-        "tipo": "PEV",
+        "local": "Reciclagem Parque São Martinho",
+        "endereço": "Rua José de Oliveira, 305",
+        "bairro": "Parque São Martinho",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1701,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Campo Grande",
-        "endereço": "Avenida Suaçuna, s/n",
-        "bairro": "Jardim Campos Elíseos",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "07:00h-17:00h",
-        "horario_sab": "07:00h-12:00h",
-        "tipo": "PEV",
+        "local": "Reciclagem São Bernardo",
+        "endereço": "Rua Albino José Barbosa de Oliveira, 200",
+        "bairro": "São Bernardo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1702,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Sousas",
-        "endereço": "Rua Antônio de Castro Figueiredo, s/n",
-        "bairro": "Sousas",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "07:00h-17:00h",
-        "horario_sab": "07:00h-12:00h",
-        "tipo": "PEV",
+        "local": "Cooperativa Santa Genebra",
+        "endereço": "Rua Manoel Machado Pereira, 500",
+        "bairro": "Santa Genebra",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1703,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Ecoponto - Reciclagem e Sucatas",
-        "endereço": "Rua Padre Francisco de Abreu Sampaio, 83",
-        "bairro": "Jardim Chapadão",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Recicla Fácil",
+        "endereço": "Rua Prof. Ricardo Pieroni, 100",
+        "bairro": "Cidade Universitária",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22142,12 +22142,12 @@ const ecoPontos = [
         "id": 1704,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Reciclagem Campinas",
-        "endereço": "Rua Dr. Carlos França, 233",
-        "bairro": "Jardim Chapadão",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Coopernova",
+        "endereço": "Rua Joaquim Vilac, 100",
+        "bairro": "Nova Campinas",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22155,10 +22155,10 @@ const ecoPontos = [
         "id": 1705,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Trufer Reciclagem",
-        "endereço": "Avenida John Boyd Dunlop, 2310",
-        "bairro": "Jardim Ipaussurama",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem e Sucata Boa Vista",
+        "endereço": "Rua dos Bandeirantes, 77",
+        "bairro": "Vila Boa Vista",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22168,49 +22168,49 @@ const ecoPontos = [
         "id": 1706,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Extra Hipermercados",
-        "endereço": "Diversas unidades",
-        "bairro": "Diversos",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-22:00h",
-        "horario_sab": "08:00h-22:00h",
-        "tipo": "Supermercado",
+        "local": "Cooperativa Vida Nova",
+        "endereço": "Rua José Paulino, 2300",
+        "bairro": "Vida Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1707,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Carrefour",
-        "endereço": "Diversas unidades",
-        "bairro": "Diversos",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-22:00h",
-        "horario_sab": "08:00h-22:00h",
-        "tipo": "Supermercado",
+        "local": "Reciclagem Líder",
+        "endereço": "Rua Barão de Jaguara, 1500",
+        "bairro": "Centro",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
+        "horario_seg_sex": "08:00h-18:00h",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1708,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Unicamp",
-        "endereço": "Campus Universitário",
-        "bairro": "Cidade Universitária",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Sustenta",
+        "endereço": "Rua Prof. Oscar Rodrigues Cajado, 321",
+        "bairro": "Jardim Pacaembu",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "Fechado",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1709,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoReversa",
-        "endereço": "Rua Piracicaba, 1260",
-        "bairro": "Jardim São Vicente",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Prática",
+        "endereço": "Rua Dr. Ricardo, 90",
+        "bairro": "Botafogo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22220,12 +22220,12 @@ const ecoPontos = [
         "id": 1710,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Reciclázaro",
-        "endereço": "Rua José Paulino, 3003",
-        "bairro": "Centro",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Reciclar Vida",
+        "endereço": "Rua Dr. Campos Salles, 85",
+        "bairro": "Jardim Proença",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22233,10 +22233,10 @@ const ecoPontos = [
         "id": 1711,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Recilimp",
-        "endereço": "Rua Sacramento, 1280",
-        "bairro": "Botafogo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Atual",
+        "endereço": "Rua Maria Monteiro, 70",
+        "bairro": "Cambuí",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22246,12 +22246,12 @@ const ecoPontos = [
         "id": 1712,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Eco Reciclagem",
-        "endereço": "Avenida Andrade Neves, 1589",
-        "bairro": "Vila Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa de Reciclagem Nova Esperança",
+        "endereço": "Rua Antônio Francisco de Paula Souza, 123",
+        "bairro": "Jardim Nova Europa",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22259,10 +22259,10 @@ const ecoPontos = [
         "id": 1713,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Estação Recicla",
-        "endereço": "Rua Onze de Agosto, 400",
-        "bairro": "Cambuí",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Express",
+        "endereço": "Rua Engenheiro Saturnino de Brito, 500",
+        "bairro": "Jardim Guanabara",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22272,90 +22272,90 @@ const ecoPontos = [
         "id": 1714,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoPonto Betel",
-        "endereço": "Rua Betel, s/n",
-        "bairro": "Betel",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Ambiental Sustentável",
+        "endereço": "Rua José de Alencar, 155",
+        "bairro": "Jardim Chapadão",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1715,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Jardim Satélite Íris",
-        "endereço": "Rua Dr. Marcelo Mesquita, s/n",
-        "bairro": "Jardim Satélite Íris",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem e Sucata Central",
+        "endereço": "Rua Álvaro Ribeiro, 50",
+        "bairro": "Bonfim",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1716,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Parque Itália",
-        "endereço": "Rua Padre Camargo Lacerda, s/n",
-        "bairro": "Parque Itália",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Recicla Bem",
+        "endereço": "Rua Sete de Setembro, 321",
+        "bairro": "Vila Industrial",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1717,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Dic VI",
-        "endereço": "Rua Manoel Gomes Ferreira, s/n",
-        "bairro": "Dic VI",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Dinâmica",
+        "endereço": "Rua Dona Josefina Sarmento, 450",
+        "bairro": "Parque São Jorge",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1718,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Jardim Pacaembu",
-        "endereço": "Rua Prof. Oscar Rodrigues Cajado, s/n",
-        "bairro": "Jardim Pacaembu",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Vida Verde",
+        "endereço": "Rua Prof. Paula Morel, 540",
+        "bairro": "Jardim Ouro Branco",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1719,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoPonto Vila Orozimbo Maia",
-        "endereço": "Rua Dr. Aldemar Pereira, 200",
-        "bairro": "Vila Orozimbo Maia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Sustentável Campinas",
+        "endereço": "Rua São Carlos, 700",
+        "bairro": "Vila Rica",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1720,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Reciclagem Rio Claro",
-        "endereço": "Avenida da Saudade, 2700",
-        "bairro": "Jardim Chapadão",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Terra Viva",
+        "endereço": "Rua Paschoal Marmo, 2700",
+        "bairro": "Jardim Nossa Senhora Auxiliadora",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22363,10 +22363,10 @@ const ecoPontos = [
         "id": 1721,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Coopecicla",
-        "endereço": "Rua Carolina Florence, 50",
-        "bairro": "Vila Industrial",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem União",
+        "endereço": "Rua Maria Eudóxia, 250",
+        "bairro": "Jardim Santa Eudóxia",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22376,12 +22376,12 @@ const ecoPontos = [
         "id": 1722,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Reciclar Campinas",
-        "endereço": "Rua Delfino Cintra, 890",
-        "bairro": "Botafogo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Verde Horizonte",
+        "endereço": "Rua Prof. João Batista de Almeida, 150",
+        "bairro": "Jardim do Trevo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22389,10 +22389,10 @@ const ecoPontos = [
         "id": 1723,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Eco Reciclagem Nova Campinas",
-        "endereço": "Rua Monte Alegre, 250",
-        "bairro": "Nova Campinas",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem e Sucata Ouro Verde",
+        "endereço": "Rua Barão de Itapura, 700",
+        "bairro": "Botafogo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22402,12 +22402,12 @@ const ecoPontos = [
         "id": 1724,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Cooperativa Mãos Dadas",
-        "endereço": "Rua Cecília Bueno Bruno, 555",
-        "bairro": "Jardim Itatinga",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Mãos à Obra",
+        "endereço": "Rua José Biasoli, 240",
+        "bairro": "Jardim Aurélia",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22415,51 +22415,51 @@ const ecoPontos = [
         "id": 1725,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Swift",
-        "endereço": "Rua Abolição, s/n",
-        "bairro": "Swift",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Brasil",
+        "endereço": "Rua David Vicente, 30",
+        "bairro": "São José",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1726,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV São Bernardo",
-        "endereço": "Rua Sebastião Gonçalves da Silva, s/n",
-        "bairro": "São Bernardo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Transformar",
+        "endereço": "Rua dos Operários, 100",
+        "bairro": "Vila Operária",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1727,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoPonto Vida Nova",
-        "endereço": "Rua João Tomazelli, 145",
-        "bairro": "Vida Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Nacional",
+        "endereço": "Rua Álvares Cabral, 99",
+        "bairro": "Vila Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1728,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoRecicla São Quirino",
-        "endereço": "Rua Dante Suriani, 132",
-        "bairro": "São Quirino",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Progresso",
+        "endereço": "Rua Francisco de Paula Oliveira, 321",
+        "bairro": "Parque Prado",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22467,12 +22467,12 @@ const ecoPontos = [
         "id": 1729,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoCoop Jardim das Paineiras",
-        "endereço": "Avenida Dr. Heitor Penteado, 1640",
-        "bairro": "Jardim das Paineiras",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Prime",
+        "endereço": "Rua Eduardo Lane, 200",
+        "bairro": "Jardim Proença",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22480,12 +22480,12 @@ const ecoPontos = [
         "id": 1730,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Cooperativa de Reciclagem Vida Nova",
-        "endereço": "Rua Pedro Zaccarias, 145",
-        "bairro": "Vida Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Nova Esperança",
+        "endereço": "Rua Prof. Paula Morel, 500",
+        "bairro": "Jardim Ouro Branco",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22493,51 +22493,51 @@ const ecoPontos = [
         "id": 1731,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Dic II",
-        "endereço": "Rua Carlos Maia, s/n",
-        "bairro": "Dic II",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Brasil Norte",
+        "endereço": "Rua Joaquim Vilac, 250",
+        "bairro": "Nova Campinas",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1732,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV Jardim do Lago",
-        "endereço": "Rua José Rosolém, s/n",
-        "bairro": "Jardim do Lago",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa de Reciclagem Novo Amanhecer",
+        "endereço": "Rua São Francisco de Assis, 140",
+        "bairro": "Jardim São Francisco",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "horario_sab": "Fechado",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1733,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoPonto Parque das Universidades",
-        "endereço": "Rua Mirtes Fonseca Santos, 200",
-        "bairro": "Parque das Universidades",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Paulista",
+        "endereço": "Rua Dona Maria Umbelina Couto, 200",
+        "bairro": "Jardim do Lago II",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1734,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoCoop Jardim Proença",
-        "endereço": "Rua Eduardo Lane, 220",
-        "bairro": "Jardim Proença",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cooperativa Recicla Vida Campinas",
+        "endereço": "Rua Prof. Paula Morel, 200",
+        "bairro": "Jardim Ouro Branco",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
+        "horario_sab": "Fechado",
         "tipo": "Empresa privada",
         "estado_nome": "São Paulo"
     },
@@ -22545,10 +22545,10 @@ const ecoPontos = [
         "id": 1735,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Reciclar Vila Marieta",
-        "endereço": "Rua Edson Luis Rigonatto, 780",
-        "bairro": "Vila Marieta",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Reciclagem Campinas",
+        "endereço": "Rua Joaquim Vilac, 300",
+        "bairro": "Nova Campinas",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Empresa privada",
@@ -22557,947 +22557,947 @@ const ecoPontos = [
     {
         "id": 1736,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Santa Genebra",
-        "endereço": "Rua Profa. Therezinha Marcondes Machado, s/n",
-        "bairro": "Santa Genebra",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Barueri",
+        "local": "Alphaville",
+        "endereço": "Alameda Madeira, 152 - Alphaville Industrial",
+        "bairro": "Alphaville Industrial",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1737,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoPonto Jardim Flamboyant",
-        "endereço": "Rua José Teixeira de Camargo, 400",
-        "bairro": "Jardim Flamboyant",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Barueri",
+        "local": "Alphaville Residencial",
+        "endereço": "Av. Marte 624 - Alphaville",
+        "bairro": "Santana do Parnaíba",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1738,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclar Novo Mundo",
-        "endereço": "Rua Otávio Mendes Alves, 300",
-        "bairro": "Novo Mundo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Bertioga",
+        "local": "Riviera de São Lourenço",
+        "endereço": "Av. Aprovada, 329, Quadra C, LOTE 01 mod 27",
+        "bairro": "Riviera de São Lourenço",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1739,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoColeta Campinas",
-        "endereço": "Rua Barão de Parnaíba, 2340",
-        "bairro": "Guanabara",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "Lago Sul",
+        "endereço": "SUIS/CI. QI 05 Conj. F n.80 subsolo",
+        "bairro": "Centro Coml. Gilberto Salomão",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1740,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem A. L.",
-        "endereço": "Avenida Prestes Maia, 601",
-        "bairro": "Jardim do Trevo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "516 Sul",
+        "endereço": "SCRS 516 Bloco A Ljs 45/46  Asa Sul",
+        "bairro": "Asa Sul",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1741,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Cidade Singer",
-        "endereço": "Rua da Abolição, s/n",
-        "bairro": "Cidade Singer",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "308 / 309 Sul",
+        "endereço": "SHCS 308/309 s/n",
+        "bairro": " Bloco A MC",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1742,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Florence",
-        "endereço": "Rua Pedro Vieira dos Santos, s/n",
-        "bairro": "Jardim Florence",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "L-02 Norte",
+        "endereço": "EQS 406/407 s/n Bloco A - Asa Sul",
+        "bairro": "Asa Sul",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1743,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Elite",
-        "endereço": "Rua Barão de Itapura, 1842",
-        "bairro": "Botafogo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "Lago Norte",
+        "endereço": "SHIN s/n, Bloco A Trecho 1",
+        "bairro": "Lago Norte",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1744,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoPonto Jardim Nova Europa",
-        "endereço": "Rua Piracicaba, 350",
-        "bairro": "Jardim Nova Europa",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "W3 Norte",
+        "endereço": "EQN 508/509 Bloco A",
+        "bairro": "Asa Norte",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1745,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoReciclagem Taquaral",
-        "endereço": "Rua Paschoal Marmo, 2700",
-        "bairro": "Jardim Nossa Senhora Auxiliadora",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "Sudoeste",
+        "endereço": "CCSW 06 Ljs 4/5",
+        "bairro": "Sudoeste",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1746,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Parque Valença",
-        "endereço": "Rua Joaquim Gonçalves Pacheco, s/n",
-        "bairro": "Parque Valença",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "DF",
+        "cidade": "Brasília",
+        "local": "Águas Claras",
+        "endereço": "Quadra 206 Lote 02 Praça Tuim - Águas Claras - Taguatinga",
+        "bairro": "Águas Claras",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Distrito Federal"
     },
     {
         "id": 1747,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Reciclagem Rápida",
-        "endereço": "Rua Marechal Deodoro, 211",
-        "bairro": "Centro",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Cambuí",
+        "endereço": "Av. General Osório, 1844 - Conceição",
+        "bairro": "Cambuí",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1748,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "EcoRecicla Bonfim",
-        "endereço": "Rua Álvaro Ribeiro, 70",
-        "bairro": "Bonfim",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Proença",
+        "endereço": "Av. Princesa D'Oeste, 1467 - Campinas",
+        "bairro": "Proença",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1749,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "Cooperativa Ambiental",
-        "endereço": "Rua Francisco de Paula Oliveira, 321",
-        "bairro": "Parque Prado",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Barão Geraldo",
+        "endereço": "Av. Albino José Barbosa de Oliveira, 1340 - Jardim José Martins - Barão Geraldo",
+        "bairro": "Barão Geraldo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1750,
         "estado": "SP",
         "cidade": "Campinas",
-        "local": "PEV São José",
-        "endereço": "Rua Luis Otávio, s/n",
-        "bairro": "São José",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "local": "Itapura",
+        "endereço": "Av. Barão de Itapura, 2233 - Guanabara",
+        "bairro": "Guanabara",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1751,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Aurélia",
-        "endereço": "Rua José Aparecido Barros Sobrinho, s/n",
-        "bairro": "Jardim Aurélia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Cotia",
+        "local": "Granja Viana",
+        "endereço": "Rodovia Raposo Tavares, km 23 Area B",
+        "bairro": "Granja Viana",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1752,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoReciclagem Bandeiras",
-        "endereço": "Rua Dr. Álvaro Ribeiro, 10",
-        "bairro": "Jardim das Bandeiras",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "PR",
+        "cidade": "Curitiba",
+        "local": "Jd. Social",
+        "endereço": "Rua Arquimedes Cruz, 85 - Jardim Social",
+        "bairro": "Jardim Social",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Paraná"
     },
     {
         "id": 1753,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Novo Campos Elíseos",
-        "endereço": "Rua Antônio de Souza Noschese, s/n",
-        "bairro": "Jardim Novo Campos Elíseos",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "PR",
+        "cidade": "Curitiba",
+        "local": "Republica Argentina",
+        "endereço": "Av. República Argentina, 391/435/447 - Água Verde",
+        "bairro": "Água Verde",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Paraná"
     },
     {
         "id": 1754,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Caminho Verde",
-        "endereço": "Rua Orlando Signorelli, 81",
-        "bairro": "Vila Boa Vista",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "Fatima",
+        "endereço": "R. Dr Costa Araújo, 1132  Fátima",
+        "bairro": "Fátima",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1755,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoRecicla Jardim Guanabara",
-        "endereço": "Avenida Barão de Itapura, 2420",
-        "bairro": "Jardim Guanabara",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "Náutico",
+        "endereço": "Av da Abolição, 2900  Meireles",
+        "bairro": "Meireles",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1756,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem e Sucata Campinas",
-        "endereço": "Rua Dona Maria Umbelina Couto, 315",
-        "bairro": "Jardim do Lago II",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "São João",
+        "endereço": "Av. Santos Dumont, 1169  Aldeota",
+        "bairro": "Aldeota",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1757,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Conceição",
-        "endereço": "Rua Benedito Franco do Amaral, s/n",
-        "bairro": "Jardim Conceição",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "Júlio Ventura",
+        "endereço": "R. Bárbara de Alencar 1887 Loja 1 - Aldeota",
+        "bairro": "Aldeota",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1758,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoPonto Jardim Boa Esperança",
-        "endereço": "Rua Ademar de Barros, 515",
-        "bairro": "Jardim Boa Esperança",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "Cocó",
+        "endereço": "Av. Eng. Santana Jr, 2277 - Shopping Casa Blanca Mall - Cocó",
+        "bairro": "Cocó",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1759,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoReciclagem São Martinho",
-        "endereço": "Rua Maria Emília Alves, 700",
-        "bairro": "São Martinho",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "Virgílio Távora",
+        "endereço": "Av. Sen. Virgílio Távora, 2270  Dionísio Torres",
+        "bairro": "Dionísio Torres",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1760,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Reciclador Solidário",
-        "endereço": "Rua José Paulino, 5300",
-        "bairro": "Jardim Paulicéia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "Buena Vista",
+        "endereço": "Av. Washington Soares, 1500  Lojas 3, 4 e 5 - Edson Queiroz",
+        "bairro": "Edson Queiroz",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1761,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Santa Mônica",
-        "endereço": "Rua José Monteiro, s/n",
-        "bairro": "Jardim Santa Mônica",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "CE",
+        "cidade": "Fortaleza",
+        "local": "São Gerardo",
+        "endereço": "Av. Bezerra de Meneses, 1498/1548  São Gerardo",
+        "bairro": "São Gerardo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Ceará"
     },
     {
         "id": 1762,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoReciclagem Vila União",
-        "endereço": "Rua Comendador Antônio Alves Aranha, 80",
-        "bairro": "Vila União",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "GO",
+        "cidade": "Goiânia",
+        "local": "T63",
+        "endereço": " - Quadra 151 - Lote 01",
+        "bairro": "Av. T5",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Goiás"
     },
     {
         "id": 1763,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Parque Prado",
-        "endereço": "Rua Francisco de Paula Oliveira, 321",
-        "bairro": "Parque Prado",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Guarujá",
+        "local": "Tejereba",
+        "endereço": "Av. Dom Pedro I, 195 - Jardim Tejereba",
+        "bairro": "Jardim Tejereba",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1764,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Capivari",
-        "endereço": "Rua Nelson Fadigati, s/n",
-        "bairro": "Jardim Capivari",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Indaiatuba",
+        "local": "Indaiatuba",
+        "endereço": "Av. Presidente Vargas c/ Av. dos Trabalhadores, s/n°",
+        "bairro": "Centro",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1765,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoPonto Vila Teixeira",
-        "endereço": "Rua Abolição, s/n",
-        "bairro": "Vila Teixeira",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Itu",
+        "local": "Itu",
+        "endereço": "Rua Prudente de Moraes, 210 - Vila Nova",
+        "bairro": "Vila Nova",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1766,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim São Gabriel",
-        "endereço": "Rua Papa Paulo VI, s/n",
-        "bairro": "Jardim São Gabriel",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "PB",
+        "cidade": "João Pessoa",
+        "local": "Bessa",
+        "endereço": "Av. Governador Flávio Ribeiro Coutinho, 600 - Bessa",
+        "bairro": "Bessa",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Paraíba"
     },
     {
         "id": 1767,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoPonto Vila Marieta",
-        "endereço": "Rua Cel. Quirino, s/n",
-        "bairro": "Vila Marieta",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Jundiaí",
+        "local": "Jundiaí",
+        "endereço": "AV Nove de Julho, 355 - Anhangabaú",
+        "bairro": "Anhangabaú",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1768,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Aurélia II",
-        "endereço": "Rua Edivaldo Antônio Correia, s/n",
-        "bairro": "Jardim Aurélia II",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Piracicaba",
+        "local": "Piracicaba",
+        "endereço": "Rua Visconde do Rio Branco, 583 - Centro (Tupi)",
+        "bairro": "Centro (Tupi)",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1769,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "EcoPonto Vila Nova",
-        "endereço": "Rua Maria Emília Alves, s/n",
-        "bairro": "Vila Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro",
+        "local": "Dr. Sattamini",
+        "endereço": "Rua Dr. Satamini, 164 - Tijuca",
+        "bairro": "Tijuca",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Rio de Janeiro"
     },
     {
         "id": 1770,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa São Francisco de Assis",
-        "endereço": "Rua Manoel Afonso Ferreira, 54",
-        "bairro": "Jardim Ouro Branco",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro",
+        "local": "Paróquia",
+        "endereço": "Av. Nossa Senhora de Copacabana, 493 - Copacabana",
+        "bairro": "Copacabana",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Rio de Janeiro"
     },
     {
         "id": 1771,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "PEV Jardim Novo Campos Elíseos II",
-        "endereço": "Rua Vitor Meirelles, s/n",
-        "bairro": "Jardim Novo Campos Elíseos II",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro",
+        "local": "Barra da Tijuca",
+        "endereço": "Av. das Américas, 2000 - Barra da Tijuca",
+        "bairro": "Barra da Tijuca",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "PEV",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Rio de Janeiro"
     },
     {
         "id": 1772,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Parque São Martinho",
-        "endereço": "Rua José de Oliveira, 305",
-        "bairro": "Parque São Martinho",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro",
+        "local": "Botafogo",
+        "endereço": "Rua Barão de Itambi, 50 - Botafogo",
+        "bairro": "Botafogo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Rio de Janeiro"
     },
     {
         "id": 1773,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem São Bernardo",
-        "endereço": "Rua Albino José Barbosa de Oliveira, 200",
-        "bairro": "São Bernardo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro",
+        "local": "Leblon",
+        "endereço": "Rua José Linhares, 245 - Leblon",
+        "bairro": "Leblon",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Rio de Janeiro"
     },
     {
         "id": 1774,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Santa Genebra",
-        "endereço": "Rua Manoel Machado Pereira, 500",
-        "bairro": "Santa Genebra",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São José dos Campos",
+        "local": "Aquarius",
+        "endereço": "Av. Salmão, Quadra 37 - Parque Residencial",
+        "bairro": "Parque Residencial",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1775,
-        "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Recicla Fácil",
-        "endereço": "Rua Prof. Ricardo Pieroni, 100",
-        "bairro": "Cidade Universitária",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "NE",
+        "cidade": "Salvador",
+        "local": "Costa Azul",
+        "endereço": "Rua Arthur De Azevedo Machado S/N - Costa Azul",
+        "bairro": "Costa Azul",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
-        "estado_nome": "São Paulo"
+        "tipo": "Supermercado",
+        "estado_nome": "Bahia"
     },
     {
         "id": 1776,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Coopernova",
-        "endereço": "Rua Joaquim Vilac, 100",
-        "bairro": "Nova Campinas",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Santana do Parnaíba",
+        "local": "Tamboré",
+        "endereço": "Av. Marcos Penteado de Ulhoa Rodrigues, 3212 - Tamboré",
+        "bairro": "Tamboré",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1777,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem e Sucata Boa Vista",
-        "endereço": "Rua dos Bandeirantes, 77",
-        "bairro": "Vila Boa Vista",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Santo André",
+        "local": "Figueiras",
+        "endereço": "R. das Goiabeiras, 359 - Jardim",
+        "bairro": "Jardim",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1778,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Vida Nova",
-        "endereço": "Rua José Paulino, 2300",
-        "bairro": "Vida Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Santos",
+        "local": "Epitácio Pessoa",
+        "endereço": "Av. Dr. Epitácio Pessoa, 542 - Aparecida",
+        "bairro": "Aparecida",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1779,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Líder",
-        "endereço": "Rua Barão de Jaguara, 1500",
+        "cidade": "São Bernardo do Campo",
+        "local": "Santa Filomena",
+        "endereço": "R. Santa Filomena, 677 - Centro",
         "bairro": "Centro",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1780,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Sustenta",
-        "endereço": "Rua Prof. Oscar Rodrigues Cajado, 321",
-        "bairro": "Jardim Pacaembu",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Caetano do Sul",
+        "local": "São Caetano do Sul",
+        "endereço": "Rua Martin Afonso, 2162 - Champagnat",
+        "bairro": "Champagnat",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1781,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Prática",
-        "endereço": "Rua Dr. Ricardo, 90",
-        "bairro": "Botafogo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São José do Rio Preto",
+        "local": "Bady Bassitt",
+        "endereço": "Av. Bady Bassit, 5300 - Jardim Alto Rio Preto",
+        "bairro": "Jardim Alto Rio Preto",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1782,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Reciclar Vida",
-        "endereço": "Rua Dr. Campos Salles, 85",
-        "bairro": "Jardim Proença",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Jardim Paulista",
+        "endereço": "Av. Brig. Luis Antonio, 3126 - Jd. Paulista",
+        "bairro": "Jardim Paulista",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1783,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Atual",
-        "endereço": "Rua Maria Monteiro, 70",
-        "bairro": "Cambuí",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Afonso Bovero",
+        "endereço": "Av. Prof. Alfonso Bovero, 1425 - Pompéia",
+        "bairro": "Pompéia",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1784,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa de Reciclagem Nova Esperança",
-        "endereço": "Rua Antônio Francisco de Paula Souza, 123",
-        "bairro": "Jardim Nova Europa",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Jardim Paulistano",
+        "endereço": "Al. Gabriel Monteiro da Silva, 1351 - Jd. Paulistano",
+        "bairro": "Jardim Paulistano",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1785,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Express",
-        "endereço": "Rua Engenheiro Saturnino de Brito, 500",
-        "bairro": "Jardim Guanabara",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Sorocaba",
+        "endereço": "Av. Eng. Carlos Reinaldo Mendes S/N - Além da Ponte",
+        "bairro": "Além da Ponte",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1786,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Ambiental Sustentável",
-        "endereço": "Rua José de Alencar, 155",
-        "bairro": "Jardim Chapadão",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Brooklin",
+        "endereço": "Av. Santo Amaro, 3271 - Brooklin",
+        "bairro": "Brooklin",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1787,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem e Sucata Central",
-        "endereço": "Rua Álvaro Ribeiro, 50",
-        "bairro": "Bonfim",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Santana",
+        "endereço": "R. Voluntários da Pátria, 1723 - Santana",
+        "bairro": "Santana",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1788,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Recicla Bem",
-        "endereço": "Rua Sete de Setembro, 321",
-        "bairro": "Vila Industrial",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Cardoso de Almeida",
+        "endereço": "R. Cardoso de Almeida, 472 - Perdizes",
+        "bairro": "Perdizes",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1789,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Dinâmica",
-        "endereço": "Rua Dona Josefina Sarmento, 450",
-        "bairro": "Parque São Jorge",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Santo Amaro",
+        "endereço": "Av. Santo Amaro, 4530 - Brooklin",
+        "bairro": "Brooklin",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1790,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Vida Verde",
-        "endereço": "Rua Prof. Paula Morel, 540",
-        "bairro": "Jardim Ouro Branco",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Rebouças",
+        "endereço": "R. Alves Guimarães, 50 - Pinheiros",
+        "bairro": "Pinheiros",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1791,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Sustentável Campinas",
-        "endereço": "Rua São Carlos, 700",
-        "bairro": "Vila Rica",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Maranhão",
+        "endereço": "R. Maranhão, 846 - Higienópolis",
+        "bairro": "Higienópolis",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1792,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Terra Viva",
-        "endereço": "Rua Paschoal Marmo, 2700",
-        "bairro": "Jardim Nossa Senhora Auxiliadora",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "Ribeirão Preto",
+        "local": "Ribeirão Preto",
+        "endereço": "Av. Independência, 1765 - Sumaré",
+        "bairro": "Sumaré",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1793,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem União",
-        "endereço": "Rua Maria Eudóxia, 250",
-        "bairro": "Jardim Santa Eudóxia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Borba Gato",
+        "endereço": "Av. Santo Amaro, 5460 - Santo Amaro",
+        "bairro": "Santo Amaro",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1794,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Verde Horizonte",
-        "endereço": "Rua Prof. João Batista de Almeida, 150",
-        "bairro": "Jardim do Trevo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Joaquim Floriano",
+        "endereço": "R. Joaquim Floriano, 24 - Itaim Bibi",
+        "bairro": "Itaim Bibi",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1795,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem e Sucata Ouro Verde",
-        "endereço": "Rua Barão de Itapura, 700",
-        "bairro": "Botafogo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Ibirapuera",
+        "endereço": "Av. Ibirapuera, 1770 - Indianópolis",
+        "bairro": "Indianópolis",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1796,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Mãos à Obra",
-        "endereço": "Rua José Biasoli, 240",
-        "bairro": "Jardim Aurélia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Praça Panamericana",
+        "endereço": "Praça Panamericana, 217 - Alto de Pinheiros",
+        "bairro": "Alto de Pinheiros",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1797,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Brasil",
-        "endereço": "Rua David Vicente, 30",
-        "bairro": "São José",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Portal",
+        "endereço": "R. Marechal Hastinfilo de Moura, 30 - V. Suzana",
+        "bairro": "V. Suzana",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1798,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Transformar",
-        "endereço": "Rua dos Operários, 100",
-        "bairro": "Vila Operária",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Moema",
+        "endereço": "Av. Ibirapuera, 3068 - Moema",
+        "bairro": "Moema",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1799,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Nacional",
-        "endereço": "Rua Álvares Cabral, 99",
-        "bairro": "Vila Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Pedroso",
+        "endereço": "Rua Pedroso, 215 - Liberdade",
+        "bairro": "Liberdade",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1800,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Progresso",
-        "endereço": "Rua Francisco de Paula Oliveira, 321",
-        "bairro": "Parque Prado",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Tatuapé",
+        "endereço": "Rua Serra de Japi, 647 - Vila Gomes Cardim",
+        "bairro": "Vila Gomes Cardim",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1801,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Prime",
-        "endereço": "Rua Eduardo Lane, 200",
-        "bairro": "Jardim Proença",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Nova Cantareira",
+        "endereço": "Av. Nova Cantareira 240/248 - Jardim São Paulo",
+        "bairro": "Jardim São Paulo",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1802,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Nova Esperança",
-        "endereço": "Rua Prof. Paula Morel, 500",
-        "bairro": "Jardim Ouro Branco",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Morumbi",
+        "endereço": "Av. Francisco Morato, 2385 - Butantã",
+        "bairro": "Butantã",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1803,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Brasil Norte",
-        "endereço": "Rua Joaquim Vilac, 250",
-        "bairro": "Nova Campinas",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Real Parque",
+        "endereço": "Av. Magalhães de Castro, 6118 - Jardim Panorama",
+        "bairro": "Jardim Panorama",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1804,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa de Reciclagem Novo Amanhecer",
-        "endereço": "Rua São Francisco de Assis, 140",
-        "bairro": "Jardim São Francisco",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "João de Lucca",
+        "endereço": "Av. Vereador João de Luca, 1005 - Vila Santa Catarina",
+        "bairro": "Vila Santa Catarina",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1805,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Paulista",
-        "endereço": "Rua Dona Maria Umbelina Couto, 200",
-        "bairro": "Jardim do Lago II",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Vila Leopoldina",
+        "endereço": "Avenida Imperatriz Leopoldina , 845 - Vila Leopoldina",
+        "bairro": "Vila Leopoldina",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1806,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cooperativa Recicla Vida Campinas",
-        "endereço": "Rua Prof. Paula Morel, 200",
-        "bairro": "Jardim Ouro Branco",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Clodomiro Amazonas",
+        "endereço": "Rua Clodomiro Amazonas, 955 - Vila Nova Conceição",
+        "bairro": "Vila Nova Conceição",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "Fechado",
-        "tipo": "Empresa privada",
+        "horario_sab": "08:00h-12:00h",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1807,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Reciclagem Campinas",
-        "endereço": "Rua Joaquim Vilac, 300",
-        "bairro": "Nova Campinas",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Ricardo Jafet",
+        "endereço": "R. Prof. Serafim Orlandi 299 - Vila Mariana",
+        "bairro": "Vila Mariana",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
-        "tipo": "Empresa privada",
+        "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
         "id": 1808,
         "estado": "SP",
-        "cidade": "Barueri",
-        "local": "Alphaville",
-        "endereço": "Alameda Madeira, 152 - Alphaville Industrial",
-        "bairro": "Alphaville Industrial",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Panamby",
+        "endereço": "Rua Dr. José Ramon Urtiza, 1000 - Vila Andrade",
+        "bairro": "Vila Andrade",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23506,11 +23506,11 @@ const ecoPontos = [
     {
         "id": 1809,
         "estado": "SP",
-        "cidade": "Barueri",
-        "local": "Alphaville Residencial",
-        "endereço": "Av. Marte 624 - Alphaville",
-        "bairro": "Santana do Parnaíba",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Guatas",
+        "endereço": "Alameda Guatás, 1261 - Planalto Paulista",
+        "bairro": "Planalto Paulista",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23519,11 +23519,11 @@ const ecoPontos = [
     {
         "id": 1810,
         "estado": "SP",
-        "cidade": "Bertioga",
-        "local": "Riviera de São Lourenço",
-        "endereço": "Av. Aprovada, 329, Quadra C, LOTE 01 mod 27",
-        "bairro": "Riviera de São Lourenço",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Padre Antônio",
+        "endereço": "R. Pe. Antônio José dos Santos, 872 - Cid. Monções",
+        "bairro": "Cid. Monções",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23531,116 +23531,116 @@ const ecoPontos = [
     },
     {
         "id": 1811,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "Lago Sul",
-        "endereço": "SUIS/CI. QI 05 Conj. F n.80 subsolo",
-        "bairro": "Centro Coml. Gilberto Salomão",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Planalto Paulista",
+        "endereço": "Av. José Maria Whitacker, 600 - Planalto Paulista",
+        "bairro": "Planalto Paulista",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1812,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "516 Sul",
-        "endereço": "SCRS 516 Bloco A Ljs 45/46  Asa Sul",
-        "bairro": "Asa Sul",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila Clementino",
+        "endereço": "R. Dr. Altino Arantes, 268 - Vila Clementino",
+        "bairro": "Vila Clementino",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1813,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "308 / 309 Sul",
-        "endereço": "SHCS 308/309 s/n",
-        "bairro": " Bloco A MC",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Vila Monumento",
+        "endereço": "R. Pereira da Nóbrega, S/N - Vila Monumento",
+        "bairro": "Vila Monumento",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1814,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "L-02 Norte",
-        "endereço": "EQS 406/407 s/n Bloco A - Asa Sul",
-        "bairro": "Asa Sul",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Casa Verde",
+        "endereço": "R. Bernardino Fanganiello, 349 - Casa Verde",
+        "bairro": "Casa Verde",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1815,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "Lago Norte",
-        "endereço": "SHIN s/n, Bloco A Trecho 1",
-        "bairro": "Lago Norte",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Jabaquara",
+        "endereço": "Av. Eng. Armando Arruda Pereira, 2022 - Jabaquara",
+        "bairro": "Jabaquara",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1816,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "W3 Norte",
-        "endereço": "EQN 508/509 Bloco A",
-        "bairro": "Asa Norte",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Teodoro",
+        "endereço": "R. Teodoro Sampaio, 1933 - Pinheiros",
+        "bairro": "Pinheiros",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1817,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "Sudoeste",
-        "endereço": "CCSW 06 Ljs 4/5",
-        "bairro": "Sudoeste",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Cerro Corá",
+        "endereço": "R. Bairi, 435 - Alto da Lapa",
+        "bairro": "Alto da Lapa",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1818,
-        "estado": "DF",
-        "cidade": "Brasília",
-        "local": "Águas Claras",
-        "endereço": "Quadra 206 Lote 02 Praça Tuim - Águas Claras - Taguatinga",
-        "bairro": "Águas Claras",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "local": "Maria Amália",
+        "endereço": "R. Maria Amália Lopes Azevedo, 842 - Vila Albertina",
+        "bairro": "Vila Albertina",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
-        "estado_nome": "Distrito Federal"
+        "estado_nome": "São Paulo"
     },
     {
         "id": 1819,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Cambuí",
-        "endereço": "Av. General Osório, 1844 - Conceição",
-        "bairro": "Cambuí",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Abílio Soares",
+        "endereço": "R. Abílio Soares, 386 - Paraíso",
+        "bairro": "Paraíso",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23649,11 +23649,11 @@ const ecoPontos = [
     {
         "id": 1820,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Proença",
-        "endereço": "Av. Princesa D'Oeste, 1467 - Campinas",
-        "bairro": "Proença",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Praça Panamericana II",
+        "endereço": "Praça Panamericana, 190 - Alto de Pinheiros",
+        "bairro": "Alto de Pinheiros",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23662,11 +23662,11 @@ const ecoPontos = [
     {
         "id": 1821,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Barão Geraldo",
-        "endereço": "Av. Albino José Barbosa de Oliveira, 1340 - Jardim José Martins - Barão Geraldo",
-        "bairro": "Barão Geraldo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Washington Luis",
+        "endereço": "Av. Washington Luís, 3919 - Chácara Monte Alegre",
+        "bairro": "Chácara Monte Alegre",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23675,11 +23675,11 @@ const ecoPontos = [
     {
         "id": 1822,
         "estado": "SP",
-        "cidade": "Campinas",
-        "local": "Itapura",
-        "endereço": "Av. Barão de Itapura, 2233 - Guanabara",
-        "bairro": "Guanabara",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Maracatins",
+        "endereço": "Al. dos Maracatins, 1545/1555 - Indianópolis",
+        "bairro": "Indianópolis",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23688,11 +23688,11 @@ const ecoPontos = [
     {
         "id": 1823,
         "estado": "SP",
-        "cidade": "Cotia",
-        "local": "Granja Viana",
-        "endereço": "Rodovia Raposo Tavares, km 23 Area B",
-        "bairro": "Granja Viana",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "cidade": "São Paulo",
+        "local": "Lavandisca",
+        "endereço": "Av. Lavandisca, 249/263 - Moema",
+        "bairro": "Moema",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
@@ -23700,1033 +23700,97 @@ const ecoPontos = [
     },
     {
         "id": 1824,
-        "estado": "PR",
-        "cidade": "Curitiba",
-        "local": "Jd. Social",
-        "endereço": "Rua Arquimedes Cruz, 85 - Jardim Social",
-        "bairro": "Jardim Social",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Paraná"
-    },
-    {
-        "id": 1825,
-        "estado": "PR",
-        "cidade": "Curitiba",
-        "local": "Republica Argentina",
-        "endereço": "Av. República Argentina, 391/435/447 - Água Verde",
-        "bairro": "Água Verde",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Paraná"
-    },
-    {
-        "id": 1826,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "Fatima",
-        "endereço": "R. Dr Costa Araújo, 1132  Fátima",
-        "bairro": "Fátima",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1827,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "Náutico",
-        "endereço": "Av da Abolição, 2900  Meireles",
-        "bairro": "Meireles",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1828,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "São João",
-        "endereço": "Av. Santos Dumont, 1169  Aldeota",
-        "bairro": "Aldeota",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1829,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "Júlio Ventura",
-        "endereço": "R. Bárbara de Alencar 1887 Loja 1 - Aldeota",
-        "bairro": "Aldeota",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1830,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "Cocó",
-        "endereço": "Av. Eng. Santana Jr, 2277 - Shopping Casa Blanca Mall - Cocó",
-        "bairro": "Cocó",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1831,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "Virgílio Távora",
-        "endereço": "Av. Sen. Virgílio Távora, 2270  Dionísio Torres",
-        "bairro": "Dionísio Torres",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1832,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "Buena Vista",
-        "endereço": "Av. Washington Soares, 1500  Lojas 3, 4 e 5 - Edson Queiroz",
-        "bairro": "Edson Queiroz",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1833,
-        "estado": "CE",
-        "cidade": "Fortaleza",
-        "local": "São Gerardo",
-        "endereço": "Av. Bezerra de Meneses, 1498/1548  São Gerardo",
-        "bairro": "São Gerardo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Ceará"
-    },
-    {
-        "id": 1834,
-        "estado": "GO",
-        "cidade": "Goiânia",
-        "local": "T63",
-        "endereço": " - Quadra 151 - Lote 01",
-        "bairro": "Av. T5",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Goiás"
-    },
-    {
-        "id": 1835,
-        "estado": "SP",
-        "cidade": "Guarujá",
-        "local": "Tejereba",
-        "endereço": "Av. Dom Pedro I, 195 - Jardim Tejereba",
-        "bairro": "Jardim Tejereba",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1836,
-        "estado": "SP",
-        "cidade": "Indaiatuba",
-        "local": "Indaiatuba",
-        "endereço": "Av. Presidente Vargas c/ Av. dos Trabalhadores, s/n°",
-        "bairro": "Centro",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1837,
-        "estado": "SP",
-        "cidade": "Itu",
-        "local": "Itu",
-        "endereço": "Rua Prudente de Moraes, 210 - Vila Nova",
-        "bairro": "Vila Nova",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1838,
-        "estado": "PB",
-        "cidade": "João Pessoa",
-        "local": "Bessa",
-        "endereço": "Av. Governador Flávio Ribeiro Coutinho, 600 - Bessa",
-        "bairro": "Bessa",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Paraíba"
-    },
-    {
-        "id": 1839,
-        "estado": "SP",
-        "cidade": "Jundiaí",
-        "local": "Jundiaí",
-        "endereço": "AV Nove de Julho, 355 - Anhangabaú",
-        "bairro": "Anhangabaú",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1840,
-        "estado": "SP",
-        "cidade": "Piracicaba",
-        "local": "Piracicaba",
-        "endereço": "Rua Visconde do Rio Branco, 583 - Centro (Tupi)",
-        "bairro": "Centro (Tupi)",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1841,
-        "estado": "RJ",
-        "cidade": "Rio de Janeiro",
-        "local": "Dr. Sattamini",
-        "endereço": "Rua Dr. Satamini, 164 - Tijuca",
-        "bairro": "Tijuca",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Rio de Janeiro"
-    },
-    {
-        "id": 1842,
-        "estado": "RJ",
-        "cidade": "Rio de Janeiro",
-        "local": "Paróquia",
-        "endereço": "Av. Nossa Senhora de Copacabana, 493 - Copacabana",
-        "bairro": "Copacabana",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Rio de Janeiro"
-    },
-    {
-        "id": 1843,
-        "estado": "RJ",
-        "cidade": "Rio de Janeiro",
-        "local": "Barra da Tijuca",
-        "endereço": "Av. das Américas, 2000 - Barra da Tijuca",
-        "bairro": "Barra da Tijuca",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Rio de Janeiro"
-    },
-    {
-        "id": 1844,
-        "estado": "RJ",
-        "cidade": "Rio de Janeiro",
-        "local": "Botafogo",
-        "endereço": "Rua Barão de Itambi, 50 - Botafogo",
-        "bairro": "Botafogo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Rio de Janeiro"
-    },
-    {
-        "id": 1845,
-        "estado": "RJ",
-        "cidade": "Rio de Janeiro",
-        "local": "Leblon",
-        "endereço": "Rua José Linhares, 245 - Leblon",
-        "bairro": "Leblon",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Rio de Janeiro"
-    },
-    {
-        "id": 1846,
-        "estado": "SP",
-        "cidade": "São José dos Campos",
-        "local": "Aquarius",
-        "endereço": "Av. Salmão, Quadra 37 - Parque Residencial",
-        "bairro": "Parque Residencial",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1847,
-        "estado": "NE",
-        "cidade": "Salvador",
-        "local": "Costa Azul",
-        "endereço": "Rua Arthur De Azevedo Machado S/N - Costa Azul",
-        "bairro": "Costa Azul",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Bahia"
-    },
-    {
-        "id": 1848,
-        "estado": "SP",
-        "cidade": "Santana do Parnaíba",
-        "local": "Tamboré",
-        "endereço": "Av. Marcos Penteado de Ulhoa Rodrigues, 3212 - Tamboré",
-        "bairro": "Tamboré",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1849,
-        "estado": "SP",
-        "cidade": "Santo André",
-        "local": "Figueiras",
-        "endereço": "R. das Goiabeiras, 359 - Jardim",
-        "bairro": "Jardim",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1850,
-        "estado": "SP",
-        "cidade": "Santos",
-        "local": "Epitácio Pessoa",
-        "endereço": "Av. Dr. Epitácio Pessoa, 542 - Aparecida",
-        "bairro": "Aparecida",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1851,
-        "estado": "SP",
-        "cidade": "São Bernardo do Campo",
-        "local": "Santa Filomena",
-        "endereço": "R. Santa Filomena, 677 - Centro",
-        "bairro": "Centro",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1852,
-        "estado": "SP",
-        "cidade": "São Caetano do Sul",
-        "local": "São Caetano do Sul",
-        "endereço": "Rua Martin Afonso, 2162 - Champagnat",
-        "bairro": "Champagnat",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1853,
-        "estado": "SP",
-        "cidade": "São José do Rio Preto",
-        "local": "Bady Bassitt",
-        "endereço": "Av. Bady Bassit, 5300 - Jardim Alto Rio Preto",
-        "bairro": "Jardim Alto Rio Preto",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1854,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jardim Paulista",
-        "endereço": "Av. Brig. Luis Antonio, 3126 - Jd. Paulista",
-        "bairro": "Jardim Paulista",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1855,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Afonso Bovero",
-        "endereço": "Av. Prof. Alfonso Bovero, 1425 - Pompéia",
-        "bairro": "Pompéia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1856,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jardim Paulistano",
-        "endereço": "Al. Gabriel Monteiro da Silva, 1351 - Jd. Paulistano",
-        "bairro": "Jardim Paulistano",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1857,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Sorocaba",
-        "endereço": "Av. Eng. Carlos Reinaldo Mendes S/N - Além da Ponte",
-        "bairro": "Além da Ponte",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1858,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Brooklin",
-        "endereço": "Av. Santo Amaro, 3271 - Brooklin",
-        "bairro": "Brooklin",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1859,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Santana",
-        "endereço": "R. Voluntários da Pátria, 1723 - Santana",
-        "bairro": "Santana",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1860,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Cardoso de Almeida",
-        "endereço": "R. Cardoso de Almeida, 472 - Perdizes",
-        "bairro": "Perdizes",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1861,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Santo Amaro",
-        "endereço": "Av. Santo Amaro, 4530 - Brooklin",
-        "bairro": "Brooklin",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1862,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Rebouças",
-        "endereço": "R. Alves Guimarães, 50 - Pinheiros",
-        "bairro": "Pinheiros",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1863,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Maranhão",
-        "endereço": "R. Maranhão, 846 - Higienópolis",
-        "bairro": "Higienópolis",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1864,
-        "estado": "SP",
-        "cidade": "Ribeirão Preto",
-        "local": "Ribeirão Preto",
-        "endereço": "Av. Independência, 1765 - Sumaré",
-        "bairro": "Sumaré",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1865,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Borba Gato",
-        "endereço": "Av. Santo Amaro, 5460 - Santo Amaro",
-        "bairro": "Santo Amaro",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1866,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Joaquim Floriano",
-        "endereço": "R. Joaquim Floriano, 24 - Itaim Bibi",
-        "bairro": "Itaim Bibi",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1867,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Ibirapuera",
-        "endereço": "Av. Ibirapuera, 1770 - Indianópolis",
-        "bairro": "Indianópolis",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1868,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Praça Panamericana",
-        "endereço": "Praça Panamericana, 217 - Alto de Pinheiros",
-        "bairro": "Alto de Pinheiros",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1869,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Portal",
-        "endereço": "R. Marechal Hastinfilo de Moura, 30 - V. Suzana",
-        "bairro": "V. Suzana",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1870,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Moema",
-        "endereço": "Av. Ibirapuera, 3068 - Moema",
-        "bairro": "Moema",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1871,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Pedroso",
-        "endereço": "Rua Pedroso, 215 - Liberdade",
-        "bairro": "Liberdade",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1872,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Tatuapé",
-        "endereço": "Rua Serra de Japi, 647 - Vila Gomes Cardim",
-        "bairro": "Vila Gomes Cardim",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1873,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Nova Cantareira",
-        "endereço": "Av. Nova Cantareira 240/248 - Jardim São Paulo",
-        "bairro": "Jardim São Paulo",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1874,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Morumbi",
-        "endereço": "Av. Francisco Morato, 2385 - Butantã",
-        "bairro": "Butantã",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1875,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Real Parque",
-        "endereço": "Av. Magalhães de Castro, 6118 - Jardim Panorama",
-        "bairro": "Jardim Panorama",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1876,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "João de Lucca",
-        "endereço": "Av. Vereador João de Luca, 1005 - Vila Santa Catarina",
-        "bairro": "Vila Santa Catarina",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1877,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Leopoldina",
-        "endereço": "Avenida Imperatriz Leopoldina , 845 - Vila Leopoldina",
-        "bairro": "Vila Leopoldina",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1878,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Clodomiro Amazonas",
-        "endereço": "Rua Clodomiro Amazonas, 955 - Vila Nova Conceição",
-        "bairro": "Vila Nova Conceição",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1879,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Ricardo Jafet",
-        "endereço": "R. Prof. Serafim Orlandi 299 - Vila Mariana",
-        "bairro": "Vila Mariana",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1880,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Panamby",
-        "endereço": "Rua Dr. José Ramon Urtiza, 1000 - Vila Andrade",
-        "bairro": "Vila Andrade",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1881,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Guatas",
-        "endereço": "Alameda Guatás, 1261 - Planalto Paulista",
-        "bairro": "Planalto Paulista",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1882,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Padre Antônio",
-        "endereço": "R. Pe. Antônio José dos Santos, 872 - Cid. Monções",
-        "bairro": "Cid. Monções",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1883,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Planalto Paulista",
-        "endereço": "Av. José Maria Whitacker, 600 - Planalto Paulista",
-        "bairro": "Planalto Paulista",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1884,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Clementino",
-        "endereço": "R. Dr. Altino Arantes, 268 - Vila Clementino",
-        "bairro": "Vila Clementino",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1885,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Vila Monumento",
-        "endereço": "R. Pereira da Nóbrega, S/N - Vila Monumento",
-        "bairro": "Vila Monumento",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1886,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Casa Verde",
-        "endereço": "R. Bernardino Fanganiello, 349 - Casa Verde",
-        "bairro": "Casa Verde",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1887,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Jabaquara",
-        "endereço": "Av. Eng. Armando Arruda Pereira, 2022 - Jabaquara",
-        "bairro": "Jabaquara",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1888,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Teodoro",
-        "endereço": "R. Teodoro Sampaio, 1933 - Pinheiros",
-        "bairro": "Pinheiros",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1889,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Cerro Corá",
-        "endereço": "R. Bairi, 435 - Alto da Lapa",
-        "bairro": "Alto da Lapa",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1890,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Maria Amália",
-        "endereço": "R. Maria Amália Lopes Azevedo, 842 - Vila Albertina",
-        "bairro": "Vila Albertina",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1891,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Abílio Soares",
-        "endereço": "R. Abílio Soares, 386 - Paraíso",
-        "bairro": "Paraíso",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1892,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Praça Panamericana II",
-        "endereço": "Praça Panamericana, 190 - Alto de Pinheiros",
-        "bairro": "Alto de Pinheiros",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1893,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Washington Luis",
-        "endereço": "Av. Washington Luís, 3919 - Chácara Monte Alegre",
-        "bairro": "Chácara Monte Alegre",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1894,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Maracatins",
-        "endereço": "Al. dos Maracatins, 1545/1555 - Indianópolis",
-        "bairro": "Indianópolis",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1895,
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "local": "Lavandisca",
-        "endereço": "Av. Lavandisca, 249/263 - Moema",
-        "bairro": "Moema",
-        "tipo_de_material": "Coleta seletiva, líquidos",
-        "horario_seg_sex": "08:00h-18:00h",
-        "horario_sab": "08:00h-12:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "São Paulo"
-    },
-    {
-        "id": 1896,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Clodomiro Amazonas II",
         "endereço": "R. Clodomiro Amazonas, 1308 - Vila Nova Conceição",
         "bairro": "Vila Nova Conceição",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1897,
+        "id": 1825,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carneiro da Cunha",
         "endereço": "R. Carneiro Da Cunha, S/N - Saúde",
         "bairro": "Saúde",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1898,
+        "id": 1826,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Dr. César",
         "endereço": "R. Dr. César, 1234 - Santana",
         "bairro": "Santana",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1899,
+        "id": 1827,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "São Vicente",
         "endereço": "Av. Pres. Wilson, 136/176 - Itararé",
         "bairro": "Itararé",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1900,
+        "id": 1828,
         "estado": "SE",
         "cidade": "Aracajú",
         "local": "Aracajú",
         "endereço": "R. José Seabra Batista, s/n - Jardins",
         "bairro": "Jardins",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "Sergipe"
     },
     {
-        "id": 1901,
+        "id": 1829,
         "estado": "MG",
         "cidade": "Uberlândia",
         "local": "Uberlândia",
         "endereço": "R. José Seabra Batista, s/n - Uberlândia",
         "bairro": "Uberlândia",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1902,
+        "id": 1830,
         "estado": "SP",
         "cidade": "Valinhos",
         "local": "Valinhos",
         "endereço": "R. Adhemar de Barros, S/N - Jd. Europa",
         "bairro": "Jd. Europa",
-        "tipo_de_material": "Coleta seletiva, líquidos",
+        "tipo_de_material": "Coleta seletiva, Óleo de cozinha",
         "horario_seg_sex": "08:00h-18:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Supermercado",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1903,
+        "id": 1831,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -24739,7 +23803,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 1904,
+        "id": 1832,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -24752,7 +23816,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 1905,
+        "id": 1833,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -24765,7 +23829,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 1906,
+        "id": 1834,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Carrefour",
@@ -24778,7 +23842,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 1907,
+        "id": 1835,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Carrefour",
@@ -24791,7 +23855,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 1908,
+        "id": 1836,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24804,7 +23868,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1909,
+        "id": 1837,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24817,7 +23881,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1910,
+        "id": 1838,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24830,7 +23894,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1911,
+        "id": 1839,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24843,7 +23907,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1912,
+        "id": 1840,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24856,7 +23920,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1913,
+        "id": 1841,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24869,7 +23933,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1914,
+        "id": 1842,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24882,7 +23946,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1915,
+        "id": 1843,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -24895,7 +23959,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 1916,
+        "id": 1844,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour",
@@ -24908,7 +23972,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 1917,
+        "id": 1845,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour",
@@ -24921,7 +23985,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 1918,
+        "id": 1846,
         "estado": "MG",
         "cidade": "Contagem",
         "local": "Carrefour",
@@ -24934,7 +23998,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1919,
+        "id": 1847,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -24947,7 +24011,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1920,
+        "id": 1848,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -24960,7 +24024,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1921,
+        "id": 1849,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -24973,7 +24037,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1922,
+        "id": 1850,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -24986,7 +24050,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1923,
+        "id": 1851,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -24999,7 +24063,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1924,
+        "id": 1852,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25012,7 +24076,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1925,
+        "id": 1853,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25025,7 +24089,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1926,
+        "id": 1854,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25038,7 +24102,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1927,
+        "id": 1855,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25051,7 +24115,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1928,
+        "id": 1856,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25064,7 +24128,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1929,
+        "id": 1857,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25077,7 +24141,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1930,
+        "id": 1858,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25090,7 +24154,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1931,
+        "id": 1859,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25103,7 +24167,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1932,
+        "id": 1860,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25116,7 +24180,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1933,
+        "id": 1861,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -25129,7 +24193,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1934,
+        "id": 1862,
         "estado": "MG",
         "cidade": "Juiz de Fora",
         "local": "Carrefour",
@@ -25142,7 +24206,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1935,
+        "id": 1863,
         "estado": "MG",
         "cidade": "Uberlândia",
         "local": "Carrefour",
@@ -25155,7 +24219,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 1936,
+        "id": 1864,
         "estado": "MS",
         "cidade": "Campo Grande",
         "local": "Carrefour",
@@ -25168,7 +24232,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 1937,
+        "id": 1865,
         "estado": "PB",
         "cidade": "João Pessoa",
         "local": "Carrefour",
@@ -25181,7 +24245,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 1938,
+        "id": 1866,
         "estado": "PB",
         "cidade": "João Pessoa",
         "local": "Carrefour",
@@ -25194,7 +24258,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 1939,
+        "id": 1867,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Carrefour",
@@ -25207,7 +24271,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 1940,
+        "id": 1868,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Carrefour",
@@ -25220,7 +24284,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 1941,
+        "id": 1869,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Carrefour",
@@ -25233,7 +24297,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 1942,
+        "id": 1870,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Carrefour",
@@ -25246,7 +24310,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 1943,
+        "id": 1871,
         "estado": "PR",
         "cidade": "Londrina",
         "local": "Carrefour",
@@ -25259,7 +24323,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 1944,
+        "id": 1872,
         "estado": "PR",
         "cidade": "Pinhais",
         "local": "Carrefour",
@@ -25272,7 +24336,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 1945,
+        "id": 1873,
         "estado": "RJ",
         "cidade": "Belford Roxo",
         "local": "Carrefour",
@@ -25285,7 +24349,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1946,
+        "id": 1874,
         "estado": "RJ",
         "cidade": "Duque de Caxias",
         "local": "Carrefour",
@@ -25298,7 +24362,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1947,
+        "id": 1875,
         "estado": "RJ",
         "cidade": "Duque de Caxias",
         "local": "Carrefour",
@@ -25311,7 +24375,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1948,
+        "id": 1876,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -25324,7 +24388,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1949,
+        "id": 1877,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -25337,7 +24401,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1950,
+        "id": 1878,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -25350,7 +24414,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1951,
+        "id": 1879,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -25363,7 +24427,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1952,
+        "id": 1880,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -25376,7 +24440,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 1953,
+        "id": 1881,
         "estado": "RN",
         "cidade": "Natal",
         "local": "Carrefour",
@@ -25389,12 +24453,12 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 1954,
+        "id": 1882,
         "estado": "RS",
         "cidade": "Canoas",
         "local": "Carrefour",
         "endereço": "R. Mathias Velho, 555",
-        "bairro": "Canoas",
+        "bairro": "Centro",
         "tipo_de_material": "Coleta seletiva",
         "horario_seg_sex": "08:00h-21:00h",
         "horario_sab": "08:00h-21:00h",
@@ -25402,7 +24466,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 1955,
+        "id": 1883,
         "estado": "RS",
         "cidade": "Gravataí",
         "local": "Carrefour",
@@ -25415,9 +24479,9 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 1956,
+        "id": 1884,
         "estado": "RS",
-        "cidade": "Passos DAreia",
+        "cidade": "Passos DAreia",
         "local": "Carrefour",
         "endereço": "Av. Plínio Brasil Milano, 2343",
         "bairro": "Passo d'Areia",
@@ -25428,7 +24492,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 1957,
+        "id": 1885,
         "estado": "RS",
         "cidade": "Porto Alegre",
         "local": "Carrefour",
@@ -25441,7 +24505,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 1958,
+        "id": 1886,
         "estado": "RS",
         "cidade": "Santa Maria",
         "local": "Carrefour",
@@ -25454,7 +24518,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 1959,
+        "id": 1887,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Carrefour",
@@ -25467,7 +24531,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1960,
+        "id": 1888,
         "estado": "SP",
         "cidade": "Cambuí",
         "local": "Carrefour",
@@ -25480,7 +24544,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1961,
+        "id": 1889,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -25493,7 +24557,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1962,
+        "id": 1890,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -25506,7 +24570,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1963,
+        "id": 1891,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -25519,7 +24583,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1964,
+        "id": 1892,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -25532,7 +24596,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1965,
+        "id": 1893,
         "estado": "SP",
         "cidade": "Caçapava",
         "local": "Carrefour",
@@ -25545,7 +24609,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1966,
+        "id": 1894,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Carrefour",
@@ -25558,7 +24622,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1967,
+        "id": 1895,
         "estado": "SP",
         "cidade": "Guarujá",
         "local": "Carrefour",
@@ -25571,7 +24635,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1968,
+        "id": 1896,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Carrefour",
@@ -25584,7 +24648,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1969,
+        "id": 1897,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Carrefour",
@@ -25597,7 +24661,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1970,
+        "id": 1898,
         "estado": "SP",
         "cidade": "Indaiatuba",
         "local": "Carrefour",
@@ -25610,7 +24674,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1971,
+        "id": 1899,
         "estado": "SP",
         "cidade": "Itú",
         "local": "Carrefour",
@@ -25623,7 +24687,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1972,
+        "id": 1900,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Carrefour",
@@ -25636,7 +24700,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1973,
+        "id": 1901,
         "estado": "SP",
         "cidade": "Mogi Mirim",
         "local": "Carrefour",
@@ -25649,7 +24713,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1974,
+        "id": 1902,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Carrefour",
@@ -25662,7 +24726,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1975,
+        "id": 1903,
         "estado": "SP",
         "cidade": "Praia Grande",
         "local": "Carrefour",
@@ -25675,7 +24739,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1976,
+        "id": 1904,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Carrefour",
@@ -25688,7 +24752,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1977,
+        "id": 1905,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Carrefour",
@@ -25701,7 +24765,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1978,
+        "id": 1906,
         "estado": "SP",
         "cidade": "Salto",
         "local": "Carrefour",
@@ -25714,7 +24778,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1979,
+        "id": 1907,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour",
@@ -25727,7 +24791,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1980,
+        "id": 1908,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour",
@@ -25740,7 +24804,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1981,
+        "id": 1909,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour",
@@ -25753,7 +24817,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1982,
+        "id": 1910,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -25766,7 +24830,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1983,
+        "id": 1911,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -25779,7 +24843,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1984,
+        "id": 1912,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -25792,7 +24856,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1985,
+        "id": 1913,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -25805,7 +24869,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1986,
+        "id": 1914,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "Carrefour",
@@ -25818,7 +24882,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1987,
+        "id": 1915,
         "estado": "SP",
         "cidade": "São José dos Campos",
         "local": "Carrefour",
@@ -25831,7 +24895,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1988,
+        "id": 1916,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Carrefour",
@@ -25844,7 +24908,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1989,
+        "id": 1917,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Carrefour",
@@ -25857,7 +24921,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1990,
+        "id": 1918,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25870,7 +24934,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1991,
+        "id": 1919,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25883,7 +24947,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1992,
+        "id": 1920,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25896,7 +24960,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1993,
+        "id": 1921,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25909,7 +24973,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1994,
+        "id": 1922,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25922,7 +24986,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1995,
+        "id": 1923,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25935,7 +24999,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1996,
+        "id": 1924,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25948,7 +25012,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1997,
+        "id": 1925,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25961,7 +25025,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1998,
+        "id": 1926,
         "estado": "SP",
         "cidade": "São Carlos",
         "local": "Carrefour",
@@ -25974,7 +25038,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 1999,
+        "id": 1927,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -25987,7 +25051,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2000,
+        "id": 1928,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26000,7 +25064,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2001,
+        "id": 1929,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26013,7 +25077,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2002,
+        "id": 1930,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26026,7 +25090,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2003,
+        "id": 1931,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26039,7 +25103,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2004,
+        "id": 1932,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26052,7 +25116,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2005,
+        "id": 1933,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26065,7 +25129,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2006,
+        "id": 1934,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26078,7 +25142,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2007,
+        "id": 1935,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26091,7 +25155,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2008,
+        "id": 1936,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26104,7 +25168,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2009,
+        "id": 1937,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26117,7 +25181,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2010,
+        "id": 1938,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26130,7 +25194,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2011,
+        "id": 1939,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26143,7 +25207,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2012,
+        "id": 1940,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -26156,7 +25220,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2013,
+        "id": 1941,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Carrefour",
@@ -26169,7 +25233,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2014,
+        "id": 1942,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Carrefour",
@@ -26182,7 +25246,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2015,
+        "id": 1943,
         "estado": "SP",
         "cidade": "Vinhedo",
         "local": "Carrefour",
@@ -26195,7 +25259,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2016,
+        "id": 1944,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Carrefour",
@@ -26208,7 +25272,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2017,
+        "id": 1945,
         "estado": "AC",
         "cidade": "Rio Branco",
         "local": "Carrefour",
@@ -26221,7 +25285,7 @@ const ecoPontos = [
         "estado_nome": "Acre"
     },
     {
-        "id": 2018,
+        "id": 1946,
         "estado": "AL",
         "cidade": "Maceió",
         "local": "Carrefour",
@@ -26234,7 +25298,7 @@ const ecoPontos = [
         "estado_nome": "Alagoas"
     },
     {
-        "id": 2019,
+        "id": 1947,
         "estado": "AL",
         "cidade": "Arapiraca",
         "local": "Carrefour",
@@ -26247,7 +25311,7 @@ const ecoPontos = [
         "estado_nome": "Alagoas"
     },
     {
-        "id": 2020,
+        "id": 1948,
         "estado": "AL",
         "cidade": "Maceió",
         "local": "Carrefour",
@@ -26260,7 +25324,7 @@ const ecoPontos = [
         "estado_nome": "Alagoas"
     },
     {
-        "id": 2021,
+        "id": 1949,
         "estado": "AL",
         "cidade": "Maceió",
         "local": "Carrefour",
@@ -26273,7 +25337,7 @@ const ecoPontos = [
         "estado_nome": "Alagoas"
     },
     {
-        "id": 2022,
+        "id": 1950,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -26286,7 +25350,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2023,
+        "id": 1951,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -26299,7 +25363,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2024,
+        "id": 1952,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -26312,7 +25376,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2025,
+        "id": 1953,
         "estado": "AP",
         "cidade": "Macapá",
         "local": "Carrefour",
@@ -26325,7 +25389,7 @@ const ecoPontos = [
         "estado_nome": "Amapá"
     },
     {
-        "id": 2026,
+        "id": 1954,
         "estado": "AP",
         "cidade": "Macapá",
         "local": "Carrefour",
@@ -26338,7 +25402,7 @@ const ecoPontos = [
         "estado_nome": "Amapá"
     },
     {
-        "id": 2027,
+        "id": 1955,
         "estado": "BA",
         "cidade": "Alagoinhas",
         "local": "Carrefour",
@@ -26351,7 +25415,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2028,
+        "id": 1956,
         "estado": "BA",
         "cidade": "Barreiras",
         "local": "Carrefour",
@@ -26364,7 +25428,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2029,
+        "id": 1957,
         "estado": "BA",
         "cidade": "Camaçari",
         "local": "Carrefour",
@@ -26377,7 +25441,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2030,
+        "id": 1958,
         "estado": "BA",
         "cidade": "Eunápolis",
         "local": "Carrefour",
@@ -26390,7 +25454,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2031,
+        "id": 1959,
         "estado": "BA",
         "cidade": "Feira de Santana",
         "local": "Carrefour",
@@ -26403,7 +25467,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2032,
+        "id": 1960,
         "estado": "BA",
         "cidade": "Feira de Santana",
         "local": "Carrefour",
@@ -26416,7 +25480,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2033,
+        "id": 1961,
         "estado": "BA",
         "cidade": "Ilhéus",
         "local": "Carrefour",
@@ -26429,7 +25493,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2034,
+        "id": 1962,
         "estado": "BA",
         "cidade": "Irecê",
         "local": "Carrefour",
@@ -26442,7 +25506,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2035,
+        "id": 1963,
         "estado": "BA",
         "cidade": "Juazeiro",
         "local": "Carrefour",
@@ -26455,7 +25519,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2036,
+        "id": 1964,
         "estado": "BA",
         "cidade": "Lauro de Freitas",
         "local": "Carrefour",
@@ -26468,7 +25532,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2037,
+        "id": 1965,
         "estado": "BA",
         "cidade": "Salvador",
         "local": "Carrefour",
@@ -26481,7 +25545,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2038,
+        "id": 1966,
         "estado": "BA",
         "cidade": "Salvador",
         "local": "Carrefour",
@@ -26494,7 +25558,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2039,
+        "id": 1967,
         "estado": "BA",
         "cidade": "Salvador",
         "local": "Carrefour",
@@ -26507,7 +25571,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2040,
+        "id": 1968,
         "estado": "BA",
         "cidade": "Santo Antônio de Jesus",
         "local": "Carrefour",
@@ -26520,7 +25584,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2041,
+        "id": 1969,
         "estado": "BA",
         "cidade": "Simões Filho",
         "local": "Carrefour",
@@ -26533,7 +25597,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2042,
+        "id": 1970,
         "estado": "BA",
         "cidade": "Teixeira de Freitas",
         "local": "Carrefour",
@@ -26546,7 +25610,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2043,
+        "id": 1971,
         "estado": "BA",
         "cidade": "Vitória da Conquista",
         "local": "Carrefour",
@@ -26559,7 +25623,7 @@ const ecoPontos = [
         "estado_nome": "Bahia"
     },
     {
-        "id": 2044,
+        "id": 1972,
         "estado": "CE",
         "cidade": "Caucaia",
         "local": "Carrefour",
@@ -26572,7 +25636,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2045,
+        "id": 1973,
         "estado": "CE",
         "cidade": "Eusébio",
         "local": "Carrefour",
@@ -26585,7 +25649,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2046,
+        "id": 1974,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Carrefour",
@@ -26598,7 +25662,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2047,
+        "id": 1975,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Carrefour",
@@ -26611,7 +25675,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2048,
+        "id": 1976,
         "estado": "CE",
         "cidade": "Juazeiro do Norte",
         "local": "Carrefour",
@@ -26624,7 +25688,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2049,
+        "id": 1977,
         "estado": "CE",
         "cidade": "Sobral",
         "local": "Carrefour",
@@ -26637,7 +25701,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2050,
+        "id": 1978,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour",
@@ -26650,7 +25714,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2051,
+        "id": 1979,
         "estado": "DF",
         "cidade": "Taguatinga",
         "local": "Carrefour",
@@ -26663,7 +25727,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2052,
+        "id": 1980,
         "estado": "ES",
         "cidade": "Serra",
         "local": "Carrefour",
@@ -26676,7 +25740,7 @@ const ecoPontos = [
         "estado_nome": "Espírito Santo"
     },
     {
-        "id": 2053,
+        "id": 1981,
         "estado": "ES",
         "cidade": "Vila Velha",
         "local": "Carrefour",
@@ -26689,7 +25753,7 @@ const ecoPontos = [
         "estado_nome": "Espírito Santo"
     },
     {
-        "id": 2054,
+        "id": 1982,
         "estado": "GO",
         "cidade": "Aparecida de Goiânia",
         "local": "Carrefour",
@@ -26702,7 +25766,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2055,
+        "id": 1983,
         "estado": "GO",
         "cidade": "Anápolis",
         "local": "Carrefour",
@@ -26715,7 +25779,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2056,
+        "id": 1984,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour",
@@ -26728,7 +25792,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2057,
+        "id": 1985,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour",
@@ -26741,7 +25805,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2058,
+        "id": 1986,
         "estado": "GO",
         "cidade": "Itumbiara",
         "local": "Carrefour",
@@ -26754,7 +25818,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2059,
+        "id": 1987,
         "estado": "GO",
         "cidade": "Valparaíso",
         "local": "Carrefour",
@@ -26767,7 +25831,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2060,
+        "id": 1988,
         "estado": "GO",
         "cidade": "Rio Verde",
         "local": "Carrefour",
@@ -26780,7 +25844,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2061,
+        "id": 1989,
         "estado": "MA",
         "cidade": "Imperatriz",
         "local": "Carrefour",
@@ -26793,7 +25857,7 @@ const ecoPontos = [
         "estado_nome": "Maranhão"
     },
     {
-        "id": 2062,
+        "id": 1990,
         "estado": "MA",
         "cidade": "São Luís",
         "local": "Carrefour",
@@ -26806,7 +25870,7 @@ const ecoPontos = [
         "estado_nome": "Maranhão"
     },
     {
-        "id": 2063,
+        "id": 1991,
         "estado": "MG",
         "cidade": "Betim",
         "local": "Carrefour",
@@ -26819,7 +25883,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2064,
+        "id": 1992,
         "estado": "MG",
         "cidade": "Contagem",
         "local": "Carrefour",
@@ -26832,7 +25896,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2065,
+        "id": 1993,
         "estado": "MG",
         "cidade": "Governador Valadares",
         "local": "Carrefour",
@@ -26845,7 +25909,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2066,
+        "id": 1994,
         "estado": "MG",
         "cidade": "Juiz de Fora",
         "local": "Carrefour",
@@ -26858,7 +25922,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2067,
+        "id": 1995,
         "estado": "MG",
         "cidade": "Uberaba",
         "local": "Carrefour",
@@ -26871,7 +25935,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2068,
+        "id": 1996,
         "estado": "MG",
         "cidade": "Uberlândia",
         "local": "Carrefour",
@@ -26884,7 +25948,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2069,
+        "id": 1997,
         "estado": "MS",
         "cidade": "Campo Grande",
         "local": "Carrefour",
@@ -26897,7 +25961,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 2070,
+        "id": 1998,
         "estado": "MS",
         "cidade": "Campo Grande",
         "local": "Carrefour",
@@ -26910,7 +25974,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 2071,
+        "id": 1999,
         "estado": "MS",
         "cidade": "Campo Grande",
         "local": "Carrefour",
@@ -26923,7 +25987,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 2072,
+        "id": 2000,
         "estado": "MS",
         "cidade": "Dourados",
         "local": "Carrefour",
@@ -26936,7 +26000,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 2073,
+        "id": 2001,
         "estado": "MS",
         "cidade": "Três Lagoas",
         "local": "Carrefour",
@@ -26949,7 +26013,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 2074,
+        "id": 2002,
         "estado": "MT",
         "cidade": "Barra do Garças",
         "local": "Carrefour",
@@ -26962,7 +26026,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2075,
+        "id": 2003,
         "estado": "MT",
         "cidade": "Cuiabá",
         "local": "Carrefour",
@@ -26975,7 +26039,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2076,
+        "id": 2004,
         "estado": "MT",
         "cidade": "Cuiabá",
         "local": "Carrefour",
@@ -26988,7 +26052,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2077,
+        "id": 2005,
         "estado": "MT",
         "cidade": "Cuiabá",
         "local": "Carrefour",
@@ -27001,7 +26065,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2078,
+        "id": 2006,
         "estado": "MT",
         "cidade": "Cuiabá",
         "local": "Carrefour",
@@ -27014,7 +26078,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2079,
+        "id": 2007,
         "estado": "MT",
         "cidade": "Lucas do Rio Verde",
         "local": "Carrefour",
@@ -27027,7 +26091,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2080,
+        "id": 2008,
         "estado": "MT",
         "cidade": "Rondonópolis",
         "local": "Carrefour",
@@ -27040,7 +26104,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2081,
+        "id": 2009,
         "estado": "MT",
         "cidade": "Sinop",
         "local": "Carrefour",
@@ -27053,7 +26117,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2082,
+        "id": 2010,
         "estado": "MT",
         "cidade": "Tangará da Serra",
         "local": "Carrefour",
@@ -27066,7 +26130,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2083,
+        "id": 2011,
         "estado": "MT",
         "cidade": "Várzea Grande",
         "local": "Carrefour",
@@ -27079,7 +26143,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso"
     },
     {
-        "id": 2084,
+        "id": 2012,
         "estado": "PA",
         "cidade": "Ananindeua",
         "local": "Carrefour",
@@ -27092,7 +26156,7 @@ const ecoPontos = [
         "estado_nome": "Pará"
     },
     {
-        "id": 2085,
+        "id": 2013,
         "estado": "PA",
         "cidade": "Ananindeua",
         "local": "Carrefour",
@@ -27105,7 +26169,7 @@ const ecoPontos = [
         "estado_nome": "Pará"
     },
     {
-        "id": 2086,
+        "id": 2014,
         "estado": "PA",
         "cidade": "Belém",
         "local": "Carrefour",
@@ -27118,7 +26182,7 @@ const ecoPontos = [
         "estado_nome": "Pará"
     },
     {
-        "id": 2087,
+        "id": 2015,
         "estado": "PA",
         "cidade": "Castanhal",
         "local": "Carrefour",
@@ -27131,7 +26195,7 @@ const ecoPontos = [
         "estado_nome": "Pará"
     },
     {
-        "id": 2088,
+        "id": 2016,
         "estado": "PA",
         "cidade": "Marabá",
         "local": "Carrefour",
@@ -27144,7 +26208,7 @@ const ecoPontos = [
         "estado_nome": "Pará"
     },
     {
-        "id": 2089,
+        "id": 2017,
         "estado": "PA",
         "cidade": "Santarém",
         "local": "Carrefour",
@@ -27157,7 +26221,7 @@ const ecoPontos = [
         "estado_nome": "Pará"
     },
     {
-        "id": 2090,
+        "id": 2018,
         "estado": "PB",
         "cidade": "João Pessoa",
         "local": "Carrefour",
@@ -27170,7 +26234,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2091,
+        "id": 2019,
         "estado": "PB",
         "cidade": "Campina Grande",
         "local": "Carrefour",
@@ -27183,7 +26247,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2092,
+        "id": 2020,
         "estado": "PB",
         "cidade": "Campina Grande",
         "local": "Carrefour",
@@ -27196,7 +26260,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2093,
+        "id": 2021,
         "estado": "PB",
         "cidade": "Patos",
         "local": "Carrefour",
@@ -27209,7 +26273,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2094,
+        "id": 2022,
         "estado": "PB",
         "cidade": "Santa Rita",
         "local": "Carrefour",
@@ -27222,7 +26286,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2095,
+        "id": 2023,
         "estado": "PE",
         "cidade": "Camaragibe",
         "local": "Carrefour",
@@ -27235,7 +26299,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2096,
+        "id": 2024,
         "estado": "PE",
         "cidade": "Caruaru",
         "local": "Carrefour",
@@ -27248,7 +26312,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2097,
+        "id": 2025,
         "estado": "PE",
         "cidade": "Caruaru",
         "local": "Carrefour",
@@ -27261,7 +26325,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2098,
+        "id": 2026,
         "estado": "PE",
         "cidade": "Igarassu",
         "local": "Carrefour",
@@ -27274,7 +26338,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2099,
+        "id": 2027,
         "estado": "PE",
         "cidade": "Jaboatão",
         "local": "Carrefour",
@@ -27287,7 +26351,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2100,
+        "id": 2028,
         "estado": "PE",
         "cidade": "Olinda",
         "local": "Carrefour",
@@ -27300,7 +26364,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2101,
+        "id": 2029,
         "estado": "PE",
         "cidade": "Paulista",
         "local": "Carrefour",
@@ -27313,7 +26377,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2102,
+        "id": 2030,
         "estado": "PE",
         "cidade": "Petrolina",
         "local": "Carrefour",
@@ -27326,7 +26390,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2103,
+        "id": 2031,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Carrefour",
@@ -27339,7 +26403,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2104,
+        "id": 2032,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Carrefour",
@@ -27352,7 +26416,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2105,
+        "id": 2033,
         "estado": "PE",
         "cidade": "Serra Talhada",
         "local": "Carrefour",
@@ -27365,7 +26429,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2106,
+        "id": 2034,
         "estado": "PI",
         "cidade": "Picos",
         "local": "Carrefour",
@@ -27378,7 +26442,7 @@ const ecoPontos = [
         "estado_nome": "Piauí"
     },
     {
-        "id": 2107,
+        "id": 2035,
         "estado": "PI",
         "cidade": "Teresina",
         "local": "Carrefour",
@@ -27391,7 +26455,7 @@ const ecoPontos = [
         "estado_nome": "Piauí"
     },
     {
-        "id": 2108,
+        "id": 2036,
         "estado": "PI",
         "cidade": "Teresina",
         "local": "Carrefour",
@@ -27404,7 +26468,7 @@ const ecoPontos = [
         "estado_nome": "Piauí"
     },
     {
-        "id": 2109,
+        "id": 2037,
         "estado": "PR",
         "cidade": "Cambé",
         "local": "Carrefour",
@@ -27417,7 +26481,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2110,
+        "id": 2038,
         "estado": "PR",
         "cidade": "Cascavel",
         "local": "Carrefour",
@@ -27430,7 +26494,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2111,
+        "id": 2039,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Carrefour",
@@ -27443,7 +26507,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2112,
+        "id": 2040,
         "estado": "PR",
         "cidade": "Foz do Iguaçu",
         "local": "Carrefour",
@@ -27456,7 +26520,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2113,
+        "id": 2041,
         "estado": "PR",
         "cidade": "Londrina",
         "local": "Carrefour",
@@ -27469,7 +26533,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2114,
+        "id": 2042,
         "estado": "PR",
         "cidade": "Londrina",
         "local": "Carrefour",
@@ -27482,7 +26546,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2115,
+        "id": 2043,
         "estado": "PR",
         "cidade": "Maringá",
         "local": "Carrefour",
@@ -27495,7 +26559,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2116,
+        "id": 2044,
         "estado": "PR",
         "cidade": "Maringá",
         "local": "Carrefour",
@@ -27508,7 +26572,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2117,
+        "id": 2045,
         "estado": "PR",
         "cidade": "Ponta Grossa",
         "local": "Carrefour",
@@ -27521,7 +26585,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2118,
+        "id": 2046,
         "estado": "PR",
         "cidade": "São José dos Pinhais",
         "local": "Carrefour",
@@ -27534,7 +26598,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2119,
+        "id": 2047,
         "estado": "PR",
         "cidade": "Umuarama",
         "local": "Carrefour",
@@ -27547,7 +26611,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2120,
+        "id": 2048,
         "estado": "RJ",
         "cidade": "Campos dos Goytacazes",
         "local": "Carrefour",
@@ -27560,7 +26624,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2121,
+        "id": 2049,
         "estado": "RJ",
         "cidade": "Duque de Caxias",
         "local": "Carrefour",
@@ -27573,7 +26637,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2122,
+        "id": 2050,
         "estado": "RJ",
         "cidade": "Itaboraí",
         "local": "Carrefour",
@@ -27586,7 +26650,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2123,
+        "id": 2051,
         "estado": "RJ",
         "cidade": "Macaé",
         "local": "Carrefour",
@@ -27599,7 +26663,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2124,
+        "id": 2052,
         "estado": "RJ",
         "cidade": "Nova Iguaçu",
         "local": "Carrefour",
@@ -27612,7 +26676,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2125,
+        "id": 2053,
         "estado": "RJ",
         "cidade": "Resende",
         "local": "Carrefour",
@@ -27625,7 +26689,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2126,
+        "id": 2054,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27638,7 +26702,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2127,
+        "id": 2055,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27651,7 +26715,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2128,
+        "id": 2056,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27664,7 +26728,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2129,
+        "id": 2057,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27677,7 +26741,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2130,
+        "id": 2058,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27690,7 +26754,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2131,
+        "id": 2059,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27703,7 +26767,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2132,
+        "id": 2060,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -27716,7 +26780,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2133,
+        "id": 2061,
         "estado": "RJ",
         "cidade": "São Gonçalo",
         "local": "Carrefour",
@@ -27729,7 +26793,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2134,
+        "id": 2062,
         "estado": "RJ",
         "cidade": "São Pedro da Aldeia",
         "local": "Carrefour",
@@ -27742,7 +26806,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2135,
+        "id": 2063,
         "estado": "RJ",
         "cidade": "Volta Redonda",
         "local": "Carrefour",
@@ -27755,7 +26819,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2136,
+        "id": 2064,
         "estado": "RN",
         "cidade": "Mossoró",
         "local": "Carrefour",
@@ -27768,7 +26832,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2137,
+        "id": 2065,
         "estado": "RN",
         "cidade": "Natal",
         "local": "Carrefour",
@@ -27781,7 +26845,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2138,
+        "id": 2066,
         "estado": "RN",
         "cidade": "Natal",
         "local": "Carrefour",
@@ -27794,7 +26858,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2139,
+        "id": 2067,
         "estado": "RN",
         "cidade": "Parnamirim",
         "local": "Carrefour",
@@ -27807,7 +26871,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2140,
+        "id": 2068,
         "estado": "RO",
         "cidade": "Ji-Paraná",
         "local": "Carrefour",
@@ -27820,7 +26884,7 @@ const ecoPontos = [
         "estado_nome": "Rondônia"
     },
     {
-        "id": 2141,
+        "id": 2069,
         "estado": "RO",
         "cidade": "Porto Velho",
         "local": "Carrefour",
@@ -27833,7 +26897,7 @@ const ecoPontos = [
         "estado_nome": "Rondônia"
     },
     {
-        "id": 2142,
+        "id": 2070,
         "estado": "RO",
         "cidade": "Vilhena",
         "local": "Carrefour",
@@ -27846,7 +26910,7 @@ const ecoPontos = [
         "estado_nome": "Rondônia"
     },
     {
-        "id": 2143,
+        "id": 2071,
         "estado": "RR",
         "cidade": "Boa Vista",
         "local": "Carrefour",
@@ -27859,7 +26923,7 @@ const ecoPontos = [
         "estado_nome": "Roraima"
     },
     {
-        "id": 2144,
+        "id": 2072,
         "estado": "RS",
         "cidade": "Estrela",
         "local": "Carrefour",
@@ -27872,7 +26936,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2145,
+        "id": 2073,
         "estado": "RS",
         "cidade": "Gravataí",
         "local": "Carrefour",
@@ -27885,7 +26949,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2146,
+        "id": 2074,
         "estado": "RS",
         "cidade": "Novo Hamburgo",
         "local": "Carrefour",
@@ -27898,7 +26962,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2147,
+        "id": 2075,
         "estado": "RS",
         "cidade": "Pelotas",
         "local": "Carrefour",
@@ -27911,7 +26975,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2148,
+        "id": 2076,
         "estado": "RS",
         "cidade": "Porto Alegre",
         "local": "Carrefour",
@@ -27924,7 +26988,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2149,
+        "id": 2077,
         "estado": "RS",
         "cidade": "Rio Grande",
         "local": "Carrefour",
@@ -27937,7 +27001,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2150,
+        "id": 2078,
         "estado": "RS",
         "cidade": "Santa Maria",
         "local": "Carrefour",
@@ -27950,7 +27014,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2151,
+        "id": 2079,
         "estado": "RS",
         "cidade": "Sapucaia do Sul",
         "local": "Carrefour",
@@ -27963,7 +27027,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2152,
+        "id": 2080,
         "estado": "RS",
         "cidade": "Viamão",
         "local": "Carrefour",
@@ -27976,7 +27040,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2153,
+        "id": 2081,
         "estado": "SC",
         "cidade": "Chapecó",
         "local": "Carrefour",
@@ -27989,7 +27053,7 @@ const ecoPontos = [
         "estado_nome": "Santa Catarina"
     },
     {
-        "id": 2154,
+        "id": 2082,
         "estado": "SC",
         "cidade": "Criciúma",
         "local": "Carrefour",
@@ -28002,7 +27066,7 @@ const ecoPontos = [
         "estado_nome": "Santa Catarina"
     },
     {
-        "id": 2155,
+        "id": 2083,
         "estado": "SC",
         "cidade": "Blumenau",
         "local": "Carrefour",
@@ -28015,7 +27079,7 @@ const ecoPontos = [
         "estado_nome": "Santa Catarina"
     },
     {
-        "id": 2156,
+        "id": 2084,
         "estado": "SC",
         "cidade": "Itajaí",
         "local": "Carrefour",
@@ -28028,7 +27092,7 @@ const ecoPontos = [
         "estado_nome": "Santa Catarina"
     },
     {
-        "id": 2157,
+        "id": 2085,
         "estado": "SE",
         "cidade": "Aracaju",
         "local": "Carrefour",
@@ -28041,7 +27105,7 @@ const ecoPontos = [
         "estado_nome": "Sergipe"
     },
     {
-        "id": 2158,
+        "id": 2086,
         "estado": "SE",
         "cidade": "Aracaju",
         "local": "Carrefour",
@@ -28054,7 +27118,7 @@ const ecoPontos = [
         "estado_nome": "Sergipe"
     },
     {
-        "id": 2159,
+        "id": 2087,
         "estado": "SP",
         "cidade": "Araçatuba",
         "local": "Carrefour",
@@ -28067,7 +27131,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2160,
+        "id": 2088,
         "estado": "SP",
         "cidade": "Araraquara",
         "local": "Carrefour",
@@ -28080,7 +27144,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2161,
+        "id": 2089,
         "estado": "SP",
         "cidade": "Atibaia",
         "local": "Carrefour",
@@ -28093,7 +27157,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2162,
+        "id": 2090,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Carrefour",
@@ -28106,7 +27170,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2163,
+        "id": 2091,
         "estado": "SP",
         "cidade": "Bauru",
         "local": "Carrefour",
@@ -28119,7 +27183,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2164,
+        "id": 2092,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -28132,7 +27196,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2165,
+        "id": 2093,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -28145,7 +27209,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2166,
+        "id": 2094,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -28158,7 +27222,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2167,
+        "id": 2095,
         "estado": "SP",
         "cidade": "Caraguatatuba",
         "local": "Carrefour",
@@ -28171,7 +27235,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2168,
+        "id": 2096,
         "estado": "SP",
         "cidade": "Carapicuíba",
         "local": "Carrefour",
@@ -28184,7 +27248,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2169,
+        "id": 2097,
         "estado": "SP",
         "cidade": "Cotia",
         "local": "Carrefour",
@@ -28197,7 +27261,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2170,
+        "id": 2098,
         "estado": "SP",
         "cidade": "Cotia",
         "local": "Carrefour",
@@ -28210,7 +27274,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2171,
+        "id": 2099,
         "estado": "SP",
         "cidade": "Barretos",
         "local": "Carrefour",
@@ -28223,7 +27287,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2172,
+        "id": 2100,
         "estado": "SP",
         "cidade": "Franca",
         "local": "Carrefour",
@@ -28236,7 +27300,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2173,
+        "id": 2101,
         "estado": "SP",
         "cidade": "Ferraz de Vasconcelos",
         "local": "Carrefour",
@@ -28249,7 +27313,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2174,
+        "id": 2102,
         "estado": "SP",
         "cidade": "Guaratinguetá",
         "local": "Carrefour",
@@ -28262,7 +27326,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2175,
+        "id": 2103,
         "estado": "SP",
         "cidade": "Guarujá",
         "local": "Carrefour",
@@ -28275,7 +27339,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2176,
+        "id": 2104,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Carrefour",
@@ -28288,7 +27352,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2177,
+        "id": 2105,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Carrefour",
@@ -28301,7 +27365,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2178,
+        "id": 2106,
         "estado": "SP",
         "cidade": "Itanhaém",
         "local": "Carrefour",
@@ -28314,7 +27378,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2179,
+        "id": 2107,
         "estado": "SP",
         "cidade": "Itapecerica da Serra",
         "local": "Carrefour",
@@ -28327,7 +27391,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2180,
+        "id": 2108,
         "estado": "SP",
         "cidade": "Itapevi",
         "local": "Carrefour",
@@ -28340,7 +27404,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2181,
+        "id": 2109,
         "estado": "SP",
         "cidade": "Jacareí",
         "local": "Carrefour",
@@ -28353,7 +27417,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2182,
+        "id": 2110,
         "estado": "SP",
         "cidade": "Jandira",
         "local": "Carrefour",
@@ -28366,7 +27430,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2183,
+        "id": 2111,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Carrefour",
@@ -28379,7 +27443,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2184,
+        "id": 2112,
         "estado": "SP",
         "cidade": "Limeira",
         "local": "Carrefour",
@@ -28392,7 +27456,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2185,
+        "id": 2113,
         "estado": "SP",
         "cidade": "Marília",
         "local": "Carrefour",
@@ -28405,7 +27469,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2186,
+        "id": 2114,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Carrefour",
@@ -28418,7 +27482,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2187,
+        "id": 2115,
         "estado": "SP",
         "cidade": "Mogi das Cruzes",
         "local": "Carrefour",
@@ -28431,7 +27495,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2188,
+        "id": 2116,
         "estado": "SP",
         "cidade": "Mogi Mirim",
         "local": "Carrefour",
@@ -28444,7 +27508,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2189,
+        "id": 2117,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Carrefour",
@@ -28457,7 +27521,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2190,
+        "id": 2118,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Carrefour",
@@ -28470,7 +27534,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2191,
+        "id": 2119,
         "estado": "SP",
         "cidade": "Praia Grande",
         "local": "Carrefour",
@@ -28483,7 +27547,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2192,
+        "id": 2120,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Carrefour",
@@ -28496,7 +27560,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2193,
+        "id": 2121,
         "estado": "SP",
         "cidade": "Ribeirão Pires",
         "local": "Carrefour",
@@ -28509,7 +27573,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2194,
+        "id": 2122,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Carrefour",
@@ -28522,7 +27586,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2195,
+        "id": 2123,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Carrefour",
@@ -28535,9 +27599,9 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2196,
+        "id": 2124,
         "estado": "SP",
-        "cidade": "Santa Bárbara dOeste",
+        "cidade": "Santa Bárbara dOeste",
         "local": "Carrefour",
         "endereço": "Rua da Agricultura, s/n",
         "bairro": "Loteamento Industrial",
@@ -28548,7 +27612,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2197,
+        "id": 2125,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour",
@@ -28561,7 +27625,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2198,
+        "id": 2126,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour",
@@ -28574,7 +27638,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2199,
+        "id": 2127,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour",
@@ -28587,7 +27651,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2200,
+        "id": 2128,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -28600,7 +27664,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2201,
+        "id": 2129,
         "estado": "SP",
         "cidade": "São Carlos",
         "local": "Carrefour",
@@ -28613,7 +27677,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2202,
+        "id": 2130,
         "estado": "SP",
         "cidade": "São José dos Campos",
         "local": "Carrefour",
@@ -28626,7 +27690,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2203,
+        "id": 2131,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Carrefour",
@@ -28639,7 +27703,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2204,
+        "id": 2132,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Carrefour",
@@ -28652,7 +27716,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2205,
+        "id": 2133,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28665,7 +27729,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2206,
+        "id": 2134,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28678,7 +27742,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2207,
+        "id": 2135,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28691,7 +27755,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2208,
+        "id": 2136,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28704,11 +27768,11 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2209,
+        "id": 2137,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
-        "endereço": "Estrada MBoi Mirim, 380",
+        "endereço": "Estrada MBoi Mirim, 380",
         "bairro": "Santo Amaro",
         "tipo_de_material": "Eletrônicos",
         "horario_seg_sex": "08:00h-21:00h",
@@ -28717,7 +27781,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2210,
+        "id": 2138,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28730,7 +27794,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2211,
+        "id": 2139,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28743,7 +27807,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2212,
+        "id": 2140,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28756,7 +27820,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2213,
+        "id": 2141,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28769,7 +27833,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2214,
+        "id": 2142,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28782,7 +27846,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2215,
+        "id": 2143,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -28795,7 +27859,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2216,
+        "id": 2144,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Carrefour",
@@ -28808,7 +27872,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2217,
+        "id": 2145,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Carrefour",
@@ -28821,7 +27885,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2218,
+        "id": 2146,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Carrefour",
@@ -28834,7 +27898,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2219,
+        "id": 2147,
         "estado": "SP",
         "cidade": "Suzano",
         "local": "Carrefour",
@@ -28847,7 +27911,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2220,
+        "id": 2148,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Carrefour",
@@ -28860,7 +27924,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2221,
+        "id": 2149,
         "estado": "TO",
         "cidade": "Palmas",
         "local": "Carrefour",
@@ -28873,7 +27937,7 @@ const ecoPontos = [
         "estado_nome": "Tocantins"
     },
     {
-        "id": 2222,
+        "id": 2150,
         "estado": "TO",
         "cidade": "Araguaína",
         "local": "Carrefour",
@@ -28886,7 +27950,7 @@ const ecoPontos = [
         "estado_nome": "Tocantins"
     },
     {
-        "id": 2223,
+        "id": 2151,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Manaus Shopping",
@@ -28899,7 +27963,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2224,
+        "id": 2152,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Manaus Hiper",
@@ -28912,7 +27976,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2225,
+        "id": 2153,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Ponta Negra",
@@ -28925,7 +27989,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2226,
+        "id": 2154,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Adrianópolis",
@@ -28938,7 +28002,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2227,
+        "id": 2155,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Barão",
@@ -28951,7 +28015,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2228,
+        "id": 2156,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Parangaba",
@@ -28964,7 +28028,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2229,
+        "id": 2157,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Sul",
@@ -28977,7 +28041,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2230,
+        "id": 2158,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Taguatinga",
@@ -28990,7 +28054,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2231,
+        "id": 2159,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Asa Norte",
@@ -29003,7 +28067,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2232,
+        "id": 2160,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Asa Sul I",
@@ -29016,7 +28080,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2233,
+        "id": 2161,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Asa Sul II",
@@ -29029,7 +28093,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2234,
+        "id": 2162,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Asa Norte II",
@@ -29042,7 +28106,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2235,
+        "id": 2163,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Lago Sul",
@@ -29055,7 +28119,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2236,
+        "id": 2164,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Asa Norte",
@@ -29068,7 +28132,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2237,
+        "id": 2165,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Bom Motivo",
@@ -29081,7 +28145,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2238,
+        "id": 2166,
         "estado": "ES",
         "cidade": "Vila Velha",
         "local": "Vila Velha",
@@ -29094,7 +28158,7 @@ const ecoPontos = [
         "estado_nome": "Espírito Santo"
     },
     {
-        "id": 2239,
+        "id": 2167,
         "estado": "GO",
         "cidade": "Anápolis",
         "local": "Goiânia Anápolis",
@@ -29107,7 +28171,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2240,
+        "id": 2168,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Goiânia Sul",
@@ -29120,7 +28184,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2241,
+        "id": 2169,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Goiânia Sudoeste",
@@ -29133,7 +28197,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2242,
+        "id": 2170,
         "estado": "MG",
         "cidade": "Contagem",
         "local": "Contagem",
@@ -29146,7 +28210,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2243,
+        "id": 2171,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "BH Shopping",
@@ -29159,7 +28223,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2244,
+        "id": 2172,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Pampulha",
@@ -29172,7 +28236,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2245,
+        "id": 2173,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Del Rey",
@@ -29185,7 +28249,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2246,
+        "id": 2174,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "BH América",
@@ -29198,7 +28262,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2247,
+        "id": 2175,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Rio Grande do Sul",
@@ -29211,7 +28275,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2248,
+        "id": 2176,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Guajajaras",
@@ -29224,7 +28288,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2249,
+        "id": 2177,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Floresta",
@@ -29237,7 +28301,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2250,
+        "id": 2178,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Coração Eucarístico",
@@ -29250,7 +28314,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2251,
+        "id": 2179,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - S. Cidade",
@@ -29263,7 +28327,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2252,
+        "id": 2180,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Pedro II",
@@ -29276,7 +28340,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2253,
+        "id": 2181,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Homem Melo",
@@ -29289,7 +28353,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2254,
+        "id": 2182,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Amazonas",
@@ -29302,7 +28366,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2255,
+        "id": 2183,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Gutierrez",
@@ -29315,7 +28379,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2256,
+        "id": 2184,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Ceará",
@@ -29328,7 +28392,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2257,
+        "id": 2185,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Funcionários",
@@ -29341,7 +28405,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2258,
+        "id": 2186,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Pampulha",
@@ -29354,7 +28418,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2259,
+        "id": 2187,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Cidade Jardim",
@@ -29367,7 +28431,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2260,
+        "id": 2188,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Alaska",
@@ -29380,7 +28444,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2261,
+        "id": 2189,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "MG - Lagoa Santa",
@@ -29393,7 +28457,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2262,
+        "id": 2190,
         "estado": "MG",
         "cidade": "Juiz de Fora",
         "local": "Juiz de Fora",
@@ -29406,7 +28470,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2263,
+        "id": 2191,
         "estado": "MG",
         "cidade": "Uberlândia",
         "local": "Uberlândia",
@@ -29419,7 +28483,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2264,
+        "id": 2192,
         "estado": "MS",
         "cidade": "Campo Grande",
         "local": "Campo Grande",
@@ -29432,7 +28496,7 @@ const ecoPontos = [
         "estado_nome": "Mato Grosso do Sul"
     },
     {
-        "id": 2265,
+        "id": 2193,
         "estado": "PB",
         "cidade": "João Pessoa",
         "local": "João Pessoa",
@@ -29445,7 +28509,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2266,
+        "id": 2194,
         "estado": "PB",
         "cidade": "João Pessoa",
         "local": "JP Cidade dos Bancários",
@@ -29458,7 +28522,7 @@ const ecoPontos = [
         "estado_nome": "Paraíba"
     },
     {
-        "id": 2267,
+        "id": 2195,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Recife",
@@ -29471,7 +28535,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2268,
+        "id": 2196,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Domingos Ferreira",
@@ -29484,7 +28548,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2269,
+        "id": 2197,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Parolin",
@@ -29497,7 +28561,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2270,
+        "id": 2198,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Champagnat",
@@ -29510,7 +28574,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2271,
+        "id": 2199,
         "estado": "PR",
         "cidade": "Londrina",
         "local": "Londrina",
@@ -29523,7 +28587,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2272,
+        "id": 2200,
         "estado": "PR",
         "cidade": "Pinhais",
         "local": "Pinhais",
@@ -29536,7 +28600,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2273,
+        "id": 2201,
         "estado": "RJ",
         "cidade": "Belford Roxo",
         "local": "Belford Roxo",
@@ -29549,7 +28613,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2274,
+        "id": 2202,
         "estado": "RJ",
         "cidade": "Duque de Caxias",
         "local": "Duque de Caxias",
@@ -29562,7 +28626,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2275,
+        "id": 2203,
         "estado": "RJ",
         "cidade": "Duque de Caxias",
         "local": "Duque de Caxias",
@@ -29575,7 +28639,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2276,
+        "id": 2204,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Barra",
@@ -29588,7 +28652,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2277,
+        "id": 2205,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Norte Shopping",
@@ -29601,7 +28665,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2278,
+        "id": 2206,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Manilha",
@@ -29614,7 +28678,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2279,
+        "id": 2207,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Sulacap",
@@ -29627,7 +28691,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2280,
+        "id": 2208,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Alcântara",
@@ -29640,7 +28704,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2281,
+        "id": 2209,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Campo Grande",
@@ -29653,7 +28717,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2282,
+        "id": 2210,
         "estado": "RN",
         "cidade": "Natal",
         "local": "Natal",
@@ -29666,7 +28730,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2283,
+        "id": 2211,
         "estado": "RN",
         "cidade": "Natal",
         "local": "Natal Zona Norte",
@@ -29679,20 +28743,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2284,
-        "estado": "RS",
-        "cidade": "Canoas",
-        "local": "Canoas",
-        "endereço": "R. Mathias Velho, 555 - Canoas",
-        "bairro": " Canoas",
-        "tipo_de_material": "Eletrônicos",
-        "horario_seg_sex": "08:00h-21:00h",
-        "horario_sab": "08:00h-21:00h",
-        "tipo": "Supermercado",
-        "estado_nome": "Rio Grande do Sul"
-    },
-    {
-        "id": 2285,
+        "id": 2212,
         "estado": "RS",
         "cidade": "Caxias do Sul",
         "local": "Caxias do Sul",
@@ -29705,7 +28756,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2286,
+        "id": 2213,
         "estado": "RS",
         "cidade": "Gravataí",
         "local": "Gravataí",
@@ -29718,10 +28769,10 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2287,
+        "id": 2214,
         "estado": "RS",
-        "cidade": "Passos DAreia",
-        "local": "Passos DAreia",
+        "cidade": "Passos DAreia",
+        "local": "Passos DAreia",
         "endereço": "Av. Plínio Brasil Milano, 2343",
         "bairro": "Passo d'Areia",
         "tipo_de_material": "Eletrônicos",
@@ -29731,7 +28782,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2288,
+        "id": 2215,
         "estado": "RS",
         "cidade": "Porto Alegre",
         "local": "Porto Alegre",
@@ -29744,7 +28795,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2289,
+        "id": 2216,
         "estado": "RS",
         "cidade": "Santa Maria",
         "local": "Santa Maria",
@@ -29757,7 +28808,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2290,
+        "id": 2217,
         "estado": "SP",
         "cidade": "Barueri",
         "local": "Tamboré",
@@ -29770,7 +28821,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2291,
+        "id": 2218,
         "estado": "SP",
         "cidade": "Caçapava",
         "local": "SP - Caçapava",
@@ -29783,7 +28834,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2292,
+        "id": 2219,
         "estado": "SP",
         "cidade": "Cambuí",
         "local": "SP - Campinas",
@@ -29796,7 +28847,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2293,
+        "id": 2220,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "SP - Campinas Cambuí",
@@ -29809,7 +28860,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2294,
+        "id": 2221,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas D. Pedro",
@@ -29822,7 +28873,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2295,
+        "id": 2222,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas Valinhos",
@@ -29835,7 +28886,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2296,
+        "id": 2223,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campinas",
@@ -29848,7 +28899,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2297,
+        "id": 2224,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Diadema",
@@ -29861,7 +28912,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2298,
+        "id": 2225,
         "estado": "SP",
         "cidade": "Guarujá",
         "local": "Guarujá",
@@ -29874,7 +28925,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2299,
+        "id": 2226,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos",
@@ -29887,7 +28938,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2300,
+        "id": 2227,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Guarulhos Dutra",
@@ -29900,7 +28951,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2301,
+        "id": 2228,
         "estado": "SP",
         "cidade": "Indaiatuba",
         "local": "SP - Indaiatuba",
@@ -29913,7 +28964,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2302,
+        "id": 2229,
         "estado": "SP",
         "cidade": "Itú",
         "local": "SP - Itu",
@@ -29926,7 +28977,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2303,
+        "id": 2230,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Jundiaí",
@@ -29939,7 +28990,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2304,
+        "id": 2231,
         "estado": "SP",
         "cidade": "Mogi Mirim",
         "local": "SP - Mogi Mirim",
@@ -29952,7 +29003,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2305,
+        "id": 2232,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Osasco",
@@ -29965,7 +29016,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2306,
+        "id": 2233,
         "estado": "SP",
         "cidade": "Praia Grande",
         "local": "SP - Central Praia Grande",
@@ -29978,7 +29029,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2307,
+        "id": 2234,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Piracicaba",
@@ -29991,7 +29042,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2308,
+        "id": 2235,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Presidente Prudente",
@@ -30004,7 +29055,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2309,
+        "id": 2236,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Ribeirão Preto",
@@ -30017,7 +29068,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2310,
+        "id": 2237,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Ribeirão Preto Norte",
@@ -30030,7 +29081,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2311,
+        "id": 2238,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "SP - Rui Barbosa",
@@ -30043,7 +29094,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2312,
+        "id": 2239,
         "estado": "SP",
         "cidade": "Salto",
         "local": "SP - Salto",
@@ -30056,7 +29107,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2313,
+        "id": 2240,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André",
@@ -30069,7 +29120,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2314,
+        "id": 2241,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André Oratório",
@@ -30082,7 +29133,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2315,
+        "id": 2242,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo André Shopping",
@@ -30095,7 +29146,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2316,
+        "id": 2243,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos",
@@ -30108,7 +29159,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2317,
+        "id": 2244,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Santos Praiamar",
@@ -30121,7 +29172,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2318,
+        "id": 2245,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "São Bernardo",
@@ -30134,7 +29185,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2319,
+        "id": 2246,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Demarchi",
@@ -30147,7 +29198,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2320,
+        "id": 2247,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "São Bernardo Pauliceia",
@@ -30160,7 +29211,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2321,
+        "id": 2248,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "SP - São Bernardo",
@@ -30173,7 +29224,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2322,
+        "id": 2249,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "São Caetano",
@@ -30186,7 +29237,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2323,
+        "id": 2250,
         "estado": "SP",
         "cidade": "São Carlos",
         "local": "SP - São Carlos - Vila Costa",
@@ -30199,7 +29250,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2324,
+        "id": 2251,
         "estado": "SP",
         "cidade": "São Carlos",
         "local": "SP - São Carlos - Sta Felícia",
@@ -30212,7 +29263,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2325,
+        "id": 2252,
         "estado": "SP",
         "cidade": "São José dos Campos",
         "local": "São José dos Campos",
@@ -30225,7 +29276,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2326,
+        "id": 2253,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "São José Rio Preto",
@@ -30238,7 +29289,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2327,
+        "id": 2254,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "São José Rio Preto Shopp",
@@ -30251,7 +29302,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2328,
+        "id": 2255,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Limão",
@@ -30264,7 +29315,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2329,
+        "id": 2256,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pinheiros",
@@ -30277,7 +29328,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2330,
+        "id": 2257,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Imigrantes",
@@ -30290,7 +29341,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2331,
+        "id": 2258,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Butantã",
@@ -30303,7 +29354,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2332,
+        "id": 2259,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Rebouças",
@@ -30316,7 +29367,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2333,
+        "id": 2260,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pamplona",
@@ -30329,7 +29380,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2334,
+        "id": 2261,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Cambuci Lion",
@@ -30342,7 +29393,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2335,
+        "id": 2262,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Villa Lobos",
@@ -30355,7 +29406,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2336,
+        "id": 2263,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Brooklin",
@@ -30368,7 +29419,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2337,
+        "id": 2264,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Jabaquara",
@@ -30381,7 +29432,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2338,
+        "id": 2265,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Giovanni Gronchi",
@@ -30394,7 +29445,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2339,
+        "id": 2266,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Anália Franco",
@@ -30407,7 +29458,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2340,
+        "id": 2267,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tietê",
@@ -30420,7 +29471,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2341,
+        "id": 2268,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Aricanduva",
@@ -30433,7 +29484,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2342,
+        "id": 2269,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Pêssego",
@@ -30446,7 +29497,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2343,
+        "id": 2270,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Center Norte",
@@ -30459,7 +29510,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2344,
+        "id": 2271,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Tatuapé Celso Garcia",
@@ -30472,7 +29523,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2345,
+        "id": 2272,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Penha",
@@ -30485,7 +29536,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2346,
+        "id": 2273,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Interlagos",
@@ -30498,7 +29549,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2347,
+        "id": 2274,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Raposo Tavares",
@@ -30511,7 +29562,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2348,
+        "id": 2275,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Anchieta",
@@ -30524,7 +29575,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2349,
+        "id": 2276,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Interlagos",
@@ -30537,7 +29588,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2350,
+        "id": 2277,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Morumbi",
@@ -30550,7 +29601,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2351,
+        "id": 2278,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Casa Verde",
@@ -30563,7 +29614,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2352,
+        "id": 2279,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "São Vicente",
@@ -30576,7 +29627,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2353,
+        "id": 2280,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba Norte",
@@ -30589,7 +29640,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2354,
+        "id": 2281,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Sorocaba",
@@ -30602,7 +29653,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2355,
+        "id": 2282,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Taboão da Serra",
@@ -30615,7 +29666,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2356,
+        "id": 2283,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté Charles",
@@ -30628,7 +29679,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2357,
+        "id": 2284,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Taubaté II",
@@ -30641,7 +29692,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2358,
+        "id": 2285,
         "estado": "SP",
         "cidade": "Vinhedo",
         "local": "Vinhedo",
@@ -30654,7 +29705,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2359,
+        "id": 2286,
         "estado": "RJ",
         "cidade": "Belford Roxo",
         "local": "Belford Roxo",
@@ -30667,7 +29718,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2360,
+        "id": 2287,
         "estado": "RJ",
         "cidade": "Duque de Caxias",
         "local": "Duque de Caxias",
@@ -30680,7 +29731,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2361,
+        "id": 2288,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Barra",
@@ -30693,7 +29744,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2362,
+        "id": 2289,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Sulacap",
@@ -30706,7 +29757,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2363,
+        "id": 2290,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Alcântara",
@@ -30719,7 +29770,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2364,
+        "id": 2291,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour Brasília Asa Norte",
@@ -30732,7 +29783,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2365,
+        "id": 2292,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour Brasília Asa Norte",
@@ -30745,7 +29796,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2366,
+        "id": 2293,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour Brasília Asa Sul",
@@ -30758,7 +29809,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2367,
+        "id": 2294,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour Brasília Lago Sul",
@@ -30771,7 +29822,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2368,
+        "id": 2295,
         "estado": "DF",
         "cidade": "Brasília",
         "local": "Carrefour Brasília Sul",
@@ -30784,7 +29835,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2369,
+        "id": 2296,
         "estado": "DF",
         "cidade": "Taguatinga",
         "local": "Carrefour Taguatinga",
@@ -30797,7 +29848,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2370,
+        "id": 2297,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour Goiânia Sudoeste",
@@ -30810,7 +29861,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2371,
+        "id": 2298,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour Pampulha II",
@@ -30823,7 +29874,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2372,
+        "id": 2299,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour Coração",
@@ -30836,7 +29887,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2373,
+        "id": 2300,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour Del Rey",
@@ -30849,7 +29900,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2374,
+        "id": 2301,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour Anchieta",
@@ -30862,7 +29913,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2375,
+        "id": 2302,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour BH Shopping",
@@ -30875,7 +29926,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2376,
+        "id": 2303,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour Shopping Cidade",
@@ -30888,7 +29939,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2377,
+        "id": 2304,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour Floresta",
@@ -30901,7 +29952,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2378,
+        "id": 2305,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour América",
@@ -30914,7 +29965,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2379,
+        "id": 2306,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Carrefour Parolin",
@@ -30927,7 +29978,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2380,
+        "id": 2307,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Carrefour Champagnat",
@@ -30940,7 +29991,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2381,
+        "id": 2308,
         "estado": "PR",
         "cidade": "Londrina",
         "local": "Carrefour Londrina",
@@ -30953,7 +30004,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2382,
+        "id": 2309,
         "estado": "PR",
         "cidade": "Pinhais",
         "local": "Carrefour Pinhais",
@@ -30966,7 +30017,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2383,
+        "id": 2310,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour Barra da Tijuca",
@@ -30979,7 +30030,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2384,
+        "id": 2311,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour Norte Shopping",
@@ -30992,7 +30043,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2385,
+        "id": 2312,
         "estado": "RS",
         "cidade": "Canoas",
         "local": "Carrefour Canoas",
@@ -31005,7 +30056,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2386,
+        "id": 2313,
         "estado": "RS",
         "cidade": "Caxias do Sul",
         "local": "Carrefour Caxias do Sul",
@@ -31018,7 +30069,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2387,
+        "id": 2314,
         "estado": "RS",
         "cidade": "Gravataí",
         "local": "Carrefour Gravataí",
@@ -31031,12 +30082,12 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2388,
+        "id": 2315,
         "estado": "RS",
         "cidade": "Porto Alegre",
-        "local": "Carrefour Passos DAreia",
+        "local": "Carrefour Passos DAreia",
         "endereço": "Av. Plínio Brasil Milano, 2343",
-        "bairro": "Passo dAreia",
+        "bairro": "Passo dAreia",
         "tipo_de_material": "Líquidos",
         "horario_seg_sex": "08:00h-21:00h",
         "horario_sab": "08:00h-21:00h",
@@ -31044,7 +30095,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2389,
+        "id": 2316,
         "estado": "RS",
         "cidade": "Porto Alegre",
         "local": "Carrefour Partenon",
@@ -31057,7 +30108,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2390,
+        "id": 2317,
         "estado": "RS",
         "cidade": "Santa Maria",
         "local": "Carrefour Santa Maria",
@@ -31070,7 +30121,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2391,
+        "id": 2318,
         "estado": "SP",
         "cidade": "Guarujá",
         "local": "Carrefour Guarujá",
@@ -31083,7 +30134,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2392,
+        "id": 2319,
         "estado": "SP",
         "cidade": "Praia Grande",
         "local": "Carrefour Praia Grande",
@@ -31096,7 +30147,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2393,
+        "id": 2320,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour Santo André",
@@ -31109,7 +30160,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2394,
+        "id": 2321,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour Santo André Oratório",
@@ -31122,7 +30173,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2395,
+        "id": 2322,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour Santo André PB",
@@ -31135,7 +30186,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2396,
+        "id": 2323,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour Santos Praiamar",
@@ -31148,7 +30199,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2397,
+        "id": 2324,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour Santos",
@@ -31161,7 +30212,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2398,
+        "id": 2325,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour São Bernardo do Campo",
@@ -31174,7 +30225,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2399,
+        "id": 2326,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour São Bernardo do Campo Paulicéia",
@@ -31187,7 +30238,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2400,
+        "id": 2327,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "Carrefour São Caetano do Sul",
@@ -31200,7 +30251,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2401,
+        "id": 2328,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Carrefour SJRP Shopping",
@@ -31213,7 +30264,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2402,
+        "id": 2329,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour São Paulo Pinheiros",
@@ -31226,7 +30277,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2403,
+        "id": 2330,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour São Paulo Casa Verde",
@@ -31239,7 +30290,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2404,
+        "id": 2331,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour São Paulo Interlagos",
@@ -31252,7 +30303,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2405,
+        "id": 2332,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour São Paulo Giovanni",
@@ -31265,7 +30316,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2406,
+        "id": 2333,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour São Paulo Pêssego",
@@ -31278,7 +30329,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2407,
+        "id": 2334,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour São Paulo Morumbi",
@@ -31291,7 +30342,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2408,
+        "id": 2335,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Carrefour São Vicente",
@@ -31304,7 +30355,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2409,
+        "id": 2336,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Carrefour Taboão da Serra",
@@ -31317,7 +30368,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2410,
+        "id": 2337,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Carrefour Taubaté",
@@ -31330,7 +30381,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2411,
+        "id": 2338,
         "estado": "SP",
         "cidade": "Taubaté",
         "local": "Carrefour Taubaté Charles",
@@ -31343,7 +30394,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2412,
+        "id": 2339,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -31356,7 +30407,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2413,
+        "id": 2340,
         "estado": "AM",
         "cidade": "Manaus",
         "local": "Carrefour",
@@ -31369,7 +30420,7 @@ const ecoPontos = [
         "estado_nome": "Amazonas"
     },
     {
-        "id": 2414,
+        "id": 2341,
         "estado": "CE",
         "cidade": "Fortaleza",
         "local": "Carrefour",
@@ -31382,7 +30433,7 @@ const ecoPontos = [
         "estado_nome": "Ceará"
     },
     {
-        "id": 2415,
+        "id": 2342,
         "estado": "DF",
         "cidade": "Taguatinga",
         "local": "Carrefour",
@@ -31395,7 +30446,7 @@ const ecoPontos = [
         "estado_nome": "Distrito Federal"
     },
     {
-        "id": 2416,
+        "id": 2343,
         "estado": "GO",
         "cidade": "Anápolis",
         "local": "Carrefour",
@@ -31408,7 +30459,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2417,
+        "id": 2344,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour",
@@ -31421,7 +30472,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2418,
+        "id": 2345,
         "estado": "GO",
         "cidade": "Goiânia",
         "local": "Carrefour",
@@ -31434,7 +30485,7 @@ const ecoPontos = [
         "estado_nome": "Goiás"
     },
     {
-        "id": 2419,
+        "id": 2346,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -31447,7 +30498,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2420,
+        "id": 2347,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -31460,7 +30511,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2421,
+        "id": 2348,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -31473,7 +30524,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2422,
+        "id": 2349,
         "estado": "MG",
         "cidade": "Belo Horizonte",
         "local": "Carrefour",
@@ -31486,7 +30537,7 @@ const ecoPontos = [
         "estado_nome": "Minas Gerais"
     },
     {
-        "id": 2423,
+        "id": 2350,
         "estado": "PE",
         "cidade": "Recife",
         "local": "Carrefour",
@@ -31499,7 +30550,7 @@ const ecoPontos = [
         "estado_nome": "Pernambuco"
     },
     {
-        "id": 2424,
+        "id": 2351,
         "estado": "PR",
         "cidade": "Curitiba",
         "local": "Carrefour",
@@ -31512,7 +30563,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2425,
+        "id": 2352,
         "estado": "PR",
         "cidade": "Londrina",
         "local": "Carrefour",
@@ -31525,7 +30576,7 @@ const ecoPontos = [
         "estado_nome": "Paraná"
     },
     {
-        "id": 2426,
+        "id": 2353,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour",
@@ -31538,7 +30589,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2427,
+        "id": 2354,
         "estado": "RJ",
         "cidade": "São Gonçalo",
         "local": "Carrefour",
@@ -31551,7 +30602,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2428,
+        "id": 2355,
         "estado": "RN",
         "cidade": "Natal",
         "local": "Carrefour",
@@ -31564,7 +30615,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Norte"
     },
     {
-        "id": 2429,
+        "id": 2356,
         "estado": "RS",
         "cidade": "Canoas",
         "local": "Carrefour",
@@ -31577,7 +30628,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2430,
+        "id": 2357,
         "estado": "RS",
         "cidade": "Caxias",
         "local": "Carrefour",
@@ -31590,7 +30641,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2431,
+        "id": 2358,
         "estado": "RS",
         "cidade": "Gravataí",
         "local": "Carrefour",
@@ -31603,7 +30654,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2432,
+        "id": 2359,
         "estado": "RS",
         "cidade": "Porto Alegre",
         "local": "Carrefour",
@@ -31616,7 +30667,7 @@ const ecoPontos = [
         "estado_nome": "Rio Grande do Sul"
     },
     {
-        "id": 2433,
+        "id": 2360,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -31629,7 +30680,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2434,
+        "id": 2361,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -31642,7 +30693,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2435,
+        "id": 2362,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour",
@@ -31655,7 +30706,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2436,
+        "id": 2363,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Carrefour",
@@ -31668,7 +30719,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2437,
+        "id": 2364,
         "estado": "SP",
         "cidade": "Guarujá",
         "local": "Carrefour",
@@ -31681,7 +30732,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2438,
+        "id": 2365,
         "estado": "SP",
         "cidade": "Jundiaí",
         "local": "Carrefour",
@@ -31694,7 +30745,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2439,
+        "id": 2366,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Carrefour",
@@ -31707,7 +30758,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2440,
+        "id": 2367,
         "estado": "SP",
         "cidade": "Presidente Prudente",
         "local": "Carrefour",
@@ -31720,7 +30771,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2441,
+        "id": 2368,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Carrefour",
@@ -31733,7 +30784,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2442,
+        "id": 2369,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour",
@@ -31746,7 +30797,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2443,
+        "id": 2370,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour",
@@ -31759,7 +30810,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2444,
+        "id": 2371,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -31772,7 +30823,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2445,
+        "id": 2372,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -31785,7 +30836,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2446,
+        "id": 2373,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour",
@@ -31798,7 +30849,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2447,
+        "id": 2374,
         "estado": "SP",
         "cidade": "São Caetano do Sul",
         "local": "Carrefour",
@@ -31811,7 +30862,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2448,
+        "id": 2375,
         "estado": "SP",
         "cidade": "São José dos Campos",
         "local": "Carrefour",
@@ -31824,7 +30875,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2449,
+        "id": 2376,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Carrefour",
@@ -31837,7 +30888,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2450,
+        "id": 2377,
         "estado": "SP",
         "cidade": "São José do Rio Preto",
         "local": "Carrefour",
@@ -31850,7 +30901,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2451,
+        "id": 2378,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31863,7 +30914,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2452,
+        "id": 2379,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31876,7 +30927,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2453,
+        "id": 2380,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31889,7 +30940,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2454,
+        "id": 2381,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31902,7 +30953,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2455,
+        "id": 2382,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31915,7 +30966,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2456,
+        "id": 2383,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31928,7 +30979,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2457,
+        "id": 2384,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31941,7 +30992,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2458,
+        "id": 2385,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31954,7 +31005,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2459,
+        "id": 2386,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31967,7 +31018,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2460,
+        "id": 2387,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31980,7 +31031,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2461,
+        "id": 2388,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -31993,7 +31044,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2462,
+        "id": 2389,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32006,7 +31057,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2463,
+        "id": 2390,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32019,7 +31070,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2464,
+        "id": 2391,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32032,7 +31083,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2465,
+        "id": 2392,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32045,7 +31096,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2466,
+        "id": 2393,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32058,7 +31109,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2467,
+        "id": 2394,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32071,7 +31122,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2468,
+        "id": 2395,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour",
@@ -32084,7 +31135,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2469,
+        "id": 2396,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Carrefour",
@@ -32097,7 +31148,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2470,
+        "id": 2397,
         "estado": "SP",
         "cidade": "Taboão da Serra",
         "local": "Carrefour",
@@ -32110,7 +31161,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2471,
+        "id": 2398,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour Manilha",
@@ -32123,7 +31174,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2472,
+        "id": 2399,
         "estado": "RJ",
         "cidade": "Rio de Janeiro",
         "local": "Carrefour Sulacap",
@@ -32136,7 +31187,7 @@ const ecoPontos = [
         "estado_nome": "Rio de Janeiro"
     },
     {
-        "id": 2473,
+        "id": 2400,
         "estado": "SP",
         "cidade": "Guarujá",
         "local": "Carrefour Guarujá",
@@ -32149,7 +31200,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2474,
+        "id": 2401,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour Mg. Pinheiros",
@@ -32162,7 +31213,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2475,
+        "id": 2402,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Carrefour Boqueirão Eldorado",
@@ -32175,7 +31226,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2476,
+        "id": 2403,
         "estado": "SP",
         "cidade": "São Bernardo do Campo",
         "local": "Carrefour São Bernardo do Campo",
@@ -32188,7 +31239,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2477,
+        "id": 2404,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Carrefour Santo André",
@@ -32201,7 +31252,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2478,
+        "id": 2405,
         "estado": "SP",
         "cidade": "Diadema",
         "local": "Carrefour Diadema",
@@ -32214,7 +31265,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2479,
+        "id": 2406,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour Vila Brandina",
@@ -32227,7 +31278,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2480,
+        "id": 2407,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Carrefour Benjamin Harris",
@@ -32240,7 +31291,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2481,
+        "id": 2408,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Carrefour Dutra",
@@ -32253,7 +31304,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2482,
+        "id": 2409,
         "estado": "SP",
         "cidade": "São José dos Campos",
         "local": "Carrefour São José dos Campos",
@@ -32266,7 +31317,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2483,
+        "id": 2410,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carrefour Valinhos",
@@ -32279,7 +31330,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2484,
+        "id": 2411,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Carrefour Sorocaba - Norte",
@@ -32292,7 +31343,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2485,
+        "id": 2412,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour Raposo Tavares",
@@ -32305,7 +31356,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2486,
+        "id": 2413,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour Giovanni Gronchi",
@@ -32318,7 +31369,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2487,
+        "id": 2414,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour Imigrantes",
@@ -32331,7 +31382,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2488,
+        "id": 2415,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour Pirituba",
@@ -32344,7 +31395,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2489,
+        "id": 2416,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Carrefour Pamplona",
@@ -32357,7 +31408,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2490,
+        "id": 2417,
         "estado": "SP",
         "cidade": "Praia Grande",
         "local": "Carrefour Central Praia Grande",
@@ -32370,7 +31421,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2491,
+        "id": 2418,
         "estado": "SP",
         "cidade": "São Vicente",
         "local": "Carrefour São Vicente",
@@ -32383,618 +31434,618 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2492,
+        "id": 2419,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "s/n",
         "endereço": "Rua João Bernardo de Medeiros, 800",
         "bairro": "Bom Clima",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2493,
+        "id": 2420,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Sant Anna",
         "endereço": "Rua Soldado Estanislau Wojcik, 26",
         "bairro": "Macedo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2494,
+        "id": 2421,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Zamataro",
         "endereço": "Alameda Josefina L. Zamataro, 233",
         "bairro": "Ponte Grande",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2495,
+        "id": 2422,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Flor do Campo",
         "endereço": "Rua Guilherme Lino dos Santos, 349",
         "bairro": "Vila Barros",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2496,
+        "id": 2423,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Galvão",
         "endereço": "Rua Ipiranga, 543",
         "bairro": "Vila Galvão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2497,
+        "id": 2424,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Parque Santo Antonio",
         "endereço": "Rua Ouvidor, 198",
         "bairro": "Parque Santo Antonio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2498,
+        "id": 2425,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Escola Maria Helena Faria Lima e Cunha",
         "endereço": "Avenida Pedro de Souza Lopes, s/n",
         "bairro": "Cabuçu",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2499,
+        "id": 2426,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Rio",
         "endereço": "Avenida Benjamin Harris Hunnicutt, 1509",
         "bairro": "Vila Rio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2500,
+        "id": 2427,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Bela Vista",
         "endereço": "Rua Cabrália, 100",
         "bairro": "Cabrália",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2501,
+        "id": 2428,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Parque Mikail",
         "endereço": "Rua Justiniano Salvador dos Santos, 269",
         "bairro": "Mikail",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2502,
+        "id": 2429,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Sítio dos Morros",
         "endereço": "Rua Walter Pereira de Lima, 105",
         "bairro": "Adriana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2503,
+        "id": 2430,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Fortaleza",
         "endereço": "Rua Medeia Escardino Mariano, 311",
         "bairro": "Fortaleza",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2504,
+        "id": 2431,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Haroldo Veloso",
         "endereço": "Rua Campos Gerais, 163",
         "bairro": "Haroldo Veloso",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2505,
+        "id": 2432,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Bondança",
         "endereço": "Rua Ivan Edmundo Scarameli, 62",
         "bairro": "Bondança",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2506,
+        "id": 2433,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Lavras",
         "endereço": "Avenida José Brumati, 1857",
         "bairro": "Lavras",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2507,
+        "id": 2434,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Cidade Soimco",
         "endereço": "Rua Bento Gonçalves, s/nº",
         "bairro": "Cidade Soimco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2508,
+        "id": 2435,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Residencial Parque Cumbica",
         "endereço": "Avenida Francisco Xavier Correia, 489",
         "bairro": "INOCOOP",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2509,
+        "id": 2436,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Cumbica",
         "endereço": "Avenida Berinepe, 99",
         "bairro": "Jardim Cumbica",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2510,
+        "id": 2437,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Parque das Nações",
         "endereço": "Rua Itália, 13",
         "bairro": "Pimentas",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2511,
+        "id": 2438,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Leblon",
         "endereço": "Rua Araci, 188",
         "bairro": "Leblon",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2512,
+        "id": 2439,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Ponte Alta I",
         "endereço": "Rua Zeferino Alves de Oliveira, nº 530",
         "bairro": "Ponte Alta",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2513,
+        "id": 2440,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Nova Bonsucesso",
         "endereço": "Rua Remanso esquina com Viela Urga, s/n",
         "bairro": "Nova Bonsucesso",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2514,
+        "id": 2441,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jd. Álamo",
         "endereço": "Rua Gentil da Silva Leite Filho, 15",
         "bairro": "Álamo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:15h-16:00h",
         "horario_sab": "08:15h-15:30h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2515,
+        "id": 2442,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Gopoúva",
         "endereço": "Rua Guarulhos, 34",
         "bairro": "Gopoúva",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2516,
+        "id": 2443,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Leila (próximo ao CIESP)",
         "endereço": "Rua Apolônia Vieira de Jesus, 91",
         "bairro": "Paraventi",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2517,
+        "id": 2444,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Parque Continental II",
         "endereço": "Rua Valdimiro Laurentino Pêssoa, 655I",
         "bairro": "Continental",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2518,
+        "id": 2445,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Parque Santo Antonio",
         "endereço": "Rua Ouvidor 337",
         "bairro": "Torres Tibagy",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2519,
+        "id": 2446,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Vila Galvão",
         "endereço": "Avenida Faustino Ramalho, 977",
         "bairro": "Timóteo Penteado",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2520,
+        "id": 2447,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jd. Luciara",
         "endereço": "Rua Adélia Sadalla, 166",
         "bairro": "Iporanga",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2521,
+        "id": 2448,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jardim Divinolândia",
         "endereço": "Rua São Tomás de Aquino, 61",
         "bairro": "João do Pulo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2522,
+        "id": 2449,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Santos Dumont",
         "endereço": "Estrada do Saboó, 795",
         "bairro": "Santos Dumont",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2523,
+        "id": 2450,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jd. Presidente Dutra",
         "endereço": "Avenida João Bassi, 707",
         "bairro": "Presidente Dutra",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2524,
+        "id": 2451,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Jurema",
         "endereço": "Rua Jacutinga, 470",
         "bairro": "Jurema",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Óleo de cozinha, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2525,
+        "id": 2452,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Barão Geraldo",
         "endereço": "Avenida Santa Isabel, 2300",
         "bairro": "Barão Geraldo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2526,
+        "id": 2453,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Carlos Grimaldi",
         "endereço": "Rua Cōnego Pedro Bonhomme, 2424",
         "bairro": "Jardim Bela Vista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2527,
+        "id": 2454,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Campos Sales",
         "endereço": "Avenida São José dos Campos, s/n",
         "bairro": "Campos Sales",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2528,
+        "id": 2455,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Centro",
         "endereço": "Rua Antônio Manuel 2",
         "bairro": "Vila Industrial",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2529,
+        "id": 2456,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim Eulina",
         "endereço": "Avenida Marechal Rondon, s/n",
         "bairro": "Jardim Chapadão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2530,
+        "id": 2457,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim Itajaí",
         "endereço": "Rua Celso Soares Couto, s/n",
         "bairro": "Parque Itajaí",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2531,
+        "id": 2458,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim Marisa",
         "endereço": "Rua Orlando Bortoletti, 217",
         "bairro": "Jardim Marisa",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2532,
+        "id": 2459,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim Pacaembu",
         "endereço": "Rua Dante Suriani, 2382",
         "bairro": "Chácara Cneo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2533,
+        "id": 2460,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Parque Via Norte",
         "endereço": "Rua dos Cambarás, 200",
         "bairro": "Vila Boa Vista",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2534,
+        "id": 2461,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Jardim São Gabriel",
         "endereço": "Rua José Martins Lourenço, 140",
         "bairro": "Jardim São Gabriel",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2535,
+        "id": 2462,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Parque São Jorge",
         "endereço": "Rua Plácida Pretini, 196-270",
         "bairro": "Parque São Jorge",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2536,
+        "id": 2463,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Souzas",
         "endereço": "Avenida Dona Júlia Conceição Alves, 1134",
         "bairro": "Distrito de Sousas",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2537,
+        "id": 2464,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Vida Nova",
         "endereço": "Rua Lídia Martins de Assis",
         "bairro": "Vida Nova",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2538,
+        "id": 2465,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Vila União",
         "endereço": "Rua Manoel Gomes Ferreira, 42",
         "bairro": "Parque Tropical",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Borracha",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2539,
+        "id": 2466,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Vila Rialto ou Parque Itália",
@@ -33007,748 +32058,748 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2540,
+        "id": 2467,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Areião",
         "endereço": "Rua do Cruzeiro s/nº",
         "bairro": "Areião",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2541,
+        "id": 2468,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Bairro dos Casa",
         "endereço": "Avenida Capitão Casa, 687",
         "bairro": "Bairro dos Casa",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2542,
+        "id": 2469,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Batistini",
         "endereço": "Rua das Flores, 950",
         "bairro": "Batistini",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2543,
+        "id": 2470,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Der",
         "endereço": "Rua Ernesto Bezerra, 60",
         "bairro": "Der",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2544,
+        "id": 2471,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Divinéia",
         "endereço": "Rua Mathilde Ferrari Marçon, altura do nº 30",
         "bairro": "Divinéia",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2545,
+        "id": 2472,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Jardim Regina",
         "endereço": "Rua João de Barro, altura do nº 207",
         "bairro": "Jardim Regina",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2546,
+        "id": 2473,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Montanhão",
         "endereço": "Estrada do Montanhão, 152",
         "bairro": "Montanhão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2547,
+        "id": 2474,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Parque dos Pássaros",
         "endereço": "Rua dos Tangarás, 867",
         "bairro": "Parque dos Pássaros",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2548,
+        "id": 2475,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Parque São Bernardo",
         "endereço": "Rua Almeida Leme s/nº",
         "bairro": "Parque São Bernardo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2549,
+        "id": 2476,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Riacho Grande",
         "endereço": "Rua Marcílio Conrado, 600",
         "bairro": "Riacho Grande",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2550,
+        "id": 2477,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Rudge Ramos",
         "endereço": "Rua Guilherme de Almeida, 86",
         "bairro": "Rudge Ramos",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2551,
+        "id": 2478,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Taboão",
         "endereço": "Rua Pedro Ivo, 110",
         "bairro": "Taboão",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2552,
+        "id": 2479,
         "estado": "SP",
         "cidade": "São Bernardo Do Campo",
         "local": "Três Marias",
         "endereço": "Estrada Eiji Kikuti, 1892",
         "bairro": "Três Marias",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "08:00h-16:00h",
         "horario_sab": "08:00h-16:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2553,
+        "id": 2480,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Urbanova",
         "endereço": "Avenida Dr. Dilson Lara, 80, Residencial Monserrat",
         "bairro": "Urbanova",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2554,
+        "id": 2481,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Santa Luzia - Putim",
         "endereço": "Avenida Vicente Brandão Ferreira, 293",
         "bairro": "Santa Luzia - Putim",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2555,
+        "id": 2482,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Campo dos Alemães",
         "endereço": "Avenida dos Evangélicos, 601",
         "bairro": "Campo dos Alemães",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2556,
+        "id": 2483,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Dom Pedro 2º",
         "endereço": "Rua Antônio Eduardo Alvarenga, 130",
         "bairro": "Dom Pedro 2º",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2557,
+        "id": 2484,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Residencial Gazzo",
         "endereço": "Rua Arcilio Moreira da Silva, 774",
         "bairro": "Residencial Gazzo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2558,
+        "id": 2485,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "31 de Março",
         "endereço": "Rua Guidoval, 100",
         "bairro": "31 de Março",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2559,
+        "id": 2486,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Jardim Satélite",
         "endereço": "Rua Estrela Dalva, 135",
         "bairro": "Jardim Satélite",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2560,
+        "id": 2487,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Interlagos",
         "endereço": "Rua Ubirajara Raimundo de Souza, 21",
         "bairro": "Interlagos",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2561,
+        "id": 2488,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Galo Branco",
         "endereço": "Avenida Benedito Luiz de Medeiros, 811",
         "bairro": "Galo Branco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2562,
+        "id": 2489,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Novo Horizonte",
         "endereço": "Avenida Tancredo Neves, 5630",
         "bairro": "Novo Horizonte",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2563,
+        "id": 2490,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Jardim Copacabana",
         "endereço": "Rua Charles Diamond, 80",
         "bairro": "Jardim Copacabana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2564,
+        "id": 2491,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Altos de Santana",
         "endereço": "Avenida Alto do Rio Doce, 1075",
         "bairro": "Altos de Santana",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2565,
+        "id": 2492,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Vila Jaci",
         "endereço": "Rua Xavantes, 367",
         "bairro": "Vila Jaci",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2566,
+        "id": 2493,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Jardim Jussara",
         "endereço": "Rua Ana Gonçalves da Cunha, 370",
         "bairro": "Jardim Jussara",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2567,
+        "id": 2494,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "São Francisco Xavier",
         "endereço": "Rua Joaquim Cláudio da Silva",
         "bairro": "São Francisco Xavier",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos, borracha",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Óleo de cozinha, Borracha",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2568,
+        "id": 2495,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Erechim",
         "endereço": "Rua Erechim, 635",
         "bairro": "Parque Erasmo Assunção",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2569,
+        "id": 2496,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Antonina",
         "endereço": "Av. Engenheiro Olavo Alaysio de Lima, 945",
         "bairro": "Jardim Santo Antônio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2570,
+        "id": 2497,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Ipanema",
         "endereço": "Av. Capitão Mario Toledo de Camargo, 2955",
         "bairro": "Jardim Ipanema",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2571,
+        "id": 2498,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Paraíso",
         "endereço": "Rua Juquiá, 200",
         "bairro": "Paraíso",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2572,
+        "id": 2499,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Bom Pastor",
         "endereço": "Avenida Bom Pastor, 1150",
         "bairro": "Jardim Bom Pastor",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2573,
+        "id": 2500,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Centreville",
         "endereço": "Praça Eurico Gaspar Dutra, 181",
         "bairro": "Centreville",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2574,
+        "id": 2501,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Caminho do Pilar",
         "endereço": "Rua Caminho do Pilar, 1541",
         "bairro": "Bairro Pinheirinho",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2575,
+        "id": 2502,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Camilópolis",
         "endereço": "Rua Benjamim Constant, 20",
         "bairro": "Camilópolis",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2576,
+        "id": 2503,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Cerquilho",
         "endereço": "Rua Cerquilho, 151",
         "bairro": "Vila Lucinda",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2577,
+        "id": 2504,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo Expedito",
         "endereço": "Rua Santo Expedito, 107",
         "bairro": "Jardim Santo Antônio",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2578,
+        "id": 2505,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Cata Preta",
         "endereço": "Estrada do Cata Preta, 989",
         "bairro": "Vila João Ramalho",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2579,
+        "id": 2506,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Utinga",
         "endereço": "Avenida da Paz, 470",
         "bairro": "Utinga",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2580,
+        "id": 2507,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Loreto",
         "endereço": "Avenida Loreto, 101",
         "bairro": "Jardim Santo André",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2581,
+        "id": 2508,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Jd. Irene",
         "endereço": "Rua Caminho dos Vianas, 340",
         "bairro": "Jardim Irene",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2582,
+        "id": 2509,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Sorocaba",
         "endereço": "Av. Sorocaba, 1001",
         "bairro": "Parque João Ramalho",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2583,
+        "id": 2510,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Santo Alberto",
         "endereço": "Rua Evangelista de Souza, 1689",
         "bairro": "Jardim Santo Alberto",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2584,
+        "id": 2511,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Sacadura Cabral",
         "endereço": "Rua Lauro Muller, 400",
         "bairro": "Vila Sacadura Cabral",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2585,
+        "id": 2512,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Ana Maria",
         "endereço": "Av. Cândido Camargo, 101",
         "bairro": "Jd. Ana Maria",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2586,
+        "id": 2513,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Bangú",
         "endereço": "Rua Oratório, 1000",
         "bairro": "Bangú",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2587,
+        "id": 2514,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Palmeiras",
         "endereço": "Av. Prestes Maia, 195",
         "bairro": "Bairro Jardim",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2588,
+        "id": 2515,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Centro",
         "endereço": "Travessa São Bento, 15",
         "bairro": "Bairro Jardim",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2589,
+        "id": 2516,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Alvorada",
         "endereço": "Rua Rolândia, 400",
         "bairro": "Jd. Alvorada",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2590,
+        "id": 2517,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Jardim Cristiane",
         "endereço": "Av. José Fernando de Medina Braga, 1000",
         "bairro": "Jd. Cristiane",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2591,
+        "id": 2518,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Vila Linda",
         "endereço": "Rua Cametá, 81",
         "bairro": "Vila Linda",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2592,
+        "id": 2519,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Jardim Santo André",
         "endereço": "Rua da Visão, 501",
         "bairro": "Jardim Santo André",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2593,
+        "id": 2520,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Parque Miami",
         "endereço": "Rua Pintassilva, 51",
         "bairro": "Pq. Miami",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2594,
+        "id": 2521,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Vila Guiomar",
         "endereço": "Avenida Dom Jorge Marcos de Oliveira, 151",
         "bairro": "Vila Guiomar",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2595,
+        "id": 2522,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Marajoara",
         "endereço": "Rua Edgard Vieira de Lima, 51",
         "bairro": "Parque Marajoara",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "09:00h-17:00h",
         "horario_sab": "09:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2596,
+        "id": 2523,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Paranabiacaba",
         "endereço": "Avenida Ford, 37",
         "bairro": "Vila de Paranabiacaba",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "10:00h-18:00h",
         "horario_sab": "10:00h-18:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2597,
+        "id": 2524,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Atrium Shopping",
@@ -33761,306 +32812,306 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2598,
+        "id": 2525,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Conjunto Habitacional Alexandre Balbo",
         "endereço": "Avenida Ettore e Aurora Corauci, 1375",
         "bairro": "Conjunto Habitacional Alexandre Balbo",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2599,
+        "id": 2526,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Jardim Centenário",
         "endereço": "Rua Arthur Ramos, 1185",
         "bairro": "Jardim Centenário",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2600,
+        "id": 2527,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Jardim Santos Dumont",
         "endereço": "Rua Guará, 2225",
         "bairro": "Jardim Santos Dumont",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2601,
+        "id": 2528,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Jardim das Palmeiras II",
         "endereço": "Rua Poeta Fernando Pessoa, 15",
         "bairro": "Jardim das Palmeiras II",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2602,
+        "id": 2529,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Jardim Paiva",
         "endereço": "Av. Sen. Teotônio Vilella, 1285",
         "bairro": "Jardim Paiva",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2603,
+        "id": 2530,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Jardim São Fernando",
         "endereço": "Avenida Miguel Padulla, 400",
         "bairro": "Jardim São Fernando",
-        "tipo_de_material": "Coleta seletiva, obras e materiais",
+        "tipo_de_material": "Coleta seletiva, Construção civil",
         "horario_seg_sex": "07:00h-19:00h",
         "horario_sab": "07:00h-19:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2604,
+        "id": 2531,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Jardim Mutinga",
         "endereço": "Avenida Ônix, n 783",
         "bairro": "Jardim Ayrosa",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-22:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2605,
+        "id": 2532,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Helena Maria",
         "endereço": "Av. Walt Disney / R. Belmiro Alves da Silva",
         "bairro": "Jardim Elvira",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-22:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2606,
+        "id": 2533,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Novo Osasco",
         "endereço": "Rua Theodoro de Souza Brandão, n 1020",
         "bairro": "Novo Osasco",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-22:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2607,
+        "id": 2534,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Jaguaribe",
         "endereço": "Rua Fernando Miolin Filho, n 150",
         "bairro": "Jaguaribe",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "06:00h-22:00h",
         "horario_sab": "06:00h-22:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2608,
+        "id": 2535,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Miniecoponto Adalgisa",
         "endereço": "Rua Octávio Catelani, s/n, esquina com a Rua Rui Alvarenga",
         "bairro": "Adalgisa",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2609,
+        "id": 2536,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Miniecoponto Bandeiras",
         "endereço": "Rua João Guimarães Rosa, 220",
         "bairro": "Bandeiras",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2610,
+        "id": 2537,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Miniecoponto Munhoz Júnior",
         "endereço": "Rua Dr. José Marquês de Rezende",
         "bairro": "Jardim Munhoz Junior",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2611,
+        "id": 2538,
         "estado": "SP",
         "cidade": "Osasco",
         "local": "Miniecoponto Jardim Padroeira",
         "endereço": "Av. Benedito Alves Turíbio",
         "bairro": "Padroeira",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-16:00h",
         "horario_sab": "Fechado",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2612,
+        "id": 2539,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Vila Helena",
         "endereço": "Rua Roque Sampaio, 100",
         "bairro": "Vila Helena",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2613,
+        "id": 2540,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Cajuru",
         "endereço": "Rua Mário Monteiro de Carvalho, S/N",
         "bairro": "Cajuru",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2614,
+        "id": 2541,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Júlio de Mesquita Filho",
         "endereço": "Avenida Domingues Martins, s/n – Júlio de Mesquita Filho",
         "bairro": "Júlio de Mesquita Filho",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2615,
+        "id": 2542,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Vila Hortência",
         "endereço": "Rua Lourenço Molineiro, 100 – Vila Hortência",
         "bairro": "Vila Hortência",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos",
         "horario_seg_sex": "07:00h-17:00h",
         "horario_sab": "07:00h-12:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2616,
+        "id": 2543,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Jardim Zaíra",
         "endereço": "Av. Guerino Stella, 357",
         "bairro": "Jardim Zaíra",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Líquidos",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2617,
+        "id": 2544,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Jardim Itapeva",
         "endereço": "Rua Luiz Pacolla, 21",
         "bairro": "Jardim Itapeva",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Líquidos",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2618,
+        "id": 2545,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Jardim Zaíra 4",
         "endereço": "Av. Jesuíno Nicomédio dos Santos, na esquina com Sebastião Antônio da Silva",
         "bairro": "Jardim Zaíra 4",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Líquidos",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2619,
+        "id": 2546,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Vila Feital",
         "endereço": "Rua José Pedro Corrêa, s/n",
         "bairro": "Vila Feital",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Líquidos",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2620,
+        "id": 2547,
         "estado": "SP",
         "cidade": "Mauá",
         "local": "Vila Noêmia",
         "endereço": "Avenida Papa João XXIII, 1413 (ao lado do pátio de veículos)",
         "bairro": "Vila Noêmia",
-        "tipo_de_material": "Coleta seletiva, obras e materiais, eletrônicos, líquidos",
+        "tipo_de_material": "Coleta seletiva, Construção civil, Eletrônicos, Líquidos",
         "horario_seg_sex": "08:00h-17:00h",
         "horario_sab": "08:00h-17:00h",
         "tipo": "Ecoponto",
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2621,
+        "id": 2548,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34073,7 +33124,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2622,
+        "id": 2549,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34086,7 +33137,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2623,
+        "id": 2550,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34099,7 +33150,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2624,
+        "id": 2551,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34112,7 +33163,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2625,
+        "id": 2552,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34125,7 +33176,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2626,
+        "id": 2553,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34138,7 +33189,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2627,
+        "id": 2554,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34151,7 +33202,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2628,
+        "id": 2555,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34164,7 +33215,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2629,
+        "id": 2556,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34177,7 +33228,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2630,
+        "id": 2557,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34190,7 +33241,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2631,
+        "id": 2558,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34203,7 +33254,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2632,
+        "id": 2559,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34216,7 +33267,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2633,
+        "id": 2560,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34229,7 +33280,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2634,
+        "id": 2561,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34242,7 +33293,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2635,
+        "id": 2562,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34255,7 +33306,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2636,
+        "id": 2563,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34268,7 +33319,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2637,
+        "id": 2564,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34281,7 +33332,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2638,
+        "id": 2565,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34294,7 +33345,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2639,
+        "id": 2566,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34307,7 +33358,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2640,
+        "id": 2567,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34320,7 +33371,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2641,
+        "id": 2568,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34333,7 +33384,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2642,
+        "id": 2569,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34346,7 +33397,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2643,
+        "id": 2570,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34359,7 +33410,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2644,
+        "id": 2571,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34372,7 +33423,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2645,
+        "id": 2572,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34385,7 +33436,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2646,
+        "id": 2573,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34398,7 +33449,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2647,
+        "id": 2574,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34411,7 +33462,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2648,
+        "id": 2575,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34424,7 +33475,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2649,
+        "id": 2576,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34437,7 +33488,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2650,
+        "id": 2577,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34450,7 +33501,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2651,
+        "id": 2578,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34463,7 +33514,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2652,
+        "id": 2579,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34476,7 +33527,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2653,
+        "id": 2580,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34489,7 +33540,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2654,
+        "id": 2581,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34502,7 +33553,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2655,
+        "id": 2582,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34515,7 +33566,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2656,
+        "id": 2583,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34528,7 +33579,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2657,
+        "id": 2584,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34541,7 +33592,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2658,
+        "id": 2585,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34554,7 +33605,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2659,
+        "id": 2586,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34567,7 +33618,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2660,
+        "id": 2587,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34580,7 +33631,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2661,
+        "id": 2588,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34593,7 +33644,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2662,
+        "id": 2589,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34606,7 +33657,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2663,
+        "id": 2590,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34619,7 +33670,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2664,
+        "id": 2591,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34632,7 +33683,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2665,
+        "id": 2592,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34645,7 +33696,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2666,
+        "id": 2593,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34658,7 +33709,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2667,
+        "id": 2594,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34671,7 +33722,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2668,
+        "id": 2595,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34684,7 +33735,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2669,
+        "id": 2596,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34697,7 +33748,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2670,
+        "id": 2597,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34710,7 +33761,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2671,
+        "id": 2598,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34723,7 +33774,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2672,
+        "id": 2599,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34736,7 +33787,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2673,
+        "id": 2600,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34749,7 +33800,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2674,
+        "id": 2601,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34762,7 +33813,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2675,
+        "id": 2602,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34775,7 +33826,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2676,
+        "id": 2603,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34788,7 +33839,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2677,
+        "id": 2604,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34801,7 +33852,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2678,
+        "id": 2605,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34814,7 +33865,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2679,
+        "id": 2606,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34827,7 +33878,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2680,
+        "id": 2607,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34840,7 +33891,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2681,
+        "id": 2608,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34853,7 +33904,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2682,
+        "id": 2609,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34866,7 +33917,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2683,
+        "id": 2610,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34879,7 +33930,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2684,
+        "id": 2611,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34892,7 +33943,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2685,
+        "id": 2612,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34905,7 +33956,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2686,
+        "id": 2613,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34918,7 +33969,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2687,
+        "id": 2614,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34931,7 +33982,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2688,
+        "id": 2615,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34944,7 +33995,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2689,
+        "id": 2616,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34957,7 +34008,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2690,
+        "id": 2617,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34970,7 +34021,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2691,
+        "id": 2618,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34983,7 +34034,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2692,
+        "id": 2619,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -34996,7 +34047,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2693,
+        "id": 2620,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35009,7 +34060,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2694,
+        "id": 2621,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35022,7 +34073,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2695,
+        "id": 2622,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35035,7 +34086,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2696,
+        "id": 2623,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35048,7 +34099,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2697,
+        "id": 2624,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35061,7 +34112,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2698,
+        "id": 2625,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35074,7 +34125,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2699,
+        "id": 2626,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35087,7 +34138,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2700,
+        "id": 2627,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35100,7 +34151,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2701,
+        "id": 2628,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35113,7 +34164,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2702,
+        "id": 2629,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35126,7 +34177,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2703,
+        "id": 2630,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35139,7 +34190,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2704,
+        "id": 2631,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35152,7 +34203,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2705,
+        "id": 2632,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35165,7 +34216,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2706,
+        "id": 2633,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35178,7 +34229,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2707,
+        "id": 2634,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35191,7 +34242,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2708,
+        "id": 2635,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35204,7 +34255,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2709,
+        "id": 2636,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35217,7 +34268,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2710,
+        "id": 2637,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35230,7 +34281,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2711,
+        "id": 2638,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35243,7 +34294,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2712,
+        "id": 2639,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35256,7 +34307,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2713,
+        "id": 2640,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35269,7 +34320,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2714,
+        "id": 2641,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35282,7 +34333,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2715,
+        "id": 2642,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35295,7 +34346,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2716,
+        "id": 2643,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35308,7 +34359,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2717,
+        "id": 2644,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35321,7 +34372,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2718,
+        "id": 2645,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35334,7 +34385,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2719,
+        "id": 2646,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35347,7 +34398,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2720,
+        "id": 2647,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35360,7 +34411,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2721,
+        "id": 2648,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35373,7 +34424,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2722,
+        "id": 2649,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35386,7 +34437,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2723,
+        "id": 2650,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35399,7 +34450,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2724,
+        "id": 2651,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35412,7 +34463,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2725,
+        "id": 2652,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35425,7 +34476,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2726,
+        "id": 2653,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35438,7 +34489,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2727,
+        "id": 2654,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35451,7 +34502,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2728,
+        "id": 2655,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35464,7 +34515,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2729,
+        "id": 2656,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35477,7 +34528,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2730,
+        "id": 2657,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35490,7 +34541,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2731,
+        "id": 2658,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35503,7 +34554,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2732,
+        "id": 2659,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35516,7 +34567,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2733,
+        "id": 2660,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35529,7 +34580,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2734,
+        "id": 2661,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35542,7 +34593,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2735,
+        "id": 2662,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35555,7 +34606,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2736,
+        "id": 2663,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35568,7 +34619,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2737,
+        "id": 2664,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35581,7 +34632,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2738,
+        "id": 2665,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35594,7 +34645,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2739,
+        "id": 2666,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35607,7 +34658,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2740,
+        "id": 2667,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35620,7 +34671,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2741,
+        "id": 2668,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35633,7 +34684,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2742,
+        "id": 2669,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35646,7 +34697,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2743,
+        "id": 2670,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35659,7 +34710,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2744,
+        "id": 2671,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35672,7 +34723,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2745,
+        "id": 2672,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35685,7 +34736,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2746,
+        "id": 2673,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35698,7 +34749,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2747,
+        "id": 2674,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35711,7 +34762,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2748,
+        "id": 2675,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35724,7 +34775,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2749,
+        "id": 2676,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35737,7 +34788,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2750,
+        "id": 2677,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35750,7 +34801,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2751,
+        "id": 2678,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35763,7 +34814,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2752,
+        "id": 2679,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35776,7 +34827,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2753,
+        "id": 2680,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35789,7 +34840,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2754,
+        "id": 2681,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35802,7 +34853,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2755,
+        "id": 2682,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35815,7 +34866,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2756,
+        "id": 2683,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35828,7 +34879,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2757,
+        "id": 2684,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35841,7 +34892,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2758,
+        "id": 2685,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35854,7 +34905,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2759,
+        "id": 2686,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35867,7 +34918,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2760,
+        "id": 2687,
         "estado": "SP",
         "cidade": "São Paulo",
         "local": "Drogaraia",
@@ -35880,7 +34931,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2761,
+        "id": 2688,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35893,7 +34944,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2762,
+        "id": 2689,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35906,7 +34957,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2763,
+        "id": 2690,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35919,7 +34970,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2764,
+        "id": 2691,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35932,7 +34983,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2765,
+        "id": 2692,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35945,7 +34996,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2766,
+        "id": 2693,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35958,7 +35009,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2767,
+        "id": 2694,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35971,7 +35022,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2768,
+        "id": 2695,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35984,7 +35035,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2769,
+        "id": 2696,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -35997,7 +35048,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2770,
+        "id": 2697,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -36010,7 +35061,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2771,
+        "id": 2698,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -36023,7 +35074,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2772,
+        "id": 2699,
         "estado": "SP",
         "cidade": "Guarulhos",
         "local": "Drogaraia",
@@ -36036,7 +35087,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2773,
+        "id": 2700,
         "estado": "SP",
         "cidade": "Santo André",
         "local": "Drogaraia",
@@ -36049,7 +35100,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2774,
+        "id": 2701,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36062,7 +35113,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2775,
+        "id": 2702,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36075,7 +35126,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2776,
+        "id": 2703,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36088,7 +35139,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2777,
+        "id": 2704,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36101,7 +35152,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2778,
+        "id": 2705,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36114,7 +35165,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2779,
+        "id": 2706,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36127,7 +35178,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2780,
+        "id": 2707,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36140,7 +35191,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2781,
+        "id": 2708,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36153,7 +35204,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2782,
+        "id": 2709,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36166,7 +35217,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2783,
+        "id": 2710,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36179,7 +35230,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2784,
+        "id": 2711,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36192,7 +35243,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2785,
+        "id": 2712,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36205,7 +35256,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2786,
+        "id": 2713,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36218,7 +35269,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2787,
+        "id": 2714,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36231,7 +35282,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2788,
+        "id": 2715,
         "estado": "SP",
         "cidade": "Campinas",
         "local": "Drogaraia",
@@ -36244,7 +35295,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2789,
+        "id": 2716,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36257,7 +35308,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2790,
+        "id": 2717,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36270,7 +35321,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2791,
+        "id": 2718,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36283,7 +35334,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2792,
+        "id": 2719,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36296,7 +35347,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2793,
+        "id": 2720,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36309,7 +35360,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2794,
+        "id": 2721,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36322,7 +35373,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2795,
+        "id": 2722,
         "estado": "SP",
         "cidade": "São José Dos Campos",
         "local": "Drogaraia",
@@ -36335,7 +35386,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2796,
+        "id": 2723,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36348,7 +35399,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2797,
+        "id": 2724,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36361,7 +35412,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2798,
+        "id": 2725,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36374,7 +35425,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2799,
+        "id": 2726,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36387,7 +35438,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2800,
+        "id": 2727,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36400,7 +35451,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2801,
+        "id": 2728,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36413,7 +35464,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2802,
+        "id": 2729,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36426,7 +35477,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2803,
+        "id": 2730,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36439,7 +35490,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2804,
+        "id": 2731,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36452,7 +35503,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2805,
+        "id": 2732,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36465,7 +35516,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2806,
+        "id": 2733,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36478,7 +35529,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2807,
+        "id": 2734,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36491,7 +35542,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2808,
+        "id": 2735,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36504,7 +35555,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2809,
+        "id": 2736,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36517,7 +35568,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2810,
+        "id": 2737,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36530,7 +35581,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2811,
+        "id": 2738,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36543,7 +35594,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2812,
+        "id": 2739,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36556,7 +35607,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2813,
+        "id": 2740,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36569,7 +35620,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2814,
+        "id": 2741,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36582,7 +35633,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2815,
+        "id": 2742,
         "estado": "SP",
         "cidade": "Ribeirão Preto",
         "local": "Drogaraia",
@@ -36595,7 +35646,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2816,
+        "id": 2743,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36608,7 +35659,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2817,
+        "id": 2744,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36621,7 +35672,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2818,
+        "id": 2745,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36634,7 +35685,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2819,
+        "id": 2746,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36647,7 +35698,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2820,
+        "id": 2747,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36660,7 +35711,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2821,
+        "id": 2748,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36673,7 +35724,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2822,
+        "id": 2749,
         "estado": "SP",
         "cidade": "Sorocaba",
         "local": "Drogaraia",
@@ -36686,7 +35737,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2823,
+        "id": 2750,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36699,7 +35750,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2824,
+        "id": 2751,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36712,7 +35763,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2825,
+        "id": 2752,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36725,7 +35776,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2826,
+        "id": 2753,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36738,7 +35789,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2827,
+        "id": 2754,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36751,7 +35802,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2828,
+        "id": 2755,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36764,7 +35815,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2829,
+        "id": 2756,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36777,7 +35828,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2830,
+        "id": 2757,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36790,7 +35841,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2831,
+        "id": 2758,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36803,7 +35854,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2832,
+        "id": 2759,
         "estado": "SP",
         "cidade": "São José Do Rio Preto",
         "local": "Drogaraia",
@@ -36816,7 +35867,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2833,
+        "id": 2760,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36829,7 +35880,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2834,
+        "id": 2761,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36842,7 +35893,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2835,
+        "id": 2762,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36855,7 +35906,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2836,
+        "id": 2763,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36868,7 +35919,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2837,
+        "id": 2764,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36881,7 +35932,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2838,
+        "id": 2765,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36894,7 +35945,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2839,
+        "id": 2766,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36907,7 +35958,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2840,
+        "id": 2767,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36920,7 +35971,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2841,
+        "id": 2768,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36933,7 +35984,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2842,
+        "id": 2769,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36946,7 +35997,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2843,
+        "id": 2770,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36959,7 +36010,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2844,
+        "id": 2771,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36972,7 +36023,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2845,
+        "id": 2772,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36985,7 +36036,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2846,
+        "id": 2773,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -36998,7 +36049,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2847,
+        "id": 2774,
         "estado": "SP",
         "cidade": "Santos",
         "local": "Drogaraia",
@@ -37011,7 +36062,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2848,
+        "id": 2775,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37024,7 +36075,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2849,
+        "id": 2776,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37037,7 +36088,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2850,
+        "id": 2777,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37050,7 +36101,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2851,
+        "id": 2778,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37063,7 +36114,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2852,
+        "id": 2779,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37076,7 +36127,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2853,
+        "id": 2780,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37089,7 +36140,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2854,
+        "id": 2781,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37102,7 +36153,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2855,
+        "id": 2782,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37115,7 +36166,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2856,
+        "id": 2783,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37128,7 +36179,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2857,
+        "id": 2784,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37141,7 +36192,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2858,
+        "id": 2785,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37154,7 +36205,7 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     },
     {
-        "id": 2859,
+        "id": 2786,
         "estado": "SP",
         "cidade": "Piracicaba",
         "local": "Drogaraia",
@@ -37167,5 +36218,4 @@ const ecoPontos = [
         "estado_nome": "São Paulo"
     }
 ]
-
 export default ecoPontos;

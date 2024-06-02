@@ -1,11 +1,17 @@
 "use client";
-import "./buttonsMaterials.css";
-import { useState, useEffect } from 'react';
-import CustomButton from "../../components/CustomButton.jsx";
-import materials from "../../constants/materials.js";
 
-export function ButtonsMaterials() {
-  const [selectedMaterial, setSelectedMaterial] = useState(materials[0]);
+import "./buttonsMaterials.css";
+import { useEffect, useState } from 'react';
+import CustomButton from "@/components/CustomButton.jsx";
+import materials from "@/constants/materials.js";
+
+export function ButtonsMaterials({ 
+  selectedMaterial, 
+  setSelectedMaterial,
+  setSelectedEstado,
+  setSelectedCidade,
+  setSelectedBairro
+}) {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
 
   useEffect(() => {
@@ -13,17 +19,20 @@ export function ButtonsMaterials() {
       setIsLargeScreen(window.innerWidth > 768);
     };
 
-    handleResize(); // Chamando imediatamente para configurar o estado inicial
+    handleResize(); 
 
     window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []); // Dependência vazia para garantir que isso só seja executado uma vez após a montagem do componente
+  }, []);
 
   const handleChange = (event) => {
     setSelectedMaterial(event.target.value);
+    setSelectedEstado("");
+    setSelectedCidade("");
+    setSelectedBairro("");
   };
 
   return (
@@ -35,7 +44,9 @@ export function ButtonsMaterials() {
             <CustomButton
               key={index}
               className={`materials__button ${selectedMaterial === material ? 'materials__button--selected' : ''}`}
-              onClick={() => setSelectedMaterial(material)}
+              onClick={() => {
+                setSelectedMaterial(material);
+              }}
             >
               {material}
             </CustomButton>
@@ -53,4 +64,3 @@ export function ButtonsMaterials() {
     </div>
   );
 }
-
