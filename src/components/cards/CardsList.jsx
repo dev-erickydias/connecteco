@@ -33,7 +33,6 @@ const isMaterialMatch = (selectedMaterial, tipoDeMaterial) => {
   return materialArray.includes(selectedMaterial);
 };
 
-
 const useFilteredEcoPontos = (
   selectedEstado,
   selectedCidade,
@@ -68,7 +67,6 @@ const useFilteredEcoPontos = (
   return { estados, cidades, bairros, filteredEcoPontos };
 };
 
-
 const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -80,6 +78,12 @@ const usePagination = (filteredEcoPontos, currentPage, itemsPerPage) => {
   const totalPages = Math.ceil(filteredEcoPontos.length / itemsPerPage);
 
   return { currentItems, totalPages };
+};
+
+const generateGoogleMapsLink = (ponto) => {
+  const enderecoCompleto = `${ponto.endereço}, ${ponto.bairro}, ${ponto.cidade}, ${ponto.estado}`;
+  const enderecoCodificado = encodeURIComponent(enderecoCompleto);
+  return `https://www.google.com/maps/search/?api=1&query=${enderecoCodificado}`;
 };
 
 export function CardsList({ 
@@ -203,7 +207,7 @@ export function CardsList({
                 </div>
               </div>
               <div className="card__link_map">
-                <Link className="card__Link" href="/#">
+                <Link className="card__Link" href={generateGoogleMapsLink(ponto)} target="_blank">
                   Como chegar
                 </Link>
                 <div className="card__icon_arrow" />

@@ -8,7 +8,7 @@ const materials = [
     "Eletrônicos",
     "Medicamentos",
     "Têxtil",
-    "Contrução civil",
+    "Construção civil",
     "Óleo de cozinha",
     "Embalagens de cosméticos",
   ];
