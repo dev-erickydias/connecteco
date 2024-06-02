@@ -2,7 +2,7 @@
 
 import "./postBlog.css";
 import PostBlog from "./PostBlog";
-import postBlogContain from "@/constants/postBlogContain";
+import postBlogContain from "../../constants/postBlogContain";
 
 export default function PostsBlog() {
   const fist = postBlogContain.filter((blog, i) => i <= 2);
