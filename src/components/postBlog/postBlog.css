@@ -27,7 +27,6 @@
   z-index: 9999;
   max-height: 161px;
   gap: 0px;
-  opacity: 0px;
   display: flex;
   border-radius: 16px;
   overflow: hidden;
@@ -36,7 +35,6 @@
   width: 164px;
   height: 161px;
   gap: 0px;
-  opacity: 0px;
 }
 .post--large {
   border-radius: 16px;
@@ -45,7 +43,6 @@
 .post--large .post__image {
   height: 180px;
   gap: 0px;
-  opacity: 0px;
 }
 .post__image {
   z-index: 9999;
