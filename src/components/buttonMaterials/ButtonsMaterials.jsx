@@ -37,7 +37,7 @@ export function ButtonsMaterials({
 
   return (
     <div className="materials">
-      <p className="materials__title">Qual tipo de material você gostaria de descartar?</p>
+      <p className="materials__title">Selecione sua localização e descubra os ecomontos mais próximos para descartar seus materiais de forma responsável e sustentável!</p>
       {isLargeScreen ? (
         <div className="materials__grid">
           {materials.map((material, index) => (
