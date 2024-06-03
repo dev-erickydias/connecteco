@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-
+// import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
 import BannerTexts from "./BannerTexts";
