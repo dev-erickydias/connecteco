@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import "./registrationForm.css";
 import CustomButton from "../CustomButton";
+import { useRouter } from "next/navigation";
 
 export default function RegistrationForm() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     nome: "",
     rua: "",
@@ -68,9 +70,11 @@ export default function RegistrationForm() {
       alert("Erro ao enviar o formulário.");
     }
   };
-  function goToHome(){
-    window.location.href = "/";
-  }
+
+  const goToHome = () => {
+    router.push("/");
+  };
+
   return (
     <>
       <div className="under-construction-overlay">
@@ -78,7 +82,7 @@ export default function RegistrationForm() {
           Em construção. Entre em contato pelo e-mail{" "}
           <a className="under-construction-text_email" href="mailto:connectecoads@gmail.com">connectecoads@gmail.com</a>.
         </p>
-        <CustomButton className={"btn__faca-parte"} onClick={goToHome} >Home</CustomButton>
+        <CustomButton className={"btn__faca-parte"} onClick={goToHome}>Home</CustomButton>
       </div>
       <form className="registration-form" onSubmit={handleSubmit}>
         <h2 className="registration-form__section-title">
