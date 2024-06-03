@@ -163,75 +163,88 @@ export function CardsList({
           </select>
         </div>
       </div>
-      <ul className="cards__container_list">
-        {currentItems.map((ponto, index) => (
-          <li className="card__list" key={index}>
-            <div className="card__container_image">
-              <div className="card__image"></div>
-            </div>
-            <div className="card__description">
-              <p className="card__types">{ponto.tipo_de_material}</p>
-              <h3 className="card__location">{ponto.local}</h3>
-              <div className="card__address">
-                <div className="card__icon_location" />
-                <p className="card__description_address">
-                  {ponto.endereço}-{ponto.bairro}-{ponto.cidade}-{ponto.estado}
-                </p>
+
+      {filteredEcoPontos.length === 0 ? (
+        <div className="cards__notfound">
+          <h3 className="cards__notfound_title">Desculpe!</h3>
+          <div className="cards__notfound_image"></div>
+          <p className="cards__notfound_paragraph">Não conseguimos encontrar <strong>eco pontos</strong> para o material selecionado.</p>
+          <p className="cards__notfound_paragraph">Estamos trabalhando para manter nossas bases de dados sempre atualizadas.</p>
+          
+        </div>
+      ) : (
+        <ul className="cards__container_list">
+          {currentItems.map((ponto, index) => (
+            <li className="card__list" key={index}>
+              <div className="card__container_image">
+                <div className="card__image"></div>
               </div>
-              <div className="card__schedules">
-                <div className="card__icon_schedules" />
-                <div className="card__container_schedules">
-                  <p className="card__office-date">Seg - Sex</p>
-                  <p className="card__office-hour">{ponto.horario_seg_sex}</p>
+              <div className="card__description">
+                <p className="card__types">{ponto.tipo_de_material}</p>
+                <h3 className="card__location">{ponto.local}</h3>
+                <div className="card__address">
+                  <div className="card__icon_location" />
+                  <p className="card__description_address">
+                    {ponto.endereço}-{ponto.bairro}-{ponto.cidade}-{ponto.estado}
+                  </p>
                 </div>
-                <div className="card__container_schedules">
-                  <p className="card__office-date">Sábado</p>
-                  <p className="card__office-hour">{ponto.horario_sab}</p>
+                <div className="card__schedules">
+                  <div className="card__icon_schedules" />
+                  <div className="card__container_schedules">
+                    <p className="card__office-date">Seg - Sex</p>
+                    <p className="card__office-hour">{ponto.horario_seg_sex}</p>
+                  </div>
+                  <div className="card__container_schedules">
+                    <p className="card__office-date">Sábado</p>
+                    <p className="card__office-hour">{ponto.horario_sab}</p>
+                  </div>
+                </div>
+                <div className="card__link_map">
+                  <Link className="card__Link" href={generateGoogleMapsLink(ponto)} target="_blank">
+                    Como chegar
+                  </Link>
+                  <div className="card__icon_arrow" />
                 </div>
               </div>
-              <div className="card__link_map">
-                <Link className="card__Link" href={generateGoogleMapsLink(ponto)} target="_blank">
-                  Como chegar
-                </Link>
-                <div className="card__icon_arrow" />
-              </div>
-            </div>
-          </li>
-        ))}
-      </ul>
-      <div className="cards__pagination">
-        <button
-          className="cards__pagination_button"
-          onClick={() => handleClick(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          &lt;
-        </button>
-        {Array.from({ length: Math.min(3, totalPages) }, (_, index) => {
-          const pageNumber = currentPage - 1 + index + 1;
-          if (pageNumber > totalPages) return null;
-          return (
-            <button
-              key={pageNumber}
-              className={`cards__pagination_button ${
-                currentPage === pageNumber
-                  ? "cards__pagination_button--active"
-                  : ""
-              }`}
-              onClick={() => handleClick(pageNumber)}
-            >
-              {pageNumber}
-            </button>
-          );
-        })}
-        <button
-          className="cards__pagination_button"
-          onClick={() => handleClick(currentPage + 1)}
-          disabled={currentPage === totalPages}
-        >
-          &gt;
-        </button>
-      </div>
+            </li>
+          ))}
+        </ul>
+      )}
+      {filteredEcoPontos.length > 0 && (
+        <div className="cards__pagination">
+          <button
+            className="cards__pagination_button"
+            onClick={() => handleClick(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
+            &lt;
+          </button>
+          {Array.from({ length: Math.min(3, totalPages) }, (_, index) => {
+            const pageNumber = currentPage - 1 + index + 1;
+            if (pageNumber > totalPages) return null;
+            return (
+              <button
+                key={pageNumber}
+                className={`cards__pagination_button ${
+                  currentPage === pageNumber
+                    ? "cards__pagination_button--active"
+                    : ""
+                }`}
+                onClick={() => handleClick(pageNumber)}
+              >
+                {pageNumber}
+              </button>
+            );
+          })}
+          <button
+            className="cards__pagination_button"
+            onClick={() => handleClick(currentPage + 1)}
+            disabled={currentPage === totalPages}
+          >
+            &gt;
+          </button>
+        </div>
+      )}
     </div>
   );
 }
