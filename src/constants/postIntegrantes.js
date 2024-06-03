@@ -22,20 +22,21 @@ const postIntegrants = [
   },
   {
     id: gerarIdUnico(),
+    nome: "Maikon Corrêa",
+    cargo: "Desenvolvedor Web",
+    descricao: "Eu sou especialista em HTML5, CSS3, JavaScript, React.js, Next.js e Node.js, focado em desenvolver sites responsivos e interativos para garantir uma ótima experiência para os usuários. Com um forte compromisso com o aprendizado contínuo, busco aplicar as melhores práticas de programação, mantendo um código limpo e de fácil compreensão. Meu background inclui um curso superior em Processos Gerenciais, que me proporciona uma base sólida para contribuir efetivamente em projetos, tanto na gestão do tempo e das pessoas, quanto no trabalho em equipe, visando sempre resultados impactantes e positivos.",
+    linkGithub: "https://github.com/MaikonCorrea",
+    linkLinkedin: "https://www.linkedin.com/in/maikon-correa-9a5407264/",
+  },
+  {
+    id: gerarIdUnico(),
     nome: "Natalia Vessoni",
     cargo: "QA",
     descricao: "Meu nome é Natalia Vessoni e sou nutricionista em transição de carreira para Analista de Qualidade de Software. Descobri na área de QA uma nova fonte de motivação, e estou buscando cada vez mais me aperfeiçoar neste ramo. Atualmente, estou envolvida no desenvolvimento da Connect Eco, plataforma que promove práticas ecológicas por meio da tecnologia. É uma satisfação enorme fazer parte de uma iniciativa tão inspiradora. Meu objetivo é participar ainda mais de projetos de alta qualidade e contribuir para o desenvolvimento de soluções tecnológicas inovadoras e sustentáveis. Estou empolgada com as novas oportunidades e desafios que essa jornada oferece.",
     linkGithub: "https://github.com/navessoni-qa",
     linkLinkedin: "https://www.linkedin.com/in/natalia-vessoni/",
   },
-  {
-    id: gerarIdUnico(),
-    nome: "Maikon Correia",
-    cargo: "Desenvolvedor Web",
-    descricao: "Eu sou especialista em HTML5, CSS3, JavaScript, React.js, Next.js e Node.js, focado em desenvolver sites responsivos e interativos para garantir uma ótima experiência para os usuários. Com um forte compromisso com o aprendizado contínuo, busco aplicar as melhores práticas de programação, mantendo um código limpo e de fácil compreensão. Meu background inclui um curso superior em Processos Gerenciais, que me proporciona uma base sólida para contribuir efetivamente em projetos, tanto na gestão do tempo e das pessoas, quanto no trabalho em equipe, visando sempre resultados impactantes e positivos.",
-    linkGithub: "https://github.com/MaikonCorrea",
-    linkLinkedin: "https://www.linkedin.com/in/maikon-correa-9a5407264/",
-  },
+
   {
     id: gerarIdUnico(),
     nome: "Gabriel Amoroso",
