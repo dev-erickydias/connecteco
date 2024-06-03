@@ -1,0 +1,110 @@
+/* components/RegistrationForm.css */
+
+.registration-form-wrapper {
+  position: relative;
+}
+
+.under-construction-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.under-construction-text {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.btn__faca-parte {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #348b61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn__faca-parte:hover {
+  background-color: #45a049;
+}
+.under-construction-text {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .registration-form__section-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #348b61;
+  }
+  
+  .registration-form__group {
+    margin-bottom: 1em;
+  }
+  
+  .registration-form__label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  .registration-form__input {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-form__error {
+    color: red;
+    font-size: 0.875em;
+  }
+  
+  .registration-form__submit {
+    padding: 0.75em;
+    font-size: 1em;
+    color: white;
+    background-color: #348b61;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .registration-form__submit:hover {
+    background-color: #348b61;
+  }
+  
+  .registration-form__privacy {
+    margin-top: 1em;
+    font-size: 0.875em;
+  }
+  
+  .registration-form__privacy-link {
+    color: #348b61;
+    text-decoration: none;
+  }
+  
+  .registration-form__privacy-link:hover {
+    text-decoration: underline;
+  }
+  
