@@ -76,7 +76,7 @@ export default function RegistrationForm() {
       <div className="under-construction-overlay">
         <p className="under-construction-text">
           Em construção. Entre em contato pelo e-mail{" "}
-          <a href="mailto:connectecoads@gmail.com">connectecoads@gmail.com</a>.
+          <a className="under-construction-text_email" href="mailto:connectecoads@gmail.com">connectecoads@gmail.com</a>.
         </p>
         <CustomButton className={"btn__faca-parte"} onClick={goToHome} >Home</CustomButton>
       </div>
