@@ -4,6 +4,7 @@ import "../components/banner/banner.css";
 import Image from "next/image";
 import CustomButton from "../components/CustomButton"
 import Link from "next/link";
+import CustomImage from "@/components/CustomImage";
 
 export default function NotFound() {
   return (
@@ -14,12 +15,12 @@ export default function NotFound() {
               <CustomButton className={"bannet__not-found__btn"} ><Link href={"/"}>Voltar para página inical</Link></CustomButton>
             </div>
             <div className="banner__image">
-              <Image
-                src="/BannerOne.png"
+              <CustomImage
+                src="./notfound.png"
                 alt="Peneus para reciclar"
                 width={607}
                 height={811}
-                className="banner__image_object-contain"
+                className="banner__image_object-contain image__not-found"
               />
             </div>
           </div>
