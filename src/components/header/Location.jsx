@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useContext, useState, useEffect } from "react";
 import { MapPin } from "lucide-react";
@@ -7,16 +7,17 @@ import UserLocationContext from "../../context/UserLocationContext";
 
 export function Location() {
   const { userLocation } = useContext(UserLocationContext);
- const [location, setLocation] = useState("Obter Localização")
+  const [location, setLocation] = useState("Obter Localização");
+  const [loading, setLoading] = useState(false);
 
- useEffect(() => {
-  const locationFromStorage = localStorage.getItem("location");
-  if (locationFromStorage) {
-    setLocation(locationFromStorage);
-  } else {
-    console.log("Local não encontrado no localStorage");
-  }
-}, []);
+  useEffect(() => {
+    const locationFromStorage = localStorage.getItem("location");
+    if (locationFromStorage) {
+      setLocation(locationFromStorage);
+    } else {
+      console.log("Local não encontrado no localStorage");
+    }
+  }, []);
 
   const getLocationName = async (latitude, longitude) => {
     const response = await fetch(
@@ -67,20 +68,28 @@ export function Location() {
   const handleClick = async () => {
     if (userLocation) {
       try {
+        setLoading(true);
         const locationName = await getLocationName(userLocation.latitude, userLocation.longitude);
-        setLocation(locationName)
-        localStorage.setItem("location", locationName)
+        setLocation(locationName);
+        localStorage.setItem("location", locationName);
       } catch (error) {
         console.error("Erro ao obter o nome do local:", error.message);
+      } finally {
+        setLoading(false);
       }
     } else {
       console.error("Localização do usuário não disponível");
+      alert("Seu navegador está bloqueando solicitações de localização. Para uma melhor experiência, por favor, habilite a localização nas configurações do seu navegador.");
     }
   };
 
   return (
     <CustomButton className={"button"} onClick={handleClick}>
-      <MapPin size={16} />
+      {loading ? (
+        <div className="spinner"></div>
+      ) : (
+        <MapPin size={16} />
+      )}
       <span className="text-base">{location}</span>
     </CustomButton>
   );

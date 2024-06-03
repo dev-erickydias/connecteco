@@ -15,11 +15,11 @@ export const UserLocationProvider = ({ children }) => {
           setUserLocation({ latitude, longitude });
         },
         (error) => {
-          console.error("Erro ao obter a localização:", error.message);
+          alert("Seu navegador está bloqueando solicitações de localização. Para uma melhor experiência, por favor, habilite a localização nas configurações do seu navegador. ao obter a localização:", error.message);
         }
       );
     } else {
-      console.error("Geolocalização não suportada neste navegador");
+      alert("Geolocalização não suportada neste navegador");
     }
   }, []);
 
