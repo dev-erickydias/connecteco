@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ButtonsMaterials } from "../../components/buttonMaterials/ButtonsMaterials";
-import { CardsList } from "../../components/cards/CardsList";
+import { CardsList } from "../../components/cardsList/CardsList";
 import { Banner } from "../../components/banner/Banner";
 import bannerInfo from "../../constants/bannerInfo";
 
