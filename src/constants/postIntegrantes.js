@@ -60,7 +60,7 @@ const postIntegrants = [
     nome: "Luiz Guilherme",
     cargo: "Analise De Dados",
     descricao:
-      "Sou estudante de economia, sou um entusiaste de finanças e tecnologia. Desejo trabalharno setor financeiro com foco para análise, por isso participei do bootcamp de Análise de Dados",
+      "Sou Luiz Guilherme G. R. Pereira, profissional de dados com formação técnica em informática e estudante de economia. Em setembro de 2022, decidi me especializar em Análise de Dados, concluindo o Bootcamp de Analista de Dados da TripleTen. No curso, aprendi a usar bibliotecas Python, aplicando-as em machine learning, segmentação de clientes, análise de KPIs, testes estatísticos e análise econômica. Sou entusiasta de finanças e tecnologia, e desejo atuar no setor financeiro.",
 
     imagem: "",
     linkGithub: "https://github.com/Luizg39",
@@ -71,7 +71,7 @@ const postIntegrants = [
     nome: "Angela Ribeiro",
     cargo: "QA",
     descricao:
-      "Luso-brasileira, vivi toda a vida em Portugal, sou licenciada há 18 anos em Radiologia e há 14 anos a trabalhar no “Programa de Rastreio de Cancro da Mama” na Liga Portuguesa Contra o Cancro. Presentemente encontro-me a realizar meus estudos como QA Tester.O desafio desta transição de carreira, reaproximou de mim uma fluidez e identificação muito prazerosas com as tecnologias de Informação, nomeadamente com a área de Software.",
+      "Luso-brasileira, vivi toda a vida em Portugal, sou licenciada há 18 anos em Radiologia e há 14 anos a trabalhar no “Programa de Rastreio de Cancro da Mama” na Liga Portuguesa Contra o Cancro. Presentemente encontro-me a realizar meus estudos como QA Tester.O desafio desta transição de carreira, reaproximou de mim uma fluidez e identificação muito prazerosas com as tecnologias de Informação, nomeadamente com a área de Software. Tenho na minha bagagem anos de experiência em ambientes exigentes e softskills muito especiais, trazidos pela delicadeza que um assunto como o câncer requer. Hoje, a minha motivação é mudar o percurso profissional num caminho mais entusiasmante e dinâmico. Participar ativamente, dar um propósito, ver o produto crescer, adicionar-lhe qualidade, é recompensador! Tenho, graças à organização do Hackthon 4 e dos meus estupendos colegas de grupo, esta oportunidade ímpar de participar no projeto Connect Eco, como minha primeira experiência inserida numa equipe de trabalho: um ambiente multicultural, inclusivo e dinâmico!",
     imagem: "",
     linkGithub: "https://github.com/angelaribeiro84",
     linkLinkedin: "https://www.linkedin.com/in/angelaribeiro84",

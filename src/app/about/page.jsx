@@ -1,7 +1,7 @@
-import SlideIntegrants from "@/components/CardsAbout/SlideIntegrants";
-import { Banner } from "@/components/banner/Banner";
-import CompanyInfo from "@/components/companyInfo/CompanyInfo";
-import bannerInfo from "@/constants/bannerInfo";
+import SlideIntegrants from "../../components/CardsAbout/SlideIntegrants";
+import { Banner } from "../../components/banner/Banner";
+import CompanyInfo from "../../components/companyInfo/CompanyInfo";
+import bannerInfo from "../../constants/bannerInfo";
 
 export default function AboutPage() {
   return (

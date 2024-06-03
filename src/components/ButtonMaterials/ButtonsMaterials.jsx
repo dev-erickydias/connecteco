@@ -2,8 +2,8 @@
 
 import "./buttonsMaterials.css";
 import { useEffect, useState } from 'react';
-import CustomButton from "@/components/CustomButton.jsx";
-import materials from "@/constants/materials.js";
+import CustomButton from "../CustomButton.jsx";
+import materials from "../../constants/materials.js";
 
 export function ButtonsMaterials({ 
   selectedMaterial, 

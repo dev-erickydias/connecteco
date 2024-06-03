@@ -1,18 +1,13 @@
 "use client";
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./cardsIntegrantes.css";
 import CustomButton from "../CustomButton";
 import Link from "next/link";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import postIntegrants from "../../constants/postIntegrantes";
-
-// import required modules
 import { Parallax, Autoplay, Pagination, Navigation } from "swiper/modules";
 import CustomImage from "../CustomImage";
 
@@ -37,7 +32,6 @@ export default function SlideIntegrants() {
         navigation={true}
         className="mySwiper"
       >
-        
         {postIntegrants.map((integrante) => {
           if (integrante.descricao) {
             return (
@@ -56,13 +50,8 @@ export default function SlideIntegrants() {
                             {integrante.descricao}
                           </p>
                         ) : null}
-                        
                       </div>
                     </div>
-                    
-                    
-                   
-                    
                       <div className="card__btns">
                         {integrante.linkLinkedin ? (
                           <CustomButton className={"card-about__btn"}>

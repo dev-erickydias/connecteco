@@ -135,7 +135,6 @@
     width: 360px;
   }
 }
-/*width: 360px;*/
 @media screen and (min-width: 1200px) {
   .posts{
     width: 100%;

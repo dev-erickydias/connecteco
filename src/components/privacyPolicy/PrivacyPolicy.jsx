@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
                     <li className="privacy-policy__list-item">Solicitar a portabilidade dos seus dados</li>
                     <li className="privacy-policy__list-item">Opor-se ao processamento de seus dados</li>
                 </ul>
-                <p className="privacy-policy__text">Para exercer seus direitos, entre em contato conosco através do e-mail <a href="mailto:ecoconnect7@gmail.com" className="privacy-policy__link">ecoconnect7@gmail.com</a>.</p>
+                <p className="privacy-policy__text">Para exercer seus direitos, entre em contato conosco através do e-mail <a href="mailto:connectecoads@gmail.com" className="privacy-policy__link">connectecoads@gmail.com</a>.</p>
             </section>
 
             <section className="privacy-policy__section">
@@ -77,7 +77,7 @@ export default function PrivacyPolicy() {
 
             <section className="privacy-policy__section">
                 <h2 className="privacy-policy__section-title">Contato</h2>
-                <p className="privacy-policy__text">Se você tiver dúvidas ou preocupações sobre esta política de privacidade, entre em contato conosco pelo e-mail <a href="mailto:ecoconnect7@gmail.com" className="privacy-policy__link">ecoconnect7@gmail.com</a>.</p>
+                <p className="privacy-policy__text">Se você tiver dúvidas ou preocupações sobre esta política de privacidade, entre em contato conosco pelo e-mail <a href="mailto:connectecoads@gmail.com" className="privacy-policy__link">connectecoads@gmail.com</a>.</p>
             </section>
 
             <p className="privacy-policy__update-date">Data da última atualização: 01/06/2024</p>

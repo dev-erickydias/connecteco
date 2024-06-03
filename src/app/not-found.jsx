@@ -1,10 +1,9 @@
 "use client"
 import "../styles/404.css"
 import "../components/banner/banner.css";
-import Image from "next/image";
 import CustomButton from "../components/CustomButton"
 import Link from "next/link";
-import CustomImage from "@/components/CustomImage";
+import CustomImage from "../components/CustomImage";
 
 export default function NotFound() {
   return (

@@ -121,7 +121,9 @@
   font-size: 14px;
   display: flex;
 }
-
+.button a{
+  color: #ffffff;
+}
 .button:hover {
   background-color: #45a049;
 }
