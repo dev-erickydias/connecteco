@@ -6,6 +6,7 @@ import { Location } from "./Location";
 import { Logo } from "./Logo";
 import { Navbar } from "./NavBar";
 import UseWindowWidth from "../UseWindowWidth";
+import Link from "next/link";
 
 export function Header() {
   const windowWidth = UseWindowWidth();
@@ -21,7 +22,7 @@ export function Header() {
         {isOpen && <Navbar />}
         <div className="header__menu">
           <div className="header__menu-logo">
-            <Logo />
+            <Link href={"/"}><Logo /></Link>
             {windowWidth > 768 && <Navbar />}
           </div>
           {windowWidth > 530 && <Location />}
