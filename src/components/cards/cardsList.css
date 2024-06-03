@@ -80,7 +80,7 @@
   background-image: url(../../images/image_recile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 70px;
+  max-width: 60px;
   width: 100%;
   border-radius: 16px 0 0 16px;
 }
@@ -90,7 +90,7 @@
 }
 
 .card__description {
-  max-width: 200px;
+  max-width: 240px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -113,6 +113,7 @@
   color: #348b61;
   font-size: 16px;
   margin-top: 6px;
+  overflow: hidden;
 }
 
 .card__address {
@@ -144,7 +145,7 @@
 
 .card__schedules {
   display: flex;
-  width: 207px;
+  width: 210px;
   height: 30px;
   margin-top: 6px;
   gap: 4px;
@@ -173,7 +174,7 @@
 }
 
 .card__office-hour {
-  width: 85px;
+  width: 86px;
   height: 24px;
   font-size: 12px;
 }
@@ -220,16 +221,50 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
-
 }
 
 .cards__pagination_button--active {
-background-color: #348B61;
-color: #ffffff;
+  background-color: #348b61;
+  color: #ffffff;
 }
 
 .cards__pagination_button:hover {
   color: #084508;
+}
+
+.cards__notfound {
+  max-width: 768px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__notfound_title {
+  max-width: 200px;
+  height: 45px;
+  color: #5f5f5f;
+  font-size: 32px;
+
+
+}
+
+.cards__notfound_paragraph {
+  text-align: center;
+  color: #5f5f5f;
+  padding-top: 10px;
+
+}
+
+.cards__notfound_image {
+  background-image: url(../../images/icon_notcards.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  opacity: 0.6;
 }
 
 @media screen and (min-width: 530px) {
@@ -263,32 +298,32 @@ color: #ffffff;
 
   .card__schedules {
     max-width: 207px;
-    gap: 8px;
+    gap: 7px;
   }
 }
 
 @media screen and (min-width: 768px) {
-.cards__container_search {
-  max-width: 1440px;
-   height: 50px;
-   align-items: center;
-  flex-direction: row;
-}
+  .cards__container_search {
+    max-width: 1440px;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+  }
 
-.cards__container_select {
-  flex-direction: row;
-  gap: 10px;
-}
+  .cards__container_select {
+    flex-direction: row;
+    gap: 10px;
+  }
 
-.cards__title_search {
-  margin: 0;
-}
-.cards__pagination {
+  .cards__title_search {
+    margin: 0;
+  }
+  .cards__pagination {
     max-width: 1044px;
-}
+  }
 
-.cards__pagination_button {
-  width: 50px;
-  height: 50px;
-}
+  .cards__pagination_button {
+    width: 50px;
+    height: 50px;
+  }
 }

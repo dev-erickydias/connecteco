@@ -26,7 +26,7 @@ export function Navbar() {
             {link.label}
           </NavbarItem>
         ))}
-        <CustomButton className={"nav__menu__btn"}>Faça parte</CustomButton>
+        <CustomButton className={"button"}><Link href={"/faca-parte"}>Faça parte</Link></CustomButton>
       </ul>
     </nav>
   );

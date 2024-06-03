@@ -1,5 +1,3 @@
-// components/PostsBlog.js
-
 import "./postBlog.css";
 import PostBlog from "./PostBlog";
 import postBlogContain from "../../constants/postBlogContain";
