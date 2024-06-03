@@ -97,6 +97,11 @@
   color: #aaf1ae;
 }
 
+.nav__container_button {
+  display: flex;
+  gap: 5px;
+}
+
 .nav__menu__btn {
   background-color: #348b61;
   color: #fff;
