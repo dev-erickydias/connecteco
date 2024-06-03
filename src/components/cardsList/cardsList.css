@@ -99,12 +99,14 @@
 }
 
 .card__types {
-  width: 151px;
+  width: 160px;
   height: 15px;
   font-size: 12px;
   line-height: 15px;
   color: #7d7d7d;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card__location {

@@ -43,7 +43,7 @@ const useFilteredEcoPontos = (
     const matchCidade = !selectedCidade || ponto.cidade === selectedCidade;
     const matchBairro = !selectedBairro || ponto.bairro === selectedBairro;
     const matchMaterial = isMaterialMatch(selectedMaterial, ponto.tipo_de_material);
-
+    
     return matchEstado && matchCidade && matchBairro && matchMaterial;
   });
 
@@ -180,7 +180,7 @@ export function CardsList({
                 <div className="card__image"></div>
               </div>
               <div className="card__description">
-                <p className="card__types">{ponto.tipo_de_material}</p>
+              <p className="card__types">{selectedMaterial !== "Todos" ? selectedMaterial : ponto.tipo_de_material}</p>
                 <h3 className="card__location">{ponto.local}</h3>
                 <div className="card__address">
                   <div className="card__icon_location" />
