@@ -89,7 +89,7 @@ const postIntegrants = [
     id: gerarIdUnico(),
     nome: "Patrícia",
     cargo: "Analista De Dados",
-    descricao: "",
+    descricao: "Formada em administração de empresas, me interessei pela área de dados ao trabalhar com a formação do banco de dados na Startup cearense, Meu Fornecedor entre 2019 a 2022.  Sempre fui interessada pela área ambiental e por isso sou voluntária do Instituto Criar Para Amar, pretendo seguir uma carreira na área de dados dentro do cenário ambiental.",
     linkGithub: "https://github.com/patriciamgcosta",
     linkLinkedin: "https://www.linkedin.com/in/patriciamgc/",
   },
