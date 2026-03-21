@@ -1,6 +1,4 @@
-function gerarIdUnico() {
-  return "id-" + Math.random().toString(36).substr(2, 9);
-}
+import gerarIdUnico from '../utils/generateId'
 
 const postIntegrants = [
   {

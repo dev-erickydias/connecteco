@@ -35,7 +35,6 @@ export default function FacaPartePage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
     setSubmitted(true)
     setTimeout(() => {
       setSubmitted(false)

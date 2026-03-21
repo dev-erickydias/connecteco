@@ -102,20 +102,6 @@ export function StaggerItem({ children, className = '' }) {
   )
 }
 
-export function ParallaxBlock({ children, className = '', speed = 0.5 }) {
-  return (
-    <motion.div
-      initial={{ y: 0 }}
-      whileInView={{ y: -20 * speed }}
-      viewport={{ once: false }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-      className={className}
-    >
-      {children}
-    </motion.div>
-  )
-}
-
 export function HoverCard({ children, className = '' }) {
   return (
     <motion.div
