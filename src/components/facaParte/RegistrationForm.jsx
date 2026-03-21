@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import "./registrationForm.css";
-import CustomButton from "../CustomButton";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
+import AnimatedBlock from "../ui/AnimatedBlock";
 
 export default function RegistrationForm() {
   const router = useRouter();
@@ -75,153 +75,160 @@ export default function RegistrationForm() {
     router.push("/");
   };
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.05,
+        delayChildren: 0.1,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 10 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.3 },
+    },
+  };
+
   return (
     <>
-      <div className="under-construction-overlay">
-        <p className="under-construction-text">
-          Em construção. Entre em contato pelo e-mail{" "}
-          <a className="under-construction-text_email" href="mailto:connectecoads@gmail.com">connectecoads@gmail.com</a>.
-        </p>
-        <CustomButton className={"btn__faca-parte"} onClick={goToHome}>Home</CustomButton>
-      </div>
-      <form className="registration-form" onSubmit={handleSubmit}>
-        <h2 className="registration-form__section-title">
-          Informações Pessoais
-        </h2>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Nome:
-            <input
-              className="registration-form__input"
-              name="nome"
-              value={formData.nome}
-              onChange={handleChange}
-            />
-            {errors.nome && (
-              <span className="registration-form__error">{errors.nome}</span>
-            )}
-          </label>
-        </div>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Rua:
-            <input
-              className="registration-form__input"
-              name="rua"
-              value={formData.rua}
-              onChange={handleChange}
-            />
-            {errors.rua && (
-              <span className="registration-form__error">{errors.rua}</span>
-            )}
-          </label>
-        </div>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Bairro:
-            <input
-              className="registration-form__input"
-              name="bairro"
-              value={formData.bairro}
-              onChange={handleChange}
-            />
-            {errors.bairro && (
-              <span className="registration-form__error">{errors.bairro}</span>
-            )}
-          </label>
-        </div>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Cidade:
-            <input
-              className="registration-form__input"
-              name="cidade"
-              value={formData.cidade}
-              onChange={handleChange}
-            />
-            {errors.cidade && (
-              <span className="registration-form__error">{errors.cidade}</span>
-            )}
-          </label>
-        </div>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Estado:
-            <input
-              className="registration-form__input"
-              name="estado"
-              value={formData.estado}
-              onChange={handleChange}
-            />
-            {errors.estado && (
-              <span className="registration-form__error">{errors.estado}</span>
-            )}
-          </label>
-        </div>
-
-        <h2 className="registration-form__section-title">
-          Informações da Empresa
-        </h2>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Nome da Empresa:
-            <input
-              className="registration-form__input"
-              name="nomeEmpresa"
-              value={formData.nomeEmpresa}
-              onChange={handleChange}
-            />
-            {errors.nomeEmpresa && (
-              <span className="registration-form__error">
-                {errors.nomeEmpresa}
-              </span>
-            )}
-          </label>
-        </div>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            CNPJ:
-            <input
-              className="registration-form__input"
-              name="cnpj"
-              value={formData.cnpj}
-              onChange={handleChange}
-            />
-            {errors.cnpj && (
-              <span className="registration-form__error">{errors.cnpj}</span>
-            )}
-          </label>
-        </div>
-        <div className="registration-form__group">
-          <label className="registration-form__label">
-            Dias de Funcionamento:
-            <input
-              className="registration-form__input"
-              name="diasFuncionamento"
-              value={formData.diasFuncionamento}
-              onChange={handleChange}
-            />
-            {errors.diasFuncionamento && (
-              <span className="registration-form__error">
-                {errors.diasFuncionamento}
-              </span>
-            )}
-          </label>
-        </div>
-
-        <button className="registration-form__submit" type="submit">
-          Enviar
-        </button>
-
-        <p className="registration-form__privacy">
-          <a
-            className="registration-form__privacy-link"
-            href="/politica-de-privacidade"
+      <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50 rounded-lg">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.3 }}
+          className="bg-white rounded-2xl p-8 shadow-2xl max-w-md w-full"
+        >
+          <p className="text-center text-gray-700 mb-6 font-semibold">
+            Em construção. Entre em contato pelo e-mail{" "}
+            <a className="text-eco-600 hover:text-eco-700 font-bold" href="mailto:connectecoads@gmail.com">
+              connectecoads@gmail.com
+            </a>
+          </p>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={goToHome}
+            className="w-full bg-gradient-to-r from-eco-500 to-agro-leaf text-white font-bold py-3 rounded-lg hover:shadow-lg transition-all"
           >
-            Política de Privacidade
-          </a>
-        </p>
-      </form>
+            Voltar para Home
+          </motion.button>
+        </motion.div>
+      </div>
+
+      <AnimatedBlock variant="slideUp" className="w-full px-4 py-12">
+        <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="space-y-8"
+          >
+            {/* Personal Information */}
+            <div>
+              <motion.h2 variants={itemVariants} className="text-2xl font-bold text-eco-700 mb-6 flex items-center gap-2">
+                <span>👤</span> Informações Pessoais
+              </motion.h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {[
+                  { name: "nome", label: "Nome", icon: "👨" },
+                  { name: "rua", label: "Rua", icon: "🏠" },
+                  { name: "bairro", label: "Bairro", icon: "📍" },
+                  { name: "cidade", label: "Cidade", icon: "🏙️" },
+                  { name: "estado", label: "Estado", icon: "🗺️" },
+                ].map((field) => (
+                  <motion.div key={field.name} variants={itemVariants} className="relative">
+                    <label className="block text-sm font-semibold text-eco-700 mb-2 flex items-center gap-2">
+                      <span>{field.icon}</span> {field.label}
+                    </label>
+                    <input
+                      type="text"
+                      name={field.name}
+                      value={formData[field.name]}
+                      onChange={handleChange}
+                      className={`w-full px-4 py-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-eco-500 transition-all ${
+                        errors[field.name] ? 'border-red-500' : 'border-eco-300'
+                      }`}
+                      placeholder={`Digite o ${field.label.toLowerCase()}`}
+                    />
+                    {errors[field.name] && (
+                      <span className="text-red-600 text-sm mt-1 block font-semibold">{errors[field.name]}</span>
+                    )}
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+
+            {/* Company Information */}
+            <div>
+              <motion.h2 variants={itemVariants} className="text-2xl font-bold text-eco-700 mb-6 flex items-center gap-2">
+                <span>🏢</span> Informações da Empresa
+              </motion.h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {[
+                  { name: "nomeEmpresa", label: "Nome da Empresa", icon: "🏭" },
+                  { name: "cnpj", label: "CNPJ", icon: "📄" },
+                  { name: "diasFuncionamento", label: "Dias de Funcionamento", icon: "📅", span: true },
+                ].map((field) => (
+                  <motion.div
+                    key={field.name}
+                    variants={itemVariants}
+                    className={field.span ? "md:col-span-2" : ""}
+                  >
+                    <label className="block text-sm font-semibold text-eco-700 mb-2 flex items-center gap-2">
+                      <span>{field.icon}</span> {field.label}
+                    </label>
+                    <input
+                      type="text"
+                      name={field.name}
+                      value={formData[field.name]}
+                      onChange={handleChange}
+                      className={`w-full px-4 py-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-eco-500 transition-all ${
+                        errors[field.name] ? 'border-red-500' : 'border-eco-300'
+                      }`}
+                      placeholder={`Digite ${field.label.toLowerCase()}`}
+                    />
+                    {errors[field.name] && (
+                      <span className="text-red-600 text-sm mt-1 block font-semibold">{errors[field.name]}</span>
+                    )}
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+
+            {/* Submit Button */}
+            <motion.div variants={itemVariants}>
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                type="submit"
+                className="w-full bg-gradient-to-r from-eco-500 to-agro-leaf text-white font-bold py-4 rounded-lg hover:shadow-lg transition-all duration-300 text-lg"
+              >
+                ✅ Enviar Formulário
+              </motion.button>
+            </motion.div>
+
+            {/* Privacy Policy Link */}
+            <motion.p variants={itemVariants} className="text-center text-gray-600 text-sm">
+              Ao enviar, você concorda com nossa{" "}
+              <a
+                href="/privacy-policy"
+                className="text-eco-600 hover:text-eco-700 font-semibold underline"
+              >
+                Política de Privacidade
+              </a>
+            </motion.p>
+          </motion.div>
+        </form>
+      </AnimatedBlock>
     </>
   );
 }

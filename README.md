@@ -1,95 +1,75 @@
+# ConnectEco v2.0
 
-```markdown
-# ConnectEco
+**Plataforma de Sustentabilidade & Reciclagem** | Next.js 14 + Tailwind CSS + Framer Motion + Supabase
 
-Este repositório contém o código do projeto ConnectEco. Siga as instruções abaixo para clonar, instalar as dependências e rodar o projeto. As alterações mais atualizadas estão na branch `developer`.
+ConnectEco conecta cidadaos brasileiros a pontos de coleta de materiais reciclaveis (eco-pontos), promovendo educacao ambiental e praticas sustentaveis atraves da tecnologia.
 
-## Requisitos
+## Stack Tecnica
 
-- **Node.js**: Certifique-se de que o Node.js está instalado na sua máquina. Você pode baixá-lo e instalá-lo a partir do [site oficial](https://nodejs.org/).
+- **Frontend:** Next.js 14 (App Router), React 18, Tailwind CSS 3.4, Framer Motion 11
+- **Backend:** Supabase (PostgreSQL), Nodemailer
+- **Monetizacao:** Google AdSense
+- **APIs:** OpenStreetMap Nominatim, Google Maps
 
-## Passo a Passo de Instalação e Execução
-
-### 1. Clonar o Repositório
-
-Primeiro, clone o repositório do GitHub:
+## Instalacao
 
 ```bash
 git clone https://github.com/Connect-Eco/connecteco.git
-```
-
-### 2. Acessar o Diretório do Repositório
-
-Depois de clonar o repositório, entre no diretório recém-clonado:
-
-```bash
 cd connecteco
-```
-
-### 3. Mudar para a Branch `developer`
-
-Para garantir que você está trabalhando com as alterações mais recentes, mude para a branch `developer`:
-
-```bash
-git checkout developer
-```
-
-### 4. Instalar Dependências
-
-O próximo passo é instalar todas as dependências necessárias para rodar o projeto. Se o projeto usa Node.js, você deve ver um arquivo `package.json` no diretório raiz do projeto. Para instalar as dependências, use o seguinte comando:
-
-```bash
 npm install
+cp .env.local.example .env.local  # Preencha as variaveis
+npm run dev
 ```
 
-### 5. Rodar o Projeto
+Acesse: http://localhost:3000
 
-Depois de instalar todas as dependências, você pode rodar o projeto. Se o projeto usa Node.js, você provavelmente encontrará um script `start` definido no arquivo `package.json`. Você pode iniciar o projeto com:
+## Variaveis de Ambiente
 
-```bash
-npm start
-```
+| Variavel | Descricao |
+|----------|-----------|
+| `NEXT_PUBLIC_SUPABASE_URL` | URL do projeto Supabase |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Chave publica do Supabase |
+| `NEXT_PUBLIC_ADSENSE_ID` | Publisher ID do Google AdSense |
+| `EMAIL_USER` | Email para Nodemailer |
+| `EMAIL_PASS` | Senha de app do Gmail |
 
-### 6. Verificar a Documentação do Projeto
+## Funcionalidades
 
-Finalmente, é sempre uma boa ideia verificar a documentação do projeto (por exemplo, arquivos `README.md` ou `docs/`) para instruções adicionais ou específicas para rodar o projeto.
+- Busca de eco-pontos com filtros por material, estado, cidade e bairro
+- Blog com artigos sobre sustentabilidade, agro e reciclagem
+- Animacoes profissionais de blocos com Framer Motion
+- Google AdSense integrado para auto-sustentabilidade
+- Formulario de cadastro de novos eco-pontos
+- Geolocalizacao automatica do usuario
+- Dados dinamicos via Supabase
 
-## Resumo
+## Banco de Dados (Supabase)
 
-1. Clonar o repositório:
+Tabelas ConnectEco:
+- `connecteco_team_members` - Perfis dos integrantes
+- `connecteco_blogs` - Artigos e posts do blog
+- `connecteco_materials` - Materiais reciclaveis
+- `connecteco_ecopontos` - Pontos de coleta
+- `connecteco_ads_config` - Configuracao de anuncios
+- `connecteco_analytics` - Metricas de uso
 
-    ```bash
-    git clone https://github.com/Connect-Eco/connecteco.git
-    ```
+## Equipe
 
-2. Acessar o diretório do repositório:
+| Nome | Cargo |
+|------|-------|
+| Herison | Desenvolvedor Web |
+| Ericky Dias | Desenvolvedor Web |
+| Maikon Correa | Desenvolvedor Web |
+| Natalia Vessoni | QA |
+| Gabriel Amoroso | Analista de Dados |
+| Luiz Guilherme | Analista de Dados |
+| Angela Ribeiro | QA |
+| Felipe Fracasso | QA |
+| Carlos Roberto | QA |
+| Ludmilla Lima | QA |
+| Patricia | Analista de Dados |
+| Livia Borges | QA |
 
-    ```bash
-    cd connecteco
-    ```
+## Licenca
 
-3. Mudar para a branch `developer`:
-
-    ```bash
-    git checkout developer
-    ```
-
-4. Instalar as dependências:
-
-    ```bash
-    npm install
-    ```
-
-5. Rodar o projeto:
-
-    ```bash
-    npm run dev
-    ```
-6. Porta local:
-
-    ```
-     http://localhost:3000
-    ```
-
-Seguindo esses passos, você deve ser capaz de clonar, instalar e rodar o projeto do repositório `connecteco` na branch `developer`.
-```
+Projeto academico desenvolvido pela equipe ConnectEco.
