@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // ─── Legacy palette (keep — many components depend) ─────
         eco: {
           50: '#F0F7F2',
           100: '#D4EDDA',
@@ -68,11 +69,34 @@ module.exports = {
           800: '#745B2F',
           900: '#534122',
         },
+        // ─── v3 "Verdejante" — cinematic dark hero/sections ─────
+        forest: {
+          deep: '#0B1F17',          // base background dark
+          900: '#0E261C',
+          800: '#152A21',           // surface / cards on dark
+          700: '#1C3429',
+          600: '#243E33',
+        },
+        verde: {
+          vivo: '#3FD68C',          // primary cinematic accent
+          claro: '#7BFFB1',         // glow / particles / highlight
+          mar: '#5EEAD4',           // tertiary, ocean side
+        },
+        dourado: {
+          cerrado: '#E8B86A',       // warm brazilian sun gold
+          mel: '#F2D26B',
+        },
+        papel: {
+          50: '#F4F1E8',            // warm off-white text
+          100: '#E8E2D2',
+          200: '#C8BFA8',
+        },
       },
       fontFamily: {
         sans: ['DM Sans', 'system-ui', 'sans-serif'],
         display: ['Fraunces', 'Georgia', 'serif'],
         mono: ['JetBrains Mono', 'monospace'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out forwards',
@@ -84,6 +108,8 @@ module.exports = {
         'pulse-slow': 'pulse 4s ease-in-out infinite',
         'sway': 'sway 8s ease-in-out infinite',
         'grow': 'grow 12s ease-in-out infinite',
+        'aurora': 'aurora 10s ease-in-out infinite',
+        'breathe': 'breathe 7s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -118,12 +144,22 @@ module.exports = {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.05)' },
         },
+        aurora: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+        breathe: {
+          '0%, 100%': { opacity: '0.65', transform: 'scale(1)' },
+          '50%': { opacity: '1', transform: 'scale(1.04)' },
+        },
       },
       backgroundImage: {
         'eco-gradient': 'linear-gradient(135deg, #1E7A4B 0%, #134A2E 50%, #0A2418 100%)',
         'earth-gradient': 'linear-gradient(135deg, #F5EDDE 0%, #E8D5B5 50%, #D4B88A 100%)',
         'moss-gradient': 'linear-gradient(135deg, #5C8F38 0%, #3A5A23 100%)',
         'hero-gradient': 'linear-gradient(160deg, #0A2418 0%, #1E7A4B 40%, #3EA76A 100%)',
+        'verdejante': 'linear-gradient(135deg, #3FD68C 0%, #7BFFB1 50%, #E8B86A 100%)',
+        'forest-deep': 'radial-gradient(ellipse at top, #1C3429 0%, #0B1F17 70%)',
         'leaf-pattern': "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 Q45 20 30 40 Q15 20 30 5Z' fill='%231E7A4B' opacity='0.03'/%3E%3C/svg%3E\")",
       },
       borderRadius: {
@@ -136,6 +172,8 @@ module.exports = {
         'earth': '0 4px 20px rgba(166, 124, 63, 0.12)',
         'soft': '0 2px 15px rgba(0, 0, 0, 0.05)',
         'inner-eco': 'inset 0 2px 8px rgba(30, 122, 75, 0.08)',
+        'glow-verde': '0 0 40px rgba(63, 214, 140, 0.35)',
+        'glow-dourado': '0 0 40px rgba(232, 184, 106, 0.30)',
       },
     },
   },

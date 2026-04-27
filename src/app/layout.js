@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "../components/header/Header";
 import { Footer } from "../components/footer/footer";
 import { UserLocationProvider } from "../context/UserLocationContext";
+import LenisProvider from "../components/providers/LenisProvider";
 import Script from "next/script";
 
 const dmSans = DM_Sans({
@@ -16,6 +17,9 @@ export const viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  // Match the address-bar tint to the hero's forest-deep base so
+  // mobile Chrome doesn't clash with the cinematic dark hero.
+  themeColor: "#0B1F17",
 };
 
 export const metadata = {
@@ -126,11 +130,14 @@ export default function RootLayout({ children }) {
         className={`${dmSans.className} flex flex-col min-h-screen`}
         style={{ backgroundColor: "#FDFCF8" }}
       >
-        <UserLocationProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </UserLocationProvider>
+        <a href="#main" className="skip-nav">Pular para o conteúdo</a>
+        <LenisProvider>
+          <UserLocationProvider>
+            <Header />
+            <main id="main" className="flex-1">{children}</main>
+            <Footer />
+          </UserLocationProvider>
+        </LenisProvider>
       </body>
     </html>
   );

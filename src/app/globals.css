@@ -2,7 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,400;1,9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* ════════════════════════════════════════════════════════════════
+   ConnectEco v3 — "Verdejante" cinematic tokens layered on top of
+   the existing eco/moss/earth scale. Used by hero + dark sections.
+   ════════════════════════════════════════════════════════════════ */
+:root {
+  --forest-deep: #0B1F17;
+  --forest-900: #0E261C;
+  --forest-800: #152A21;
+  --forest-700: #1C3429;
+  --verde-vivo: #3FD68C;
+  --verde-claro: #7BFFB1;
+  --verde-mar: #5EEAD4;
+  --dourado: #E8B86A;
+  --dourado-mel: #F2D26B;
+  --papel-50: #F4F1E8;
+  --papel-100: #E8E2D2;
+  --papel-200: #C8BFA8;
+  --gradient-verdejante: linear-gradient(
+    135deg,
+    var(--verde-vivo) 0%,
+    var(--verde-claro) 50%,
+    var(--dourado) 100%
+  );
+  --gradient-forest: radial-gradient(
+    ellipse at top,
+    #1C3429 0%,
+    var(--forest-deep) 70%
+  );
+}
 
 @layer base {
   * {
@@ -128,4 +158,115 @@
   background: radial-gradient(ellipse at center, rgba(30, 122, 75, 0.08), transparent 70%);
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   pointer-events: none;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   "Verdejante" cinematic utilities — used by the new dark hero.
+   Anything below this line is v3-new and only used in components
+   that opt in (PlantHero, dark CTAs, etc).
+   ════════════════════════════════════════════════════════════════ */
+
+.text-verdejante {
+  background: var(--gradient-verdejante);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: aurora 10s ease-in-out infinite;
+}
+
+.btn-verdejante {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--forest-deep);
+  background: var(--gradient-verdejante);
+  background-size: 200% 200%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 8px 28px rgba(63, 214, 140, 0.30);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.btn-verdejante:hover {
+  background-position: 100% 50%;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 36px rgba(232, 184, 106, 0.35);
+}
+
+.btn-papel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 26px;
+  border-radius: 999px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--papel-50);
+  background: transparent;
+  border: 1px solid rgba(244, 241, 232, 0.18);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.btn-papel:hover {
+  border-color: var(--verde-vivo);
+  background: rgba(63, 214, 140, 0.08);
+  color: var(--verde-vivo);
+}
+
+.label-tag-verde {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--verde-vivo);
+}
+
+.glass-forest {
+  background: rgba(21, 42, 33, 0.55);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  border: 1px solid rgba(63, 214, 140, 0.12);
+  border-radius: 20px;
+}
+
+/* Skip nav for keyboard users */
+.skip-nav {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  padding: 10px 18px;
+  background: var(--verde-vivo);
+  color: var(--forest-deep);
+  border-radius: 8px;
+  font-weight: 600;
+  z-index: 999;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+.skip-nav:focus { top: 16px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
