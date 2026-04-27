@@ -1,14 +1,32 @@
 'use client'
 
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { Banner } from '../../components/banner/Banner'
+import dynamic from 'next/dynamic'
 import AnimatedBlock, { StaggerContainer, StaggerItem, CountUp } from '../../components/ui/AnimatedBlock'
 import { AdInFeed } from '../../components/ads/GoogleAd'
 import { HoverCard } from '../../components/ui/AnimatedBlock'
-import bannerInfo from '../../constants/bannerInfo'
 import materials from '../../constants/materials'
 import { fetchAllEcopontos } from '../../lib/supabase'
 import { MapPin, Clock, Recycle, Package, Filter, Search, TreePine, Users, BookOpen, Leaf, Loader2 } from 'lucide-react'
+
+// PlantHero is heavy (Three.js) — load only on the client to keep
+// SSR HTML small and skip the WebGL bundle on first paint.
+const PlantHero = dynamic(() => import('../../components/hero/PlantHero'), {
+  ssr: false,
+  loading: () => (
+    <div
+      className="w-full"
+      role="status"
+      aria-busy="true"
+      aria-label="Carregando hero"
+      style={{
+        minHeight: '100svh',
+        background:
+          'radial-gradient(ellipse at top, #1C3429 0%, #0B1F17 70%)',
+      }}
+    />
+  ),
+})
 
 const ITEMS_PER_PAGE = 12
 
@@ -81,8 +99,11 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Banner */}
-      <Banner bannerInfo={bannerInfo} />
+      {/* v3 Hero — cinematic dark forest with 3D plant scene */}
+      <PlantHero />
+
+      {/* Anchor for "Buscar ecopontos" CTA */}
+      <span id="ecopontos" aria-hidden="true" />
 
       {/* Stats Section */}
       <section className="relative py-20 md:py-28 overflow-hidden">
