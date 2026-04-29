@@ -3,9 +3,12 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Reveal from '../Animation/Reveal';
 
-// Three.js scene loaded only client-side. Keeps the WebGL bundle
-// (~150KB gz) out of initial paint.
-const PlantOrb = dynamic(() => import('./PlantOrb'), {
+// PlantScene: SVG + CSS-driven cinematic plant scene.
+// Replaces the original Three.js PlantOrb (which looked too dry —
+// procedural tubes read as wires, not branches). This version
+// gives much more elegant "ink-wash" aesthetics while shaving
+// ~150KB gz off the bundle.
+const PlantScene = dynamic(() => import('./PlantScene'), {
   ssr: false,
   loading: () => null,
 });
@@ -39,8 +42,8 @@ export default function PlantHero() {
       }}
       aria-label="Hero ConnectEco"
     >
-      {/* 3D plant scene — absolutely positioned, behind text */}
-      <PlantOrb />
+      {/* SVG plant scene — absolutely positioned, behind text */}
+      <PlantScene />
 
       {/* Vignette to keep text readable over the orb */}
       <div
